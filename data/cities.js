@@ -1,0 +1,72 @@
+const cities = [
+    { name: "Ahmedabad", route: "/bulk-sms-service-provider-in-ahmedabad" },
+    { name: "Alappuzha", route: "/bulk-sms-service-provider-in-alappuzha" },
+    { name: "Amaravati", route: "/bulk-sms-service-provider-in-amaravati" },
+    { name: "Bangalore", route: "/bulk-sms-service-provider-in-bangalore" },
+    { name: "Banjara Hills", route: "/bulk-sms-service-provider-in-banjara-hills" },
+    { name: "Chennai", route: "/bulk-sms-service-provider" },
+    { name: "Coimbatore", route: "/bulk-sms-service-provider-in-coimbatore" },
+    { name: "Delhi", route: "/bulk-sms-service-provider-in-delhi" },
+    { name: "Ernakulam", route: "/bulk-sms-service-provider-in-ernakulam" },
+    { name: "Gujarat", route: "/bulk-sms-service-provider-in-gujarat" },
+    { name: "Guwahati", route: "/bulk-sms-service-provider-in-guwahati" },
+    { name: "Hitec City", route: "/bulk-sms-service-provider-in-hitec-city" },
+    { name: "Hyderabad", route: "/bulk-sms-service-provider-in-hyderabad" },
+    { name: "Indore", route: "/bulk-sms-service-provider-in-indore" },
+    { name: "Jaipur", route: "/bulk-sms-service-provider-in-jaipur" },
+    { name: "Jubilee Hills", route: "/bulk-sms-service-provider-in-jubilee-hills" },
+    { name: "Kochi", route: "/bulk-sms-service-provider-in-kochi" },
+    { name: "Kolkata", route: "/bulk-sms-service-provider-in-kolkata" },
+    { name: "Kollam", route: "/bulk-sms-service-provider-in-kollam" },
+    { name: "Kottayam", route: "/bulk-sms-service-provider-in-kottayam" },
+    { name: "Kozhikode", route: "/bulk-sms-service-provider-in-kozhikode" },
+    { name: "Kurnool", route: "/bulk-sms-service-provider-in-kurnool" },
+    { name: "Lucknow", route: "/bulk-sms-service-provider-in-lucknow" },
+    { name: "Madurai", route: "/bulk-sms-service-provider-in-madurai" },
+    { name: "Mumbai", route: "/bulk-sms-service-provider-in-mumbai" },
+    { name: "Nagpur", route: "/bulk-sms-service-provider-in-nagpur" },
+    { name: "Noida", route: "/bulk-sms-service-provider-in-noida" },
+    { name: "Patna", route: "/bulk-sms-service-provider-in-patna" },
+    { name: "Palakkad", route: "/bulk-sms-service-provider-in-palakkad" },
+    { name: "Pune", route: "/bulk-sms-service-provider-in-pune" },
+    { name: "Raipur", route: "/bulk-sms-service-provider-in-raipur" },
+    { name: "Surat", route: "/bulk-sms-service-provider-in-surat" },
+    { name: "Thrissur", route: "/bulk-sms-service-provider-in-thrissur" },
+    { name: "Trivandrum", route: "/bulk-sms-service-provider-in-trivandrum" },
+    { name: "Vadodara", route: "/bulk-sms-service-provider-in-vododara" },
+    { name: "Visakhapatnam", route: "/bulk-sms-service-provider-in-visakhapatnam" },
+  ];
+  
+  export default cities;
+
+
+
+// const cities = [
+//     { name: "Ahmedabad", route: "ahmedabad" },
+//     { name: "Alappuzha", route: "alappuzha" },
+//     { name: "Amaravati", route: "amaravati" },
+//     { name: "Bangalore", route: "bangalore" },
+//     { name: "Banjara Hills", route: "banjara-hills" },
+//     { name: "Chennai", route: "chennai" },
+//     { name: "Coimbatore", route: "coimbatore" },
+//     { name: "Delhi", route: "delhi" },
+//     { name: "Ernakulam", route: "ernakulam" },
+//     { name: "Gujarat", route: "gujarat" },
+//     { name: "Guwahati", route: "guwahati" },
+//     { name: "Hitec City", route: "hitec-city" },
+//     { name: "Hyderabad", route: "hyderabad" },
+//     { name: "Indore", route: "indore" },
+//     { name: "Jaipur", route: "jaipur" },
+//     { name: "Kochi", route: "kochi" },
+//     { name: "Kolkata", route: "kolkata" },
+//     { name: "Madurai", route: "madurai" },
+//     { name: "Mumbai", route: "mumbai" },
+//     { name: "Pune", route: "pune" },
+//     { name: "Surat", route: "surat" },
+//     { name: "Trivandrum", route: "trivandrum" },
+//     { name: "Vadodara", route: "vadodara" },
+//   ];
+  
+//   export default cities;
+  
+  
