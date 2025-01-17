@@ -50,9 +50,13 @@ export default function Navbar() {
 
         {/* Navbar Links */}
         <nav className="hidden md:flex items-center space-x-6">
-          <Link href="/home" className="text-lg font-roboto text-white hover:text-[#003bff]">
-            Home
-          </Link>
+        <Link href="/home" legacyBehavior>
+  <a className="text-lg font-roboto text-white hover:text-[#003bff]">
+    Home
+  </a>
+</Link>
+
+
 
           {/* Products Button */}
           <div className="relative dropdown-container">

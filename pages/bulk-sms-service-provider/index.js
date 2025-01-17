@@ -32,21 +32,21 @@
 //     </>
 //   );
 // }
-import { useRouter } from "next/router";
+// import { useRouter } from "next/router";
 
-export default function CityPage() {
-  const router = useRouter();
-  const { city } = router.query;
+// export default function CityPage() {
+//   const router = useRouter();
+//   const { city } = router.query;
 
-  return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-gray-100">
-      <h1 className="text-4xl font-bold text-blue-600">
-        Bulk SMS Service in {city ? city.replace("-", " ") : "Your City"}
-      </h1>
-      <p className="mt-4 text-lg text-gray-700">
-        Enjoy abundant SMS services in {city ? city.replace("-", " ") : "your city"} with the best-in-class gateway.
-      </p>
-    </div>
-  );
-}
+//   return (
+//     <div className="min-h-screen flex flex-col justify-center items-center bg-gray-100">
+//       <h1 className="text-4xl font-bold text-blue-600">
+//         Bulk SMS Service in {city ? city.replace("-", " ") : "Your City"}
+//       </h1>
+//       <p className="mt-4 text-lg text-gray-700">
+//         Enjoy abundant SMS services in {city ? city.replace("-", " ") : "your city"} with the best-in-class gateway.
+//       </p>
+//     </div>
+//   );
+// }
 

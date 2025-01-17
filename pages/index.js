@@ -1,5 +1,6 @@
 
-
+// import cities from "../data/cities";  // Assuming your cities are defined here
+// import Link from "next/link";
 
 // export default function Home() {
 //   return (
@@ -25,67 +26,43 @@
 //     </div>
 //   );
 // }
-import cities from "../data/cities";  // Assuming your cities are defined here
-import Link from "next/link";
-import SupportForm from "../components/supportForm"; // Import the SupportForm component
-import "../app/globals.css"; // Import global styles
+
+// import Footer from "../../app/components/footer";
+import Navbar from "../app/components/Navbar";
+import ServiceHome from "../app/components/service_home";
+import SpeedTest from "../app/components/speedTest";
+import SupportForm from "../app/components/supportForm";
+import WhatsAppIcon from "../app/components/whatsappIcon";
 
 export default function Home() {
   return (
-    <>
-      {/* Background Image Container */}
-      <div
-        style={{
-          backgroundImage: "url('/images/chennai.gif')", // Ensure the image is in the public/images folder
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundAttachment: "fixed",
-          width: "100%",
-          height: "100vh", // Make it cover the full screen height
-        }}
-      >
-        {/* Main Content */}
-        <div className="flex justify-between items-center min-h-screen px-12 relative z-10">
-          {/* Left Side Content (City List) */}
-          <div className="w-1/2 text-white">
-            {/* Title */}
-            <h1 className="text-3xl font-bold text-blue-600 mb-6">
-              Enjoy Abundant SMS Services in Your Cities
-            </h1>
+    <div>
+      <div className="">
+      <Navbar/>
+      </div>
+      <div className="relative top-0 w-full min-h-screen">
+        {/* Background Video */}
+        <video
+          autoPlay
+          loop
+          muted
+          className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        >
+          <source src="/videos/RAT.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
 
-            {/* "hiii" Text */}
-            <h1 className="text-4xl font-bold text-white mb-6">hiii</h1>
-
-            {/* City List */}
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 px-6">
-              {cities.map((city) => (
-                <div
-                  key={city.name}
-                  className="p-4 bg-blue-500 text-white rounded-md shadow-md hover:shadow-lg transition-shadow"
-                >
-                  <h2 className="text-xl font-semibold">{city.name}</h2>
-                  <Link href={`/${city.route}`}>
-                    <a className="text-sm underline hover:text-gray-200">
-                      Explore {city.name}
-                    </a>
-                  </Link>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Right Side Form */}
-          <div className="w-1/2 p-6 bg-white rounded-lg shadow-lg">
-            <SupportForm /> {/* Your Support Form */}
+        {/* Left-Center Positioned SupportForm */}
+        <div className="flex justify-end items-center min-h-screen relative pr-12">
+          <div className="text-white space-x-6">
+            <SupportForm />
           </div>
         </div>
       </div>
-    </>
+      <ServiceHome/>
+      <WhatsAppIcon/>
+      <SpeedTest/>
+      {/* <Footer/> */}
+    </div>
   );
 }
-
-
-
-
-
-
