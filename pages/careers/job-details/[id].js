@@ -304,6 +304,7 @@ import { useState } from 'react';
 import Navbar from '../../../app/components/Navbar';
 import Footer from '../../../app/components/footer';
 import "../../../app/globals.css"
+import WhatsAppIcon from '../../../app/components/whatsappIcon';
 
 export default function JobDetails() {
   const router = useRouter();
@@ -326,13 +327,6 @@ export default function JobDetails() {
   };
 
   const job = jobData[id]; // Get job details by id
-
-  // If no job data is found for the id, show an error
-  if (!job) {
-    return <p>Job not found.</p>;
-  }
-
-  // State for the form inputs
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -348,6 +342,14 @@ export default function JobDetails() {
     emailOTP: '',
     message: '',
   });
+
+  // If no job data is found for the id, show an error
+  if (!job) {
+    return <p>Job not found.</p>;
+  }
+
+  // State for the form inputs
+
 
   // Handle form field changes
   const handleChange = (e) => {
@@ -375,17 +377,26 @@ export default function JobDetails() {
 
   return (
     <>
-      <div className='bg-black'>
-        <Navbar />
-      </div>
-      <div className='pl-16 pt-10 mt-28 bg-white'>
-        <h1 className="text-5xl font-roboto font-extralight text-black">{job.title}</h1>
-        <p className="mt-4 text-xl text-gray-600">{job.description}</p>
+      <div
+              style={{
+                backgroundColor: "black",
+                zIndex: 100,
+                position: "relative",
+                height: "4rem", // Fixed height for testing
+                width: "100%",
+              }}
+            >
+              <Navbar />
+            </div>
+            <WhatsAppIcon/>
+      <div className='pl-16 pt-10  bg-white'>
+        <h1 className="text-xl sm:text-5xl font-roboto  text-black">{job.title}</h1>
+        <p className="mt-4 text-xl  text-gray-600">{job.description}</p>
       </div>
 
       {/* Job Application Form */}
       <div className='w-full'>
-        <div className="p-10 bg-white">
+        <div className="p-5 bg-white">
           <form onSubmit={handleSubmit} className="mt-10 w-full h-full mb-16 px-8 py-6 bg-white max-w-4xl mx-auto">
             <div className='flex flex-col md:flex-row gap-5'>
               <div className='w-full md:w-1/2 '>

@@ -22,6 +22,27 @@ body {
   font-family: 'Roboto', Arial, sans-serif;
 }
 
+@keyframes bounce {
+  0% {
+    transform: translateY(0); /* Start at normal position */
+  }
+  30% {
+    transform: translateY(50px); /* Jump up slightly */
+  }
+  50% {
+    transform: translateY(10px); /* Return to normal position */
+  }
+  70% {
+    transform: translateY(10px); /* Small jump */
+  }
+  100% {
+    transform: translateY(10); /* End at normal position */
+  }
+}
+
+
+
+
 
 
 

@@ -37,11 +37,121 @@
 
 // export default SpeedTest;
 
+// -----------------------------------------------------------------------
+// import React, { useState } from 'react';
+// import "../globals.css"
 
-import React, { useState } from 'react';
+// const SpeedTest = () => {
+//   const [number, setNumber] = useState('');
+
+//   const handleSubmit = () => {
+//     if (number) {
+//       alert(`Number entered: ${number}`);
+//       // Add more functionality as needed
+//     } else {
+//       alert('Please enter a number');
+//     }
+//   };
+
+//   return (
+//     <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 w-full max-w-[90%] md:max-w-[35rem] bg-transparent p-4 rounded-lg shadow-lg">
+//      {/* <p className="text-white font-semibold text-center text-lg md:text-xl mb-2">
+//         Test our server speed & Unlock 20% OFF!
+//         <span className="text-yellow-400 text-2xl md:text-3xl">*</span>
+//       </p>    */}
+//     <div className="relative">
+//     <div className="relative">
+//   <p className="text-white font-semibold text-center text-lg md:text-xl mb-4">
+//     Test our server speed &{" "}
+//     <span className="relative inline-block">
+//       {/* Wrapping each character in a span */}
+//       {"Unlock 20% OFF!".split("").map((char, index) => (
+//         <span
+//           key={index}
+//           className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 text-xl md:text-2xl font-extrabold animate-jump"
+//           style={{
+//             animationDelay: `${index * 0.1}s`,
+//           }}
+//         >
+//           {char}
+//         </span>
+//       ))}
+
+//       {/* Adding sparkles */}
+//       <span className="absolute inset-0 flex justify-center items-center pointer-events-none">
+//         <span className="w-2 h-2 bg-yellow-400 rounded-full animate-sparkle"></span>
+//       </span>
+//     </span>
+//     <span className="text-yellow-400 text-xl md:text-2xl animate-pulse">*</span>
+//   </p>
+// </div>
+
+// </div>
+
+
+//       <div className="flex flex-col md:flex-row gap-3 items-center justify-center">
+//         <input
+//           type="tel"
+//           value={number}
+//           onChange={(e) => setNumber(e.target.value)}
+//           className="p-3 border bg-transparent border-gray-300 text-white rounded-md w-full md:w-[22rem] text-sm md:text-base"
+//           placeholder="Enter mobile number"
+//         />
+//         <button
+//           onClick={handleSubmit}
+//           className="bg-transparent border border-white text-white px-4 py-2 rounded-md text-sm md:text-base font-medium w-full md:w-28"
+//         >
+//           Send
+//         </button>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default SpeedTest;
+
+//add new design
+
+import React, { useState, useEffect } from 'react';
+import "../globals.css";
 
 const SpeedTest = () => {
   const [number, setNumber] = useState('');
+  const [isDarkBackground, setIsDarkBackground] = useState(true); // Start with dark background
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    // Handle scroll event
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true); // Change background when scrolling down
+      } else {
+        setIsScrolled(false); // Reset background when at the top
+      }
+    };
+
+    // Add scroll listener
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up event listener on component unmount
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  // Detect scroll and change background color
+  useEffect(() => {
+    const handleScroll = () => {
+      // When scrolling, the background should be black
+      const isScrolled = window.scrollY > 0; // Check if scrolled down
+      setIsDarkBackground(isScrolled); // Set background color based on scroll
+    };
+
+    // Attach scroll listener
+    window.addEventListener('scroll', handleScroll);
+
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const handleSubmit = () => {
     if (number) {
@@ -53,22 +163,48 @@ const SpeedTest = () => {
   };
 
   return (
-    <div className="fixed bottom-4 left-1/2 transform -translate-x-1/2 w-full max-w-[90%] md:max-w-[35rem] bg-transparent p-4 rounded-lg shadow-lg">
-      <p className="text-white font-semibold text-center text-lg md:text-xl mb-2">
-        Test our server speed & Unlock 20% OFF!
-        <span className="text-yellow-400 text-2xl md:text-3xl">*</span>
-      </p>
-      <div className="flex flex-col md:flex-row gap-3 items-center justify-center">
+    <div
+      className={`fixed bottom-4 left-1/2  transform -translate-x-1/2 w-full max-w-[90%] sm:max-w-[80%] md:max-w-[35rem] p-3
+      ${   isScrolled
+        ? "bg-[rgba(0,0,0,0.8)] text-white"
+        : "bg-transparent text-white"}`}
+      style={{ zIndex: 10 }}
+    >
+      <div className="relative">
+        <p className="text-center font-semibold text-lg sm:text-base md:text-xl mb-4">
+          Test our server speed &{' '}
+          <span className="relative inline-block">
+            {'Unlock 20% OFF!'.split('').map((char, index) => (
+              <span
+                key={index}
+                className="inline-block text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 text-xl md:text-2xl font-extrabold animate-jump"
+                style={{
+                  animationDelay: `${index * 0.1}s`,
+                }}
+              >
+                {char}
+              </span>
+            ))}
+          </span>
+          <span className="text-yellow-400 text-xl sm:text-lg md:text-2xl animate-pulse">*</span>
+        </p>
+      </div>
+
+      <div className="flex sm:flex-row gap-3 items-center justify-center">
         <input
           type="tel"
           value={number}
           onChange={(e) => setNumber(e.target.value)}
-          className="p-3 border bg-transparent border-gray-300 text-white rounded-md w-full md:w-[22rem] text-sm md:text-base"
+          className={`p-3 border ${
+            isDarkBackground ? 'border-white text-white' : 'border-white text-black'
+          } bg-transparent rounded-md w-full sm:w-[18rem] md:w-[22rem] text-sm sm:text-xs md:text-base`}
           placeholder="Enter mobile number"
         />
         <button
           onClick={handleSubmit}
-          className="bg-transparent border border-white text-white px-4 py-2 rounded-md text-sm md:text-base font-medium w-full md:w-28"
+          className={`px-4 py-2 rounded-md text-sm sm:text-xs md:text-base font-medium w-20 sm:w-24 md:w-28
+            ${isDarkBackground ? 'border-white text-white' : 'border-white text-white'}
+            bg-transparent border transition-colors duration-300`}
         >
           Send
         </button>
@@ -78,4 +214,12 @@ const SpeedTest = () => {
 };
 
 export default SpeedTest;
+
+
+
+
+
+
+
+
 
