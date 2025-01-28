@@ -59,11 +59,11 @@ export default function WhatsappBusinessApi() {
   {/* Content Section */}
   <div className=" flex  items-center  sm:pl-16 ">
   <div className="  sm:text-left  ">
-    <h1 className="text-3xl sm:text-5xl font-roboto w-full sm:w-[40rem]font-light text-black p-4 ">
+    <h1 className="text-2xl sm:text-5xl font-roboto w-full sm:w-[40rem]font-light text-black p-4 ">
       Enhance Customer Engagement with WhatsApp Business API
     </h1>
 
-    <p className="text-gray-900 text-lg sm:text-2xl w-full font-light sm:w-[30rem] pl-4">
+    <p className="text-gray-900 text-sm sm:text-lg tracking-widest w-full font-light sm:w-[30rem] pl-4">
       Seamless Communication for Your Business, Engage customers in real-time,
       conversationally, and with their consent across sales, marketing, and support journeys.
     </p>

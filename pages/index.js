@@ -35,8 +35,73 @@ import SpeedTest from "../app/components/speedTest";
 import SupportForm from "../app/components/supportForm";
 import WhatsAppIcon from "../app/components/whatsappIcon";
 import Head from "next/head";
+import React, { useEffect, useRef } from "react";
+
 
 export default function Home() {
+  const player = useRef(null);
+  useEffect(() => {
+    const onYouTubeIframeAPIReady = () => {
+      player.current = new window.YT.Player("video-iframe", {
+        videoId: "ELibyf-BfCM", // Replace with your video ID
+        events: {
+          onReady: onPlayerReady,
+        },
+        playerVars: {
+          loop: 1, // Loop the video
+          playlist: "ELibyf-BfCM", // Add the video ID in playlist to make the loop work
+        },
+      });
+    };
+
+
+    const onPlayerReady = (event) => {
+      event.target.playVideo(); // Autoplay video when ready
+    };
+
+    if (!window.YT) {
+      const script = document.createElement("script");
+      script.src = "https://www.youtube.com/iframe_api";
+      script.onload = () => {
+        window.onYouTubeIframeAPIReady = onYouTubeIframeAPIReady;
+      };
+      document.body.appendChild(script);
+    } else {
+      onYouTubeIframeAPIReady();
+    }
+
+    // Cleanup: Remove YouTube API script and iframe
+    return () => {
+      const script = document.querySelector(
+        'script[src="https://www.youtube.com/iframe_api"]'
+      );
+      if (script) script.remove();
+      if (player.current) {
+        player.current.destroy();
+      }
+    };
+  }, []);
+
+   
+
+  // // Pause or play the video
+  // const togglePlayPause = () => {
+  //   if (isPlaying) {
+  //     player.pauseVideo();
+  //   } else {
+  //     player.playVideo();
+  //   }
+  // };
+  // const toggleMute = () => {
+  //   if (isMuted) {
+  //     player.unMute();
+  //     setIsMuted(false);
+  //   } else {
+  //     player.mute();
+  //     setIsMuted(true);
+  //   }
+  // };
+
   return (
     <div>
       <Head>
@@ -72,28 +137,31 @@ export default function Home() {
 
       <Phone />
       <div className="relative top-0 w-full min-h-screen">
-        {/* Background Video */}
-        <div className="absolute top-0 left-0 w-full h-full z-0">
-  <iframe
-    src="https://www.youtube.com/embed/ELibyf-BfCM?autoplay=1&loop=1&playlist=ELibyf-BfCM&mute=1&controls=0"
-    className="w-full h-full object-cover"
-    frameBorder="0"
-    allow="autoplay; fullscreen; encrypted-media"
-    allowFullScreen
-    title="YouTube Video"
-  ></iframe>
-</div>
+      
+<div className="relative w-full h-screen">
+      {/* Background YouTube Video */}
+      <div className="absolute top-0 left-0 w-full h-full z-0">
+        <div id="video-iframe" className="object-cover w-full h-full" />
+      </div>
 
-        {/* Left-Center Positioned SupportForm */}
-        <div className="flex justify-end items-center min-h-screen relative ">
+      
+      <div className="flex justify-end items-center  relative ">
           <div className="text-white ">
             <SupportForm />
           </div>
         </div>
+        <div className="z-10 ">
+                   <SpeedTest/>
+                   </div>
+    </div>
+
+
+        {/* Left-Center Positioned SupportForm */}
+      
       </div>
       <ServiceHome />
       <WhatsAppIcon />
-      <SpeedTest />
+      
       {/* <Footer/> */}
     </div>
   );

@@ -51,14 +51,14 @@ export default function TransactionalBulkSMS() {
           <div className="flex flex-col sm:flex-row justify-between">
             <div className="flex  items-center  sm:pl-16">
               <div className=" sm:text-left ">
-                <h1 className="text-3xl sm:text-5xl font-roboto font-light text-black p-4">Transactional Bulk SMS</h1>
-                <p className="text-gray-900 text-lg sm:text-2xl w-full font-light sm:w-[30rem] pl-5">
+                <h1 className="text-3xl sm:text-5xl font-roboto font-light text-black p-2">Transactional Bulk SMS</h1>
+                <p className="text-gray-900 text-sm sm:text-lg tracking-widest w-full font-light sm:w-[30rem] pl-4">
                   SMS connects services all over the world. We offer outstanding service to wholesale clients in India.
                 </p>
-                <p className="text-gray-900 text-lg sm:text-2xl w-full font-light sm:w-[30rem] pl-5">
+                <p className="text-gray-900 text-sm sm:text-lg tracking-widest w-full font-light sm:w-[30rem] pl-4">
                 High-Delivery Rate Transactional Messaging 
                 </p>
-                <p className="text-gray-900 text-lg sm:text-2xl w-full font-light sm:w-[30rem] pl-5">
+                <p className="text-gray-900 text-sm sm:text-lg tracking-widest w-full font-light sm:w-[30rem] pl-4">
                 Try us, You will love the RatSMS Experience
                 </p>
               </div>
@@ -71,8 +71,8 @@ export default function TransactionalBulkSMS() {
           </div>
 
           {/* Features Section */}
-          <div className="bg-white p-6 ml-6 sm:p-8  space-y-6 mt-16 ">
-            <h3 className="text-3xl font-roboto text-gray-800 text-left mb-8">Features of Transactional SMS</h3>
+          <div className="bg-white p-6 ml-6 sm:p-8  space-y-6 mt-16  sm:ml-16">
+            <h3 className="sm:text-2xl text:xl font-roboto text-gray-800 text-left mb-8">Features of Transactional SMS</h3>
             <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
               {[
                 {
@@ -107,8 +107,8 @@ export default function TransactionalBulkSMS() {
                 >
                   <div className="flex flex-col  text-left">
                     <div className="mb-4 text-left">{feature.icon}</div>
-                    <h4 className="text-xl font-roboto text-gray-800">{feature.title}</h4>
-                    <p className="text-gray-600">{feature.description}</p>
+                    <h4 className="sm:text-xl text-base font-roboto text-gray-800">{feature.title}</h4>
+                    <p className="text-gray-600 sm:text-base text-sm">{feature.description}</p>
                   </div>
                 </div>
               ))}
@@ -116,18 +116,18 @@ export default function TransactionalBulkSMS() {
           </div>
 
           {/* What is Transactional SMS Section */}
-          <div className="bg-white p-8 rounded-lg shadow-2xl">
-            <h3 className="text-2xl font-roboto text-gray-800 mb-6">What is Transactional SMS?</h3>
-            <p className="text-gray-700 mb-4 text-base sm:text-lg ">
+          <div className="bg-white p-8 rounded-lg shadow-2xl sm:pl-20 mt-10">
+            <h3 className="sm:text-xl text-lg font-roboto text-gray-800 mb-6">What is Transactional SMS?</h3>
+            <p className="text-gray-700 mb-4 sm:text-base text-sm ">
               According to TRAI regulations, SMS sent by commercial entities are classified into Promotional Bulk SMS and Transactional Bulk SMS.
             </p>
-            <p className="text-gray-700 mb-4 text-base sm:text-lg ">
+            <p className="text-gray-700 mb-4 sm:text-base text-sm  ">
               Transactional SMS are related to transactions or actions such as order confirmations, payment receipts, delivery confirmations, appointment reminders, and more.
             </p>
-            <p className="text-gray-700 mb-4 text-base sm:text-lg ">
+            <p className="text-gray-700 mb-4 sm:text-base text-sm  ">
               Transactional SMS allows you to send the right information at the right time to your customers’ smartphones, creating a strong customer rapport and improving loyalty.
             </p>
-            <p className="text-gray-700 text-base sm:text-lg ">
+            <p className="text-gray-700 sm:text-base text-sm  ">
               As a well-known transactional SMS gateway provider in Chennai, RatSMS ensures top-notch services with intelligent routing technology and unmatched delivery speeds.
             </p>
           </div>

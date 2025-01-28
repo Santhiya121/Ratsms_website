@@ -51,8 +51,8 @@ export default function SmartSmsBulkSMS() {
           <div className="flex flex-col sm:flex-row justify-between">
             <div className="flex  items-center  sm:pl-16">
               <div className="   sm:text-left ">
-                <h1 className="text-3xl sm:text-5xl font-roboto font-light text-black p-4 ">Smart SMS</h1>
-                <p className="text-gray-900 text-lg sm:text-2xl w-full font-light sm:w-[30rem] pl-4">
+                <h1 className="text-2xl sm:text-5xl font-roboto font-light text-black p-4 ">Smart SMS</h1>
+                <p className="text-gray-900 text-sm sm:text-lg tracking-widest w-full font-light sm:w-[30rem] pl-4">
                   SMS connects services all over the world. We offer outstanding service to wholesale clients in India.
                 </p>
               </div>
@@ -65,78 +65,120 @@ export default function SmartSmsBulkSMS() {
           </div>
 
           {/* File Attachments via Smart SMS Section */}
-          <div className="bg-white p-6 ml-6 sm:p-8  space-y-6 mt-16">
-            <h3 className="text-2xl sm:text-4xl font-roboto text-gray-800 mb-8">File Attachments via Smart SMS</h3>
-            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Rat SMS introduces <strong>Smart SMS</strong>, a powerful feature that combines faster announcements with advanced control over SMS campaigns, including targeting specific area codes. This service allows businesses to upload a contacts database, organize contacts into groups, manage blacklists, and create segmented lists for precision targeting.
-            </p>
-            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              Smart SMS supports file attachments, enabling you to include images, documents, and video URLs in your messages. This feature ensures quick delivery and allows you to track performance through geolocation-based reports, providing insights into delivery metrics, open rates, and engagement levels. Additionally, Smart SMS remembers the sender number used, ensuring consistency in communication with recipients.
-            </p>
-            <h4 className="text-xl font-roboto text-gray-800 mt-8 mb-4">How to Use Smart SMS Attachments for Your Business</h4>
-            <ul className="list-disc pl-6 text-base sm:text-lg text-gray-900 mb-8">
-              <li>Attach Files Easily: Send files under 10MB, such as images, documents, or video links, with your SMS.</li>
-              <li>Boost Campaign Efficiency: Segment and target your audience for more impactful messaging.</li>
-              <li>Track Success Metrics: Utilize geolocation reports to monitor message delivery and engagement.</li>
-            </ul>
-            <p className="text-base sm:text-lg text-gray-900 mt-4 mb-6">
-              If you’re a Rat SMS customer, you can start exploring Smart SMS today by creating your first campaign. Follow these simple steps:
-            </p>
-            <ol className="list-decimal pl-6 text-base sm:text-lg text-gray-900 mb-8">
-              <li>Navigate to the Smart SMS option in the top menu.</li>
-              <li>Click Send Smart SMS and choose Compose SMS.</li>
-              <li>Enter a campaign name.</li>
-              <li>Select an approved Sender ID.</li>
-              <li>Choose or upload your contact list.</li>
-              <li>Write your message and attach files as needed.</li>
-              <li>Hit Send to deliver your campaign.</li>
-            </ol>
-            <p className="text-base sm:text-lg text-gray-900 mt-6">
-              With <strong>Smart SMS</strong>, you can send faster, more personalized, and impactful messages that stand out. Take control of your communication today!
-            </p>
-            <div className="bg-gray-100 p-6 mt-12 rounded-lg shadow-lg">
-              <h5 className="text-base sm:text-lg font-roboto text-gray-800 mb-4">Additional Features</h5>
-              <ul className="list-disc pl-6 text-base sm:text-lg text-gray-900">
-                <li>Send files up to 10MB.</li>
-                <li>Track geolocation-based performance.</li>
-                <li>Customize SMS with media attachments.</li>
-                <li>Streamlined user interface for easy navigation.</li>
-              </ul>
-            </div>
-          </div>
+          <div className="bg-gradient-to-r from-blue-50 to-white p-6 ml-6 sm:p-8 space-y-6 mt-16 sm:px-16 rounded-xl shadow-2xl">
+  
+ 
+  <div className="text-center sm:text-left bg-white p-6 rounded-lg shadow-md mb-8">
+    <h3 className="text-xl sm:text-2xl font-roboto text-gray-800 mb-4 border-b-2 border-blue-300 pb-2 flex items-center justify-center sm:justify-start">
+      <i class="fas fa-paperclip text-blue-600 mr-3"></i>File Attachments via Smart SMS
+    </h3>
+    <p className="text-lg text-gray-700 leading-relaxed text-justify">
+      Rat SMS introduces <strong className="text-blue-600">Smart SMS</strong>, a powerful feature that combines faster announcements with advanced control over SMS campaigns, including targeting specific area codes. This service allows businesses to upload a contacts database, organize contacts into groups, manage blacklists, and create segmented lists for precision targeting.
+    </p>
+    <p className="text-lg text-gray-700 leading-relaxed text-justify mt-6">
+      Smart SMS supports file attachments, enabling you to include images, documents, and video URLs in your messages. This feature ensures quick delivery and allows you to track performance through geolocation-based reports, providing insights into delivery metrics, open rates, and engagement levels. Additionally, Smart SMS remembers the sender number used, ensuring consistency in communication with recipients.
+    </p>
+  </div>
+
+
+  <div className="bg-white p-6 rounded-lg shadow-md mb-8">
+    <h4 className="text-xl sm:text-2xl font-roboto text-gray-800 mb-4 border-b-2 border-blue-300 pb-2 flex items-center justify-center sm:justify-start">
+      <i class="fas fa-cogs text-blue-600 mr-3 "></i>How to Use Smart SMS Attachments for Your Business
+    </h4>
+    <ul className=" pl-6 text-base sm:text-lg text-gray-900 mb-8 space-y-2">
+      <li><i class="fas fa-check-circle text-blue-600 mr-2"></i><strong className="text-blue-600">Attach Files Easily:</strong> Send files under 10MB, such as images, documents, or video links, with your SMS.</li>
+      <li><i class="fas fa-bullhorn text-blue-600 mr-2"></i><strong className="text-blue-600">Boost Campaign Efficiency:</strong> Segment and target your audience for more impactful messaging.</li>
+      <li><i class="fas fa-map-marker-alt text-blue-600 mr-2"></i><strong className="text-blue-600">Track Success Metrics:</strong> Utilize geolocation reports to monitor message delivery and engagement.</li>
+    </ul>
+  </div>
+
+
+  <div className="bg-gray-50 p-6 rounded-lg shadow-md mb-8">
+    <p className="text-base sm:text-lg text-gray-900 mt-4 mb-6">
+      If you’re a Rat SMS customer, you can start exploring Smart SMS today by creating your first campaign. Follow these simple steps:
+    </p>
+    <ol className="pl-6 text-base sm:text-lg text-gray-900 mb-8 space-y-2">
+      <li><i class="fas fa-arrow-right text-blue-600 mr-2"></i>Navigate to the Smart SMS option in the top menu.</li>
+      <li><i class="fas fa-edit text-blue-600 mr-2"></i>Click <strong className="text-blue-600">Send Smart SMS</strong> and choose Compose SMS.</li>
+      <li><i class="fas fa-tag text-blue-600 mr-2"></i>Enter a campaign name.</li>
+      <li><i class="fas fa-id-badge text-blue-600 mr-2"></i>Select an approved Sender ID.</li>
+      <li><i class="fas fa-users text-blue-600 mr-2"></i>Choose or upload your contact list.</li>
+      <li><i class="fas fa-pencil-alt text-blue-600 mr-2"></i>Write your message and attach files as needed.</li>
+      <li><i class="fas fa-paper-plane text-blue-600 mr-2"></i>Hit <strong className="text-blue-600">Send</strong> to deliver your campaign.</li>
+    </ol>
+  </div>
+
+
+  <div className="bg-white p-6 mt-12 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105 hover:bg-blue-100">
+    <h5 className="text-base sm:text-lg font-roboto text-gray-800 mb-4 border-b-2 border-blue-300 pb-2 flex items-center">
+      <i class="fas fa-star text-blue-600 mr-3"></i>Additional Features
+    </h5>
+    <ul className=" pl-6 text-base sm:text-lg text-gray-900 space-y-2">
+      <li><i class="fas fa-upload text-blue-600 mr-2"></i>Send files up to 10MB.</li>
+      <li><i class="fas fa-location-arrow text-blue-600 mr-2"></i>Track geolocation-based performance.</li>
+      <li><i class="fas fa-images text-blue-600 mr-2"></i>Customize SMS with media attachments.</li>
+      <li><i class="fas fa-th-large text-blue-600 mr-2"></i>Streamlined user interface for easy navigation.</li>
+    </ul>
+  </div>
+
+
+  <div className="bg-gradient-to-r from-green-50 to-white p-6 mt-12 rounded-lg shadow-md">
+    <p className="text-sm sm:text-lg text-gray-900 mt-6 sm:flex sm:items-center items-start ">
+      <i class="fas fa-check-circle text-green-600 mr-3"></i>With <strong className="text-blue-600">Smart SMS</strong>, you can send faster, more personalized, and impactful messages that stand out. Take control of your communication today!
+    </p>
+  </div>
+</div>
+
+
+
 
           {/* File Formats Supported Section */}
-          <div className="text-center ">
-            <h4 className="text-xl font-roboto text-black mb-6">
-              File Formats Supported
-            </h4>
-            <div className="grid grid-cols-7 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-4 justify-start">
-              <div className="text-center">
-                <FaFileImage className="text-4xl sm:text-7xl text-black mb-2" />
-              </div>
-              <div className="text-center ">
-                <FaFileWord className="text-4xl sm:text-7xl text-black mb-2" />
-              </div>
-              <div className="text-center">
-                <FaFileExcel className="text-4xl sm:text-7xl text-black mb-2" />
-              </div>
-              <div className="text-center">
-                <FaFilePowerpoint className="text-4xl sm:text-7xl text-black mb-2" />
-              </div>
-              <div className="text-center">
-                <FaFileVideo className="text-4xl sm:text-7xl text-black mb-2" />
-              </div>
-              <div className="text-center">
-                <FaFilePdf className="text-4xl sm:text-7xl text-black mb-2" />
-              </div>
-              <div className="text-center">
-                <FaFileAudio className="text-4xl sm:text-7xl text-black mb-2" />
-              </div>
-            </div>
-          </div>
+          <div className="text-center  bg-gray-50 pt-10 px-20 ">
+  <h4 className="text-xl font-roboto text-black mb-10">
+    File Formats Supported
+  </h4>
+  <div className="grid grid-cols-7 sm:grid-cols-4 md:grid-cols-5 lg:grid-cols-7 gap-8 ">
+   
+    <div className="text-center bg-white p-6 sm:rounded-lg sm:shadow-2xl transform hover:scale-110 transition duration-300 ease-in-out">
+      <FaFileImage className="text-sm sm:text-7xl text-black mb-2" />
+  
+    </div>
+   
+    <div className="text-center bg-white p-6 rounded-lg shadow-2xl transform hover:scale-110 transition duration-300 ease-in-out">
+      <FaFileWord className="text-sm sm:text-7xl text-black mb-2" />
+     
+    </div>
+    
+    <div className="text-center bg-white p-6 rounded-lg shadow-2xl transform hover:scale-110 transition duration-300 ease-in-out">
+      <FaFileExcel className="text-sm sm:text-7xl text-black mb-2" />
+    
+    </div>
+   
+    <div className="text-center bg-white p-6 rounded-lg shadow-2xl transform hover:scale-110 transition duration-300 ease-in-out">
+      <FaFilePowerpoint className="text-sm sm:text-7xl text-black mb-2" />
+    
+    </div>
+  
+    <div className="text-center bg-white p-6 rounded-lg shadow-2xl transform hover:scale-110 transition duration-300 ease-in-out">
+      <FaFileVideo className="text-sm sm:text-7xl text-black mb-2" />
+
+    </div>
+
+    <div className="text-center bg-white p-6 rounded-lg shadow-2xl transform hover:scale-110 transition duration-300 ease-in-out">
+      <FaFilePdf className="text-sm sm:text-7xl text-black mb-2" />
+      
+    </div>
+ 
+    <div className="text-center bg-white p-6 rounded-lg shadow-2xl transform hover:scale-110 transition duration-300 ease-in-out">
+      <FaFileAudio className="text-sm sm:text-7xl text-black mb-2" />
+   
+    </div>
+  </div>
+</div>
+
 
           {/* Features Section */}
-          <div className="pl-5 pt-10 pb-20">
+          <div className="pl-5 pt-10 pb-20 sm:pl-20">
             <h3 className="text-2xl font-roboto text-gray-800 text-left mt-20 mb-10">
               Features of Transactional SMS
             </h3>

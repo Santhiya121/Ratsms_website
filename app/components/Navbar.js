@@ -407,7 +407,7 @@ export default function Navbar() {
 
   return (
     <div
-      className={`top-0 w-full z-10 fixed transition-all duration-300 ease-in-out  ${
+      className={`top-0 w-full z-50 fixed transition-all duration-300 ease-in-out   ${
         isScrolled ? "bg-black/80 backdrop-blur-md" : "bg-transparent"
       }`}
     >
@@ -441,9 +441,12 @@ export default function Navbar() {
 
             {/* Dropdown Menu */}
             {isProductsVisible && (
-              <div className="fixed top-0 left-0 w-screen h-[35rem] mt-14 bg-black bg-opacity-70 z-50 backdrop-blur-md grid grid-cols-3 gap-4 p-8 shadow-lg">
+             <div
+             className={`fixed top-0 left-0 w-screen h-[35rem] mt-14 bg-black bg-opacity-70 z-50 backdrop-blur-md grid grid-cols-3 gap-4 p-8 shadow-lg ${
+               isProductsVisible ? "animate-slideDown" : "animate-slideUp"
+             }`}>
                 {/* Content for Products */}
-                <div className="p-12">
+                <div className="p-12">                                                      
                 <div className="text-3xl font-thin p-4 text-white">
   <div className="pt-3 font-roboto  font-thin tracking-tight ">
     Effortless Communication
@@ -482,9 +485,9 @@ export default function Navbar() {
                 {/* Product Links */}
                 <div className="pl-28 pt-16">
       <ul>
-        <ul className="text-base font-light pl-8">
+        <ul className="text-base font-light pl-8 ">
           {[
-            { href: "/bulk-sms-service-implicit", text: "Service Implicit" },
+            { href: "/bulk-sms-service-implicit", text: "Service Implicit"},
             { href: "/bulk-sms-service-explicit", text: "Service Explicit" },
             { href: "/promotional-bulk-sms-chennai", text: "Promotional Bulk SMS" },
             { href: "/transactional-bulk-sms-chennai", text: "Transactional Bulk SMS" },
@@ -495,12 +498,12 @@ export default function Navbar() {
             <li key={index}>
               <Link
                 href={item.href}
-                className="flex items-center text-2xl font-thin font-roboto pt-4 text-white hover:text-[#003bff] group"
+                className="flex items-center text-2xl font-thin font-roboto pt-4  text-white hover:text-white hover:font-semibold group"
               >
                 {item.text}
                 <span
-        className="text-black font-bold text-2xl transition-transform 
-                   duration-300 ease-in-out  group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-[#003bff] group-hover:scale-100 "
+        className="text-black font-bold text-2xl transition-transform  
+                   duration-300 ease-in-out  group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-white hover:font-roboto group-hover:scale-100 "
       >
         →
       </span>
@@ -589,11 +592,11 @@ export default function Navbar() {
             <li>
               <Link
                 href="/bulk-sms"
-                className="flex items-center justify-start text-base md:text-2xl font-thin text-white hover:text-[#003bff] transition-all duration-300 group"
+                className="flex items-center justify-start text-base md:text-2xl font-thin text-white hover:text-white hover:font-semibold transition-all duration-300 group"
               >
                 Bulk SMS
                 <span
-                  className="text-black font-bold text-base md:text-2xl transition-transform duration-300 ease-in-out group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-[#003bff] group-hover:scale-100"
+                  className="text-white font-bold text-base md:text-3xl transition-transform duration-300 ease-in-out group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-white group-hover:scale-100"
                 >
                   →
                 </span>
@@ -602,11 +605,11 @@ export default function Navbar() {
             <li>
               <Link
                 href="/bulk-sms-gateway-aggregator"
-                className="flex items-center justify-start text-base md:text-2xl font-thin text-white hover:text-[#003bff] transition-all duration-300 group"
+                className="flex items-center justify-start text-base md:text-2xl font-thin text-white hover:text-white hover:font-semibold transition-all duration-300 group"
               >
                 Bulk SMS Gateway Aggregator
                 <span
-                  className="text-black font-bold text-base md:text-2xl transition-transform duration-300 ease-in-out group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-[#003bff] group-hover:scale-100"
+                  className="text-white font-bold text-base md:text-3xl transition-transform duration-300 ease-in-out group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-white group-hover:scale-100"
                 >
                   →
                 </span>
@@ -615,11 +618,11 @@ export default function Navbar() {
             <li>
               <Link
                 href="/developer-api"
-                className="flex items-center justify-start text-base md:text-2xl font-thin text-white hover:text-[#003bff] transition-all duration-300 group"
+                className="flex items-center justify-start text-base md:text-2xl font-thin hover:text-white hover:font-semibold text-white  transition-all duration-300 group"
               >
                 Developer API
                 <span
-                  className="text-black font-bold text-base md:text-2xl transition-transform duration-300 ease-in-out group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-[#003bff] group-hover:scale-100"
+                  className="text-white font-bold text-base md:text-3xl transition-transform duration-300 ease-in-out group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-white group-hover:scale-100"
                 >
                   →
                 </span>
@@ -628,11 +631,11 @@ export default function Navbar() {
             <li>
               <Link
                 href="/about-us"
-                className="flex items-center justify-start text-base md:text-2xl font-thin text-white hover:text-[#003bff] transition-all duration-300 group"
+                className="flex items-center justify-start text-base md:text-2xl font-thin text-white hover:text-white hover:font-semibold transition-all duration-300 group"
               >
                 About Us
                 <span
-                  className="text-black font-bold text-base md:text-2xl transition-transform duration-300 ease-in-out group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-[#003bff] group-hover:scale-100"
+                  className="text-white font-bold text-base md:text-3xl transition-transform duration-300 ease-in-out group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-white group-hover:scale-100"
                 >
                   →
                 </span>
@@ -641,11 +644,11 @@ export default function Navbar() {
             <li>
               <Link
                 href="/blog"
-                className="flex items-center justify-start text-base md:text-2xl font-thin text-white hover:text-[#003bff] transition-all duration-300 group"
+                className="flex items-center justify-start text-base md:text-2xl font-thin text-white hover:text-white hover:font-semibold transition-all duration-300 group"
               >
                 Blogs
                 <span
-                  className="text-black font-bold text-base md:text-2xl transition-transform duration-300 ease-in-out group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-[#003bff] group-hover:scale-100"
+                  className="text-white font-bold text-base md:text-3xl transition-transform duration-300 ease-in-out group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-white group-hover:scale-100"
                 >
                   →
                 </span>
@@ -654,11 +657,11 @@ export default function Navbar() {
             <li>
               <Link
                 href="/terms-and-conditions"
-                className="flex items-center justify-start text-base md:text-2xl font-thin text-white hover:text-[#003bff] transition-all duration-300 group"
+                className="flex items-center justify-start text-base md:text-2xl font-thin text-white hover:text-white hover:font-semibold transition-all duration-300 group"
               >
                 Terms and Conditions
                 <span
-                  className="text-black font-bold text-base md:text-2xl transition-transform duration-300 ease-in-out group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-[#003bff] group-hover:scale-100"
+                  className="text-white font-bold text-base md:text-3xl transition-transform duration-300 ease-in-out group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-white group-hover:scale-100"
                 >
                   →
                 </span>
@@ -667,11 +670,11 @@ export default function Navbar() {
             <li>
               <Link
                 href="/refund-policy"
-                className="flex items-center justify-start text-base md:text-2xl font-thin text-white hover:text-[#003bff] transition-all duration-300 group"
+                className="flex items-center justify-start text-base md:text-2xl font-thin text-white hover:text-white hover:font-semibold transition-all duration-300 group"
               >
                 Refund Policies
                 <span
-                  className="text-black font-bold text-base md:text-2xl transition-transform duration-300 ease-in-out group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-[#003bff] group-hover:scale-100"
+                  className="text-white font-bold text-base md:text-3xl transition-transform duration-300 ease-in-out group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-white group-hover:scale-100"
                 >
                   →
                 </span>
@@ -680,11 +683,11 @@ export default function Navbar() {
             <li>
               <Link
                 href="/privacy-policy"
-                className="flex items-center justify-start text-base md:text-2xl font-thin text-white hover:text-[#003bff] transition-all duration-300 group"
+                className="flex items-center justify-start text-base md:text-2xl font-thin text-white hover:text-white hover:font-semibold transition-all duration-300 group"
               >
                 Privacy Policy
                 <span
-                  className="text-black font-bold text-base md:text-2xl transition-transform duration-300 ease-in-out group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-[#003bff] group-hover:scale-100"
+                  className="text-white font-bold text-base md:text-3xl transition-transform duration-300 ease-in-out group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-white group-hover:scale-100"
                 >
                   →
                 </span>
@@ -693,11 +696,11 @@ export default function Navbar() {
             <li>
               <Link
                 href="/careers"
-                className="flex items-center justify-start text-base md:text-2xl font-thin text-white hover:text-[#003bff] transition-all duration-300 group"
+                className="flex items-center justify-start text-base md:text-2xl font-thin text-white hover:text-white hover:font-semibold transition-all duration-300 group"
               >
                 Careers
                 <span
-                  className="text-black font-bold text-base md:text-2xl transition-transform duration-300 ease-in-out group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-[#003bff] group-hover:scale-100"
+                  className="text-white font-bold text-base md:text-3xl transition-transform duration-300 ease-in-out group-hover:translate-x-2 text-transparent transform scale-0 group-hover:text-white group-hover:scale-100"
                 >
                   →
                 </span>

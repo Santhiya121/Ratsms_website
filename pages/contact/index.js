@@ -198,8 +198,8 @@ export default function Contact() {
       <WhatsAppIcon/>
 
       <div className="bg-white py-8">
-        <div className="container mx-auto px-8 lg:px-20">
-          <h2 className="text-3xl sm:text-5xl font-light text-left text-black p-2 relative z-10">
+        <div className=" mx-auto px-8 lg:px-20">
+          <h2 className="text-3xl sm:text-5xl font-roboto text-left text-black p-2 relative z-10">
             Contact
           </h2>
           <p className="text-left text-sm sm:text-base text-gray-600 mb-5 p-2">

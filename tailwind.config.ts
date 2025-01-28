@@ -1,6 +1,6 @@
 import type { Config } from "tailwindcss";
 
-export default {
+const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -12,10 +12,9 @@ export default {
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'], // Define roboto font
       },
-      
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "var(--background)", // Custom background color
+        foreground: "var(--foreground)", // Custom foreground color
       },
       fontWeight: {
         thin: '100',
@@ -25,4 +24,6 @@ export default {
     },
   },
   plugins: [],
-} satisfies Config;
+};
+
+export default config;

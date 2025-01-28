@@ -50,7 +50,7 @@ export default function Smpp() {
         <div className="flex flex-col md:flex-row items-center justify-between px-6 py-10">
           {/* Left Content Section */}
           <div className="md:w-1/2 space-y-4 px-4 font-light sm:px-8 md:px-16 font-roboto">
-            <h1 className="text-3xl sm:text-5xl font-roboto text-black">
+            <h1 className="text-3xl sm:text-4xl font-semibold text-black">
               SMPP Gateway Provider
             </h1>
             <div className="bg-white sm:p-10   border-gray-200 max-w-3xl  ">

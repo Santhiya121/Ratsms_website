@@ -1,9 +1,26 @@
+import Link from "next/link";
 import Footer from "../../app/components/footer";
 import Navbar from "../../app/components/Navbar";
 import SupportForm from "../../app/components/supportForm";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import "../../app/globals.css";
 import Head from 'next/head';
+import { 
+  FaUserCheck, 
+  FaDollarSign, 
+  FaUpload, 
+  FaSms, 
+  FaChartLine, 
+  FaRocket, 
+  FaChartBar, 
+  FaFileAlt, 
+  FaDatabase ,
+  FaTags
+
+} from 'react-icons/fa';
+import { MdCampaign } from 'react-icons/md';
+
+
 export default function PromotionalBulkSMS() {
   return (
     <>
@@ -49,10 +66,10 @@ export default function PromotionalBulkSMS() {
         <div className="flex flex-col sm:flex-row justify-between">
             <div className="flex  items-center sm:pl-16">
         <div className="  sm:text-left  ">
-          <h1 className="text-3xl sm:text-5xl font-roboto font-light text-black p-4 ">
+          <h1 className="text-2xl sm:text-5xl font-roboto font-light text-black p-4 ">
             Promotional Bulk SMS
           </h1>
-          <p className="text-gray-900 text-lg sm:text-2xl w-full font-light sm:w-[30rem] pl-4">
+          <p className="text-gray-900 text-sm sm:text-lg tracking-widest w-full font-light sm:w-[30rem] pl-4">
             Boost your business with affordable bulk SMS services in Chennai. Reach your audience quickly & effectively.
           </p>
           
@@ -65,54 +82,154 @@ export default function PromotionalBulkSMS() {
         </div>
         </div>
 
+        <div className="bg-white sm:px-16 sm:pt-32">
+      <div className=" px-4 space-y-16">
+
         {/* Features Section */}
-        <div className="bg-white p-6 ml-6 sm:p-8  space-y-6 mt-16">
-          <h2 className="text-2xl sm:text-4xl text-gray-800">Features of Promotional SMS</h2>
-          <ul className="list-disc pl-6 text-base sm:text-lg space-y-3 text-gray-600">
-            <li><strong>Complete Language Support:</strong> Unicode allows you to deliver messages in every language in the world.</li>
-            <li><strong>24/7 Delivery:</strong> Your messages will be delivered round the clock with unmatched delivery rates & speed, even to DND numbers.</li>
-            <li><strong>Best Delivery Rates:</strong> Automated SMS campaigns are sent with a speed of 200-500 messages per second.</li>
-            <li><strong>Well-documented APIs:</strong> Use our Universal REST APIs to integrate text messages into your apps, website, software, application, status updates, etc.</li>
-            <li><strong>GSM & CDMA Support:</strong> Send SMS to subscribers with mobile operators that use the GSM and CDMA standards.</li>
-            <li><strong>Detailed Reporting:</strong> Clear and detailed reporting on the status of every single SMS.</li>
-            <li><strong>SMS Personalization:</strong> Add the recipient’s name, offer loyalty program bonuses, give a discount as a gift for a subscriber’s birthday, and more.</li>
-            <li><strong>Statistics and Analytics:</strong> Measure the effectiveness of your SMS campaign by tracking delivery rates.</li>
-            <li><strong>API Support for Developers:</strong> Compatible with popular development platforms like C#, PHP, and VB.NET Async APIs.</li>
-          </ul>
+        <div className="bg-white ">
+          <h2 className="text-xl sm:text-2xl font-roboto text-left sm:text-left text-gray-800 mb-8">Features of Promotional SMS</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+            {[
+              {
+                icon: <FaSms className="text-black text-3xl" />,
+                title: "Complete Language Support",
+                description: "Deliver messages in every language with Unicode.",
+              },
+              {
+                icon: <FaRocket className="text-black text-3xl" />,
+                title: "24/7 Delivery",
+                description: "Unmatched delivery rates & speed, even to DND numbers.",
+              },
+              {
+                icon: <FaChartBar className="text-black text-3xl" />,
+                title: "Best Delivery Rates",
+                description: "Send SMS at speeds of 200-500 messages per second.",
+              },
+              {
+                icon: <FaFileAlt className="text-black text-3xl" />,
+                title: "Well-documented APIs",
+                description: "Integrate SMS into your apps, websites, or software.",
+              },
+              {
+                icon: <FaDatabase className="text-black text-3xl" />,
+                title: "Detailed Reporting",
+                description: "Track delivery status and detailed SMS performance.",
+              },
+              {
+                icon: <MdCampaign className="text-black text-3xl" />,
+                title: "SMS Personalization",
+                description: "Add recipient details, loyalty bonuses, and discounts.",
+              },
+            ].map((feature, index) => (
+              <div key={index} className="bg-white  p-10 rounded shadow-lg space-x-6">
+                <div>{feature.icon}</div>
+                <div>
+                  <p className="sm:text-lg text-base font-semibold text-gray-800">{feature.title}</p>
+                  <p className="text-gray-600 mt-2 sm:text-base text-sm">{feature.description}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Informational Section */}
-        <div className="space-y-6 mt-10">
-          <h2 className="text-2xl sm:text-4xl text-gray-800">What is Promotional SMS?</h2>
-          <p className="text-gray-600 text-base sm:text-lg">
-            A promotional SMS is a message sent by a brand to prospects and customers informing them about promotions, discounts, offers, or flash sales on new products. Marketers use these campaigns to increase customer engagement and drive sales.
+        <div className="bg-white rounded-xl shadow-lg p-8 sm:pl-16">
+          <h2 className="sm:text-2xl text-xl  font-roboto text-gray-800 mb-6">What is Promotional SMS?</h2>
+          <p className="text-gray-700 sm:text-lg text-base ">
+            Promotional SMS is a message sent by brands to inform customers about promotions, discounts, offers, or flash sales. These campaigns are used to boost engagement and drive sales.
           </p>
-          <p className="text-gray-600 text-base sm:text-lg">
-            RatSMS allows you to create branded subscription forms, automate SMS sending, and personalize the messages for better performance. Promotional SMS should be sent between 9 am and 9 pm to opt-in and non-DND numbers.
+          <p className="text-gray-700 sm:text-lg text-base mt-4">
+            With RatSMS, you can create branded subscription forms, automate SMS sending, and personalize your campaigns for better results. Promotional SMS should be sent between 9 am and 9 pm to non-DND numbers.
           </p>
         </div>
 
         {/* How to Send Section */}
-        <div className="space-y-6 mt-10">
-          <h2 className="text-xl sm:text-2xl text-gray-800">How to Send a Promotional SMS Campaign</h2>
-          <ol className="list-decimal pl-6 text-base sm:text-lg space-y-3 text-gray-600">
-            <li>Register with Rat SMS.</li>
-            <li>Pick your pricing plan.</li>
-            <li>Upload contacts.</li>
-            <li>Create a promotional SMS campaign.</li>
-            <li>Send SMS | Receive enquiries | Convert your Sales.</li>
-          </ol>
-        </div>
+        <div className="bg-gray-100 rounded-xl shadow-lg p-10">
+      <h2 className="text-2xl font-roboto sm:text-center text-black mb-8 text-left ">
+        How to Send a Promotional SMS Campaign
+      </h2>
+
+      {/* Steps */}
+      <div className="space-y-8 ">
+        {[
+          {
+            icon: <FaUserCheck className="text-black sm:text-3xl text-4xl" />,
+            title: "Register with RatSMS",
+            description: "Sign up for an account with RatSMS to access all features.",
+          },
+          {
+            icon: <FaDollarSign className="text-black sm:text-3xl text-4xl" />,
+            title: "Pick Your Pricing Plan",
+            description: "Choose a pricing plan that suits your SMS volume needs.",
+          },
+          {
+            icon: <FaUpload className="text-black sm:text-3xl text-4xl" />,
+            title: "Upload Contacts",
+            description: "Upload your contact list in a supported format for easy messaging.",
+          },
+          {
+            icon: <FaSms className="text-black sm:text-3xl text-4xl" />,
+            title: "Create a Campaign",
+            description: "Design and customize your promotional SMS campaign effortlessly.",
+          },
+          {
+            icon: <FaChartLine className="text-black sm:text-3xl text-4xl" />,
+            title: "Send SMS and Convert",
+            description: "Send your SMS campaign, receive inquiries, and boost sales!",
+          },
+        ].map((step, index) => (
+          <div
+            key={index}
+            className="flex items-start space-x-6 bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow"
+          >
+            {/* Icon */}
+            <div className="flex items-center justify-center  sm:w-16 sm:h-16 sm:bg-gray-200 rounded-full">
+              {step.icon}
+            </div>
+
+            {/* Content */}
+            <div>
+              <h3 className="sm:text-xl text-base font-semibold text-black">{step.title}</h3>
+              <p className="text-gray-700 sm:text-base text-sm mt-2">{step.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
 
         {/* Pricing Section */}
-        <div className="space-y-6 mt-10">
-          <h2 className="text-xl sm:text-2xl text-gray-800">What is the Price for Sending Promotional SMS?</h2>
-          <p className="text-gray-600">
-            The price depends on your volume. For more details, check our pricing for promotional SMS services in Chennai.
+        <div className="bg-gradient-to-r from-gray-50 via-gray-100 to-gray-50 rounded-xl shadow-lg p-10">
+      <div className="flex flex-col sm:flex-row items-center space-y-6 sm:space-y-0 sm:space-x-6">
+        {/* Icon */}
+        <div className="bg-gray-200 rounded-full p-6 shadow-lg">
+          <FaTags className="text-6xl text-gray-800" />
+        </div>
+
+        {/* Content */}
+        <div className="text-center sm:text-left">
+          <h2 className="sm:text-2xl text-lg  text-gray-800 mb-4">
+            Pricing for Promotional SMS
+          </h2>
+          <p className="text-gray-700 sm:text-lg text-base  mb-6">
+            Pricing depends on your volume. For more details, check our pricing
+            for promotional SMS services in Chennai.
           </p>
+
+          {/* Call-to-Action Button */}
+          <Link
+            href="/bulk-sms-pricing-india"
+            className="inline-block bg-black text-white px-6 py-3 rounded-lg text-lg font-roboto shadow-lg hover:bg-gray-800 transition-colors"
+          >
+            Check Pricing Details
+          </Link>
         </div>
       </div>
     </div>
+      </div>
+    </div>
+      </div>
+    </div>
+    
     <Footer/>
     </>
   );

@@ -154,10 +154,10 @@ export default function ServiceImplicit() {
           <div className="flex flex-col sm:flex-row justify-between">
             <div className="flex  items-center  sm:pl-16">
               <div className=" sm:text-left ">
-                <h1 className="text-3xl sm:text-5xl font-roboto font-light text-black p-4">
+                <h1 className="text-2xl sm:text-5xl font-roboto font-light text-black p-4">
                   Bulk SMS Service Implicit
                 </h1>
-                <p className="text-gray-900 text-lg sm:text-2xl w-full font-light sm:w-[30rem] pl-4">
+                <p className="text-gray-900 text-sm tracking-widest sm:text-lg w-full font-light sm:w-[30rem] pl-4">
                   SMS connects services all over the world. We offer outstanding service to wholesale clients in India.
                 </p>
               </div>
@@ -174,10 +174,10 @@ export default function ServiceImplicit() {
           {/* You can add additional content here if necessary */}
 
           {/* What is Transactional SMS Section */}
-          <div className="bg-white p-6 ml-6 sm:p-8  space-y-6 mt-16">
-            <h3 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 sm:mb-8">
+          <div className="bg-white p-6 ml-6 sm:p-8  space-y-6 mt-16 sm:ml-16">
+            <p className="text-lg sm:text-2xl font-roboto text-gray-800 mb-4 sm:mb-8">
               Service Implicit Message applies to:
-            </h3>
+            </p>
             <p className="text-gray-700 text-base sm:text-lg mb-4 sm:mb-6">
               Confirmation messages of Net-banking and credit/debit card transactions.
             </p>

@@ -115,10 +115,10 @@ export default function ServiceExplicit() {
           <div className="flex flex-col sm:flex-row justify-between">
             <div className="flex  items-center  sm:pl-16">
               <div className=" sm:text-left ">
-                <h1 className="text-3xl sm:text-5xl font-roboto font-light text-black p-4">
+                <h1 className="text-2xl sm:text-5xl font-roboto font-light text-black p-4">
                   Bulk SMS Service Explicit
                 </h1>
-                <p className="text-gray-900 text-lg sm:text-2xl w-full font-light sm:w-[30rem] pl-4">
+                <p className="text-gray-900 text-sm sm:text-lg tracking-widest w-full font-light sm:w-[30rem] pl-4">
                   SMS connects services all over the world. We offer outstanding service to wholesale clients in India.
                 </p>
               </div>
@@ -135,8 +135,8 @@ export default function ServiceExplicit() {
           {/* (You can add more content here if needed) */}
 
           {/* What is Transactional SMS Section */}
-          <div className="bg-white p-6 ml-6 sm:p-8  space-y-6 mt-16">
-            <h3 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 sm:mb-8">
+          <div className="bg-white p-6 ml-6 sm:p-8  space-y-6 mt-16 sm:ml-16">
+            <h3 className="text-xl sm:text-2xl  font-roboto text-black mb-4 sm:mb-8">
               Service Explicit Message applies to?
             </h3>
             <p className="text-gray-700 text-base sm:text-lg mb-4 sm:mb-6">
@@ -145,7 +145,7 @@ export default function ServiceExplicit() {
             <p className="text-gray-700 text-base sm:text-lg mb-4 sm:mb-6">
               Additionally, the consent template can be linked while creating a service explicit content template.
             </p>
-            <h3 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-4 sm:mb-8">
+            <h3 className="text-xl sm:text-2xl  font-roboto text-black mb-4 sm:mb-8">
               What is the price for sending Explicit SMS?
             </h3>
             <p className="text-gray-700 text-base sm:text-lg mb-4 sm:mb-6">

@@ -2,9 +2,10 @@ import Footer from "../../app/components/footer";
 import Navbar from "../../app/components/Navbar";
 import SupportForm from "../../app/components/supportForm";
 import "../../app/globals.css";
-import { FaCheckCircle, FaClock, FaChartBar, FaHeadset, FaShieldAlt } from "react-icons/fa";
+import { FaCheckCircle, FaClock, FaChartBar, FaHeadset, FaShieldAlt, FaShippingFast } from "react-icons/fa";
 import Head from "next/head";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
+
 
 export default function OtpBulkSMS() {
   return (
@@ -54,9 +55,9 @@ export default function OtpBulkSMS() {
           {/* Header Section */}
           <div className="flex flex-col sm:flex-row justify-between">
             <div className="flex  items-center sm:pl-16">
-              <div className="   sm:text-left">
-                <h1 className="text-3xl sm:text-5xl font-roboto font-light text-black p-4 ">OTP Bulk SMS</h1>
-                <p className="text-gray-900 text-lg sm:text-2xl w-full font-light sm:w-[30rem] pl-4">
+              <div className=" sm:text-left">
+                <h1 className="text-2xl sm:text-5xl font-roboto font-light text-black p-4 ">OTP Bulk SMS</h1>
+                <p className="text-gray-900 text-sm tracking-widest sm:text-lg w-full font-light sm:w-[30rem] pl-4">
                   SMS connects services all over the world. We offer outstanding service to wholesale clients in India.
                 </p>
               </div>
@@ -69,7 +70,7 @@ export default function OtpBulkSMS() {
           </div>
 
           {/* Features Section */}
-          <div className="bg-white p-6 ml-6 sm:p-8  space-y-6 mt-16 ">
+          <div className="bg-white p-6 sm:ml-16 sm:p-8  space-y-6 mt-20 ">
             <h3 className="text-xl sm:text-2xl font-roboto text-gray-800 text-left mb-8">Features of OTP Bulk SMS</h3>
             <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
               {[
@@ -94,7 +95,7 @@ export default function OtpBulkSMS() {
                   description: "Integrate API easily with SMPP to trigger OTP SMS to the user's mobile number from the operator.",
                 },
                 {
-                  icon: <FaShieldAlt className="text-black text-3xl" />,
+                  icon: <FaShippingFast className="text-black text-3xl" />,
                   title: "Deliverable",
                   description: "As usual, 100% deliverable and also live report can be downloaded.",
                 },
@@ -108,7 +109,7 @@ export default function OtpBulkSMS() {
                   <div className="flex flex-col  text-left">
                     <div className="mb-4">{feature.icon}</div>
                     <h4 className="text-base sm:text-xl font-roboto text-gray-800">{feature.title}</h4>
-                    <p className="text-gray-600 text-base sm:text-xl">{feature.description}</p>
+                    <p className="text-gray-600 text-sm sm:text-base">{feature.description}</p>
                   </div>
                 </div>
               ))}
@@ -116,18 +117,18 @@ export default function OtpBulkSMS() {
           </div>
 
           {/* What is OTP Bulk SMS Section */}
-          <div className="bg-white p-8 rounded-lg shadow-2xl sm:pl-32 pl-4 pt-10">
-            <h3 className="text-xl sm:text-2xl font-roboto text-gray-800 mb-6">What is OTP Bulk SMS?</h3>
-            <p className="text-gray-700 text-base sm:text-xl mb-4">
+          <div className="bg-white p-8 rounded-lg shadow-2xl sm:pl-20 pl-4 pt-10">
+            <h3 className="text-lg sm:text-xl font-roboto text-gray-800 mb-6">What is OTP Bulk SMS?</h3>
+            <p className="text-gray-700 text-sm sm:text-lg mb-4">
               OTP (One Time Password) SMS is a secure method used for authenticating users, especially during transactions.
             </p>
-            <p className="text-gray-700 text-base sm:text-xl mb-4">
+            <p className="text-gray-700 text-sm sm:text-lg mb-4">
               OTP SMS are used for payment confirmations, account verification, and accessing secure data.
             </p>
-            <p className="text-gray-700 text-base sm:text-xl mb-4">
+            <p className="text-gray-700 text-sm sm:text-lg mb-4">
               Using OTP SMS ensures high security for your services, ensuring users can authenticate themselves with ease.
             </p>
-            <p className="text-gray-700 text-base sm:text-xl">
+            <p className="text-gray-700 text-sm sm:text-lg">
               As a reliable OTP SMS gateway provider in Chennai, RatSMS offers instant and secure OTP delivery.
             </p>
           </div>
