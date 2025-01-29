@@ -29,6 +29,7 @@
 
 // import Footer from "../../app/components/footer";
 import Navbar from "../app/components/Navbar";
+import Partner from "../app/components/partners";
 import Phone from "../app/components/phone";
 import ServiceHome from "../app/components/service_home";
 import SpeedTest from "../app/components/speedTest";
@@ -134,6 +135,7 @@ export default function Home() {
       <div className="">
         <Navbar />
       </div>
+      
 
       <Phone />
       <div className="relative top-0 w-full min-h-screen">
@@ -159,6 +161,7 @@ export default function Home() {
         {/* Left-Center Positioned SupportForm */}
       
       </div>
+      <Partner/>
       <ServiceHome />
       <WhatsAppIcon />
       

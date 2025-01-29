@@ -213,7 +213,7 @@ export default function WhatsappBusinessApi() {
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-2 pl-4 md:pl-16 top-0">
   {/* Normal Pack */}
   <div className="flex items-center justify-center">
-    <div className="bg-white border border-black rounded-lg shadow-md p-6 hover:scale-105 transition-transform text-center h-[28rem] w-full md:w-96">
+    <div className="bg-white border border-black rounded-2xl shadow-md p-6 hover:scale-105 transition-transform text-center h-[30rem] w-full md:w-96">
       <h3 className="text-2xl font-bold text-black mb-4">STARTER</h3>
       <h3 className="text-xl font-bold text-black mb-4">3 Month Rental</h3>
       <p className="text-4xl font-bold text-black">
