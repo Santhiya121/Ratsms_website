@@ -27,12 +27,12 @@ import React from "react";
 const Button = () => {
   return (
     <button
-      className="relative w-full max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg xl:max-w-xl h-16 p-4 border border-[#003bff] text-[#003bff] bg-white 
-                 flex items-center justify-between group 
+      className="relative w-60 h-14 p-4 border border-[#003bff] text-[#003bff] bg-white 
+                 flex  justify-between group 
                  transition-all duration-300 ease-in-out hover:bg-[#003bff] hover:text-white"
       style={{ borderRadius: "0px" }} // Inline style to enforce sharp corners
     >
-      <span className="text-base sm:text-lg md:text-xl font-roboto text-center px-6 sm:px-8 md:px-12 group-hover:text-white transition-all duration-300 ease-in-out">
+      <span className="text-base sm:text-lg md:text-xl text-start font-roboto  px-6 sm:px-8 md:px-12 group-hover:text-white hover:font-light transition-all duration-300 ease-in-out">
         Click Me
       </span>
       <span

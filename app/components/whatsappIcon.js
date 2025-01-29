@@ -21,10 +21,10 @@ import React from 'react';
 
 const WhatsAppIcon = () => {
   return (
-    <div className="fixed bottom-2  z-50 sm:bottom-6 sm:left-2 md:bottom-8 md:left-4 flex flex-col">
+    <div className="fixed bottom-2  z-50 sm:bottom-6 sm:left-2 md:bottom-8 md:left-4 flex flex-col ">
       {/* LinkedIn Icon */}
       <a
-        href="https://www.linkedin.com"
+        href="https://www.linkedin.com/company/ratsmschennai/"
         target="_blank"
         rel="noopener noreferrer"
         className="hover:scale-110 transition-transform duration-300 p-1 sm:p-2 "
@@ -34,17 +34,17 @@ const WhatsAppIcon = () => {
 
       {/* YouTube Icon */}
       <a
-        href="https://www.youtube.com"
+        href="https://www.youtube.com/@ratsms"
         target="_blank"
         rel="noopener noreferrer"
-        className="hover:scale-110 transition-transform duration-300 p-1 sm:p-2 "
+        className="hover:scale-110 transition-transform duration-300 p-1 "
       >
         <i className="fab fa-youtube text-base sm:text-3xl md:text-3xl text-red-600 hover:text-red-800" />
       </a>
 
       {/* Instagram Icon */}
       <a
-        href="https://www.instagram.com"
+        href="https://www.instagram.com/ratsms_com/"
         target="_blank"
         rel="noopener noreferrer"
         className="hover:scale-110 transition-transform duration-300 p-1 sm:p-2 "
@@ -54,7 +54,7 @@ const WhatsAppIcon = () => {
 
       {/* Facebook Icon */}
       <a
-        href="https://www.facebook.com"
+        href="https://www.linkedin.com/company/ratsmschennai/ "
         target="_blank"
         rel="noopener noreferrer"
         className="hover:scale-110 transition-transform duration-300 p-1 sm:p-2 "
@@ -69,7 +69,7 @@ const WhatsAppIcon = () => {
         rel="noopener noreferrer"
         className="hover:scale-110 transition-transform duration-300 p-1 sm:p-2"
       >
-        <i className="fab fa-whatsapp text-base sm:text-3xl md:text-3xl text-[#25D366]   hover:text-green-700" />
+        <i className="fab fa-whatsapp text-base sm:text-4xl md:text-4xl text-[#25D366]   hover:text-green-700" />
       </a>
 
     </div>

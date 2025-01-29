@@ -195,7 +195,7 @@ const BlogPage = () => {
 
       <div className="bg-white px-4 py-8 sm:px-6 md:px-8 lg:px-16">
   {/* Blog Header */}
-  <h1 className="text-3xl sm:text-5xl font-roboto font-light text-black pl-4 sm:pl-8 md:pl-16 ">
+  <h1 className="text-3xl sm:text-5xl font-roboto  text-black pl-4 sm:pl-8 md:pl-16 ">
     Blogs
   </h1>
 

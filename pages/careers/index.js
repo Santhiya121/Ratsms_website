@@ -183,7 +183,7 @@ export default function Careers() {
             transition={{ duration: 0.8 }}
             className="space-y-2 text-center md:text-left"
           >
-            <h1 className="text-2xl md:text-4xl font-light px-4 md:px-16">Career</h1>
+            <h1 className="text-2xl sm:text-5xl font-roboto  px-4 md:px-16">Career</h1>
             {/* <p className="text-base md:text-lg px-4 md:px-16">Join With Us</p> */}
           </motion.div>
 
@@ -243,16 +243,25 @@ export default function Careers() {
           </h4>
           <p className="text-gray-700 mt-4">{job.description}</p>
         </div>
-
+      
         {/* Button Section */}
         <div className="px-6">
-          <Link href={`/careers/job-details/${job.id}`}>
-            <button
-              type="submit"
-              className="w-full bg-gray-900 text-white py-3 px-5 rounded-lg font-semibold hover:bg-gray-700 transition-all duration-300"
-            >
-              Apply Now
-            </button>
+        <Link href={`/careers/job-details/${job.id}`}>
+        <button
+        className="relative  max-w-xs sm:max-w-sm md:max-w-sm lg:max-w-lg xl:max-w-xl h-16 p-2 border border-black text-white bg-white 
+                   flex items-center justify-between group 
+                   transition-all duration-300 ease-in-out hover:bg-black hover:text-black"
+      >
+        <span className="text-base sm:text-lg md:text-lg font-roboto text-center text-black p-2 sm:p-6 md:p-8 group-hover:text-white transition-all duration-300 ease-in-out">
+          Explore More
+        </span>
+        <span
+          className="text-black font-bold text-xl sm:text-2xl transition-transform 
+                     duration-300 ease-in-out group-hover:text-white group-hover:translate-x-2"
+        >
+          →
+        </span>
+      </button>
           </Link>
         </div>
       </div>

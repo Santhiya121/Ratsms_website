@@ -46,6 +46,7 @@
 //     );
 //   }
   
+import Link from "next/link";
 import HomeService from "./homeService";
 import Image from 'next/image'
 
@@ -63,6 +64,7 @@ export default function HomeAbout() {
           </p>
 
           <div className="pt-6 pl-12">
+            <Link href="/about-us">
             <button
               className="relative w-48  sm:w-40 lg:w-64 h-16 p-4 border border-white text-white bg-black flex items-center justify-between group transition-all duration-300 ease-in-out hover:bg-white hover:text-black"
             >
@@ -75,6 +77,7 @@ export default function HomeAbout() {
                 →
               </span>
             </button>
+            </Link>
           </div>
         </div>
 

@@ -477,8 +477,7 @@ export default function CityPage() {
       </Head>
 
       {/* Page Content */}
-       <div
-      >
+       <div className="z-50">
         <Navbar />
       </div>
       <WhatsAppIcon/>
@@ -510,7 +509,7 @@ export default function CityPage() {
               <SupportForm />
             </div>
           </div> */}
-          <div className="pt-10">
+          <div className="flex justify-center items-center">
             <SupportForm/>
           </div>
         </div>

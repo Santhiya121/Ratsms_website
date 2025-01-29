@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Phone() {
   return (
     <motion.div
-      className="fixed right-0 sm:right-6 top-1/2 transform -translate-y-1/2 text-white p-4 flex  sm:items-center space-x-4 z-10 cursor-pointer"
+      className="fixed right-0 sm:right-6 top-1/2 transform -translate-y-1/2 text-white p-4 flex  sm:items-center space-x-4 z-20 cursor-pointer "
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 1 }}
@@ -29,12 +29,19 @@ export default function Phone() {
       >
         {/* Phone Icon - Video as Icon */}
         <a href="tel:+916381883186"> {/* Tel link for calling */}
-          <video
+          {/* <video
             src="/videos/phone1.mp4" // Replace with your video file
             autoPlay
             loop
             muted
             className="w-full h-full object-cover"
+          /> */}
+            <Image
+            src="/images/phone.gif" // Replace with your image path
+            alt="Your Image"
+            width={320} // Define width (for example, 320px)
+            height={320} // Define height (for example, 320px)
+            className="h-full w-full" // Adjust the width for different screen sizes
           />
         </a>
       </motion.div>

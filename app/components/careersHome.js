@@ -39,6 +39,7 @@
 //   }
   
 
+import Link from "next/link";
 import Button from "./button";
 import Footer from "./footer";
 import Image from 'next/image';
@@ -58,7 +59,9 @@ export default function CareersHome() {
             We empower you to grow both personally and professionally while making an impact.
           </p>
           <div className="pt-6 lg:pt-12">
+            <Link href="/careers">
             <Button />
+            </Link>
           </div>
         </div>
 

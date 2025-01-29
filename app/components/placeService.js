@@ -14,7 +14,7 @@ export default function Service() {
           {/* Card 1: Unmatched Bulk SMS Delivery */}
           <div className="p-4 bg-white text-center  ">
             <Image
-              src="/images/sms1.jpg"
+              src="/images/sms2.jpg"
               alt="Unmatched Bulk SMS Delivery"
               width={800} // Replace 800 with your image's actual width
               height={300} // Replace 300 with your image's actual height

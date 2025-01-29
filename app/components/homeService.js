@@ -90,6 +90,7 @@
 // }
 
 
+import Link from "next/link";
 import BlackButton from "./black_button";
 import ClientHome from "./clientHome";
 import Image from 'next/image'
@@ -104,28 +105,7 @@ export default function HomeService() {
           </h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 lg:gap-10 sm:gap-4 p-8 lg:p-6 sm:p-4 pl-16 sm:pl-16">
-          {/* Card 1 */}
-          {/* <div className="bg-white h-auto ">
-            <Image
-              src="/images/HomeService.jpg"
-              alt="Promotional Bulk SMS"
-              className="w-full h-36 sm:h-48 md:h-56 object-cover"
-            />
-            <div className="pt-4">
-              <h3 className="text-md md:text-lg font-roboto text-gray-800 text-left">
-                PROMOTIONAL BULK SMS
-              </h3>
-              <p className="text-base md:font-light text-black mt-2 text-left">
-                Promotional SMS is a powerful marketing tool, driving effective
-                advertising for services and products through direct text
-                messages. This approach yields outstanding results, boosting
-                campaign success and enhancing website rankings.
-              </p>
-              <div className="pt-6">
-                <BlackButton />
-              </div>
-            </div>
-          </div> */}
+        
           <div className="bg-white h-auto">
   <Image
     src="/images/HomeService.jpg"
@@ -136,7 +116,7 @@ export default function HomeService() {
     className="object-cover"
   />
   <div className="pt-4">
-    <h3 className="text-md md:text-lg font-roboto text-gray-800 text-left">
+    <h3 className="text-lg md:text-lg font-roboto text-gray-800 text-left">
       PROMOTIONAL BULK SMS
     </h3>
     <p className="text-base md:font-light text-black mt-2 text-left">
@@ -146,7 +126,9 @@ export default function HomeService() {
       enhancing website rankings.
     </p>
     <div className="pt-6">
+      <Link href="/promotional-bulk-sms-chennai">
       <BlackButton />
+      </Link>
     </div>
   </div>
 </div>
@@ -164,7 +146,7 @@ export default function HomeService() {
             />
             {/* className="w-full h-36 sm:h-48 md:h-56 object-cover " */}
             <div className="pt-4">
-              <h3 className="text-md md:text-lg font-roboto text-gray-800 text-left">
+              <h3 className="text-lg md:text-lg font-roboto text-gray-800 text-left">
                 TRANSACTIONAL BULK SMS
               </h3>
               <p className="text-base md:font-light text-black mt-2 text-left">
@@ -174,7 +156,9 @@ export default function HomeService() {
                 makes it a valuable tool for effective communication.
               </p>
               <div className="pt-6">
+              <Link href="/transactional-bulk-sms-chennai">
                 <BlackButton />
+                </Link>
               </div>
             </div>
           </div>
@@ -190,8 +174,8 @@ export default function HomeService() {
               className="object-cover"
             />
             <div className="pt-4">
-              <h3 className="text-md md:text-lg font-roboto text-gray-800 text-left">
-                OTP Bulk SMS
+              <h3 className="text-lg md:text-lg font-roboto text-gray-800 text-left">
+                OTP BULK SMS
               </h3>
               <p className="text-base md:font-light text-black mt-2 text-left">
                 OTP (One Time Password) is crucial for SMS marketing and user
@@ -200,7 +184,9 @@ export default function HomeService() {
                 SMS Gateway providers in India.
               </p>
               <div className="pt-6 ">
+              <Link href="/otp-bulk-sms-chennai">
                 <BlackButton />
+                </Link>
               </div>
             </div>
           </div>

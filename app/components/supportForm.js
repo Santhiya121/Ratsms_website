@@ -97,10 +97,72 @@ export default function SupportForm() {
                        focus:ring-2 focus:ring-blue-500 outline-none"
           >
             <option value="">Select an industry</option>
-            <option value="IT">IT</option>
-            <option value="Healthcare">Healthcare</option>
+            <option value="Industry">Industry</option>
+            <option value="Accounting">Accounting</option>
+            <option value="Aggregator">Aggregator</option>
+            <option value="Automotive">Automotive</option>
+            <option value="Banking &amp; Securities">Banking &amp; Securities</option>
+            <option value="Beverages">Beverages</option>
+            <option value="Broadcast media">Broadcast Media</option>
+            <option value="Business Development">Business Development</option>
+            <option value="Business Services">Business Services</option>
+            <option value="Charity">Charity</option>
+            <option value="Consulting &amp; Professional Services">Consulting &amp; Professional Services</option>
+            <option value="Consumer Brands">Consumer Brands</option>
+            <option value="Consumer Products">Consumer Products</option>
+            <option value="Content Provider">Content Provider</option>
+            <option value="Department Stores">Department Stores</option>
+            <option value="Ecommerce">Ecommerce</option>
+            <option value="Education/Government">Education/Government</option>
+            <option value="Entertainment &amp; Recreation">Entertainment &amp; Recreation</option>
             <option value="Finance">Finance</option>
-            <option value="Education">Education</option>
+            <option value="Financial Services - Other">Financial Services - Other</option>
+            <option value="FTSE 250">FTSE 250</option>
+            <option value="Gaming &amp; Gambling">Gaming &amp; Gambling</option>
+            <option value="Government &amp; Education">Government &amp; Education</option>
+            <option value="Health, Beauty">Health, Beauty</option>
+            <option value="Higher Education">Higher Education</option>
+            <option value="Holding Companies">Holding Companies</option>
+            <option value="Hospitality">Hospitality</option>
+            <option value="Hospitals / Health Care">Hospitals / Health Care</option>
+            <option value="Insurance">Insurance</option>
+            <option value="Logistics">Logistics</option>
+            <option value="Manufacturing">Manufacturing</option>
+            <option value="Marketing, Advertising &amp; Public Relations">Marketing, Advertising &amp; Public Relations</option>
+            <option value="Media &amp; Agencies">Media &amp; Agencies</option>
+            <option value="Medical Devices">Medical Devices</option>
+            <option value="Mobile Marketing Services">Mobile Marketing Services</option>
+            <option value="Non-Profit">Non-Profit</option>
+            <option value="Other">Other</option>
+            <option value="Pharmaceuticals &amp; Healthcare">Pharmaceuticals &amp; Healthcare</option>
+            <option value="Property Development">Property Development</option>
+            <option value="Public Sector">Public Sector</option>
+            <option value="Publishing &amp; Printing">Publishing &amp; Printing</option>
+            <option value="Real Estate">Real Estate</option>
+            <option value="Recruitment">Recruitment</option>
+            <option value="Restaurants">Restaurants</option>
+            <option value="Retail">Retail</option>
+            <option value="Retail - Apparel">Retail - Apparel</option>
+            <option value="Retail - CPG">Retail - CPG</option>
+            <option value="Retail - Gas &amp; Convenience Store">Retail - Gas &amp; Convenience Store</option>
+            <option value="Retail - Grocery &amp; Pharmacy">Retail - Grocery &amp; Pharmacy</option>
+            <option value="Retail - Outlets">Retail - Outlets</option>
+            <option value="Retail - Speciality">Retail - Speciality</option>
+            <option value="Services">Services</option>
+            <option value="Social Media">Social Media</option>
+            <option value="Software &amp; IT">Software &amp; IT</option>
+            <option value="Software, Cloud &amp; IT">Software, Cloud &amp; IT</option>
+            <option value="Sport, Leisure &amp; Entertainment">Sport, Leisure &amp; Entertainment</option>
+            <option value="Supermarkets">Supermarkets</option>
+            <option value="Technology">Technology</option>
+            <option value="Telecom / Communication Services">Telecom / Communication Services</option>
+            <option value="Telecommunications &amp; Cable">Telecommunications &amp; Cable</option>
+            <option value="Ticketing">Ticketing</option>
+            <option value="Transport &amp; Logistics">Transport &amp; Logistics</option>
+            <option value="Travel &amp; Hospitality">Travel &amp; Hospitality</option>
+            <option value="TV &amp; Radio Broadcasters">TV &amp; Radio Broadcasters</option>
+            <option value="Utilities">Utilities</option>
+            <option value="Wholesale">Wholesale</option>
           </select>
           {errors.industry && (
             <p className="text-red-500 text-sm mt-1">{errors.industry}</p>
@@ -120,10 +182,15 @@ export default function SupportForm() {
                        focus:ring-2 focus:ring-blue-500 outline-none"
           >
             <option value="">Select a service</option>
-            <option value="Consulting">Consulting</option>
-            <option value="Development">Development</option>
-            <option value="Marketing">Marketing</option>
-            <option value="Support">Support</option>
+            <option value="Promotional SMS">Promotional SMS</option>
+            <option value="Transactional SMS">Transactional SMS</option>
+            <option value="Otp SMS">Otp SMS</option>
+            <option value="Service Implicit">Service Implicit</option>
+            <option value="Service Explicit">Service Explicit</option>
+            <option value="Promotional DND SMS">Promotional DND SMS</option>
+            <option value="SMS API">SMS API</option>
+            <option value="SMPP">SMPP</option>
+            <option value="WhatsApp Marketing">WhatsApp Marketing</option>
           </select>
           {errors.service && (
             <p className="text-red-500 text-sm mt-1">{errors.service}</p>
@@ -283,15 +350,15 @@ export default function SupportForm() {
 //         </div>
 //         <div className="flex items-center justify-center p-4">
 //           <button
-//             className="relative w-full md:w-64 h-12 p-4 border border-[#003bff] text-[#003bff] bg-white 
-//                        flex items-center justify-between group 
+//             className="relative w-full md:w-64 h-12 p-4 border border-[#003bff] text-[#003bff] bg-white
+//                        flex items-center justify-between group
 //                        transition-all duration-300 ease-in-out hover:bg-[#003bff] hover:text-white"
 //           >
 //             <span className="text-lg font-roboto text-center p-12 group-hover:text-white transition-all duration-300 ease-in-out">
 //               Click Me
 //             </span>
 //             <span
-//               className="text-[#003bff] font-bold text-2xl transition-transform 
+//               className="text-[#003bff] font-bold text-2xl transition-transform
 //                          duration-300 ease-in-out group-hover:text-white group-hover:translate-x-2"
 //             >
 //               →

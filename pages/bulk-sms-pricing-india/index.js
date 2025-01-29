@@ -55,7 +55,7 @@ const PricingPage = () => {
             transition={{ duration: 0.8 }}
             className="space-y-2 text-left  md:text-left"
           >
-            <h1 className="text-2xl md:text-5xl font-light  md:px-16">Pricing</h1>
+            <h1 className="text-2xl md:text-5xl font-roboto  md:px-16">Pricing</h1>
             <p className="text-base md:text-lg sm:text-lg  md:px-16">CHOOSE YOUR PLAN</p>
           </motion.div>
 
@@ -78,20 +78,26 @@ const PricingPage = () => {
         <div className=" text-white min-h-screen w-full">
           {/* Header Section */}
           <header className="text-center py-10 bg-gradient-to-r bg-white to-black">
-            <h2 className="text-2xl font-roboto text-center  text-black">Our Plans</h2>
-            <p className="text-base text-gray-700 font-light">
+            <h2 className="text-2xl font-roboto text-center  text-black mb-3 ">Our Plans</h2>
+            <p className="text-base text-gray-700 font-light mb-3">
               Choose the best plan for your business needs.
             </p>
-            <h1 className="text-lg sm:text-xl font-semibold font-roboto mb-4 text-black">Promotional SMS Pricing</h1>
+            <h1 className="text-lg sm:text-xl font-semibold font-roboto mb-4 text-black">
+  Promotional SMS Pricing
+  <div className=" flex justify-self-center items-center mt-2 pl-32 bottom-0 left-0 w-40 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
+
+</h1>
+
+
             
           </header>
 
           {/* Pricing Section */}
           <div className="  bg-white">
 
-            <div className="grid md:grid-cols-3  p-4 pl-8 sm:pl-28">
+            <div className="grid md:grid-cols-3  p-4 pl-8 sm:pl-36">
               {/* Normal Pack */}
-              <div className="relative bg-gradient-to-r from-gray-100 to-gray-200 
+              <div className="relative bg-gradient-to-r from-gray-100 to-gray-200 rounded-xl
                text-black  p-8 hover:scale-105 transition-all duration-300 w-80 mb-10
                 border-gray-300">
                 {/* Title Section */}
@@ -115,13 +121,13 @@ const PricingPage = () => {
                     <i className="fa fa-check-circle text-black text-lg"></i> 1,00,000 SMS
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-clock text-black text-lg"></i> 9 AM to 9 PM Delivery
+                    <i className="fa fa-clock text-black text-lg"></i> 9 AM to 8 PM Delivery
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-ban text-black text-lg"></i> Delivered to DND Numbers
+                    <i className="fa fa-ban text-black text-lg"></i>  No Delivery DND Numbers
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-id-card text-black text-lg"></i> 6 Digit Sender ID
+                    <i className="fa fa-id-card text-black text-lg"></i>6 Character Sender ID
                   </li>
                   <li className="flex items-center gap-3">
                     <i className="fa fa-infinity text-black text-lg"></i> Lifetime Validity
@@ -141,10 +147,13 @@ const PricingPage = () => {
 
 
               {/* second */}
-              <div className="relative bg-gradient-to-r from-gray-100 to-gray-200 
-               text-black  p-8 hover:scale-105 transition-all duration-300 w-80 mb-10
-                border-gray-300">
+          
+              <div className="relative bg-gradient-to-r  from-gray-100 to-gray-200 border-4 border-purple-400
+               text-black   hover:scale-105 transition-all duration-300 w-80 mb-10 rounded-2xl
+                ">
                 {/* Title Section */}
+                <p className="p-3 text-center rounded-t-xl bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-roboto  ">Most Recommended</p>
+                <div className="p-8">
                 <h3 className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
                   Saver Pack
                 </h3>
@@ -165,13 +174,13 @@ const PricingPage = () => {
                     <i className="fa fa-check-circle text-black text-lg"></i> 5,00,000 SMS
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-clock text-black text-lg"></i> 9 AM to 9 PM Delivery
+                    <i className="fa fa-clock text-black text-lg"></i> 9 AM to 8 PM Delivery
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-ban text-black text-lg"></i> Delivered to DND Numbers
+                    <i className="fa fa-ban text-black text-lg"></i> No Delivery DND Numbers
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-id-card text-black text-lg"></i> 6 Digit Sender ID
+                    <i className="fa fa-id-card text-black text-lg"></i> 6 Character Sender ID
                   </li>
                   <li className="flex items-center gap-3">
                     <i className="fa fa-infinity text-black text-lg"></i> Lifetime Validity
@@ -188,10 +197,11 @@ const PricingPage = () => {
                   Purchase Now
                 </button>
               </div>
+              </div>
 
 
               {/* third */}
-              <div className="relative bg-gradient-to-r from-gray-100 to-gray-200 
+              <div className="relative bg-gradient-to-r from-gray-100 to-gray-200 rounded-xl
                text-black  p-8 hover:scale-105 transition-all duration-300 w-80 mb-10
                 border-gray-300">
                 {/* Title Section */}
@@ -215,13 +225,13 @@ const PricingPage = () => {
                     <i className="fa fa-check-circle text-black text-lg"></i> 10,00,000  SMS
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-clock text-black text-lg"></i> 9 AM to 9 PM Delivery
+                    <i className="fa fa-clock text-black text-lg"></i> 9 AM to 8 PM Delivery
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-ban text-black text-lg"></i> Delivered to DND Numbers
+                    <i className="fa fa-ban text-black text-lg"></i>  No Delivery DND Numbers
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-id-card text-black text-lg"></i> 6 Digit Sender ID
+                    <i className="fa fa-id-card text-black text-lg"></i> 6 Character Sender ID
                   </li>
                   <li className="flex items-center gap-3">
                     <i className="fa fa-infinity text-black text-lg"></i> Lifetime Validity
@@ -243,13 +253,14 @@ const PricingPage = () => {
           </div>
 
           <header className="text-center py-10 bg-gradient-to-r bg-white to-black">
-            <h1 className="text-lg sm:text-xl font-semibold font-roboto mb-4 text-black">Transactional SMS & ServiceExplicit</h1>
+            <h1 className="text-lg sm:text-xl font-semibold font-roboto mb-4 text-black">Transactional SMS & Service Explicit SMS</h1>
+            <div className=" flex justify-self-center items-center mt-2 pl-32 bottom-0 left-0 w-40 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
           </header>
           <div className="  bg-white">
 
-            <div className="grid md:grid-cols-3 gap-2 p-4 pl-8 sm:pl-28">
+            <div className="grid md:grid-cols-3 gap-2 p-4 pl-8 sm:pl-36">
               {/* Normal Pack */}
-              <div className="relative bg-gradient-to-r from-gray-100 to-gray-200 
+              <div className="relative bg-gradient-to-r from-gray-100 to-gray-200 rounded-xl
    text-black  p-8 hover:scale-105 transition-all duration-300 w-80 mb-10
     border-gray-300">
                 {/* Title Section */}
@@ -273,13 +284,13 @@ const PricingPage = () => {
                     <i className="fa fa-check-circle text-black text-lg"></i> 1,00,000 SMS
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-clock text-black text-lg"></i> 9 AM to 9 PM Delivery
+                    <i className="fa fa-clock text-black text-lg"></i> 24/7 Delivery
                   </li>
                   <li className="flex items-center gap-3">
                     <i className="fa fa-ban text-black text-lg"></i> Delivered to DND Numbers
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-id-card text-black text-lg"></i> 6 Digit Sender ID
+                    <i className="fa fa-id-card text-black text-lg"></i> 6 Character Sender ID 
                   </li>
                   <li className="flex items-center gap-3">
                     <i className="fa fa-infinity text-black text-lg"></i> Lifetime Validity
@@ -299,10 +310,11 @@ const PricingPage = () => {
 
 
               {/* second */}
-              <div className="relative bg-gradient-to-r from-gray-100 to-gray-200 
-   text-black  p-8 hover:scale-105 transition-all duration-300 w-80 mb-10
-    border-gray-300">
+              <div className="relative bg-gradient-to-r from-gray-100 to-gray-200 border-4 border-purple-400
+               text-black   hover:scale-105 transition-all duration-300 w-80 mb-10 rounded-2xl">
                 {/* Title Section */}
+                <p className="p-3 text-center rounded-t-xl bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-roboto  ">Most Recommended</p>
+                <div className="p-8">
                 <h3 className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
                   Saver Pack
                 </h3>
@@ -323,13 +335,13 @@ const PricingPage = () => {
                     <i className="fa fa-check-circle text-black text-lg"></i> 5,00,000 SMS
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-clock text-black text-lg"></i> 9 AM to 9 PM Delivery
+                    <i className="fa fa-clock text-black text-lg"></i> 24/7 Delivery
                   </li>
                   <li className="flex items-center gap-3">
                     <i className="fa fa-ban text-black text-lg"></i> Delivered to DND Numbers
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-id-card text-black text-lg"></i> 6 Digit Sender ID
+                    <i className="fa fa-id-card text-black text-lg"></i> 6 Character Sender ID 
                   </li>
                   <li className="flex items-center gap-3">
                     <i className="fa fa-infinity text-black text-lg"></i> Lifetime Validity
@@ -346,10 +358,11 @@ const PricingPage = () => {
                   Purchase Now
                 </button>
               </div>
+              </div>
 
 
               {/* third */}
-              <div className="relative bg-gradient-to-r from-gray-100 to-gray-200 
+              <div className="relative bg-gradient-to-r from-gray-100 to-gray-200 rounded-xl
    text-black  p-8 hover:scale-105 transition-all duration-300 w-80 mb-10
     border-gray-300">
                 {/* Title Section */}
@@ -373,13 +386,13 @@ const PricingPage = () => {
                     <i className="fa fa-check-circle text-black text-lg"></i> 10,00,000  SMS
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-clock text-black text-lg"></i> 9 AM to 9 PM Delivery
+                    <i className="fa fa-clock text-black text-lg"></i> 24/7 Delivery
                   </li>
                   <li className="flex items-center gap-3">
                     <i className="fa fa-ban text-black text-lg"></i> Delivered to DND Numbers
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-id-card text-black text-lg"></i> 6 Digit Sender ID
+                    <i className="fa fa-id-card text-black text-lg"></i> 6 Character Sender ID 
                   </li>
                   <li className="flex items-center gap-3">
                     <i className="fa fa-infinity text-black text-lg"></i> Lifetime Validity
@@ -402,13 +415,14 @@ const PricingPage = () => {
 
 
           <header className="text-center py-10 bg-gradient-to-r bg-white to-black">
-            <h1 className="text-lg sm:text-xl font-semibold font-roboto mb-4 text-black">OTP SMS & ServiceImplicit</h1>
+            <h1 className="text-lg sm:text-xl font-semibold font-roboto mb-4 text-black">OTP SMS & Service Implicit SMS</h1>
+            <div className=" flex justify-self-center items-center mt-2 pl-32 bottom-0 left-0 w-40 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
           </header>
           <div className="  bg-white">
 
-            <div className="grid md:grid-cols-3 gap-2 p-4 pl-8 sm:pl-28">
+            <div className="grid md:grid-cols-3 gap-2 p-4 pl-8 sm:pl-36">
               {/* Normal Pack */}
-              <div className="relative bg-gradient-to-r from-gray-100 to-gray-200 
+              <div className="relative bg-gradient-to-r from-gray-100 to-gray-200 rounded-xl
                text-black  p-8 hover:scale-105 transition-all duration-300 w-80 mb-10
                 border-gray-300">
                 {/* Title Section */}
@@ -432,13 +446,13 @@ const PricingPage = () => {
                     <i className="fa fa-check-circle text-black text-lg"></i> 1,00,000 SMS
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-clock text-black text-lg"></i> 9 AM to 9 PM Delivery
+                    <i className="fa fa-clock text-black text-lg"></i> 24/7 Delivery
                   </li>
                   <li className="flex items-center gap-3">
                     <i className="fa fa-ban text-black text-lg"></i> Delivered to DND Numbers
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-id-card text-black text-lg"></i> 6 Digit Sender ID
+                    <i className="fa fa-id-card text-black text-lg"></i> 6 Character Sender ID 
                   </li>
                   <li className="flex items-center gap-3">
                     <i className="fa fa-infinity text-black text-lg"></i> Lifetime Validity
@@ -458,10 +472,11 @@ const PricingPage = () => {
 
 
               {/* second */}
-              <div className="relative bg-gradient-to-r from-gray-100 to-gray-200 
-               text-black  p-8 hover:scale-105 transition-all duration-300 w-80 mb-10
-                border-gray-300">
+              <div className="relative bg-gradient-to-r from-gray-100 to-gray-200 border-4 border-purple-400
+               text-black   hover:scale-105 transition-all duration-300 w-80 mb-10 rounded-2xl">
                 {/* Title Section */}
+                <p className="p-3 text-center rounded-t-xl bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-roboto  ">Most Recommended</p>
+                <div className="p-8">
                 <h3 className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
                   Saver Pack
                 </h3>
@@ -482,13 +497,13 @@ const PricingPage = () => {
                     <i className="fa fa-check-circle text-black text-lg"></i> 5,00,000 SMS
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-clock text-black text-lg"></i> 9 AM to 9 PM Delivery
+                    <i className="fa fa-clock text-black text-lg"></i> 24/7 Delivery
                   </li>
                   <li className="flex items-center gap-3">
                     <i className="fa fa-ban text-black text-lg"></i> Delivered to DND Numbers
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-id-card text-black text-lg"></i> 6 Digit Sender ID
+                    <i className="fa fa-id-card text-black text-lg"></i> 6 Character Sender ID 
                   </li>
                   <li className="flex items-center gap-3">
                     <i className="fa fa-infinity text-black text-lg"></i> Lifetime Validity
@@ -505,10 +520,11 @@ const PricingPage = () => {
                   Purchase Now
                 </button>
               </div>
+              </div>
 
 
               {/* third */}
-              <div className="relative bg-gradient-to-r from-gray-100 to-gray-200 
+              <div className="relative bg-gradient-to-r from-gray-100 to-gray-200 rounded-xl
                text-black  p-8 hover:scale-105 transition-all duration-300 w-80 mb-10
                 border-gray-300">
                 {/* Title Section */}
@@ -532,13 +548,13 @@ const PricingPage = () => {
                     <i className="fa fa-check-circle text-black text-lg"></i> 10,00,000  SMS
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-clock text-black text-lg"></i> 9 AM to 9 PM Delivery
+                    <i className="fa fa-clock text-black text-lg"></i> 24/7 Delivery
                   </li>
                   <li className="flex items-center gap-3">
                     <i className="fa fa-ban text-black text-lg"></i> Delivered to DND Numbers
                   </li>
                   <li className="flex items-center gap-3">
-                    <i className="fa fa-id-card text-black text-lg"></i> 6 Digit Sender ID
+                    <i className="fa fa-id-card text-black text-lg"></i> 6 Character Sender ID 
                   </li>
                   <li className="flex items-center gap-3">
                     <i className="fa fa-infinity text-black text-lg"></i> Lifetime Validity
@@ -562,7 +578,7 @@ const PricingPage = () => {
           {/* Footer Section */}
           <footer className="bg-white py-6 text-center">
             <p className="text-black text-sm">
-              For more details, contact us at <span className="text-[#003bff] underline pl-2">info@ratsms.com</span>.
+              For more details, contact us <span className="text-[#003bff] underline ">info@ratsms.com</span>
             </p>
           </footer>
         </div>
@@ -578,10 +594,10 @@ const PricingPage = () => {
               <h3 className="text-xl sm:text-2xl font-semibold text-black mb-6 border-b border-gray-400 pb-2 text-center">
                 Bank Details
               </h3>
-              <ul className="space-y-6">
+              <ul className="space-y-4">
                 <li className="flex justify-between">
                   <span className="font-semibold text-black">Account Name:</span>
-                  <span className="text-gray-700 text-right">AWF TECHNOLOGIES PRIVATE LIMITED</span>
+                  <span className="text-gray-700   ">AWF TECHNOLOGIES PRIVATE LIMITED</span>
                 </li>
                 <li className="flex justify-between">
                   <span className="font-semibold text-black">Account Number:</span>
@@ -605,7 +621,7 @@ const PricingPage = () => {
                 </li>
                 <li className="flex justify-between">
                   <span className="font-semibold text-black">GSTIN:</span>
-                  <span className="text-gray-700 text-right">9884006171</span>
+                  <span className="text-gray-700 text-right">33AAQCA2038K1ZM</span>
                 </li>
                
               </ul>
@@ -662,9 +678,9 @@ const PricingPage = () => {
 
 
 
-            <p className="text-center mt-8 text-black text-sm">
+            <p className="text-center mt-12 text-gray-800 text-sm ">
               For more details, contact us via phone or email. Secure payments are accepted
-              through UPI, Net Banking, Credit/Debit cards, and other methods.
+              through UPI, Net Banking, Credit/Debit cards, and other methods.T&C Apply<span className="text-red-600">*</span>
             </p>
           </div>
         </div>

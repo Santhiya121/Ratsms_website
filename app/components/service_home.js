@@ -72,6 +72,7 @@
 
 // import SpeedTest from "./speedTest";
 
+import Link from "next/link";
 import Button from "./button";
 import HomeAbout from "./homeAbout";
 import Image from 'next/image'
@@ -149,7 +150,9 @@ export default function ServiceHome() {
 
         {/* Button Section */}
         <div className="flex items-center justify-center pt-10 md:mb-20">
+          <Link href="/bulk-sms">
           <Button />
+          </Link>
         </div>
       </div>
       <HomeAbout />
