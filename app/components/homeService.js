@@ -108,7 +108,7 @@ export default function HomeService() {
         
           <div className="bg-white h-auto">
   <Image
-    src="/images/HomeService.jpg"
+    src="/images/homeService.jpg"
     alt="Promotional Bulk SMS"
     layout="responsive"
     width={800} // Use the actual width of the image

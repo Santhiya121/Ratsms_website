@@ -239,8 +239,11 @@ export default function WhatsappBusinessApi() {
   </div>
 
   {/* Saver Pack */}
+  
   <div className="flex items-center justify-center">
-    <div className="bg-white border border-black rounded-lg shadow-md p-6 hover:scale-105 transition-transform text-center h-[30rem] w-full md:w-96">
+    <div className="bg-white border-4 border-purple-500 rounded-2xl shadow-md  hover:scale-105 transition-transform text-center h-[30rem] w-full md:w-96">
+    <p className="p-3 text-center rounded-t-xl bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-roboto  ">Most Recommended</p>
+    <div className="">
       <h3 className="text-2xl font-bold text-black mb-4">POPULAR</h3>
       <h2 className="text-2xl font-bold text-black mb-4">1 Year Rental</h2>
       <p className="text-4xl font-bold text-black">
@@ -261,6 +264,7 @@ export default function WhatsappBusinessApi() {
         >
           Pay as You Go
         </button>
+        </div>
       </div>
     </div>
   </div>

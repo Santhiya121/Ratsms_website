@@ -1,6 +1,6 @@
 export default function PlaceContent({ city }) {
     return (
-      <div className="min-h-screen +bg-black py-12 px-8">
+      <div className="min-h-screen bg-black py-12 px-8">
         {/* Heading */}
         <h1 className="text-2xl font-light text-white mb-8 text-center drop-shadow-lg">
           Best Bulk SMS Service Provider in {city || "Your City"}
