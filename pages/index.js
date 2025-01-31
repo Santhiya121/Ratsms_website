@@ -1,33 +1,4 @@
 
-// import cities from "../data/cities";  // Assuming your cities are defined here
-// import Link from "next/link";
-
-// export default function Home() {
-//   return (
-//     <div className="min-h-screen text-center py-10 bg-gray-100">
-//       <h1 classNamse="text-3xl font-bold text-blue-600 mb-6">
-//         Enjoy Abundant SMS Services in Your Cities
-//       </h1>
-//       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 px-6">
-//         {cities.map((city) => (
-//           <div
-//             key={city.name}
-//             className="p-4 bg-blue-500 text-white rounded-md shadow-md hover:shadow-lg transition-shadow"
-//           >
-//             <h2 className="text-xl font-semibold">{city.name}</h2>
-//             <Link href={`/${city.route}`}>
-//               <a className="text-sm underline hover:text-gray-200">
-//                 Explore {city.name}
-//               </a>
-//             </Link>
-//           </div>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// }
-
-// import Footer from "../../app/components/footer";
 import Navbar from "../app/components/Navbar";
 import Partner from "../app/components/partners";
 import Phone from "../app/components/phone";
@@ -37,6 +8,7 @@ import SupportForm from "../app/components/supportForm";
 import WhatsAppIcon from "../app/components/whatsappIcon";
 import Head from "next/head";
 import React, { useEffect, useRef } from "react";
+import "../app/globals.css";
 
 
 export default function Home() {
@@ -83,9 +55,7 @@ export default function Home() {
     };
   }, []);
 
-   
 
-  // // Pause or play the video
   // const togglePlayPause = () => {
   //   if (isPlaying) {
   //     player.pauseVideo();
@@ -132,39 +102,40 @@ export default function Home() {
         />
         <title>RAT SMS | BULK SMS SERVICE PROVIDER</title>
       </Head>
+    
       <div className="">
         <Navbar />
       </div>
-      
-
+ 
       <Phone />
-      <div className="relative top-0 w-full min-h-screen">
-      
-<div className="relative w-full h-screen">
-      {/* Background YouTube Video */}
-      <div className="absolute top-0 left-0 w-full h-full z-0">
-        <div id="video-iframe" className="object-cover w-full h-full" />
-      </div>
 
-      
-      <div className="flex justify-end items-center  relative ">
-          <div className="text-white ">
-            <SupportForm />
+      <div className="relative top-0 w-full min-h-screen">
+        <div className="relative w-full h-screen">
+          {/* Background YouTube Video */}
+          <div className="absolute top-0 left-0 w-full h-full z-0">
+            <div id="video-iframe" className="object-cover w-full h-full" />
+          </div>
+
+
+          <div className="flex justify-end items-center  relative ">
+            <div className="text-white ">
+              <SupportForm />
+            </div>
+          </div>
+          <h2>-----speedsheet</h2>
+          <div className="z-10 ">
+            <SpeedTest />
           </div>
         </div>
-        <div className="z-10 ">
-                   <SpeedTest/>
-                   </div>
-    </div>
 
 
         {/* Left-Center Positioned SupportForm */}
-      
+
       </div>
-      <Partner/>
+      <Partner />
       <ServiceHome />
       <WhatsAppIcon />
-      
+
       {/* <Footer/> */}
     </div>
   );

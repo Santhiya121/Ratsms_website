@@ -28,20 +28,14 @@ export default function Phone() {
         
       >
         {/* Phone Icon - Video as Icon */}
-        <a href="tel:+916381883186"> {/* Tel link for calling */}
-          {/* <video
-            src="/videos/phone1.mp4" // Replace with your video file
-            autoPlay
-            loop
-            muted
-            className="w-full h-full object-cover"
-          /> */}
+        <a href="tel:+916381883186"> 
+         
             <Image
-            src="/images/phone.gif" // Replace with your image path
+            src="/images/call.png" 
             alt="Your Image"
-            width={320} // Define width (for example, 320px)
-            height={320} // Define height (for example, 320px)
-            className="h-full w-full" // Adjust the width for different screen sizes
+            width={320} 
+            height={320}
+            className="h-full w-full" 
           />
         </a>
       </motion.div>

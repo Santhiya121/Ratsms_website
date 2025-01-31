@@ -1,43 +1,4 @@
-// import Button from "./button";
-// import Footer from "./footer";
 
-// export default function CareersHome() {
-//     return (
-//         <>
-//       <div className="flex items-center justify-between bg-gray-100 p-8 h-lvh">
-//         {/* Left Section */}
-//         <div className="flex flex-col space-y-4 max-w-lg pl-24">
-//           <h1 className="text-7xl font-light text-black">Grow with us</h1>
-//           <p className="font-light text-2xl pt-10 text-gray-700">
-//             Join our team and be part of a dynamic, innovative, and supportive environment. 
-//             We empower you to grow both personally and professionally while making an impact.
-//           </p>
-//           <div className="pt-12">
-//           <Button/>
-//         </div>
-          
-//         </div>
-    
-  
-//         {/* Right Section */}
-//         <div className="w-1/2 flex items-center justify-center">
-//         <video
-//           autoPlay
-//           loop
-//           muted
-//           className="w-96 object-cover z-0 h-[35rem]"
-//         >
-//           <source src="/videos/employe.mp4" type="video/mp4" />
-//           Your browser does not support the video tag.
-//         </video>
-//         </div>
-     
-//       </div>
-//     <Footer/>
-//       </>
-//     );
-//   }
-  
 
 import Link from "next/link";
 import Button from "./button";
