@@ -68,7 +68,7 @@ export default function Footer() {
                 </div>
                 <div className="text-center">
                     <p>
-                        <Link href="/privacy-policy" className="hover:text-[#003bff] font-light text-sm tracking-widest">Privacy Policy</Link> | <Link href="/terms-conditions" className="tracking-widest hover:text-[#003bff] font-light text-sm">Terms & Conditions</Link>
+                        <Link href="/privacy-policy" className="hover:text-[#003bff] font-light text-sm tracking-widest">Privacy Policy</Link> | <Link href="/terms-and-conditions" className="tracking-widest hover:text-[#003bff] font-light text-sm">Terms & Conditions</Link>
                     </p>
                 </div>
                 <div className="flex justify-center md:justify-end space-x-6">
