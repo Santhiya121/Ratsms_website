@@ -8,6 +8,7 @@ import Footer from '../../app/components/footer';
 import Image from 'next/image'
 import Head from 'next/head';
 import WhatsAppIcon from '../../app/components/whatsappIcon';
+import Phone from '../../app/components/phone';
 const BlogPage = () => {
   return (
     <>
@@ -39,6 +40,7 @@ const BlogPage = () => {
         <Navbar />
       </div>
       <WhatsAppIcon/>
+      <Phone/>
 
 
       <div className="bg-white px-4 py-8 sm:px-6 md:px-8 lg:px-16">

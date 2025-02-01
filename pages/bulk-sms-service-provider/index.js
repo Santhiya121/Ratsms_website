@@ -10,6 +10,7 @@ import Advantages from "../../app/components/advantages";
 import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
+import Phone from "../../app/components/phone";
 
 export default function BulkSmsServiceProvider() {
   return (
@@ -55,6 +56,7 @@ export default function BulkSmsServiceProvider() {
               <Navbar />
             </div>
             <WhatsAppIcon/>
+            <Phone/>
 
       {/* Hero Section */}
       <div

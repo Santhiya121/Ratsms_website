@@ -100,6 +100,7 @@ export default function Home() {
           name="facebook-domain-verification"
           content="5ijvhpsz91xr8n5ae0cdz6yy42xiji"
         />
+         <link rel="icon" href="/favicon.ico" sizes="any"></link>
         <title>RAT SMS | BULK SMS SERVICE PROVIDER</title>
       </Head>
     
@@ -122,7 +123,7 @@ export default function Home() {
               <SupportForm />
             </div>
           </div>
-          <h2>-----speedsheet</h2>
+         
           <div className="z-10 ">
             <SpeedTest />
           </div>

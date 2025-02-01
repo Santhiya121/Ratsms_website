@@ -2,6 +2,7 @@
 
 import Footer from "../../app/components/footer";
 import Navbar from "../../app/components/Navbar";
+import Phone from "../../app/components/phone";
 import SupportForm from "../../app/components/supportForm";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import "../../app/globals.css";
@@ -48,6 +49,7 @@ export default function ServiceImplicit() {
               <Navbar />
             </div>
             <WhatsAppIcon/>
+            <Phone/>
       <div className="bg-white ">
         <div className="  p-5 sm:p-2">
           {/* Header Section */}

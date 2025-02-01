@@ -2,6 +2,7 @@
 
 import Footer from "../../app/components/footer";
 import Navbar from "../../app/components/Navbar";
+import Phone from "../../app/components/phone";
 import SupportForm from "../../app/components/supportForm";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import "../../app/globals.css";
@@ -48,6 +49,7 @@ export default function DeveloperApi() {
               <Navbar />
             </div>
             <WhatsAppIcon/>
+            <Phone/>
             <div className="bg-gray-50 ">
   <div className="container mx-auto space-y-16 px-4">
     {/* Header Section */}

@@ -28,7 +28,7 @@ export default function Phone() {
         
       >
         {/* Phone Icon - Video as Icon */}
-        <a href="tel:+916381883186"> 
+        <a href="tel:+917506712345"> 
          
             <Image
             src="/images/call.png" 

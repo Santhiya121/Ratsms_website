@@ -1,5 +1,6 @@
 import Footer from "../../app/components/footer";
 import Navbar from "../../app/components/Navbar";
+import Phone from "../../app/components/phone";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import "../../app/globals.css";
 import Head from "next/head";
@@ -42,6 +43,7 @@ export default function PrivacyPolicy() {
             <Navbar />
           </div>
           <WhatsAppIcon/>
+          <Phone/>
           <div className="bg-gray-100 py-12">
   <div className=" space-y-12 px-6 sm:px-12 lg:px-20">
     {/* Header Section */}

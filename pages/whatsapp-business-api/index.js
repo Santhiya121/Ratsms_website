@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChartLine, faTools, faHandsHelping } from "@fortawesome/free-solid-svg-icons";
 import Image from 'next/image'
 import Head from "next/head";
+import Phone from "../../app/components/phone";
 
 
 
@@ -52,6 +53,7 @@ export default function WhatsappBusinessApi() {
             >
               <Navbar />
             </div>
+            <Phone/>
       <div className="bg-white">
         <div className=" p-5 sm:p-2">
           {/* Header Section */}

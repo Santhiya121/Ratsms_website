@@ -26,10 +26,10 @@ export default function Footer() {
                         <li><Link href="/smartsms-send-bulk-sms-attachments" className="font-light hover:text-[#003bff]">Smart SMS</Link></li>
                         <li><Link href="/bulk-sms-service-implicit" className="font-light hover:text-[#003bff]">Service Implicit</Link></li>
                         <li><Link href="/bulk-sms-service-explicit" className="hover:text-[#003bff] font-light">Service Explicit</Link></li>
-                        <li><Link href="/services/whatsapp-business-api" className="hover:text-[#003bff] font-light">WhatsApp Business API</Link></li>
-                        <li><Link href="/services/transactional-sms" className="hover:text-[#003bff] font-light">Transactional SMS</Link></li>
-                        <li><Link href="/services/promotional-sms" className="hover:text-[#003bff] font-light">Promotional SMS</Link></li>
-                        <li><Link href="/services/otp-sms" className="hover:text-[#003bff] font-light">OTP SMS</Link></li>
+                        <li><Link href="/whatsapp-business-api" className="hover:text-[#003bff] font-light">WhatsApp Business API</Link></li>
+                        <li><Link href="/transactional-bulk-sms-chennai" className="hover:text-[#003bff] font-light">Transactional SMS</Link></li>
+                        <li><Link href="/promotional-bulk-sms-chennai" className="hover:text-[#003bff] font-light">Promotional SMS</Link></li>
+                        <li><Link href="/otp-bulk-sms-chennai" className="hover:text-[#003bff] font-light">OTP SMS</Link></li>
                     </ul>
                 </div>
 

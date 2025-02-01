@@ -9,6 +9,7 @@ import Footer from '../../app/components/footer';
 import Image from 'next/image'
 import Head from "next/head";
 import WhatsAppIcon from '../../app/components/whatsappIcon';
+import Phone from '../../app/components/phone';
 
 const AboutUsPage = () => {
   return (
@@ -53,6 +54,7 @@ const AboutUsPage = () => {
               <Navbar />
             </div>
             <WhatsAppIcon/>
+            <Phone/>
 
       {/* Main content with white background */}
       <div className="bg-white sm:pt-10">

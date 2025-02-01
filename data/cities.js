@@ -926,6 +926,7 @@ const cities = [
         canonicalUrl: "https://www.ratsms.com/bulk-sms-service-provider-in-visakhapatnam",
         ogDescription: "Rat SMS is the best Bulk SMS service provider in Visakhapatnam with 100% delivery accuracy and customized solutions for businesses."
       }
+      
   }
 ];
 

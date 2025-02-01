@@ -141,6 +141,7 @@ import Advantages from '../app/components/advantages';
 import Navbar from '../app/components/Navbar';
 import '../app/globals.css';
 import WhatsAppIcon from '../app/components/whatsappIcon';
+import Phone from '../app/components/phone';
 
 export default function CityPage({ cityData }) {
   const router = useRouter();
@@ -164,27 +165,28 @@ export default function CityPage({ cityData }) {
 
   return (
     <>
-      <Head>
+     <Head>
         <meta charSet="UTF-8" />
-        <meta name="description" content={cityData.description} />
-        <meta name="keywords" content={cityData.keywords} />
-        <link rel="canonical" href={cityData.canonicalUrl} />
+        <meta name="description" content={cityData?.metadata?.description} />
+        <meta name="keywords" content={cityData?.metadata?.keywords} />
+        <link rel="canonical" href={cityData?.metadata?.canonicalUrl} />
         <meta property="og:site_name" content="RATSMS" />
-        <meta property="og:url" content={`https://www.ratsms.com${cityData.route}`} />
+        <meta property="og:url" content={`https://www.ratsms.com${cityData?.route}`} /> 
         <meta property="og:type" content="website" />
-        <meta property="og:title" content={cityData.title} />
-        <meta name="og:image" content={cityData.ogImage} />
-        <meta property="og:description" content={cityData.ogDescription} />
+        <meta property="og:title" content={cityData?.metadata.title} />
+        <meta name="og:image" content={cityData?.metadata?.ogImage} />
+        <meta property="og:description" content={cityData?.metadata?.ogDescription} />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#655C97" />
-        <title>{cityData.title}</title>
+        <title>{cityData?.metadata?.title}</title>
       </Head>
 
       <div className="z-50">
         <Navbar />
       </div>
       <WhatsAppIcon />
+      <Phone/>
       <div
         style={{
           backgroundImage: "url('/images/chennai.gif')",

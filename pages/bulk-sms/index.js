@@ -5,6 +5,7 @@ import '../../app/globals.css';
 import Head from "next/head";
 import Image from 'next/image';
 import WhatsAppIcon from '../../app/components/whatsappIcon';
+import Phone from '../../app/components/phone';
 
 export default function BulkSMS() {
   // Define the video sources and links for each city
@@ -87,6 +88,7 @@ export default function BulkSMS() {
         <Navbar />
       </div>
       <WhatsAppIcon/>
+      <Phone/>
       <div className="bg-white p-4 sm:p-10 md:p-16 lg:p-20">
         <h1 className="text-left sm:text-center text-black text-xl sm:text-4xl  font-roboto font-light">Bulk SMS</h1>
         <h1 className="text-left sm:text-center text-black text-sm sm:text-base tracking-widest mb-5 font-roboto font-light ">Enjoy abundant SMS service in your cities</h1>

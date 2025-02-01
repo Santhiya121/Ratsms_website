@@ -4,6 +4,7 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import Head from "next/head";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
+import Phone from "../../app/components/phone";
 
 export default function TermsConditions() {
   return (
@@ -43,6 +44,7 @@ export default function TermsConditions() {
               <Navbar />
             </div>
             <WhatsAppIcon/>
+            <Phone/>
             <div className="bg-gray-50 py-10">
   <div className="space-y-12 px-6 sm:px-16 lg:px-32">
     {/* Header Section */}

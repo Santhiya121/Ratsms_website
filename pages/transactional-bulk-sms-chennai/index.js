@@ -5,6 +5,7 @@ import "../../app/globals.css";
 import { FaCheckCircle, FaClock, FaChartBar, FaHeadset, FaShieldAlt } from "react-icons/fa";
 import Head from "next/head";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
+import Phone from "../../app/components/phone";
 
 export default function TransactionalBulkSMS() {
   return (
@@ -45,6 +46,7 @@ export default function TransactionalBulkSMS() {
 
             </div>
             <WhatsAppIcon/>
+            <Phone/>
       <div className="bg-white ">
         <div className="  p-5 sm:p-2">
           {/* Header Section */}

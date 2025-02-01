@@ -6,6 +6,7 @@ import Navbar from "../../app/components/Navbar";
 import Footer from "../../app/components/footer";
 import Head from "next/head"; 
 import WhatsAppIcon from "../../app/components/whatsappIcon";
+import Phone from '../../app/components/phone';
 
 export default function BulkSMSPage() {
     const products = [
@@ -62,6 +63,7 @@ export default function BulkSMSPage() {
                    <Navbar />
                  </div>
                  <WhatsAppIcon/>
+                 <Phone/>
                  <div className="bg-white text-black py-16">
   <div className="container mx-auto px-4">
     {/* Header Section */}
@@ -122,44 +124,8 @@ export default function BulkSMSPage() {
       </div>
     </section>
 
-    {/* Testimonials Section */}
-    {/* <section className="bg-white text-black py-16">
-  <h2 className="text-4xl font-bold text-center mb-12">What Our Clients Say</h2>
-  <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
-    <div className="bg-gray-50 text-black p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
-      <p className="text-lg mb-6 italic text-gray-700">
-        Rat SMS is incredibly reliable. We trust them for our daily transactional SMS!
-      </p>
-      <p className="font-semibold text-lg text-gray-800">John Doe</p>
-      <p className="text-sm text-gray-500">CEO, Tech Solutions</p>
-    </div>
-
-    <div className="bg-gray-50 text-black p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
-      <p className="text-lg mb-6 italic text-gray-700">
-        Their bulk SMS service helped us reach more customers quickly, and the support is fantastic!
-      </p>
-      <p className="font-semibold text-lg text-gray-800">Jane Smith</p>
-      <p className="text-sm text-gray-500">Marketing Director, Retail Corp</p>
-    </div>
-
-    <div className="bg-gray-50 text-black p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
-      <p className="text-lg mb-6 italic text-gray-700">
-        We’ve seen tremendous results with Rat SMS! It’s the perfect solution for our business.
-      </p>
-      <p className="font-semibold text-lg text-gray-800">Mark Wilson</p>
-      <p className="text-sm text-gray-500">Founder, Wilson Tech</p>
-    </div>
-  </div>
-</section> */}
-
-
-    {/* FAQ Section */}
    
-
-    {/* Footer Section */}
-    <footer className="mt-16 text-center text-black">
-      <p className="text-sm text-gray-600">&copy; 2025 Rat SMS. All rights reserved.</p>
-    </footer>
+  
   </div>
 </div>
 

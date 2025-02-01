@@ -6,6 +6,7 @@ import Footer from "../../app/components/footer";
 import Image from 'next/image'
 import Head from "next/head";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
+import Phone from "../../app/components/phone";
 
 const PricingPage = () => {
   return (
@@ -45,6 +46,7 @@ const PricingPage = () => {
         <Navbar />
       </div>
       <WhatsAppIcon/>
+      <Phone/>
       <div className="bg-gray-50 min-h-screen ">
         {/* Hero Section */}
         <div className="bg-white text-black flex flex-col md:flex-row  justify-between px-8 md:px-16 py-10">

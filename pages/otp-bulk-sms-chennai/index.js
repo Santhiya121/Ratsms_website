@@ -5,6 +5,7 @@ import "../../app/globals.css";
 import { FaCheckCircle, FaClock, FaChartBar, FaHeadset, FaShieldAlt, FaShippingFast } from "react-icons/fa";
 import Head from "next/head";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
+import Phone from "../../app/components/phone";
 
 
 export default function OtpBulkSMS() {
@@ -49,6 +50,7 @@ export default function OtpBulkSMS() {
             <Navbar />
           </div>
           <WhatsAppIcon/>
+          <Phone/>
 
       <div className="bg-white ">
         <div className="p-5 sm:p-2 ">

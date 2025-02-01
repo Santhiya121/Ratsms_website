@@ -7,6 +7,7 @@ import Footer from "../../app/components/footer";
 import Image from "next/image";
 import Head from "next/head";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
+import Phone from "../../app/components/phone";
 export default function Smpp() {
   return (
     <>
@@ -45,6 +46,7 @@ export default function Smpp() {
                     <Navbar />
                   </div>
                   <WhatsAppIcon/>
+                  <Phone/>
       {/* Main Section */}
       <div className="bg-white text-black  min-h-screen">
         <div className="flex flex-col md:flex-row items-center justify-between px-6 py-10">

@@ -4,6 +4,7 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import Head from "next/head";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
+import Phone from "../../app/components/phone";
 
 export default function Refund() {
   return (
@@ -46,6 +47,7 @@ export default function Refund() {
               <Navbar />
             </div>
             <WhatsAppIcon/>
+            <Phone/>
             <div className="bg-gray-100 py-12">
   <div className=" space-y-12 px-6 sm:px-12 lg:px-20">
     {/* Header Section */}

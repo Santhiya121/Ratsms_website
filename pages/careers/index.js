@@ -7,6 +7,7 @@ import "../../app/globals.css"; // Ensure the correct import path
 import { motion } from "framer-motion";
 import Head from 'next/head';
 import WhatsAppIcon from '../../app/components/whatsappIcon';
+import Phone from '../../app/components/phone';
 
 export default function Careers() {
   // Array of job data with ID to link to specific job details page
@@ -70,6 +71,7 @@ export default function Careers() {
       </div>
       
       <WhatsAppIcon />
+      <Phone/>
 
       <div className="bg-white">
         <div className="bg-white text-black flex flex-col md:flex-row items-center justify-between px-8 md:px-16 py-10">
@@ -129,7 +131,7 @@ export default function Careers() {
                 
                   {/* Button Section */}
                   <div className="px-6">
-                    <Link href={`/careers/job-details/${job.id}`}>
+                    <Link href={`/careers/join-us/${job.id}`}>
                       <button
                         className="relative max-w-xs sm:max-w-sm md:max-w-sm lg:max-w-lg xl:max-w-xl h-16 p-2 border border-black text-white bg-white 
                           flex items-center justify-between group 

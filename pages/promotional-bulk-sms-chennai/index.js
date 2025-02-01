@@ -19,6 +19,7 @@ import {
 
 } from 'react-icons/fa';
 import { MdCampaign } from 'react-icons/md';
+import Phone from "../../app/components/phone";
 
 
 export default function PromotionalBulkSMS() {
@@ -59,6 +60,7 @@ export default function PromotionalBulkSMS() {
                  <Navbar />
                </div>
                <WhatsAppIcon/>
+               <Phone/>
    
     <div className="bg-white ">
       <div className=" p-5 sm:p-2">

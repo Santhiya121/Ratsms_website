@@ -3,6 +3,7 @@
 
 import Footer from "../../app/components/footer";
 import Navbar from "../../app/components/Navbar";
+import Phone from "../../app/components/phone";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import "../../app/globals.css";
 import { motion } from "framer-motion";
@@ -23,6 +24,7 @@ export default function Indust() {
              <Navbar />
            </div>
            <WhatsAppIcon/>
+           <Phone/>
       <div className="bg-gray-50 py-10 ">
         <div className="container mx-auto space-y-16 px-4 sm:px-6 md:px-8 lg:px-16 p-6">
           

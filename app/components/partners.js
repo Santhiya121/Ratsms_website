@@ -17,9 +17,9 @@ export default function Partner() {
         ].map((stat, index) => (
           <div
             key={index}
-            className="bg-white p-6 shadow-2xl  rounded-xl flex flex-col items-center justify-center transform transition-transform duration-500 hover:scale-110 hover:bg-indigo-100"
+            className="bg-white p-6 shadow-2xl  rounded-xl flex flex-col items-center justify-center transform transition-transform duration-500 hover:scale-110 hover:bg-gray-200"
           >
-            <div className="text-indigo-600 text-3xl mb-4 transform transition-transform duration-500 hover:rotate-12">
+            <div className="text-black text-3xl mb-4 transform transition-transform duration-500 hover:rotate-12">
               <i className={stat.icon}></i>
             </div>
             <p className="text-base sm:text-xl font-semibold text-gray-800 mb-2">

@@ -8,6 +8,7 @@ import Image from 'next/image'
 import Head from 'next/head';
 import 'font-awesome/css/font-awesome.min.css';
 import WhatsAppIcon from '../../app/components/whatsappIcon';
+import Phone from '../../app/components/phone';
 
 
 export default function Contact() {
@@ -54,6 +55,7 @@ export default function Contact() {
         <Navbar />
       </div>
       <WhatsAppIcon/>
+      <Phone/>
 
       <div className="bg-white py-8">
         <div className=" mx-auto px-8 lg:px-20">

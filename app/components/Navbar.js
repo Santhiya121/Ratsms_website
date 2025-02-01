@@ -74,13 +74,13 @@ export default function Navbar() {
         <div className="logo text-2xl  font-semibold hover:text-[#003bff]">
          
          
-          <Link href="/home" >  <p className="text-white">RATSMS</p> </Link>
+          <Link href="/" >  <p className="text-white">RATSMS</p> </Link>
 
         </div>
 
         {/* Navbar Links */}
         <nav className="hidden md:flex  pl-[33rem]  space-x-4 sm:space-x-12 md:pl-[5rem]  lg:pl-[40rem]   ">
-        <Link href="/home" legacyBehavior>
+        <Link href="/" legacyBehavior>
   <a className="text-base font-roboto  text-white hover:text-[#003bff] ">
     Home
   </a>
