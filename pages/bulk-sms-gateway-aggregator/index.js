@@ -77,7 +77,7 @@ export default function BulkSMSPage() {
     </header>
 
     {/* Why Choose Us Section */}
-    <section className="mb-16 p-4 sm:p-16">
+    <section className="mb-16 p-4 sm:p-16 bg-white">
       <h2 className="text-2xl sm:text-4xl font-roboto text-center mb-10">Why Choose Us?</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300">
@@ -113,7 +113,7 @@ export default function BulkSMSPage() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {products.map((product, index) => (
           <div key={index} className="bg-white text-black rounded-lg shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
-            <h3 className="text-2xl font-bold text-gray-800 mb-4">{product.title}</h3>
+            <p className="text-2xl font-bold text-gray-800 mb-4">{product.title}</p>
             <p className="text-gray-700 mb-4">{product.description}</p>
             <button
               type="submit"
@@ -125,6 +125,192 @@ export default function BulkSMSPage() {
         ))}
       </div>
     </section>
+    <div class="bg-white text-black py-10  ">
+<div className="rounded-xl shadow-xl p-10 bg-gray-100 sm:mx-16">
+  <div class="text-left sm:text-center mb-10 sm:pl-16 ">
+    <h1 class="text-2xl sm:text-4xl font-roboto text-center mb-8">What is a Bulk SMS Gateway Aggregator?</h1>
+  </div>
+
+  <div class="flex sm:pl-16 px-5">
+    <div class=" text-lg leading-relaxed">
+      <p>
+        A Bulk SMS Gateway Aggregator is a platform that allows businesses to send large volumes of SMS messages to their customers through various SMS service providers. Instead of directly engaging with multiple SMS carriers, businesses can use a single gateway to send messages to customers on different networks.
+      </p>
+    </div>
+  </div>
+  </div>
+
+
+  <div class="mt-10 bg-white text-black px-4 py-10">
+  <h2 class="text-2xl sm:text-4xl font-roboto text-center mb-8">Key Features</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:px-16">
+    <div class="flex items-center space-x-4">
+    <div className="bg-white rounded-lg shadow-lg p-10">
+      <i class="fas fa-network-wired text-3xl"></i>
+     
+        <p class="text-xl font-semibold ">Multi-Network Support</p>
+        <p class="text-sm">Sends SMS across various mobile networks.</p>
+      </div>
+    </div>
+
+    <div class="flex items-center space-x-4">
+    <div className="bg-white rounded-lg shadow-lg p-10">
+      <i class="fas fa-check-circle text-3xl"></i>
+      <div>
+        <p class="text-xl font-semibold">High Delivery Rate</p>
+        <p class="text-sm">Ensures high message delivery rates, even during peak hours.</p>
+      </div>
+      </div>
+    </div>
+
+    <div class="flex items-center space-x-4">
+    <div className="bg-white rounded-lg shadow-lg p-10">
+      <i class="fas fa-expand text-3xl"></i>
+      <div>
+        <p class="text-xl font-semibold">Scalability</p>
+        <p class="text-sm">Allows businesses to send messages to a large number of recipients effortlessly.</p>
+      </div>
+      </div>
+    </div>
+
+    <div class="flex items-center space-x-4">
+    <div className="bg-white rounded-lg shadow-lg p-10">
+      <i class="fas fa-plug text-3xl"></i>
+      <div>
+        <p class="text-xl font-semibold">API Integration</p>
+        <p class="text-sm">Provides easy integration with websites, applications, and CRM tools via APIs.</p>
+      </div>
+    </div>
+    </div>
+
+    <div class="flex items-center space-x-4">
+    <div className="bg-white rounded-lg shadow-lg p-10">
+      <i class="fas fa-chart-line text-3xl"></i>
+      <div>
+        <p class="text-xl font-semibold">Real-Time Analytics</p>
+        <p class="text-sm">Offers reporting tools to monitor and analyze the effectiveness of your campaigns.</p>
+      </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="mt-16">
+    <h2 class="text-2xl sm:text-4xl font-roboto text-center mb-8">Why Use a Bulk SMS Gateway Aggregator?</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-5 sm:px-16 sm:pt-10">
+      <div class="flex items-center space-x-4">
+      <div className="bg-white rounded-lg shadow-lg p-10">
+        <i class="fas fa-dollar-sign text-3xl"></i>
+        <div>
+          <p class="text-xl font-semibold">Cost-Effective Communication</p>
+          <p class="text-sm">Streamline your messaging process, reduce integration costs, and save time.</p>
+        </div>
+      </div>
+      </div>
+
+      <div class="flex items-center space-x-4">
+      <div className="bg-white rounded-lg shadow-lg p-10">
+
+        <i class="fas fa-bullhorn text-3xl"></i>
+        <div>
+          <p class="text-xl font-semibold">Enhanced Reach</p>
+          <p class="text-sm">Reach customers across various mobile networks for better engagement.</p>
+        </div>
+        </div>
+      </div>
+
+      <div class="flex items-center space-x-4">
+      <div className="bg-white rounded-lg shadow-lg p-10">
+        <i class="fas fa-shield-alt text-3xl"></i>
+        <div>
+          <p class="text-xl font-semibold">Increased Reliability</p>
+          <p class="text-sm">Ensure message delivery with high reliability, reducing failure rates.</p>
+        </div>
+      </div>
+      </div>
+
+      <div class="flex items-center space-x-4">
+      <div className="bg-white rounded-lg shadow-lg p-10">
+        <i class="fas fa-chart-bar text-3xl"></i>
+        <div>
+          <p class="text-xl font-semibold">Real-Time Tracking and Analytics</p>
+          <p class="text-sm">Track the performance of your campaigns and optimize them with data insights.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+
+  <div class="mt-16">
+    <h2 class="text-2xl sm:text-4xl font-roboto text-center mb-8">Use Cases for Bulk SMS Gateway Aggregator</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-5 sm:px-16 sm:p-10">
+      <div class="flex items-center space-x-4">
+      <div className="bg-white rounded-lg shadow-lg p-10">
+        <i class="fas fa-gift text-3xl"></i>
+        <div>
+          <p class="text-xl font-semibold">Promotional SMS Campaigns</p>
+          <p class="text-sm">Send bulk SMS promotions, discounts, and offers to your customers.</p>
+        </div>
+      </div>
+      </div>
+
+      <div class="flex items-center space-x-4">
+      <div className="bg-white rounded-lg shadow-lg p-10">
+        <i class="fas fa-credit-card text-3xl"></i>
+        <div>
+          <p class="text-xl font-semibold">Transactional SMS</p>
+          <p class="text-sm">Send order confirmations, payment receipts, and account alerts.</p>
+        </div>
+      </div>
+</div>
+      <div class="flex items-center space-x-4">
+      <div className="bg-white rounded-lg shadow-lg p-10">
+        <i class="fas fa-bullhorn text-3xl"></i>
+        <div>
+          <p class="text-xl font-semibold">SMS Marketing</p>
+          <p class="text-sm">Send event reminders, product announcements, or seasonal discounts to engage customers.</p>
+        </div>
+      </div>
+      </div>
+
+      <div class="flex items-center space-x-4">
+      <div className="bg-white rounded-lg shadow-lg p-10">
+        <i class="fas fa-comment-dots text-3xl"></i>
+        <div>
+          <p class="text-xl font-semibold">Customer Feedback and Surveys</p>
+          <p class="text-sm">Send surveys to collect feedback and understand customer preferences.</p>
+        </div>
+      </div>
+      </div>
+
+      <div class="flex items-center space-x-4">
+      <div className="bg-white rounded-lg shadow-lg p-10">
+        <i class="fas fa-calendar-check text-3xl"></i>
+        <div>
+          <p class="text-xl font-semibold">Appointment Reminders</p>
+          <p class="text-sm">Send appointment reminders to reduce no-show rates.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+ 
+  <div class="mt-10 bg-gradient-to-r from-black to-gray-800 text-white text-center py-16 px-4 rounded-lg shadow-lg sm:mx-16">
+  <h2 class="text-xl sm:text-4xl font-semibold mb-6">Why Choose RAT SMS as Your Bulk SMS Gateway Aggregator?</h2>
+  <p class="text-base sm:text-lg mb-6">Get started with RAT SMS to enhance your communication and increase customer engagement with ease.</p>
+  <div class="mt-6">
+    <button class="bg-white text-black px-8 py-4 rounded-full font-semibold shadow-lg hover:bg-gray-200 transition duration-300">
+      Get Started
+    </button>
+  </div>
+</div>
+
+</div>
+
 
    
   

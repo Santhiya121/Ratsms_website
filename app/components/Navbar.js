@@ -121,7 +121,7 @@ export default function Navbar() {
 </div>
 
                   <div className="pt-2 ">
-                  <Link href="/overview">
+                  <Link href="/">
                   <button
       className=" h-16 text-white bg-transparent 
                  flex items-center justify-between  group 
@@ -388,7 +388,7 @@ export default function Navbar() {
 {toggleMenu && <nav className="block md:hidden bg-[rgba(0,0,0,1)] pt-4 pb-6 ">
   <div className="flex flex-col gap-5 text-left mt-4 h-screen pl-20">
   {/* Home Link */}
-  <Link href="/home" legacyBehavior>
+  <Link href="/" legacyBehavior>
     <a className="text-base font-roboto text-white hover:text-[#003bff] transition-all duration-300">
       Home
     </a>
