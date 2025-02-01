@@ -13,7 +13,8 @@ export default function TermsConditions() {
         <meta charset="UTF-8" />
         <meta
           name="description"
-          content="Rat SMS is a bulk SMS provider with free SMS API India. We are Direct TeleCom operator Connectivity. Try our abundant smart SMS with 100% delivery & free DLT registration"
+          content="Before using RAT SMS bulk SMS services, read our Terms and Conditions. Understand our policies to ensure secure, seamless, and compliant messaging solutions.
+"
         />
         <meta
           name="keyword"
@@ -30,7 +31,8 @@ export default function TermsConditions() {
         <meta name="theme-color" content="#655C97" />
         <meta name="msapplication-navbutton-color" content="#655C97" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
-        <title>RAT SMS | Terms and Conditions</title>
+        <title>RAT SMS - Terms & Conditions
+        </title>
       </Head>
       <div
               style={{

@@ -18,7 +18,8 @@ export default function Contact() {
         <meta charset="UTF-8" />
         <meta
           name="description"
-          content="Rat SMS is a bulk SMS provider with free SMS API India. We are Direct TeleCom operator Connectivity. Try our abundant smart SMS with 100% delivery & free DLT registration"
+          content="Contact RAT SMS today for immediate responses to your SMS inquiries. We provide efficient  , reliable solutions to meet all your business messaging needs.
+"
         />
         <meta
           name="keyword"
@@ -41,7 +42,8 @@ export default function Contact() {
         <meta name="msapplication-navbutton-color" content="#655C97" />
         {/* iOS Safari */}
         <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
-        <title>RAT SMS | Contact</title>
+        <title>Contact RAT SMS – Cheap Bulk SMS Product & SMS Services
+        </title>
       </Head>
       <div
         style={{

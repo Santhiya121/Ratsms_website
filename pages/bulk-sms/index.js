@@ -57,7 +57,8 @@ export default function BulkSMS() {
         <meta charset="UTF-8" />
         <meta
           name="description"
-          content="Rat SMS is a bulk SMS provider with free SMS API India. We are Direct TeleCom operator Connectivity. Try our abundant smart SMS with 100% delivery & free DLT registration"
+          content="Get affordable bulk SMS service solutions with RAT SMS. We offer secure and reliable SMS gateway services for businesses, ensuring fast and efficient messaging.
+"
         />
         <meta
           name="keywords"
@@ -74,7 +75,8 @@ export default function BulkSMS() {
         <meta name="theme-color" content="#655C97" />
         <meta name="msapplication-navbutton-color" content="#655C97" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
-        <title>RAT SMS | Bulk SMS</title>
+        <title>RAT SMS | Best Bulk SMS Service Provider & Gateway Solutions
+        </title>
       </Head>
       <div
         style={{

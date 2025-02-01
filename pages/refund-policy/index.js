@@ -13,7 +13,8 @@ export default function Refund() {
         <meta charset="UTF-8" />
         <meta
           name="description"
-          content="Rat SMS is a bulk SMS provider with free SMS API India. We are Direct TeleCom operator Connectivity. Try our abundant smart SMS with 100% delivery & free DLT registration."
+          content="Unlock the full potential of RAT SMS! By accessing our services, you agree to our Refund Policy. Review our terms for a smooth, transparent, and reliable experience.
+."
         />
         <meta
           name="keyword"
@@ -33,7 +34,8 @@ export default function Refund() {
         <meta name="theme-color" content="#655C97" />
         <meta name="msapplication-navbutton-color" content="#655C97" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
-        <title>RAT SMS | Return, Cancellation, and Refund Policy</title>
+        <title>RAT SMS |Refund Policy & Messaging Guidelines
+        </title>
       </Head>
       <div
               style={{

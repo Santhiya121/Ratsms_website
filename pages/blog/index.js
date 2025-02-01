@@ -15,7 +15,8 @@ const BlogPage = () => {
       <Head>
         <meta charset="UTF-8" />
         <meta name="keywords" content="RATSMS" />
-        <meta name="description" content="RATSMS" />
+        <meta name="description" content="RAT SMS offers reliable bulk SMS services for businesses. Send promotions, OTPs, and alerts with affordable pricing, seamless delivery, and high engagement rates
+" />
         <meta property="og:site_name" content="RATSMS" />
         <meta property="og:url" content="https://ratsms.com/" />
         <meta property="og:type" content="website" />
@@ -26,7 +27,8 @@ const BlogPage = () => {
         <meta name="theme-color" content="#655C97" />
         <meta name="msapplication-navbutton-color" content="#655C97" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
-        <title>RAT SMS | Blog</title>
+        <title>RAT SMS - About US 
+        </title>
       </Head>
       <div
         style={{

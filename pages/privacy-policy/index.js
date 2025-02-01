@@ -12,7 +12,8 @@ export default function PrivacyPolicy() {
         <meta charset="UTF-8" />
         <meta
           name="description"
-          content="Rat SMS is a bulk SMS provider with free SMS API India. We are Direct TeleCom operator Connectivity. Try our abundant smart SMS with 100% delivery & free DLT registration."
+          content="Rat SMS is a bulk SMS provider with free SMS API India. We are Direct TeleCom operator Connectivity. Try our abundant smart SMS with 100% delivery & free DLT registration.
+."
         />
         <meta
           name="keyword"

@@ -56,22 +56,7 @@ export default function Home() {
   }, []);
 
 
-  // const togglePlayPause = () => {
-  //   if (isPlaying) {
-  //     player.pauseVideo();
-  //   } else {
-  //     player.playVideo();
-  //   }
-  // };
-  // const toggleMute = () => {
-  //   if (isMuted) {
-  //     player.unMute();
-  //     setIsMuted(false);
-  //   } else {
-  //     player.mute();
-  //     setIsMuted(true);
-  //   }
-  // };
+
 
   return (
     <div>
@@ -118,17 +103,19 @@ export default function Home() {
           </div>
 
 
-          <div className="flex justify-end items-center  relative ">
-            <div className="text-white ">
+          <div className="flex justify-end items-center  relative  ">
+            <div className="text-white hidden md:block ">
               <SupportForm />
             </div>
           </div>
          
-          <div className="z-10 ">
+          <div className="z-10 hidden md:block  ">
             <SpeedTest />
           </div>
         </div>
-
+        <div className="block md:hidden bg-white p-6">
+          <SupportForm/>
+        </div>
 
         {/* Left-Center Positioned SupportForm */}
 

@@ -31,7 +31,7 @@ export default function Phone() {
         <a href="tel:+917506712345"> 
          
             <Image
-            src="/images/call.png" 
+            src="/images/call_icon.png" 
             alt="Your Image"
             width={320} 
             height={320}

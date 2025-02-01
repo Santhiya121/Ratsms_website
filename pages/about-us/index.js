@@ -16,8 +16,9 @@ const AboutUsPage = () => {
     <>
      <Head>
         <meta charset="UTF-8" />
-        <meta name="keywords" content="RATSMS" />
-        <meta name="description" content="RATSMS" />
+        <meta name="keywords" content="bulk sms plans,bulk sms reviews,bulk sms services,bulk sms,promotional sms ,transactional sms" />
+        <meta name="description" content="RAT SMS offers top bulk SMS services for businesses. Get reliable SMS marketing,OTP and promotional SMS at competitive pricing.
+" />
         <meta property="og:site_name" content="RATSMS" />
         <meta property="og:url" content="https://ratsms.com/" />
         <meta property="og:type" content="website" />
@@ -39,7 +40,8 @@ const AboutUsPage = () => {
         {/* iOS Safari */}
         <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
         
-        <title>RAT SMS | About Us</title>
+        <title>Bulk SMS Price List & Plans for Businesses - RAT SMS
+        </title>
       </Head>
       {/* Navbar with black background */}
       <div

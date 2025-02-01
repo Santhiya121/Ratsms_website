@@ -15,7 +15,8 @@ export default function SmartSmsBulkSMS() {
         <meta charset="UTF-8" />
         <meta
           name="description"
-          content="Rat SMS is a bulk SMS provider with free SMS API India. We are Direct TeleCom operator Connectivity. Try our abundant smart SMS with 100% delivery & free DLT registration"
+          content="SmartSMS lets you send bulk SMS with attachments seamlessly. Enhance your messaging campaigns by including media files, images, and pdf and more with ease.
+"
         />
         <meta
           name="keyword"
@@ -32,7 +33,8 @@ export default function SmartSmsBulkSMS() {
         <meta name="theme-color" content="#655C97" />
         <meta name="msapplication-navbutton-color" content="#655C97" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
-        <title>RAT SMS | SMART SMS</title>
+        <title>SmartSMS – Send Bulk SMS with Attachments Effortlessly
+        </title>
       </Head>
       <div
               style={{

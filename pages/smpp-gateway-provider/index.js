@@ -15,7 +15,8 @@ export default function Smpp() {
         <meta charset="UTF-8" />
         <meta
           name="description"
-          content="Rat SMS is a bulk SMS provider with free SMS API India. We are Direct TeleCom operator Connectivity. Try our abundant smart SMS with 100% delivery & free DLT registration."
+          content="RAT SMS offers the best SMPP SMS gateway for businesses. Enjoy fast, reliable, and cost-effective SMS delivery with easy API integration for seamless communication.
+."
         />
         <meta
           name="keyword"
@@ -32,7 +33,8 @@ export default function Smpp() {
         <meta name="theme-color" content="#655C97" />
         <meta name="msapplication-navbutton-color" content="#655C97" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
-        <title>RAT SMS | SMPP Gateway Provider</title>
+        <title>RAT SMS: Fast SMPP Gateway for Bulk Business SMS
+        </title>
       </Head>
       <div
                     style={{

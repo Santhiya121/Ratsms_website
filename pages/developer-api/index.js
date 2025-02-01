@@ -15,7 +15,8 @@ export default function DeveloperApi() {
         <meta charset="UTF-8" />
         <meta
           name="description"
-          content="Rat SMS is a bulk SMS provider with free SMS API India. We are Direct TeleCom operator Connectivity. Try our abundant smart SMS with 100% delivery & free DLT registration"
+          content="Easily integrate secure and scalable bulk SMS APIs. Send OTPs, alerts, and transactional messages effortlessly using our simple, ready-to-use sample codes.
+"
         />
         <meta
           name="keyword"
@@ -35,7 +36,8 @@ export default function DeveloperApi() {
         <meta name="theme-color" content="#655C97" />
         <meta name="msapplication-navbutton-color" content="#655C97" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
-        <title>RAT SMS | Developer API</title>
+        <title>RAT SMS | Robust APIs Free Forever ,Pay Only for SMS Credits
+        </title>
       </Head>
       <div
               style={{
