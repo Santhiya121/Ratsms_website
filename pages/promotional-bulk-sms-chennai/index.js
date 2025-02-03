@@ -26,7 +26,7 @@ export default function PromotionalBulkSMS() {
   return (
     <>
      <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="Boost your business with our cost-effective promotional bulk SMS services in Chennai. Contact us today for tailored marketing solutions!"

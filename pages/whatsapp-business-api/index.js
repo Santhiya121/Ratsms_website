@@ -16,7 +16,7 @@ export default function WhatsappBusinessApi() {
   return (
     <>
      <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="Discover the power of the WhatsApp Business API with RatSMS. Streamline your customer communications using the robust API of WhatsApp. Explore our competitive WhatsApp API pricing and enhance your business outreach today!"

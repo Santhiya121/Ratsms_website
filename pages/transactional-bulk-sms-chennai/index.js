@@ -11,7 +11,7 @@ export default function TransactionalBulkSMS() {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="Get fast, secure transactional bulk SMS services in Chennai with RatSMS. Send OTPs, alerts & updates instantly. Reliable API integration for seamless messaging!"

@@ -54,7 +54,7 @@ export default function BulkSMS() {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="Get affordable bulk SMS service solutions with RAT SMS. We offer secure and reliable SMS gateway services for businesses, ensuring fast and efficient messaging.

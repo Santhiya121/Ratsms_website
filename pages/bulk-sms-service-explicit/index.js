@@ -13,7 +13,7 @@ export default function ServiceExplicit() {
   return (
     <>
     <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="RatSMS is one of the best Service Explicit SMS Providers in India. Service explicit messages refer to the SMSes that are generated to you as the customer after consent is received by you to send these messages."

@@ -15,7 +15,7 @@ const AboutUsPage = () => {
   return (
     <>
      <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="keywords" content="bulk sms plans,bulk sms reviews,bulk sms services,bulk sms,promotional sms ,transactional sms" />
         <meta name="description" content="RAT SMS offers top bulk SMS services for businesses. Get reliable SMS marketing,OTP and promotional SMS at competitive pricing.
 " />

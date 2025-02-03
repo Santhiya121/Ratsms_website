@@ -12,7 +12,7 @@ export default function DeveloperApi() {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="Easily integrate secure and scalable bulk SMS APIs. Send OTPs, alerts, and transactional messages effortlessly using our simple, ready-to-use sample codes.

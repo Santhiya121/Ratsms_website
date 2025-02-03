@@ -13,7 +13,7 @@ const BlogPage = () => {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="keywords" content="RATSMS" />
         <meta name="description" content="RAT SMS offers reliable bulk SMS services for businesses. Send promotions, OTPs, and alerts with affordable pricing, seamless delivery, and high engagement rates
 " />

@@ -10,7 +10,7 @@ export default function Refund() {
   return (
     <>
      <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="Unlock the full potential of RAT SMS! By accessing our services, you agree to our Refund Policy. Review our terms for a smooth, transparent, and reliable experience.

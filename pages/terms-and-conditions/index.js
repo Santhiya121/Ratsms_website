@@ -10,7 +10,7 @@ export default function TermsConditions() {
   return (
     <>
     <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="Before using RAT SMS bulk SMS services, read our Terms and Conditions. Understand our policies to ensure secure, seamless, and compliant messaging solutions.

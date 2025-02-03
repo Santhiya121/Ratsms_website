@@ -60,14 +60,15 @@ export default function ServiceHome() {
 
           {/* Card 3: Smart Retry Mechanism */}
           <div className="p-4 bg-white text-center ">
-            <Image
+          <Image
               src="/images/sms3.jpg"
               alt="Unmatched Bulk SMS Delivery"
-              layout="responsive"
-              width={800} // Replace with the actual width of your image
-              height={300} // Replace with the actual height of your image
-              className="mx-auto mb-4 object-cover"
+              width={800} // Replace with your image's actual width
+              height={300} // Replace with your image's actual height
+              className="mx-auto mb-4 object-cover" // Added for styling
+              priority // Optional: add if the image is critical for the initial page load
             />
+
             <h3 className="text-lg sm:text-lg md:text-lg font-roboto text-gray-800 text-left">
               SMART RETRY MECHANISM
             </h3>

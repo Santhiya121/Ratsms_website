@@ -15,7 +15,7 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="Contact RAT SMS today for immediate responses to your SMS inquiries. We provide efficient  , reliable solutions to meet all your business messaging needs.

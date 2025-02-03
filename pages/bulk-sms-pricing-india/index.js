@@ -12,7 +12,7 @@ const PricingPage = () => {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="RAT SMS offers low-cost bulk SMS packs for your business needs. Check out our pricing plans for sending promotional and transactional messages.

@@ -38,7 +38,7 @@
 //     <>
 //       {/* Dynamic Meta Tags */}
 //       <Head>
-//         <meta charset="UTF-8" />
+//         <meta charSet="UTF-8" />
 //         <meta name="description" content={description} />
 //         <meta name="keywords" content={keywords} />
 //         <link rel="canonical" href={canonicalUrl} />

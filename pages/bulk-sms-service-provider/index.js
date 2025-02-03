@@ -17,7 +17,7 @@ export default function BulkSmsServiceProvider() {
     <>
       {/* Meta Tags */}
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="Rat SMS offers top Bulk SMS Chennai services with instant delivery, real-time tracking, and effective customer engagement to boost your marketing efforts. Try now!"

@@ -12,7 +12,7 @@ export default function OtpBulkSMS() {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="Ensure secure and instant OTP delivery with RatSMS OTP bulk SMS services in Chennai. Reliable, fast, and API-integrated solutions for seamless authentication."

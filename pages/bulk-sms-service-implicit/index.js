@@ -12,7 +12,7 @@ export default function ServiceImplicit() {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="RatSMS is the No.1 Service Implicit SMS Provider in India. Service Implicit SMS are delivered to all recipients, irrespective of their consent preference."

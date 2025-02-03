@@ -56,6 +56,7 @@ export default function Service() {
               height={300} // Replace 300 with your image's actual height
               className="w-full h-48 md:h-80 mx-auto mb-4 object-cover"
             />
+
             <h3 className="text-lg sm:text-lg md:text-lg font-roboto text-gray-800 text-left">
               UNICODE SMS
             </h3>

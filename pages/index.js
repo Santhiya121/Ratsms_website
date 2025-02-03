@@ -61,7 +61,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="India's No.1 Bulk SMS provider, RatSMS offers Promotional, Transactional, OTP SMS, Service Implicit, Service Explicit & WhatsApp API with reliable delivery."
@@ -103,7 +103,7 @@ export default function Home() {
           </div>
 
 
-          <div className="flex justify-end items-center  relative  ">
+          <div className="flex justify-end items-center  relative sm:pt-10  ">
             <div className="text-white hidden md:block ">
               <SupportForm />
             </div>

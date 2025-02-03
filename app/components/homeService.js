@@ -14,44 +14,44 @@ export default function HomeService() {
           </h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 lg:gap-10 sm:gap-4 p-8 lg:p-6 sm:p-4 pl-16 sm:pl-16">
-        
+
           <div className="bg-white h-auto">
-  <Image
-    src="/images/homeService.jpg"
-    alt="Promotional Bulk SMS"
-    layout="responsive"
-    width={800} // Use the actual width of the image
-    height={300} // Use the actual height of the image
-    className="object-cover"
-  />
-  <div className="pt-4">
-    <h3 className="text-lg md:text-lg font-roboto text-gray-800 text-left">
-      PROMOTIONAL BULK SMS
-    </h3>
-    <p className="text-base md:font-light text-black mt-2 text-left">
-      Promotional SMS is a powerful marketing tool, driving effective
-      advertising for services and products through direct text messages. This
-      approach yields outstanding results, boosting campaign success and
-      enhancing website rankings.
-    </p>
-    <div className="pt-6">
-      <Link href="/promotional-bulk-sms-chennai">
-      <BlackButton />
-      </Link>
-    </div>
-  </div>
-</div>
+            <Image
+              src="/images/homeService.jpg"
+              alt="Promotional Bulk SMS"
+              width={800}  // Actual width of the image
+              height={300} // Actual height of the image
+              className="object-cover w-full" // Ensure it takes full width of the container
+              sizes="(max-width: 768px) 100vw, 50vw" // Adjusts image size based on screen width
+            />
+            <div className="pt-4">
+              <h3 className="text-lg md:text-lg font-roboto text-gray-800 text-left">
+                PROMOTIONAL BULK SMS
+              </h3>
+              <p className="text-base md:font-light text-black mt-2 text-left">
+                Promotional SMS is a powerful marketing tool, driving effective
+                advertising for services and products through direct text messages. This
+                approach yields outstanding results, boosting campaign success and
+                enhancing website rankings.
+              </p>
+              <div className="pt-6">
+                <Link href="/promotional-bulk-sms-chennai">
+                  <BlackButton />
+                </Link>
+              </div>
+            </div>
+          </div>
 
 
           {/* Card 2 */}
           <div className="bg-white h-auto ">
             <Image
               src="/images/homeService.jpg"
-              alt="Transactional Bulk SMS"
-              layout="responsive"
-              width={800} // Use the actual width of the image
-              height={300} // Use the actual height of the image
-              className="object-cover"
+              alt="Promotional Bulk SMS"
+              width={800}  // Actual width of the image
+              height={300} // Actual height of the image
+              className="object-cover w-full" // Ensure it takes full width of the container
+              sizes="(max-width: 768px) 100vw, 50vw" // Adjusts image size based on screen width
             />
             {/* className="w-full h-36 sm:h-48 md:h-56 object-cover " */}
             <div className="pt-4">
@@ -65,8 +65,8 @@ export default function HomeService() {
                 makes it a valuable tool for effective communication.
               </p>
               <div className="pt-6">
-              <Link href="/transactional-bulk-sms-chennai">
-                <BlackButton />
+                <Link href="/transactional-bulk-sms-chennai">
+                  <BlackButton />
                 </Link>
               </div>
             </div>
@@ -76,11 +76,11 @@ export default function HomeService() {
           <div className="bg-white h-auto ">
             <Image
               src="/images/homeService.jpg"
-              alt="Transactional Bulk SMS"
-              layout="responsive"
-              width={800} // Use the actual width of the image
-              height={300} // Use the actual height of the image
-              className="object-cover"
+              alt="Promotional Bulk SMS"
+              width={800}  // Actual width of the image
+              height={300} // Actual height of the image
+              className="object-cover w-full" // Ensure it takes full width of the container
+              sizes="(max-width: 768px) 100vw, 50vw" // Adjusts image size based on screen width
             />
             <div className="pt-4">
               <h3 className="text-lg md:text-lg font-roboto text-gray-800 text-left">
@@ -93,8 +93,8 @@ export default function HomeService() {
                 SMS Gateway providers in India.
               </p>
               <div className="pt-6 ">
-              <Link href="/otp-bulk-sms-chennai">
-                <BlackButton />
+                <Link href="/otp-bulk-sms-chennai">
+                  <BlackButton />
                 </Link>
               </div>
             </div>

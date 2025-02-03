@@ -12,7 +12,7 @@ export default function Smpp() {
   return (
     <>
      <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="RAT SMS offers the best SMPP SMS gateway for businesses. Enjoy fast, reliable, and cost-effective SMS delivery with easy API integration for seamless communication.

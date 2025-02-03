@@ -35,7 +35,7 @@ export default function Careers() {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="Explore exciting career opportunities at RAT SMS! We're hiring an SEO & SMM Analyst, 

@@ -20,7 +20,7 @@ export default function BulkSMSPage() {
     return (
         <>
               <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="RAT SMS offers businesses a reliable bulk SMS aggregator service. Fast, secure delivery, easy integration, and cost-effective solutions for high-volume messaging.

@@ -38,7 +38,6 @@ export default function Footer() {
                   
                     <ul className="sm:space-y-4 space-y-2 sm:text-center text-left pl-20 lg:text-left sm:pl-12 font-roboto">
                     <h2 className="text-lg font-roboto font-semibold mb-4 sm:text-center  text-left lg:text-left">Others</h2>
-                        <li><Link href="/" className="hover:text-[#003bff] font-light">Home</Link></li>
                         <li><Link href="/bulk-sms-pricing-india" className="hover:text-[#003bff] font-light">Pricing</Link></li>
                         <li><Link href="/bulk-sms-gateway-aggregator" className="hover:text-[#003bff] font-light">Bulk SMS Gateway Aggregator</Link></li>
                         <li><Link href="/smpp-gateway-provider" className="hover:text-[#003bff] font-light">SMPP Gateway Provider</Link></li>

@@ -36,8 +36,8 @@ export default function SupportForm() {
 
   return (
     <div
-      className="p-8  sm:mr-14 lg:mt-14 w-[20rem] max-w-[30rem] sm:w-[30rem] md:max-w-xl lg:min-w-2xl sm:h-full
-                 xl:max-w-2xl bg-black bg-opacity-50 mr-5 border-2"
+      className="p-8  sm:mr-14 lg:mt-14 w-[20rem] max-w-[30rem] sm:w-[25rem] md:max-w-xl lg:min-w-2xl sm:h-full
+                 xl:max-w-2xl  mr-5 border-2 border-pink-600 rounded-xl bg-black"
     >
       <h1 className="text-2xl md:text-3xl font-bold mb-6 text-center text-white">
         Try Us
@@ -53,8 +53,8 @@ export default function SupportForm() {
             name="name"
             value={formData.name}
             onChange={handleChange}
-            className="w-full p-3 bg-white text-gray-700 border border-gray-300 
-                       focus:ring-2 focus:ring-blue-500 outline-none"
+            className="w-full p-3 bg-white text-gray-700   
+                       focus:ring-2 focus:ring-blue-500 outline-none rounded-2xl border-2 border-pink-600 "
             placeholder="Enter your Name"
           />
           {errors.name && (
@@ -75,8 +75,8 @@ export default function SupportForm() {
             name="whatsappNumber"
             value={formData.whatsappNumber}
             onChange={handleChange}
-            className="w-full p-3 bg-white text-gray-700 border border-gray-300 
-                       focus:ring-2 focus:ring-blue-500 outline-none"
+            className="w-full p-3 bg-white text-gray-700 
+                       focus:ring-2 focus:ring-blue-500 outline-none rounded-2xl border-2 border-pink-600"
             placeholder="Enter your WhatsApp Number"
           />
           {errors.whatsappNumber && (
@@ -93,8 +93,8 @@ export default function SupportForm() {
             name="industry"
             value={formData.industry}
             onChange={handleChange}
-            className="w-full p-3 bg-white text-gray-700 border border-gray-300 
-                       focus:ring-2 focus:ring-blue-500 outline-none"
+            className="w-full p-3 bg-white text-gray-700 border-2 border-pink-600
+                       focus:ring-2 focus:ring-blue-500 outline-none rounded-2xl"
           >
             <option value="">Select an industry</option>
             <option value="Industry">Industry</option>
@@ -178,8 +178,8 @@ export default function SupportForm() {
             name="service"
             value={formData.service}
             onChange={handleChange}
-            className="w-full p-3 bg-white text-gray-700 border border-gray-300 
-                       focus:ring-2 focus:ring-blue-500 outline-none"
+            className="w-full p-3 bg-white text-gray-700 border-2 border-pink-600
+                       focus:ring-2 focus:ring-blue-500 outline-none rounded-2xl"
           >
             <option value="">Select a service</option>
             <option value="Promotional SMS">Promotional SMS</option>
@@ -199,19 +199,19 @@ export default function SupportForm() {
 
         <div className="flex items-center justify-center">
           <button
-            className="relative w-full max-w-[15rem] h-12 p-4 border border-[#003bff] 
+            className="relative w-60 max-w-[10rem] h-12  border border-[#003bff] 
                        text-[#003bff] bg-white flex items-center justify-between group 
                        transition-all duration-300 ease-in-out hover:bg-[#003bff] hover:text-white "
           >
-            <span className="text-lg font-roboto text-center p-12 group-hover:text-white transition-all duration-300 ease-in-out">
+            <span className="text-lg font-roboto text-center p-10 group-hover:text-white transition-all duration-300 ease-in-out">
               Submit
             </span>
-            <span
-              className="text-[#003bff] font-bold text-2xl transition-transform 
+            {/* <span
+              className="text-[#003bff] font-bold text-xl transition-transform 
                          duration-300 ease-in-out group-hover:text-white group-hover:translate-x-2"
             >
               →
-            </span>
+            </span> */}
           </button>
         </div>
       </form>

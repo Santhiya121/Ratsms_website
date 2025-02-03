@@ -12,7 +12,7 @@ export default function SmartSmsBulkSMS() {
   return (
     <>
       <Head>
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta
           name="description"
           content="SmartSMS lets you send bulk SMS with attachments seamlessly. Enhance your messaging campaigns by including media files, images, and pdf and more with ease.
