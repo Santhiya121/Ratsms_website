@@ -37,7 +37,7 @@ export default function SupportForm() {
   return (
     <div
       className="p-8  sm:mr-14 lg:mt-14 w-[20rem] max-w-[30rem] sm:w-[30rem] md:max-w-xl lg:min-w-2xl sm:h-full
-                 xl:max-w-2xl bg-black bg-opacity-50 mr-5"
+                 xl:max-w-2xl bg-black bg-opacity-50 mr-5 border-2"
     >
       <h1 className="text-2xl md:text-3xl font-bold mb-6 text-center text-white">
         Try Us

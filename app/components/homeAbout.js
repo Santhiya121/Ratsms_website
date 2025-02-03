@@ -44,14 +44,14 @@ export default function HomeAbout() {
           />
         </div> */}
         <div className="w-full sm:w-1/2">
-  <Image
-    src="/images/homeAbout2.gif" // Ensure the path is correct
-    alt="Our Journey"
-    layout="responsive"
-    width={600} // Use the actual width of the image
-    height={400} // Use the actual height of the image
-    className="rounded-lg shadow-lg"
-  />
+        <Image
+  src="/images/homeAbout2.gif" // Ensure the path is correct
+  alt="Our Journey"
+  unoptimized // Disable optimization for this animated image
+  className="rounded-lg shadow-lg"
+  width={600} // Set the width for the image
+  height={400} // Set the height for the image
+/>
 </div>
 
       </div>

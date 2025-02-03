@@ -16,10 +16,11 @@ export default function Service() {
             <Image
               src="/images/sms2.jpg"
               alt="Unmatched Bulk SMS Delivery"
-              width={800} // Replace 800 with your image's actual width
-              height={300} // Replace 300 with your image's actual height
+              width={800} // Replace with your image's actual width
+              height={300} // Replace with your image's actual height
               className="w-full h-48 md:h-80 mx-auto mb-4 object-cover"
             />
+
             <h3 className="text-lg sm:text-lg md:text-lg font-roboto text-gray-800 text-left">
               PREMIUM ROUTE
             </h3>
@@ -33,10 +34,11 @@ export default function Service() {
             <Image
               src="/images/sms2.jpg"
               alt="Unmatched Bulk SMS Delivery"
-              width={800} // Replace 800 with your image's actual width
-              height={300} // Replace 300 with your image's actual height
+              width={800} // Replace with your image's actual width
+              height={300} // Replace with your image's actual height
               className="w-full h-48 md:h-80 mx-auto mb-4 object-cover"
             />
+
             <h3 className="text-lg sm:text-lg md:text-lg font-roboto text-gray-800 text-left">
               SCHEDULE SMS
             </h3>

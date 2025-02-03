@@ -23,11 +23,12 @@ export default function ServiceHome() {
             <Image
               src="/images/sms4.jpg"
               alt="Unmatched Bulk SMS Delivery"
-              layout="responsive"
               width={800} // Replace with the actual width of your image
               height={300} // Replace with the actual height of your image
-              className="mx-auto mb-4 object-cover"
+              className="mx-auto mb-4 object-cover" // Styling for centering and margins
+              style={{ objectFit: 'cover' }} // Ensures the image covers the container
             />
+
             <h3 className="text-lg sm:text-lg md:text-lg font-roboto text-gray-800 text-left">
               UNMATCHED BULK SMS DELIVERY
             </h3>
@@ -42,11 +43,12 @@ export default function ServiceHome() {
             <Image
               src="/images/sms2.jpg"
               alt="Unmatched Bulk SMS Delivery"
-              layout="responsive"
-              width={800} // Replace with the actual width of your image
-              height={300} // Replace with the actual height of your image
-              className="mx-auto mb-4 object-cover"
+              width={800} // Replace with your image's actual width
+              height={300} // Replace with your image's actual height
+              className="mx-auto mb-4 object-cover" // Added for styling
+              priority // Optional: add if the image is critical for the initial page load
             />
+
             <h3 className="text-lg sm:text-lg md:text-lg font-roboto text-gray-800 text-left">
               MULTIPLE OPERATOR
             </h3>
@@ -79,7 +81,7 @@ export default function ServiceHome() {
         {/* Button Section */}
         <div className="flex items-center justify-center pt-10 md:mb-20">
           <Link href="/bulk-sms">
-          <Button />
+            <Button />
           </Link>
         </div>
       </div>

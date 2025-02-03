@@ -38,8 +38,10 @@ export default function Careers() {
         <meta charset="UTF-8" />
         <meta
           name="description"
-          content="Rat SMS is a bulk SMS provider with free SMS API India. We are Direct TeleCom operator Connectivity. Try our abundant smart SMS with 100% delivery & free DLT registration"
-        />
+          content="Explore exciting career opportunities at RAT SMS! We're hiring an SEO & SMM Analyst, 
+          SMPP Engineer, and Telesales Executive. Apply now and be part of our growing team!"
+
+          />
         <meta
           name="keyword"
           content="bulk sms aggregator company, aggregator connectivity, bulk sms aggregator, sms aggregator, dlt registration, bulk sms service, sms gateway, bulk sms provider, otp sms, sms api, bulk sms services in india, bulk sms gateway, bulk sms india, bulk sms api, bulk sms provider in india, free sms api india, bulk sms reseller"
@@ -55,7 +57,9 @@ export default function Careers() {
         <meta name="theme-color" content="#655C97" />
         <meta name="msapplication-navbutton-color" content="#655C97" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
-        <title>RAT SMS | Career</title>
+        <title>AWF Technologies Careers - Join Our Team for Exciting Roles
+
+        </title>
       </Head>
 
       <div

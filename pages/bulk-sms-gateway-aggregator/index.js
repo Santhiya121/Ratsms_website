@@ -50,7 +50,8 @@ export default function BulkSMSPage() {
         <meta name="msapplication-navbutton-color" content="#655C97" />
         {/* iOS Safari */}
         <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
-        <title>Best SMS aggregator connectivity for efficient SMS delivery - RAT SMS
+        <title>RAT SMS: Best SMS Aggregator for Fast Delivery
+
         </title>
       </Head>
            <div

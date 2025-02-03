@@ -61,9 +61,9 @@ export default function Contact() {
 
       <div className="bg-white py-8">
         <div className=" mx-auto px-8 lg:px-20">
-          <h2 className="text-3xl sm:text-5xl font-roboto text-left text-black p-2 relative z-10">
+          <h1 className="text-3xl sm:text-5xl font-roboto text-left text-black p-2 relative z-10">
             Contact
-          </h2>
+          </h1>
           <p className="text-left text-sm sm:text-base text-gray-600 mb-5 p-2">
             <span className="text-sm sm:text-base font-roboto text-black">We’re here to help.</span> Reach out anytime, and let’s start a conversation!
           </p>
@@ -157,7 +157,7 @@ export default function Contact() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-20">
   {/* Location Section */}
   <div className="bg-white p-6 shadow-xl rounded-lg text-gray-700 hover:shadow-2xl transition-shadow duration-300">
-    <h3 className="text-2xl font-roboto text-gray-800 mb-4 font-semibold">Location</h3>
+    <h1 className="text-2xl font-roboto text-gray-800 mb-4 font-semibold">Location</h1>
     <p className="text-base mb-2">AWF TECHNOLOGIES PRIVATE LIMITED</p>
     <p className="text-base mb-2">Astalakshmi Apartment, Flat No – 17, 2nd Floor, Mahatma Gandhi Rd, Adyar, Chennai, Tamil Nadu 600041</p>
     <p className="text-base mb-2">Landmark – Opp. To Hotel Adyar Anandha Bhavan</p>
@@ -178,7 +178,7 @@ export default function Contact() {
 
   {/* Contact Section */}
   <div className="bg-white p-6 shadow-2xl rounded-lg text-gray-700 hover:shadow-3xl transition-shadow duration-300">
-    <h3 className="text-2xl font-roboto text-gray-800 mb-4 font-semibold">Contact</h3>
+    <h2 className="text-2xl font-roboto text-gray-800 mb-4 font-semibold">Contact</h2>
 
     <div className="mb-4">
       <p className="font-semibold text-lg text-gray-800">Booking Via Call</p>

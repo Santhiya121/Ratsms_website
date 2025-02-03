@@ -40,7 +40,9 @@ const AboutUsPage = () => {
         {/* iOS Safari */}
         <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
         
-        <title>Bulk SMS Price List & Plans for Businesses - RAT SMS
+        <title>About RAT SMS - Bulk SMS Plans & Services
+
+
         </title>
       </Head>
       {/* Navbar with black background */}

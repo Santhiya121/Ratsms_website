@@ -13,7 +13,8 @@ export default function Indust() {
   return (
     <>
     <Head>
-        <title>Boost B2B Engagement with Bulk SMS for Real Estate & Retail | RAT SMS</title>
+        <title>Bulk SMS for Real Estate & Retail: Enhance B2B Reach|RAT SMS
+        </title>
         <meta 
           name="description" 
           content="RAT SMS offers top-tier Bulk SMS Service for B2B businesses in Real Estate, Logistics, E-commerce, Retail, Travel, & Hospitality. Fast, secure, and reliable messaging solutions." 
@@ -74,9 +75,9 @@ export default function Indust() {
               className="w-full sm:w-96 md:w-96 h-auto object-cover"
             />
             <div className="w-full sm:w-[70rem] space-y-4">
-              <h2 className="text-3xl sm:text-5xl md:text-4xl font-roboto text-black">
+              <h1 className="text-3xl sm:text-5xl md:text-4xl font-roboto text-black">
                 Real Estate
-              </h2>
+              </h1>
               <p className="text-base sm:text-lg font-roboto text-gray-600">
               The real estate industry is undergoing a significant transformation, driven by 
               the integration of digital tools and innovative technologies. These advancements are 
@@ -112,9 +113,9 @@ export default function Indust() {
               className="w-full sm:w-96 md:w-96 h-auto object-cover"
             />
             <div className="w-full sm:w-[70rem] space-y-4">
-              <h2 className="text-3xl sm:text-5xl md:text-4xl font-roboto text-black">
+              <h1 className="text-3xl sm:text-5xl md:text-4xl font-roboto text-black">
                 E-commerce
-              </h2>
+              </h1>
               <p className="text-base sm:text-lg font-roboto text-gray-600">
               The e-commerce industry has dramatically transformed the shopping
                experience, making it easier, more convenient, and accessible for
@@ -149,9 +150,9 @@ export default function Indust() {
               className="w-full sm:w-96 md:w-96 h-auto object-cover"
             />
             <div className="w-full sm:w-[70rem] space-y-4">
-              <h2 className="text-xl sm:text-5xl md:text-4xl font-roboto text-black">
+              <h1 className="text-xl sm:text-5xl md:text-4xl font-roboto text-black">
                 Retail
-              </h2>
+              </h1>
               <p className="text-base sm:text-lg  font-roboto text-gray-600">
               The retail industry is rapidly evolving, driven by the rise of omnichannel 
               experiences and the integration of advanced analytics. These innovations are
@@ -182,9 +183,9 @@ export default function Indust() {
               className="w-full sm:w-96 md:w-96 h-auto object-cover"
             />
             <div className="w-full sm:w-[70rem] space-y-4">
-              <h2 className="text-xl sm:text-5xl md:text-4xl font-roboto text-black">
+              <h1 className="text-xl sm:text-5xl md:text-4xl font-roboto text-black">
                 Education
-              </h2>
+              </h1>
               <p className="text-base sm:text-lg font-roboto text-gray-600">
                
 The education industry is undergoing a rapid transformation, with digital learning platforms playing a pivotal role in shaping the future of education. From personalized learning experiences to enhancing accessibility, these platforms are making education more dynamic and inclusive. As this transformation continues, Bulk SMS is becoming an invaluable tool to improve communication, streamline administrative processes, and support student engagement.One of the most significant advancements in the education sector is the rise of digital learning platforms that enable personalized education. These platforms allow educators to tailor content based on individual student needs, learning styles, and progress. By using Bulk SMS, institutions can provide students with instant updates on course schedules, assignments, grades, and other important notifications, ensuring that learners stay on track and are always informed. SMS offers a direct and efficient way to communicate with students, especially those who may not have easy access to email or internet-based platforms.      </p>
@@ -206,9 +207,9 @@ The education industry is undergoing a rapid transformation, with digital learni
               className="w-full sm:w-96 md:w-96 h-auto object-cover"
             />
             <div className="w-full sm:w-[70rem] space-y-4">
-              <h2 className="text-3xl sm:text-5xl md:text-4xl font-roboto text-black">
+              <h1 className="text-3xl sm:text-5xl md:text-4xl font-roboto text-black">
                 Logistics
-              </h2>
+              </h1>
               <p className="text-base sm:text-lg font-roboto text-gray-600">
               The logistics industry is undergoing a transformative shift, driven by advancements in automation and real-time tracking. These technologies are reshaping the way businesses manage their supply chains, improving efficiency, accuracy, and customer satisfaction. As the industry continues to evolve, Bulk SMS is emerging as a key tool for enhancing communication, tracking, and operational efficiency.With the rise of real-time tracking, logistics companies can provide instant updates to customers regarding the status of their shipments. By leveraging Bulk SMS, businesses can send notifications directly to customers’ phones, ensuring they are always informed about the location and estimated delivery time of their packages. This instant communication fosters transparency and trust, as customers are empowered with accurate information at every stage of their journey.
               Automation plays a central role in optimizing logistics operations, allowing businesses to streamline processes and reduce human error.   </p>
@@ -230,9 +231,9 @@ The education industry is undergoing a rapid transformation, with digital learni
               className="w-full sm:w-96 md:w-96 h-auto object-cover"
             />
             <div className="w-full sm:w-[70rem] space-y-4">
-              <h2 className="text-xl sm:text-5xl md:text-4xl font-roboto text-black">
+              <h1 className="text-xl sm:text-5xl md:text-4xl font-roboto text-black">
                 Travel and Hospitality
-              </h2>
+              </h1>
               <p className="text-base sm:text-lg font-roboto text-gray-600">
               In today’s fast-paced world, the travel and hospitality industry is increasingly
                turning to technology to provide exceptional customer experiences,

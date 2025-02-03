@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function Phone() {
   return (
     <>
-   <div className="fixed bottom-0 right-0 mb-6 mr-6">
+   <div className="fixed bottom-0 right-0 mb-6 mr-6 block md:hidden">
   <a href="tel:+917506712345">
     <Image
       src="/images/call_icon.png"

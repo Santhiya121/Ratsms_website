@@ -31,7 +31,8 @@ export default function TermsConditions() {
         <meta name="theme-color" content="#655C97" />
         <meta name="msapplication-navbutton-color" content="#655C97" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
-        <title>RAT SMS - Terms & Conditions
+        <title>RAT SMS - Terms & Conditions for Bulk SMS Services
+
         </title>
       </Head>
       <div

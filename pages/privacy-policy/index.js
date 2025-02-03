@@ -30,7 +30,8 @@ export default function PrivacyPolicy() {
         <meta name="theme-color" content="#655C97" />
         <meta name="msapplication-navbutton-color" content="#655C97" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
-        <title>RAT SMS | Privacy Policy</title>
+        <title>Privacy Policy | Secure Your Data with RAT SMS
+        </title>
       </Head>
     <div
             style={{
