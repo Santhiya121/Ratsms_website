@@ -14,7 +14,7 @@
             title: "SMPP Engineer - Join AWF Technologies to Lead SMS Protocols",
             description: "SMPP Engineer is responsible for maintaining and optimizing SMS services, troubleshooting issues, and ensuring reliable delivery of SMS traffic.",
             metadata: {
-              description: "We are looking for an SMPP Engineer at AWF Technologies Pvt Ltd.Manage SMPP protocols, improve SMS delivery, and drive growth. Apply today to be part of our dynamic team!",
+              description:"Exciting opportunity at AWF Technologies! We're seeking an SMPP Engineer to optimize SMS systems and drive innovation. Be part of a forward-thinking team!",
               keywords: "SMPP Engineer, SMS services, troubleshooting, delivery optimization, SMPP Gateway",
               title: "SMPP Engineer - Job Opening | RAT SMS",
               ogImage: "https://yourwebsite.com/images/smpp-engineer.png",
@@ -38,7 +38,7 @@
             title: "SEO & SMM Analyst - Join AWF Technologies for Digital Success",
             description: "Explore exciting career opportunities at RAT SMS! We're hiring an SEO & SMM Analyst, SMPP Engineer, and Telesales Executive. Apply now and be part of our growing team!.",
             metadata: {
-              description: "SEO & SEM Analyst is responsible for optimizing website performance using search engine marketing and search engine optimization strategies.",
+              description: "Looking for a dynamic SEO & SEM Analyst! Help AWF Technologies boost online visibility, optimize digital strategies, and drive impactful growth. Apply today!.",
               keywords: "SEO, SEM, Analyst, search engine optimization, search engine marketing, website optimization",
               title: "SEO & SEM Analyst - Job Opening | RAT SMS",
               ogImage: "https://yourwebsite.com/images/seo-sem-analyst.png",

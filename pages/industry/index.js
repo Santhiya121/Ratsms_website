@@ -17,7 +17,7 @@ export default function Indust() {
         </title>
         <meta 
           name="description" 
-          content="RAT SMS offers top-tier Bulk SMS Service for B2B businesses in Real Estate, Logistics, E-commerce, Retail, Travel, & Hospitality. Fast, secure, and reliable messaging solutions." 
+          content="RatSMS empowers industries like Real Estate, E-commerce, Travel, and more with tailored Bulk SMS solutions. Experience secure and effective messaging services." 
         />
         <meta 
           name="keywords" 
