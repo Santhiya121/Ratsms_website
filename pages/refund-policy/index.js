@@ -145,7 +145,7 @@ export default function Refund() {
       <p className="text-gray-700 text-base pb-4">
         If you have any questions about refunds or cancellations, feel free to reach out to our team for assistance.
       </p>
-      <Link href="/cantact">
+      <Link href="/contact">
       <button className="bg-black text-white font-bold py-3 px-6 rounded-lg hover:bg-gray-800 transition-all duration-300">
         Contact Us
       </button>

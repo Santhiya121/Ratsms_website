@@ -266,7 +266,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.6,
     },
     {
-        url: "https://ratsms.com/careers/join-us",
+        url: "https://ratsms.com/careers",
+        lastModified: new Date(),
+        changeFrequency: "daily",
+        priority: 0.6,
+    },
+    {
+        url: "https://ratsms.com/careers/join-us/1",
+        lastModified: new Date(),
+        changeFrequency: "daily",
+        priority: 0.6,
+    },
+    {
+        url: "https://ratsms.com/careers/join-us/2",
+        lastModified: new Date(),
+        changeFrequency: "daily",
+        priority: 0.6,
+    },
+    {
+        url: "https://ratsms.com/careers/join-us/3",
         lastModified: new Date(),
         changeFrequency: "daily",
         priority: 0.6,
