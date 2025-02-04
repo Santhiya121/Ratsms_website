@@ -242,7 +242,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.6,
     },
     {
-        url: "https://ratsms.com/bulk-sms-service-provider-in-thiruvananthapuram",
+        url: "https://ratsms.com/bulk-sms-service-provider-in-thivandrum",
         lastModified: new Date(),
         changeFrequency: "daily",
         priority: 0.6,

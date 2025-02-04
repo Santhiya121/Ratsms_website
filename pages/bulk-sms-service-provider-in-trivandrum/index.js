@@ -26,7 +26,7 @@ export default function BulkSmsServiceProvider() {
     name="keywords"
     content="transactional sms trivandrum, promotional sms trivandrum, otp sms trivandrum, service implicit trivandrum, service explicit trivandrum, bulk sms trivandrum, bulk sms service trivandrum, bulk sms service provider trivandrum"
   />
-  <link rel="canonical" href="https://www.ratsms.com/bulk-sms-service-provider-in-thiruvananthapuram" />
+  <link rel="canonical" href="https://www.ratsms.com/bulk-sms-service-provider-in-thivandrum" />
   <meta property="og:site_name" content="RATSMS" />
   <meta property="og:url" content="https://ratsms.com/" />
   <meta property="og:type" content="website" />

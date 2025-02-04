@@ -1,7 +1,7 @@
 User-agent: *
 Disallow: /api/
 Disallow: /admin/
-Disallow: /careers/join-us/[id]
+
 Allow: /careers/join-us/
 
 Allow: /
