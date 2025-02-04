@@ -46,7 +46,7 @@ export default function Careers() {
           name="keyword"
           content="bulk sms aggregator company, aggregator connectivity, bulk sms aggregator, sms aggregator, dlt registration, bulk sms service, sms gateway, bulk sms provider, otp sms, sms api, bulk sms services in india, bulk sms gateway, bulk sms india, bulk sms api, bulk sms provider in india, free sms api india, bulk sms reseller"
         />
-        <link rel="canonical" href="https://ratsms.com/careers/join-us" />
+        <link rel="canonical" href="https://ratsms.com/careers" />
         <meta property="og:site_name" content="RATSMS" />
         <meta property="og:url" content="https://ratsms.com/" />
         <meta property="og:type" content="website" />
