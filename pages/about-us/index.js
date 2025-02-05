@@ -17,7 +17,7 @@ const AboutUsPage = () => {
      <Head>
         <meta charSet="UTF-8" />
         <meta name="keywords" content="bulk sms plans,bulk sms reviews,bulk sms services,bulk sms,promotional sms ,transactional sms" />
-        <meta name="description" content="RatSMS by AWF Technologies delivers cutting-edge SMS solutions, ensuring reliable, seamless communication and exceptional customer satisfaction for businesses of all sizes"/>
+        <meta name="description" content="RatSMS by AWF Technologies offers reliable, innovative SMS solutions for seamless communication and top customer satisfaction across all businesses"/>
         <meta property="og:site_name" content="RATSMS" />
         <meta property="og:url" content="https://ratsms.com/" />
         <meta property="og:type" content="website" />
