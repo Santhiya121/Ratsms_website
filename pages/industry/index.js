@@ -76,10 +76,10 @@ export default function Indust() {
       />
       <div className="w-full sm:w-[70rem] space-y-6">
         <h1 className="text-3xl sm:text-5xl md:text-4xl font-roboto text-black font-semibold">
-          Real Estate
+          Real Estate 
         </h1>
         <p className="text-base sm:text-lg font-roboto text-gray-600 leading-relaxed tracking-wide">
-          The real estate industry is undergoing a significant transformation, driven by
+          The real estate industry is undergoing a significant transformation, driven by 
           the integration of digital tools and innovative technologies. These advancements are
           reshaping how property is bought, sold, and managed, offering new opportunities for both
           real estate professionals and customers. From enhanced customer experiences to smarter

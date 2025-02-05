@@ -103,7 +103,7 @@ export default function BulkSMS() {
         <div className="absolute inset-0 bg-black opacity-60"></div>
         <div className="absolute inset-0 flex items-center justify-center">
           <h1 className="text-4xl md:text-6xl font-light text-white text-center px-4">
-            Bulk SMS Service
+            Bulk SMS Service in City
           </h1>
         </div>
       </div>
