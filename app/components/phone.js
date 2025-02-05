@@ -8,11 +8,11 @@ export default function Phone() {
    <div className="fixed bottom-0 right-0 mb-6 mr-6 block md:hidden z-50">
   <a href="tel:+917506712345">
     <Image
-      src="/images/call_icon.png"
+      src="/images/green.png"
       alt="Call Icon"
       width={320}
       height={320}
-      className="w-10 h-10 text-teal-600 rounded-full shadow-md transform hover:scale-110 transition-all duration-200"
+      className="w-12 h-12  transform hover:scale-110 transition-all duration-200"
     />
   </a>
 </div>
