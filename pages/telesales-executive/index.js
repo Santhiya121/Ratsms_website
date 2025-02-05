@@ -61,9 +61,9 @@ const SMPPEngineerForm = () => {
     name="keyword"
     content="Telesales Executive, sales, lead generation, client management, sales targets"
   />
-  <link rel="canonical" href="https://ratsms.com/jobs/2" />
+  <link rel="canonical" href="https://ratsms.com/telesales-executive" />
   <meta property="og:site_name" content="RATSMS" />
-  <meta property="og:url" content="https://ratsms.com/jobs/2" />
+  <meta property="og:url" content="https://ratsms.com/telesales-executive" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Telesales Executive - Job Opening | RAT SMS" />
   <meta name="og:description" content="Join as a Telesales Executive and help generate leads and meet sales targets." />

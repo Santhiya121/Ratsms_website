@@ -61,9 +61,9 @@ const SMPPEngineerForm = () => {
     name="keywords"
     content="SMPP Engineer, SMS services, troubleshooting, delivery optimization, SMPP Gateway"
   />
-  <link rel="canonical" href="https://ratsms.com/jobs/1" />
+  <link rel="canonical" href="https://ratsms.com/smpp-engineer"/>
   <meta property="og:site_name" content="RATSMS" />
-  <meta property="og:url" content="https://ratsms.com/" />
+  <meta property="og:url" content="https://ratsms.com/smpp-engineer"/>
   <meta property="og:type" content="website" />
   <meta property="og:title" content="SMPP Engineer - Job Opening | RAT SMS" />
   <meta property="og:description" content="Join as an SMPP Engineer and ensure the reliable delivery of SMS traffic with high-quality service." />

@@ -61,9 +61,9 @@ const SMPPEngineerForm = () => {
     name="keywords"
     content="SEO, SEM, Analyst, search engine optimization, search engine marketing, website optimization"
   />
-  <link rel="canonical" href="https://ratsms.com/jobs/3" />
+  <link rel="canonical" href="https://ratsms.com/seo-analyst" />
   <meta property="og:site_name" content="RATSMS" />
-  <meta property="og:url" content="https://ratsms.com/jobs/3" />
+  <meta property="og:url" content="https://ratsms.com/seo-analyst" />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="SEO & SEM Analyst - Job Opening | RAT SMS" />
   <meta property="og:description" content="Join as an SEO & SEM Analyst to improve website performance through SEO & SEM strategies." />
