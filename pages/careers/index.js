@@ -16,19 +16,19 @@ export default function Careers() {
       icon: <FontAwesomeIcon icon={faSatelliteDish} className="text-black text-3xl" />,
       title: "SMPP Engineer",
       description: "SMPP Engineer is responsible for maintaining and optimizing SMS services, troubleshooting issues, and ensuring reliable delivery of SMS traffic.",
-      id: 1, // Unique ID for the job
+      link: "/smpp-engineer",
     },
     {
       icon: <FontAwesomeIcon icon={faPhone} className="text-black text-3xl" />,
       title: "Telesales Executive",
       description: "Telesales Executive is responsible for generating sales and leads over the phone, managing client accounts, and meeting sales targets.",
-      id: 2,
+      link: "/telesales-executive",
     },
     {
       icon: <FontAwesomeIcon icon={faSearch} className="text-black text-3xl" />,
       title: "SEO & SEM Analyst",
       description: "SEO & SEM Analyst is responsible for optimizing website performance using search engine marketing and search engine optimization strategies.",
-      id: 3,
+      link: "/seo-analyst", // Fix link here
     },
   ];
 
@@ -40,8 +40,7 @@ export default function Careers() {
           name="description"
           content="Explore exciting career opportunities at RAT SMS! We're hiring an SEO & SMM Analyst, 
           SMPP Engineer, and Telesales Executive. Apply now and be part of our growing team!"
-
-          />
+        />
         <meta
           name="keyword"
           content="bulk sms aggregator company, aggregator connectivity, bulk sms aggregator, sms aggregator, dlt registration, bulk sms service, sms gateway, bulk sms provider, otp sms, sms api, bulk sms services in india, bulk sms gateway, bulk sms india, bulk sms api, bulk sms provider in india, free sms api india, bulk sms reseller"
@@ -57,9 +56,7 @@ export default function Careers() {
         <meta name="theme-color" content="#655C97" />
         <meta name="msapplication-navbutton-color" content="#655C97" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
-        <title>AWF Technologies Careers - Join Our Team for Exciting Roles
-
-        </title>
+        <title>AWF Technologies Careers - Join Our Team for Exciting Roles</title>
       </Head>
 
       <div
@@ -73,9 +70,9 @@ export default function Careers() {
       >
         <Navbar />
       </div>
-      
+
       <WhatsAppIcon />
-      <Phone/>
+      <Phone />
 
       <div className="bg-white">
         <div className="bg-white text-black flex flex-col md:flex-row items-center justify-between px-8 md:px-16 py-10">
@@ -119,9 +116,9 @@ export default function Careers() {
           {/* Job Roles Section */}
           <div className="pt-10 pl-8 pb-16">
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
-              {jobData.map((job) => (
+              {jobData.map((job, index) => (
                 <div
-                  key={job.id}
+                  key={index} // Use index as a unique key
                   className="bg-white pb-6 w-full sm:w-96 mx-auto text-center space-y-6 rounded-xl shadow-lg border border-gray-200 hover:shadow-2xl transition-all duration-300"
                 >
                   {/* Icon and Title Section */}
@@ -132,10 +129,10 @@ export default function Careers() {
                     </h4>
                     <p className="text-gray-700 mt-4">{job.description}</p>
                   </div>
-                
+
                   {/* Button Section */}
                   <div className="px-6">
-                    <Link href={`/careers/join-us/${job.id}`}>
+                    <Link href={job.link}> {/* Correct usage of Next.js Link */}
                       <button
                         className="relative max-w-xs sm:max-w-sm md:max-w-sm lg:max-w-lg xl:max-w-xl h-16 p-2 border border-black text-white bg-white 
                           flex items-center justify-between group 

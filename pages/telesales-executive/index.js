@@ -1,168 +1,153 @@
-
-        
-        'use client';
-       
-        import { useState } from 'react';
-        import Navbar from '../../../app/components/Navbar';
-        import Footer from '../../../app/components/footer';
-        import "../../../app/globals.css"
-        import WhatsAppIcon from '../../../app/components/whatsappIcon';
-        import Head from 'next/head';
-
-        const jobData = {
-          1: {
-            title: "SMPP Engineer - Join AWF Technologies to Lead SMS Protocols",
-            description: "SMPP Engineer is responsible for maintaining and optimizing SMS services, troubleshooting issues, and ensuring reliable delivery of SMS traffic.",
-            metadata: {
-              description:"Exciting opportunity at AWF Technologies! We're seeking an SMPP Engineer to optimize SMS systems and drive innovation. Be part of a forward-thinking team!",
-              keywords: "SMPP Engineer, SMS services, troubleshooting, delivery optimization, SMPP Gateway",
-              title: "SMPP Engineer - Job Opening | RAT SMS",
-              ogImage: "https://yourwebsite.com/images/smpp-engineer.png",
-              canonicalUrl: "https://ratsms.com/jobs/1",
-              ogDescription: "Join as an SMPP Engineer and ensure the reliable delivery of SMS traffic with high-quality service.",
-            }
-          },
-          2: {
-            title: "Telesales Executive - Join AWF Techonologies for Customer Support ",
-            description: "Telesales Executive is responsible for generating sales and leads over the phone, managing client accounts, and meeting sales targets.",
-            metadata: {
-              description: "We are looking for Telesales Executives at Awf Technologies Pvt Ltd. Help us grow sales, deliver excellent customer support, and enhance our Bulk SMS services. Join us now!",
-              keywords: "Telesales Executive, sales, lead generation, client management, sales targets",
-              title: "Telesales Executive - Job Opening | RAT SMS",
-              ogImage: "https://yourwebsite.com/images/telesales-executive.png",
-              canonicalUrl: "https://ratsms.com/jobs/2",
-              ogDescription: "Join as a Telesales Executive and help generate leads and meet sales targets.",
-            }
-          },
-          3: {
-            title: "SEO & SMM Analyst - Join AWF Technologies for Digital Success",
-            description: "Explore exciting career opportunities at RAT SMS! We're hiring an SEO & SMM Analyst, SMPP Engineer, and Telesales Executive. Apply now and be part of our growing team!.",
-            metadata: {
-              description: "Looking for a dynamic SEO & SEM Analyst! Help AWF Technologies boost online visibility, optimize digital strategies, and drive impactful growth. Apply today!.",
-              keywords: "SEO, SEM, Analyst, search engine optimization, search engine marketing, website optimization",
-              title: "SEO & SEM Analyst - Job Opening | RAT SMS",
-              ogImage: "https://yourwebsite.com/images/seo-sem-analyst.png",
-              canonicalUrl: "https://ratsms.com/jobs/3",
-              ogDescription: "Join as an SEO & SEM Analyst to improve website performance through SEO & SEM strategies.",
-            }
-          },
-        };
-        
+import React, { useState } from "react";
+import "../../app/globals.css"
+import Navbar from '../../app/components/Navbar';
+import Footer from '../../app/components/footer';
+import WhatsAppIcon from '../../app/components/whatsappIcon';
+import { FaBriefcase, FaTasks, FaTools, } from "react-icons/fa";
+import Head from "next/head";
 
 
-        export async function getStaticPaths() {
-          const paths = Object.keys(jobData).map((id) => ({
-            params: { id },
-          }));
-        
-          return {
-            paths,
-            fallback: false, // Show 404 for non-existent paths
-          };
-        }
+const SMPPEngineerForm = () => {
+
+    const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        mobile: '',
+        education: '',
+        workExperience: '',
+        company: '',
+        noticePeriod: '',
+        currentCTC: '',
+        expectedSalary: '',
+        resume: null,
+        mobileOTP: '',
+        emailOTP: '',
+        message: '',
+      });
+
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setFormData({
+          ...formData,
+          [name]: value,
+        });
+      };
+
+      // Handle file upload for the resume
+      const handleFileChange = (e) => {
+        setFormData({
+          ...formData,
+          resume: e.target.files[0],
+        });
+      };
+
+      // Handle form submission (you can add your form submission logic here)
+      const handleSubmit = (e) => {
+        e.preventDefault();
+        // Here you would send the form data to your server or API
+        alert('Form submitted');
+      };
 
 
-        export async function getStaticProps({ params }) {
-          const { id } = params; // The dynamic `id` parameter from the URL
-          const job = jobData[id]; // Fetch the job data based on the ID
-        
-          // If job data doesn't exist for the given ID, return a not found message
-          if (!job) {
-            return {
-              notFound: true, // Trigger a 404 page
-            };
-          }
-        
-          return {
-            props: {
-              job, // Pass job data as props to the component
-            },
-          };
-        }
+  return (
+    <>
+    <Head>
+  <meta charSet="UTF-8" />
+  <meta
+    name="description"
+    content="We are looking for Telesales Executives at Awf Technologies Pvt Ltd. Help us grow sales, deliver excellent customer support, and enhance our Bulk SMS services. Join us now!"
+  />
+  <meta
+    name="keyword"
+    content="Telesales Executive, sales, lead generation, client management, sales targets"
+  />
+  <link rel="canonical" href="https://ratsms.com/jobs/2" />
+  <meta property="og:site_name" content="RATSMS" />
+  <meta property="og:url" content="https://ratsms.com/jobs/2" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Telesales Executive - Job Opening | RAT SMS" />
+  <meta name="og:description" content="Join as a Telesales Executive and help generate leads and meet sales targets." />
+  <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#655C97" />
+  <meta name="msapplication-navbutton-color" content="#655C97" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
+  <title>Telesales Executive - Job Opening | RAT SMS</title>
+</Head>
 
-        export default function JobDetails({ job }) {
-         
-          const [formData, setFormData] = useState({
-            name: '',
-            email: '',
-            mobile: '',
-            education: '',
-            workExperience: '',
-            company: '',
-            noticePeriod: '',
-            currentCTC: '',
-            expectedSalary: '',
-            resume: null,
-            mobileOTP: '',
-            emailOTP: '',
-            message: '',
-          });
+     <div
+                  style={{
+                    backgroundColor: "black",
+                    zIndex: 100,
+                    position: "relative",
+                    height: "4rem", // Fixed height for testing
+                    width: "100%",
+                  }}
+                >
+                  <Navbar />
+                </div>
 
-          // If no job data is found for the id, show an error
-          if (!job) {
-            return <p>Job not found.</p>;
-          }
+    <WhatsAppIcon/>
+    <div className=" min-h-screen bg-white p-6">
+    <div className="bg-white p-8 mx-auto">
+  <div className="text-center mb-8">
+    {/* Updated title and description */}
+    <h1 className="text-5xl font-serif font-bold text-gray-800">Telesales Executive</h1>
+    <p className="text-gray-600 mt-4 text-xl leading-relaxed">
+      Join our dynamic team as a Telesales Executive! Help generate leads, build relationships with clients, and drive sales through excellent communication.
+    </p>
+  </div>
 
-          // State for the form inputs
+  {/* Job Description */}
+  <div className="mt-8 p-6 bg-white border border-gray-300 rounded-lg shadow-sm">
+    <h2 className="text-3xl font-serif font-semibold text-gray-800 mb-4">
+      <FaBriefcase className="mr-2 inline-block text-gray-600" /> Job Description
+    </h2>
+    <p className="text-gray-700 text-lg leading-relaxed">
+      As a Telesales Executive, your role will involve generating sales and leads over the phone. You will manage client relationships, meet sales targets, and contribute to business growth. Your responsibilities include providing product information, handling customer inquiries, and closing deals.
+    </p>
+  </div>
+
+  {/* Responsibilities */}
+  <div className="mt-8 p-6 bg-white border border-gray-300 rounded-lg shadow-sm">
+    <h3 className="text-2xl font-serif font-semibold text-gray-800 mb-4">
+      <FaTasks className="mr-2 inline-block text-gray-600" /> Key Responsibilities
+    </h3>
+    <ul className="list-inside text-gray-600 text-lg">
+      <li>Generate and qualify sales leads through outbound calls.</li>
+      <li>Understand customer needs and provide product solutions.</li>
+      <li>Meet and exceed monthly and quarterly sales targets.</li>
+      <li>Handle customer inquiries and resolve issues promptly.</li>
+      <li>Maintain accurate records of sales and customer interactions.</li>
+      <li>Collaborate with team members to improve sales strategies.</li>
+      <li>Participate in training and professional development sessions.</li>
+    </ul>
+  </div>
+
+  {/* Skills & Requirements */}
+  <div className="mt-8 p-6 bg-white border border-gray-300 rounded-lg shadow-sm">
+    <h3 className="text-2xl font-serif font-semibold text-gray-800 mb-4">
+      <FaTools className="mr-2 inline-block text-gray-600" /> Skills & Requirements
+    </h3>
+    <ul className="list-inside text-gray-600 text-lg">
+      <li>Excellent communication and interpersonal skills.</li>
+      <li>Proven sales experience in a telesales or similar role.</li>
+      <li>Strong ability to persuade and negotiate with customers.</li>
+      <li>Ability to handle objections and close sales effectively.</li>
+      <li>Familiarity with CRM software and sales tracking tools.</li>
+      <li>Ability to work under pressure and meet targets.</li>
+      <li>High school diploma or equivalent; a degree is a plus.</li>
+    </ul>
+  </div>
+
+  {/* Call to Action */}
+</div>
 
 
-          // Handle form field changes
-          const handleChange = (e) => {
-            const { name, value } = e.target;
-            setFormData({
-              ...formData,
-              [name]: value,
-            });
-          };
 
-          // Handle file upload for the resume
-          const handleFileChange = (e) => {
-            setFormData({
-              ...formData,
-              resume: e.target.files[0],
-            });
-          };
 
-          // Handle form submission (you can add your form submission logic here)
-          const handleSubmit = (e) => {
-            e.preventDefault();
-            // Here you would send the form data to your server or API
-            alert('Form submitted');
-          };
 
-          return (
-            <>
-        <Head>
-        <title>{job.metadata.title}</title>
-        <meta name="description" content={job.metadata.description} />
-        <meta name="keywords" content={job.metadata.keywords} />
-        <meta property="og:title" content={job.metadata.title} />
-        <meta property="og:description" content={job.metadata.ogDescription} />
-        <meta property="og:image" content={job.metadata.ogImage} />
-        <meta property="og:url" content={job.metadata.canonicalUrl} />
-        <meta name="twitter:title" content={job.metadata.title} />
-        <meta name="twitter:description" content={job.metadata.ogDescription} />
-        <meta name="twitter:image" content={job.metadata.ogImage} />
-      </Head>
-              <div
-                      style={{
-                        backgroundColor: "black",
-                        zIndex: 100,
-                        position: "relative",
-                        height: "4rem", // Fixed height for testing
-                        width: "100%",
-                      }}
-                    >
-                      <Navbar />
-                    </div>
-                    <WhatsAppIcon/>
-              <div className='pl-16 pt-10  bg-white'>
-                <h1 className="text-xl sm:text-5xl font-roboto  text-black">{job.title}</h1>
-                <p className="mt-4 text-xl  text-gray-600">{job.description}</p>
-              </div>
-
-              {/* Job Application Form */}
-              <div className='w-full'>
+      <div className='w-full'>
                 <div className="p-5 bg-white">
                   <form onSubmit={handleSubmit} className="mt-10 w-full h-full mb-16 px-8 py-6 bg-white max-w-4xl mx-auto">
                     <div className='flex flex-col md:flex-row gap-5'>
@@ -367,8 +352,10 @@
                   </form>
                 </div>
               </div>
-              <Footer />
-            </>
-          );
-        }
+    </div>
+    <Footer/>
+    </>
+  );
+};
 
+export default SMPPEngineerForm;
