@@ -1,11 +1,12 @@
 import Link from 'next/link';  // Make sure to import Link from Next.js
 import Footer from '../../app/components/footer';
 import Navbar from '../../app/components/Navbar';
-import '../../app/globals.css';
+
 import Head from "next/head";
 import Image from 'next/image';
 import WhatsAppIcon from '../../app/components/whatsappIcon';
 import Phone from '../../app/components/phone';
+import { FaEnvelope, FaBullhorn, FaHandshake, FaLock } from "react-icons/fa";
 
 export default function BulkSMS() {
   // Define the video sources and links for each city
@@ -89,8 +90,23 @@ export default function BulkSMS() {
       >
         <Navbar />
       </div>
-      <WhatsAppIcon/>
-      <Phone/>
+      <WhatsAppIcon />
+      <Phone />
+      <div className="relative h-96">
+        <Image
+          src="/images/city_banner.jpg"  // Replace with your hero image path
+          alt="Career Banner"
+          layout="fill"
+          objectFit="cover"
+          className=" "
+        />
+        <div className="absolute inset-0 bg-black opacity-60"></div>
+        <div className="absolute inset-0 flex items-center justify-center">
+          <h1 className="text-4xl md:text-6xl font-light text-white text-center px-4">
+            Bulk SMS Service
+          </h1>
+        </div>
+      </div>
       <div className="bg-white p-4 sm:p-10 md:p-16 lg:p-20">
         <h1 className="text-left sm:text-center text-black text-xl sm:text-4xl  font-roboto font-light">Bulk SMS</h1>
         <h1 className="text-left sm:text-center text-black text-sm sm:text-base tracking-widest mb-5 font-roboto font-light ">Enjoy abundant SMS service in your cities</h1>
@@ -98,25 +114,178 @@ export default function BulkSMS() {
           {cities.map((city, index) => (
             <Link key={index} href={cityVideos[city].link || '#'}>
               <div className="city-item flex flex-col items-center transition-transform transform hover:scale-105 hover:shadow-lg cursor-pointer relative overflow-hidden">
-                <h2 className="text-sm sm:text-xl font-roboto font-light mb-2 text-black">{city}</h2>
+             
                 <div className="w-64 h-64 bg-gray-300 relative group">
                   <Image
                     src={cityVideos[city].imageSrc}  // Replace `imageSrc` with the path to your image
                     alt="City Image"
-                    layout="fill"  // Ensures the image takes up the full container size
-                    objectFit="cover"  // Ensures the image covers the container area, similar to `object-cover`
-                    className="transition-opacity duration-300 group-hover:opacity-75"
+                    width={100}  // Set explicit width (adjust as needed)
+                    height={100} // Set explicit height (adjust as needed)
+                    style={{ objectFit: "cover" }} // Apply objectFit via style
+                    className="transition-opacity duration-300 group-hover:opacity-75 w-64 h-64 bg-gray-300 relative group "
                   />
+              
 
                   <div className="absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center bg-black bg-opacity-50 text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <span className="text-xl">Explore</span>
                   </div>
                 </div>
+                <h2 className="text-sm sm:text-xl font-roboto font-light mb-2 text-black">{city}</h2>
               </div>
             </Link>
           ))}
         </div>
       </div>
+      <div className="bg-white text-black font-roboto">
+        {/* Header Section */}
+
+
+        {/* Main Content */}
+        <main className="container mx-auto py-16 px-4 lg:px-24">
+          {/* What is Bulk SMS? */}
+          <section className="text-center">
+            <h2 className="sm:text-4xl text-xl font-light text-black mb-6">What is Bulk SMS?</h2>
+            <p className="mt-6 text-base text-gray-600 tracking-widest ">
+              Bulk SMS is the process of sending a large number of SMS messages to a list of recipients simultaneously. This
+              service is perfect for businesses looking to reach a large audience quickly and effectively.
+            </p>
+          </section>
+
+
+          {/* Why Choose RAT SMS? */}
+          <section className="mt-16">
+            <h2 className="sm:text-4xl text-xl font-light text-black text-center mb-8">Why Choose RAT SMS?</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+              <div className="bg-white text-black p-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+                <FaEnvelope className="text-4xl text-black mb-4 mx-auto" />
+                <h3 className="text-xl font-light mb-4">Instant Delivery</h3>
+                <p className="text-base text-gray-600 leading-relaxed">
+                  Get your message delivered instantly across the globe. Real-time communication at your fingertips.
+                </p>
+              </div>
+
+              <div className="bg-white text-black p-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+                <FaBullhorn className="text-4xl text-black mb-4 mx-auto" />
+                <h3 className="text-xl font-light mb-4">Cost-Effective</h3>
+                <p className="text-base text-gray-600 leading-relaxed">
+                  Send thousands of messages at a fraction of the cost. Maximize your marketing budget.
+                </p>
+              </div>
+
+              <div className="bg-white text-black p-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+                <FaHandshake className="text-4xl text-black mb-4 mx-auto" />
+                <h3 className="text-xl font-light mb-4">High Open Rate</h3>
+                <p className="text-base text-gray-600 leading-relaxed">
+                  SMS messages boast an incredibly high open rate, ensuring that your message reaches your audience.
+                </p>
+              </div>
+
+              <div className="bg-white text-black p-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+                <FaLock className="text-4xl text-black mb-4 mx-auto" />
+                <h3 className="text-xl font-light mb-4">Reliable</h3>
+                <p className="text-base text-gray-600 leading-relaxed">
+                  Our gateway ensures secure and reliable delivery, protecting your messages and data.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          {/* Types of Bulk SMS Services */}
+          <section className="mt-16">
+            <h2 className="sm:text-4xl text-xl font-light text-black text-center mb-8">Types of Bulk SMS Services We Offer</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 mt-10">
+              {/* Promotional SMS */}
+              <div className="bg-white text-black p-10 rounded-3xl shadow-2xl hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <Image
+                  src="/images/pro.jpg" // Ensure the path is correct, for example, using the 'public' folder
+                  alt="Promotional SMS"
+                  className="mx-auto h-48 w-48 object-cover rounded-full mb-8 transition-transform transform hover:scale-110"
+                  width={192} // width of the image in pixels
+                  height={192} // height of the image in pixels
+                />
+                <h3 className="text-xl font-light text-black">Promotional SMS</h3>
+                <p className="mt-4 text-base text-gray-600 leading-relaxed">
+                  Reach your audience with time-sensitive offers, discounts, and promotions.
+                </p>
+              </div>
+
+              {/* Transactional SMS */}
+              <div className="bg-white text-black p-10 rounded-3xl shadow-2xl hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <Image
+                  src="/images/tra.jpg" // Ensure the path is correct, for example, using the 'public' folder
+                  alt="Promotional SMS"
+                  className="mx-auto h-48 w-48 object-cover rounded-full mb-8 transition-transform transform hover:scale-110"
+                  width={192} // width of the image in pixels
+                  height={192} // height of the image in pixels
+                />
+                <h3 className="text-xl font-light text-black">Transactional SMS</h3>
+                <p className="mt-4 text-base text-gray-600 leading-relaxed">
+                  Send essential updates like OTPs, order confirmations, and other important transactional messages.
+                </p>
+              </div>
+
+              {/* OTP SMS */}
+              <div className="bg-white text-black p-10 rounded-3xl shadow-2xl hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+                <Image
+                  src="/images/otp.jpg" // Ensure the path is correct, for example, using the 'public' folder
+                  alt="Promotional SMS"
+                  className="mx-auto h-48 w-48 object-cover rounded-full mb-8 transition-transform transform hover:scale-110"
+                  width={192} // width of the image in pixels
+                  height={192} // height of the image in pixels
+                />
+                <h3 className="text-xl font-light text-black">OTP SMS</h3>
+                <p className="mt-4 text-base text-gray-600 leading-relaxed">
+                  Enhance security with One-Time Password (OTP) SMS, ensuring safe login and transactions.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          {/* Why Choose Us? */}
+          <section className="mt-16">
+            <h2 className="sm:text-4xl text-xl font-light text-black text-center mb-8">Why Choose Us?</h2>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 rounded-lg shadow-md p-8">
+              <div className="text-center ">
+                <FaBullhorn className="text-4xl text-black mb-4 mx-auto" />
+                <h3 className="text-xl font-light text-black mb-4">Nationwide Coverage</h3>
+                <p className="text-base text-gray-600 leading-relaxed">We cover all major cities in India, ensuring wide reach.</p>
+              </div>
+
+              <div className="text-center">
+                <FaEnvelope className="text-4xl text-black mb-4 mx-auto" />
+                <h3 className="text-xl font-light text-black mb-4">Easy Integration</h3>
+                <p className="text-base text-gray-600 leading-relaxed">Seamlessly integrate with your existing systems and applications.</p>
+              </div>
+
+              <div className="text-center">
+                <FaHandshake className="text-4xl text-black mb-4 mx-auto" />
+                <h3 className="text-xl font-light text-black mb-4">Advanced Analytics</h3>
+                <p className="text-base text-gray-600 leading-relaxed">Track your campaigns and gain insights through our analytics dashboard.</p>
+              </div>
+            </div>
+          </section>
+
+          {/* Get in Touch */}
+          <section className="mt-16 text-center">
+            <h2 className="sm:text-4xl text-xl font-light text-black mb-6">Get in Touch</h2>
+            <p className="mt-6 text-base text-gray-600 tracking-widest">
+              Ready to elevate your communication? Contact us today to get started with Bulk SMS services.
+            </p>
+            <div className="mt-6">
+              <Link
+                href="/contact"
+                className="bg-black text-white py-4 px-16 rounded-2xl text-xl font-light hover:bg-gray-800 transition-all duration-300"
+              >
+                Contact Us
+              </Link>
+            </div>
+          </section>
+        </main>
+
+        {/* Footer Section */}
+        
+      </div>
+
       <Footer />
     </>
   );

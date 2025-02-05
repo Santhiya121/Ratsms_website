@@ -12,7 +12,7 @@ export default function Footer() {
                         <li><Link href="/" className="text-lg font-semibold mb-4 text-center lg:text-left">Company</Link></li>
                         <li><Link href="/about-us" className="text-white font-light hover:text-[#003bff] text-base">About</Link></li>
                         <li><Link href="/bulk-sms" className="text-white font-light hover:text-[#003bff] text-base">Bulk SMS</Link></li>
-                        <li><Link href="/industry" className="text-white font-light hover:text-[#003bff] text-base">Industries</Link></li>
+                        <li><Link href="/industry" className="text-white font-light hover:text-[#003bff] text-base">Industry</Link></li>
                         <li><Link href="/" className="text-white font-light hover:text-[#003bff] text-base">Product</Link></li>
                         <li><Link href="/careers" className="text-white font-light hover:text-[#003bff] text-base">Careers</Link></li>
                     </ul>
