@@ -14,36 +14,40 @@ import Phone from '../../app/components/phone';
 const AboutUsPage = () => {
   return (
     <>
-     <Head>
-        <meta charSet="UTF-8" />
-        <meta name="keywords" content="bulk sms plans,bulk sms reviews,bulk sms services,bulk sms,promotional sms ,transactional sms" />
-        <meta name="description" content="RatSMS by AWF Technologies offers reliable, innovative SMS solutions for seamless communication and top customer satisfaction across all businesses"/>
-        <meta property="og:site_name" content="RATSMS" />
-        <meta property="og:url" content="https://ratsms.com/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="RAT SMS : Bulk SMS Service Provider" />
-        <meta name="og:image" content="https://ratsms.com/images/assets/ratsms-icon.png" />
-        
-        {/* For IE */}
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        
-        {/* For Responsive Device */}
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
-        {/* For Window Tab Color */}
-        <meta name="theme-color" content="#655C97" />
-        
-        {/* Windows Phone */}
-        <meta name="msapplication-navbutton-color" content="#655C97" />
-        
-        {/* iOS Safari */}
-        <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
-        
-        <title>About RAT SMS - Bulk SMS Plans & Services
+    <Head>
+  <meta charSet="UTF-8" />
+  <meta
+    name="keywords"
+    content="bulk sms plans, bulk sms reviews, bulk sms services, bulk sms, promotional sms, transactional sms"
+  />
+  <meta
+    name="description"
+    content="Reliable and innovative messaging solutions that ensure seamless communication, enhance engagement, and deliver exceptional satisfaction across businesses."
+  />
+  <meta property="og:site_name" content="RATSMS" />
+  <meta property="og:url" content="https://ratsms.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="RAT SMS : Bulk SMS Service Provider" />
+  <meta name="og:image" content="https://ratsms.com/images/assets/ratsms-icon.png" />
+  
+  {/* For IE */}
+  <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+  
+  {/* For Responsive Device */}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  {/* For Window Tab Color */}
+  <meta name="theme-color" content="#655C97" />
+  
+  {/* Windows Phone */}
+  <meta name="msapplication-navbutton-color" content="#655C97" />
+  
+  {/* iOS Safari */}
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  
+  <title>About RAT SMS - Bulk SMS Plans & Services</title>
+</Head>
 
-
-        </title>
-      </Head>
       {/* Navbar with black background */}
       <div
               style={{
