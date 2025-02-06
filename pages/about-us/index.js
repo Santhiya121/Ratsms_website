@@ -22,7 +22,7 @@ const AboutUsPage = () => {
   />
   <meta
     name="description"
-    content="Rat SMS offers affordable, 100% genuine bulk SMS services in India with 24/7 support, ensuring efficient, data-driven marketing solutions for your business."
+    content="Discover Rat SMS, India's leading bulk SMS service provider. Experience seamless communication, reliable message delivery, and innovative solutions tailored to your business needs. Trusted by 37,350+ global clients."
   />
   <meta property="og:site_name" content="RATSMS" />
   <meta property="og:url" content="https://ratsms.com/" />
