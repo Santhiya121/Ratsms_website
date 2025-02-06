@@ -16,20 +16,20 @@ export default function Home() {
   useEffect(() => {
     const onYouTubeIframeAPIReady = () => {
       player.current = new window.YT.Player("video-iframe", {
-        videoId: "ELibyf-BfCM", // Replace with your video ID
+        videoId: "ELibyf-BfCM", 
         events: {
           onReady: onPlayerReady,
         },
         playerVars: {
-          loop: 1, // Loop the video
-          playlist: "ELibyf-BfCM", // Add the video ID in playlist to make the loop work
+          loop: 1, 
+          playlist: "ELibyf-BfCM", 
         },
       });
     };
 
 
     const onPlayerReady = (event) => {
-      event.target.playVideo(); // Autoplay video when ready
+      event.target.playVideo(); 
     };
 
     if (!window.YT) {
@@ -43,7 +43,6 @@ export default function Home() {
       onYouTubeIframeAPIReady();
     }
 
-    // Cleanup: Remove YouTube API script and iframe
     return () => {
       const script = document.querySelector(
         'script[src="https://www.youtube.com/iframe_api"]'
@@ -75,7 +74,7 @@ export default function Home() {
         <meta property="og:url" content="https://ratsms.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="RAT SMS : Bulk SMS Service Provider" />
-        <meta name="og:image" content="https://ratsms.com/images/assets/ratsms-icon.png" />
+        <meta name="og:image" content="/images/logo.png" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#655C97" />
@@ -98,9 +97,9 @@ export default function Home() {
       <div className="relative top-0 w-full min-h-screen">
         <div className="relative w-full h-screen">
           {/* Background YouTube Video */}
-          <div className="absolute top-0 left-0 w-full h-full z-0">
+          {/* <div className="absolute top-0 left-0 w-full h-full z-0">
             <div id="video-iframe" className="object-cover w-full h-full" />
-          </div>
+          </div> */}
 
 
           <div className="flex justify-end items-center  relative sm:pt-10  ">

@@ -37,7 +37,7 @@ export default function BulkSMSPage() {
         <meta property="og:title" content="RAT SMS : Bulk SMS Service Provider" />
         <meta
           name="og:image"
-          content="https://ratsms.com/images/assets/ratsms-icon.png"
+          content="/images/logo.png"
         />
         {/* For IE */}
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />

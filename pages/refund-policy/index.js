@@ -27,7 +27,7 @@ export default function Refund() {
         <meta property="og:title" content="RAT SMS | Return, Cancellation, and Refund Policy" />
         <meta
           name="og:image"
-          content="https://ratsms.com/images/assets/ratsms-icon.png"
+          content="/images/logo.png"
         />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

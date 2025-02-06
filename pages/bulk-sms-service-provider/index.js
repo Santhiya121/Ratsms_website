@@ -17,31 +17,35 @@ export default function BulkSmsServiceProvider() {
     <>
       {/* Meta Tags */}
       <Head>
-        <meta charSet="UTF-8" />
-        <meta
-          name="description"
-          content="Rat SMS offers top Bulk SMS Chennai services with instant delivery, real-time tracking, and effective customer engagement to boost your marketing efforts. Try now!"
-        />
-        <meta
-          name="keyword"
-          content="bulk sms service provider, bulk sms service, bulk sms provider, sms services provider, transactional sms chennai, promotional sms chennai, otp sms chennai, service implicit chennai, service explicit chennai, service implicit sms chennai, service explicit sms chennai, smart sms chennai, bulk sms chennai, bulk sms service chennai, bulk sms service provider chennai, bulk sms provider chennai, bulk sms gateway chennai, best bulk sms service provider india"
-        />
-        <link rel="canonical" href="https://www.ratsms.com/bulk-sms-service-provider" />
-        <meta property="og:site_name" content="RATSMS" />
-        <meta property="og:url" content="https://ratsms.com/" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="RAT SMS : Bulk SMS Service Provider" />
-        <meta
-          name="og:image"
-          content="https://ratsms.com/images/assets/ratsms-icon.png"
-        />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="theme-color" content="#655C97" />
-        <meta name="msapplication-navbutton-color" content="#655C97" />
-        <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
-        <title>RAT SMS | BEST BULK SMS SERVICE PROVIDER IN CHENNAI</title>
-      </Head>
+  <meta charSet="UTF-8" />
+  <meta
+    name="description"
+    content="Rat SMS offers top Bulk SMS Chennai services with instant delivery, real-time tracking, and effective customer engagement to boost your marketing efforts. Try now!"
+  />
+  <meta
+    name="keywords"
+    content="bulk sms service provider, bulk sms service, bulk sms provider, sms services provider, transactional sms chennai, promotional sms chennai, otp sms chennai, service implicit chennai, service explicit chennai, service implicit sms chennai, service explicit sms chennai, smart sms chennai, bulk sms chennai, bulk sms service chennai, bulk sms service provider chennai, bulk sms provider chennai, bulk sms gateway chennai, best bulk sms service provider india"
+  />
+  <link rel="canonical" href="https://www.ratsms.com/bulk-sms-service-provider" />
+  <meta property="og:site_name" content="RATSMS" />
+  <meta property="og:url" content="https://ratsms.com/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="RAT SMS: Bulk SMS Service Provider" />
+  <meta
+    property="og:image"
+    content="/images/logo.png"
+  />
+  <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#655C97" />
+  <meta name="msapplication-navbutton-color" content="#655C97" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
+  <title>RAT SMS | BEST BULK SMS SERVICE PROVIDER IN CHENNAI</title>
+
+
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+</Head>
+
 
       {/* Navbar */}
       <div

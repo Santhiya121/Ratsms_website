@@ -13,7 +13,7 @@ export default function Indust() {
   return (
     <>
     <Head>
-        <title>Bulk SMS for Real Estate & Retail: Enhance B2B Reach|RAT SMS
+        <title>Unlock Seamless Communication with RAT SMS Bulk Messaging|RAT SMS
         </title>
         <meta 
           name="description" 

@@ -24,7 +24,7 @@ export default function PrivacyPolicy() {
         <meta property="og:url" content="https://ratsms.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="RAT SMS : Bulk SMS Service Provider" />
-        <meta name="og:image" content="https://ratsms.com/images/assets/ratsms-icon.png" />
+        <meta name="og:image" content="/images/logo.png" />
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="theme-color" content="#655C97" />

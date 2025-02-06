@@ -12,6 +12,7 @@ const WhatsAppIcon = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="hover:scale-110 transition-transform duration-300 p-1 sm:p-2 "
+        aria-label="Read more about Seminole tax hike"
       >
         <i className="fab fa-linkedin text-xl sm:text-3xl md:text-3xl text-blue-600 hover:text-blue-800" />
       </a>
@@ -22,6 +23,7 @@ const WhatsAppIcon = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="hover:scale-110 transition-transform duration-300 p-1 "
+        aria-label="Read more about Seminole tax hike"
       >
         <i className="fab fa-youtube text-xl sm:text-3xl md:text-3xl text-red-600 hover:text-red-800" />
       </a>
@@ -32,6 +34,7 @@ const WhatsAppIcon = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="hover:scale-110 transition-transform duration-300 p-1 sm:p-2 "
+        aria-label="Read more about Seminole tax hike"
       >
         <i className="fab fa-instagram text-xl sm:text-3xl md:text-3xl text-pink-500 hover:text-pink-700" />
       </a>
@@ -42,6 +45,7 @@ const WhatsAppIcon = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="hover:scale-110 transition-transform duration-300 p-1 sm:p-2 "
+        aria-label="Read more about Seminole tax hike"
       >
         <i className="fab fa-facebook text-xl sm:text-3xl md:text-3xl text-[#1877F2] hover:text-blue-900" />
       </a>
@@ -52,6 +56,7 @@ const WhatsAppIcon = () => {
         target="_blank"
         rel="noopener noreferrer"
         className="hover:scale-110 transition-transform duration-300 p-1 sm:p-2"
+        aria-label="Read more about Seminole tax hike"
       >
         <i className="fab fa-whatsapp text-xl sm:text-4xl md:text-4xl text-[#25D366]   hover:text-green-700" />
       </a>

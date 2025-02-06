@@ -33,7 +33,7 @@ export default function BulkSmsServiceProvider() {
   <meta property="og:title" content="RAT SMS | BEST BULK SMS SERVICE PROVIDER IN JUBILEE-HILLS" />
   <meta
     property="og:image"
-    content="https://ratsms.com/images/assets/ratsms-icon.png"
+    content="/images/logo.png"
   />
   <meta
     property="og:description"
