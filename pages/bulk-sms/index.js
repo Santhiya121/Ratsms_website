@@ -119,8 +119,9 @@ export default function BulkSMS() {
                   <Image
                     src={cityVideos[city].imageSrc}  // Replace `imageSrc` with the path to your image
                     alt="City Image"
-                    width={100}  // Set explicit width (adjust as needed)
-                    height={100} // Set explicit height (adjust as needed)
+                    width={400}  // Set explicit width (adjust as needed)
+                    height={400}
+                    // Set explicit height (adjust as needed)
                     style={{ objectFit: "cover" }} // Apply objectFit via style
                     className="transition-opacity duration-300 group-hover:opacity-75 w-64 h-64 bg-gray-300 relative group "
                   />
