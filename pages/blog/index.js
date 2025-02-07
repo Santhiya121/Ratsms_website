@@ -27,7 +27,7 @@ const BlogPage = () => {
         <meta name="theme-color" content="#655C97" />
         <meta name="msapplication-navbutton-color" content="#655C97" />
         <meta name="apple-mobile-web-app-status-bar-style" content="#655C97" />
-        <title>Boost Your Business Reach with Powerful Bulk SMS Services - RAT SMS
+        <title>Boost Business with Bulk SMS Services - RAT SMS
         </title>
       </Head>
       <div

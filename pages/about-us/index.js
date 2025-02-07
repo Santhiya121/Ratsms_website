@@ -27,6 +27,7 @@ const AboutUsPage = () => {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="About RAT SMS - Leading Bulk SMS Service Provider" />
         <meta name="og:image" content="/images/logo.png" />
+        <link rel="canonical" href="https://ratsms.com/about-us" />
         
         {/* For IE */}
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
