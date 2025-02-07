@@ -8,7 +8,7 @@ import Image from 'next/image'
 export default function ServiceHome() {
   return (
     <>
-      <div className="h-auto sm:h-[80rem] lg:h-[60rem] md:h-[65rem]  bg-white pb-28 px-6 sm:px-16 pt-10  lg:px-24">
+      <div className="h-auto sm:h-[80rem] lg:h-[65rem] md:h-[60rem]  bg-white pb-28 lg:pb-24 px-6 sm:px-16 pt-10  lg:px-24">
         {/* Full height and white background */}
         <div className="md:p-8">
           <h1 className="text-xl sm:text-2xl md:text-4xl  font-roboto text-black text-left pt-4">

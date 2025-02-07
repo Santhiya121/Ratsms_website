@@ -97,9 +97,9 @@ export default function Home() {
       <div className="relative top-0 w-full min-h-screen">
         <div className="relative w-full h-screen">
           {/* Background YouTube Video */}
-          {/* <div className="absolute top-0 left-0 w-full h-full z-0">
+          <div className="absolute top-0 left-0 w-full h-full z-0">
             <div id="video-iframe" className="object-cover w-full h-full" />
-          </div> */}
+          </div>
 
 
           <div className="flex justify-end items-center  relative sm:pt-10  ">

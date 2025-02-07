@@ -98,7 +98,7 @@ export default function Smpp() {
       </div>
 
       {/* Additional Content Section */}
-      <div className="bg-black text-white px-6 py-12 min-h-screen">
+      <div className="bg-black text-white py-12 min-h-screen">
         <div className="space-y-12 max-w-4xl mx-auto">
           {/* Title */}
           <h2 className="text-3xl sm:text-4xl font-roboto border-b border-gray-700 pb-4">

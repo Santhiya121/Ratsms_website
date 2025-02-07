@@ -39,9 +39,9 @@ export default function SupportForm() {
       className="p-8  sm:mr-14 lg:mt-14 w-[20rem] max-w-[30rem] sm:w-[25rem] md:max-w-xl lg:min-w-2xl sm:h-full
                  xl:max-w-2xl  mr-5 border-2 border-pink-600 rounded-xl bg-black"
     >
-      <h1 className="text-2xl md:text-3xl font-bold mb-6 text-center text-white">
+      <p className="text-2xl sm:text-2xl mb-6 text-center text-white">
         Try Us
-      </h1>
+      </p>
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>
           <label htmlFor="name" className="block text-sm font-medium mb-1 text-white">

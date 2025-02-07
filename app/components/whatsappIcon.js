@@ -41,7 +41,8 @@ const WhatsAppIcon = () => {
 
       {/* Facebook Icon */}
       <a
-        href="https://www.linkedin.com/company/ratsmschennai/ "
+
+        href="https://www.facebook.com/ratsmschennai"
         target="_blank"
         rel="noopener noreferrer"
         className="hover:scale-110 transition-transform duration-300 p-1 sm:p-2 "

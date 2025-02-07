@@ -16,7 +16,6 @@ export default function HomeAbout() {
           <p className="text-xl sm:text-base md:text-lg lg:text-xl lg:pl-12 md:w-96 font-roboto pt-4 mb-6 w-full sm:w-[80%] lg:w-[30rem] pl-12 pr-10">
             What began as a simple idea has grown into a trusted company, driven by passion and dedication. We’re committed to excellence, constantly evolving to meet our customer needs with top-notch service. Our story is one of hard work, innovation, and making a lasting impact.
           </p>
-
           <div className="pt-6 pl-12">
             <Link href="/about-us">
             <button
