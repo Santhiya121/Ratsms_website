@@ -8,6 +8,7 @@ import { faChartLine, faTools, faHandsHelping } from "@fortawesome/free-solid-sv
 import Image from 'next/image'
 import Head from "next/head";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 
 
@@ -15,6 +16,16 @@ import Phone from "../../app/components/phone";
 export default function WhatsappBusinessApi() {
   return (
     <>
+     <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Seamlessly integrate WhatsDeveloper's Bulk SMS API for fast, reliable, and secure messaging solutions."
+      url="https://ratsms.com/whatsapp-business-api"
+      city="chennai"
+      address="Flat No – 17, 2nd Floor, Anandha Bhavan, Landmark, Mahatma Gandhi Rd, opp. to Hotel, Adyar, Chennai, Tamil Nadu 600041"
+      latitude="13.003387° N"
+      longitude=" 80.255043° E"
+      pincode="600001"
+      />
      <Head>
         <meta charSet="UTF-8" />
         <meta

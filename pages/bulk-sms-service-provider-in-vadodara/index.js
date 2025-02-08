@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Vododara offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-vadodara"
+      city="Vododara"
+      address="GIDC, Old Padra Road"
+      latitude="22.297283371948904"
+      longitude="73.16443665325987"
+      pincode="390010"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

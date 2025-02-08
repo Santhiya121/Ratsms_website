@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+     <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Coimbatore offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-coimbatore"
+      city=" Coimbatore"
+      address="Peelamedu, Tidel Park, PSG Technt"
+      latitude="11.024468913503188"
+      longitude="77.00382126649646"
+       pincode="641004"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

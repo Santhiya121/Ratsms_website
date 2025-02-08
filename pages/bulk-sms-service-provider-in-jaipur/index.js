@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Jaipur offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-jaipur"
+      city="Jaipur"
+      address="Malviya Industrial Area, Sitapura Industrial Area"
+      latitude="26.854287229178777"
+      longitude="75.82828871939795"
+      pincode="302017"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

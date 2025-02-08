@@ -5,6 +5,7 @@ import Footer from '../../app/components/footer';
 import WhatsAppIcon from '../../app/components/whatsappIcon';
 import { FaBriefcase, FaTasks, FaTools, } from "react-icons/fa";
 import Head from "next/head";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 
 const SMPPEngineerForm = () => {
@@ -51,6 +52,16 @@ const SMPPEngineerForm = () => {
 
   return (
     <>
+     <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Optimize search engine rankings and boost social media engagement."
+      url="https://ratsms.com/smpp-engineer"
+      city="chennai"
+      address="Flat No – 17, 2nd Floor, Anandha Bhavan, Landmark, Mahatma Gandhi Rd, opp. to Hotel, Adyar, Chennai, Tamil Nadu 600041"
+      latitude="13.003387° N"
+      longitude=" 80.255043° E"
+       pincode="600001"
+      />
     <Head>
   <meta charSet="UTF-8" />
   <meta

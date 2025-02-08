@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Kurnool offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-kurnool"
+      city="Delhi"
+      address="Not known for IT, but some growth in technology sectors"
+      latitude="15.812986251045517"
+      longitude="78.03837556422553"
+      pincode="518001"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Hitec City, offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-hitec-city"
+      city="Hitec City"
+      address="Hitec City, Madhapur, Gachibowli"
+      latitude="17.447302735384383"
+      longitude=" 78.3800383374694"
+      pincode="500081"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

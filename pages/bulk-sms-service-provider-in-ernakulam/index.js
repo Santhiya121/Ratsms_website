@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Trusted bulk SMS service provider in Ernakulam, delivering seamless promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-ernakulam "
+      city=" Ernakulam"
+      address="Infopark, Kakkanad"
+      latitude="10.010302196814834"
+      longitude="76.36382247997585"
+      pincode="682042"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

@@ -9,6 +9,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      images: {
+        unoptimized: true,
+      },
+     
       fontFamily: {
         roboto: ['Roboto', 'sans-serif'], // Define roboto font
       },

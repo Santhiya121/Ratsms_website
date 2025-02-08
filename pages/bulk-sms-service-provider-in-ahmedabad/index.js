@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Ahmedabad offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-ahmedabad"
+      city="Ahmedabad"
+      address=" S.G. Highway, GIFT City (Gujarat International Finance Tec-City)"
+      latitude="23.006030007443066"
+      longitude="72.50001585765749"
+       pincode="382355"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

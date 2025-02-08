@@ -9,6 +9,9 @@ import WhatsAppIcon from "../app/components/whatsappIcon";
 import Head from "next/head";
 import React, { useEffect, useRef } from "react";
 import "../app/globals.css";
+import LocalBusinessSchema from "../app/components/localSchema";
+
+
 
 
 export default function Home() {
@@ -59,6 +62,15 @@ export default function Home() {
 
   return (
     <div>
+      <LocalBusinessSchema
+      name = "RAT SMS"
+      description="RAT SMS is a leading bulk SMS service provider offering promotional, transactional, and OTP SMS solutions"
+      url="https://ratsms.com"
+      city="chennai"
+      address="Flat No – 17, 2nd Floor, Anandha Bhavan, Landmark, Mahatma Gandhi Rd, opp. to Hotel, Adyar, Chennai, Tamil Nadu 600041"
+      latitude="13.003387° N"
+      longitude=" 80.255043° E"
+      />
       <Head>
         <meta charSet="UTF-8" />
         <meta
@@ -89,8 +101,10 @@ export default function Home() {
       </Head>
     
       <div className="">
+    
         <Navbar />
       </div>
+
  
       <Phone />
 

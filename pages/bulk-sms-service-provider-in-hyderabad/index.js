@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Hitec City, Hyderabad, offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-hyderabad"
+      city="Hyderabad"
+      address="Banjara Hills, Jubilee Hills"
+      latitude="17.416588858965525"
+      longitude="17.416588858965525"
+      pincode="500034"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

@@ -35,6 +35,7 @@ export default function CareersHome() {
             height={300} // Replace with your actual height
             className="object-cover"
             unoptimized // Disable optimization for animated images
+            layout="responsive"
           />
         </div>
       </div>

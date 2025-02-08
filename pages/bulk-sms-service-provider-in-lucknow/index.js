@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Lucknow offering seamless promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-lucknow"
+      city="Lucknow"
+      address="Gomti Nagar, IT City"
+      latitude="26.86012663580428"
+      longitude="80.976026226835"
+      pincode="226010"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

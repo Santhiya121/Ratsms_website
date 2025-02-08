@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Nagpur offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-nagpur"
+      city="Nagpur"
+      address="MIHAN SEZ (Multi-modal International Cargo Hub),"
+      latitude="21.050861484988328"
+      longitude="79.03482688103804"
+      pincode="441108"
+      />
       {/* Meta Tags */}
       <Head>
         <meta charSet="UTF-8" />

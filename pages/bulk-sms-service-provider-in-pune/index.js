@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Pune offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-pune"
+      city="Pune"
+      address="Magarpatta City"
+      latitude="18.56461489422827"
+      longitude=" 73.92058934375834"
+      pincode="411028"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

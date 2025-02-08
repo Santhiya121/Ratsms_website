@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+     <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Trusted bulk SMS service provider in Amaravathi, delivering seamless promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-amaravati"
+      city="Amaravathi"
+      address="Amaravati (Seed Capital for IT, Government IT Parks) "
+      latitude="16.526958331417585"
+      longitude="80.63172902035663"
+       pincode=" 522020"  
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Palakkad offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-palakkad"
+      city="Palakkad"
+      address="No major IT hub but growing in small tech sectors"
+      latitude="10.77049497747488"
+      longitude="76.64512615397129"
+      pincode="678001"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

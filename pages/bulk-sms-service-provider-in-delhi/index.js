@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+     <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Delhi offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-delhi"
+      city="Delhi"
+      address="Connaught Place, Nehru Place, Okhla Industrial Area, Gurgaon (Haryana) is close and home to many IT hubs"
+      latitude="28.52976752240173"
+      longitude="77.25774006696743"
+      pincode="110001"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

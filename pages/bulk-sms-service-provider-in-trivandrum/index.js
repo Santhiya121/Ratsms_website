@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Thrissur offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-thrissur"
+      city="Thrissur"
+      address=" Growing IT startups but no significant  hubs"
+      latitude="10.53367962925408"
+      longitude="76.22714468253659"
+      pincode="680001"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

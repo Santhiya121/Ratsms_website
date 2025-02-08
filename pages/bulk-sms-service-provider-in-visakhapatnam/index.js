@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Visakhapatnam offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-visakhapatnam"
+      city=" Visakhapatnam "
+      address="Rushikonda IT SEZ, "
+      latitude="17.810588121059656"
+      longitude=" 83.38941761885415"
+      pincode="530045"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

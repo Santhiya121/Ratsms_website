@@ -20,11 +20,22 @@ import {
 } from 'react-icons/fa';
 import { MdCampaign } from 'react-icons/md';
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 
 export default function PromotionalBulkSMS() {
   return (
     <>
+     <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Send promotional bulk SMS instantly to reach your audience and boost engagement effortlessly."
+      url="https://ratsms.com/promotional-bulk-sms-chennai"
+      city="chennai"
+      address="Flat No – 17, 2nd Floor, Anandha Bhavan, Landmark, Mahatma Gandhi Rd, opp. to Hotel, Adyar, Chennai, Tamil Nadu 600041"
+      latitude="13.003387° N"
+      longitude=" 80.255043° E"
+       pincode="600001"
+      />
      <Head>
         <meta charSet="UTF-8" />
         <meta

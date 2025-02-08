@@ -8,10 +8,21 @@ import WhatsAppIcon from "../../app/components/whatsappIcon";
 import "../../app/globals.css";
 import { motion } from "framer-motion";
 import Image from 'next/image';
+import LocalBusinessSchema from '../../app/components/localSchema';
 
 export default function Indust() {
   return (
     <>
+     <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Enhance customer engagement with reliable and fast bulk SMS solutions for promotions, transactions, and OTP services"
+      url="https://ratsms.com/industry"
+      city="chennai"
+      address="Flat No – 17, 2nd Floor, Anandha Bhavan, Landmark, Mahatma Gandhi Rd, opp. to Hotel, Adyar, Chennai, Tamil Nadu 600041"
+      latitude="13.003387° N"
+      longitude=" 80.255043° E"
+       pincode="600001"
+      />
     <Head>
         <title>Unlock Seamless Communication with RAT SMS Bulk Messaging|RAT SMS
         </title>

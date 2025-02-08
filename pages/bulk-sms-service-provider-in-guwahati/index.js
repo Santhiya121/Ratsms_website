@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema 
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Guwahati, delivering fast and secure promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-guwahati"
+      city="Guwahati"
+      address="Silpukhuri, Beltola (growing IT scene)"
+      latitude="26.19438893325624"
+      longitude="91.69586057015097"
+      pincode="781028"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

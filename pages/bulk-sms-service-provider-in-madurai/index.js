@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Madurai offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-madurai"
+      city="Madurai"
+      address="Nariman Point, Bandra-Kurla Complex (BKC), "
+      latitude="19.068057161661105"
+      longitude="72.86920705294254"
+      pincode="400051"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

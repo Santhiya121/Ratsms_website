@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Jubilee Hills offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-jubilee-hills"
+      city="Jubilee Hills"
+      address="Known for luxury and IT-related offices in the vicinity."
+      latitude="17.42840201702611"
+      longitude="78.4139660112602"
+      pincode="500033"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

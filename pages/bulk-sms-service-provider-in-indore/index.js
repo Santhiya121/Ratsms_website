@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Indore, offering promotional, transactional, and OTP messaging solutions for businesses.Affordable and trusted bulk SMS service provider in Indore, delivering seamless promotional, transactional, and OTP messaging solutions for businesses.."
+      url="https://ratsms.com/bulk-sms-service-provider-in-indore"
+      city="Indore"
+      address="Super Corridor, Crystal IT Park"
+      latitude="22.68600215740412"
+      longitude="22.68600215740412"
+      pincode="453331"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

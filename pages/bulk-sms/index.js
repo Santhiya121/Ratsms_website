@@ -7,6 +7,7 @@ import Image from 'next/image';
 import WhatsAppIcon from '../../app/components/whatsappIcon';
 import Phone from '../../app/components/phone';
 import { FaEnvelope, FaBullhorn, FaHandshake, FaLock } from "react-icons/fa";
+import LocalBusinessSchema from '../../app/components/localSchema';
 
 export default function BulkSMS() {
   // Define the video sources and links for each city
@@ -51,9 +52,19 @@ export default function BulkSMS() {
   };
 
   const cities = Object.keys(cityVideos);  // Get all city names
-
+  
   return (
     <>
+     <LocalBusinessSchema
+      name = "RAT SMS"
+      description="RAT SMS provides reliable bulk SMS services across 32 cities, ensuring fast and secure messaging for businesses"
+      url="https://ratsms.com/bulk-sms"
+      city="chennai"
+      address="Flat No – 17, 2nd Floor, Anandha Bhavan, Landmark, Mahatma Gandhi Rd, opp. to Hotel, Adyar, Chennai, Tamil Nadu 600041"
+      latitude="13.003387° N"
+      longitude=" 80.255043° E"
+      pincode="600001"
+      />
       <Head>
         <meta charSet="UTF-8" />
         <meta

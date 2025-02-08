@@ -2,6 +2,7 @@
 
 
 import Footer from "../../app/components/footer";
+import LocalBusinessSchema from "../../app/components/localSchema";
 import Navbar from "../../app/components/Navbar";
 import Phone from "../../app/components/phone";
 import SupportForm from "../../app/components/supportForm";
@@ -12,6 +13,16 @@ import Head from "next/head";
 export default function ServiceExplicit() {
   return (
     <>
+     <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Get reliable and fast bulk SMS services for promotional, transactional, and OTP messaging to enhance customer engagement"
+      url="https://ratsms.com/bulk-sms-service-explicit"
+      city="chennai"
+      address="Flat No – 17, 2nd Floor, Anandha Bhavan, Landmark, Mahatma Gandhi Rd, opp. to Hotel, Adyar, Chennai, Tamil Nadu 600041"
+      latitude="13.003387° N"
+      longitude=" 80.255043° E"
+      pincode="600001"
+      />
     <Head>
         <meta charSet="UTF-8" />
         <meta

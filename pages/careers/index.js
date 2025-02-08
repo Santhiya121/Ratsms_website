@@ -9,6 +9,7 @@ import Head from 'next/head';
 import WhatsAppIcon from '../../app/components/whatsappIcon';
 import Phone from '../../app/components/phone';
 import Image from 'next/image';
+import LocalBusinessSchema from '../../app/components/localSchema';
 
 export default function Careers() {
   // Array of job data with ID to link to specific job details page
@@ -35,6 +36,16 @@ export default function Careers() {
 
   return (
     <>
+     <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Join RAT SMS and build your career in bulk SMS solutions, driving innovation in messaging technology."
+      url="https://ratsms.com/careers"
+      city="chennai"
+      address="Flat No – 17, 2nd Floor, Anandha Bhavan, Landmark, Mahatma Gandhi Rd, opp. to Hotel, Adyar, Chennai, Tamil Nadu 600041"
+      latitude="13.003387° N"
+      longitude=" 80.255043° E"
+       pincode="600001"
+      />
       <Head>
         <meta charSet="UTF-8" />
         <meta

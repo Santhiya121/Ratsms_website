@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+     <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Banjara Hills, offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-banjara-hills"
+      city="Banjara Hills"
+      address="Banjara Hills and surrounding areas are home to several technology companies."
+      latitude="17.416435977757974"
+      longitude="78.44563448976461"
+      pincode="500034"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

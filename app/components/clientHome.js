@@ -56,6 +56,8 @@ export default function ClientHome() {
                     layout="fill"  // Makes the image fill the parent div
                     objectFit="contain"  // Ensure image fits without distortion
                     className="rounded-lg mb-4"
+                    
+                    
                   />
                 </div>
               </div>

@@ -50,6 +50,7 @@ export default function HomeAbout() {
   className="rounded-lg shadow-lg"
   width={600} // Set the width for the image
   height={400} // Set the height for the image
+  layout="responsive"
 />
 </div>
 

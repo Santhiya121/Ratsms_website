@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Kolkata offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-kolkata"
+      city=" Kolkata "
+      address="Salt Lake Sector V, Rajarhat New Town"
+      latitude="28.22.5717632422702"
+      longitude="88.42059230267337"
+      pincode="700156"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

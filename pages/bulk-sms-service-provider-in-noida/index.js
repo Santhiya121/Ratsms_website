@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Noida offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-noida"
+      city=" Noida"
+      address="Sector 18, Sector 62, Sector 16, IT hubs in Greater Noida"
+      latitude="28.57110853399524"
+      longitude="77.32613321061999"
+      pincode="201308"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

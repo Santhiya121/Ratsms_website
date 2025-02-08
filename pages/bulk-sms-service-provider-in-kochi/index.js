@@ -11,10 +11,21 @@ import Navbar from "../../app/components/Navbar";
 import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSmsServiceProvider() {
   return (
     <>
+    <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS service provider in Kochi offering promotional, transactional, and OTP messaging solutions for businesses.."
+      url="https://ratsms.com/bulk-sms-service-provider-in-kochi"
+      city="Kochi"
+      address=" Infopark, Kakkanad, SmartCity"
+      latitude="28.52976752240173"
+      longitude="76.36648829894845"
+      pincode="682030"
+      />
       {/* Meta Tags */}
       <Head>
   <meta charSet="UTF-8" />

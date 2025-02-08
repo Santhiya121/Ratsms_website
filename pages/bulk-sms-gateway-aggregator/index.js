@@ -7,6 +7,7 @@ import Footer from "../../app/components/footer";
 import Head from "next/head"; 
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from '../../app/components/phone';
+import LocalBusinessSchema from "../../app/components/localSchema";
 
 export default function BulkSMSPage() {
     const products = [
@@ -19,6 +20,16 @@ export default function BulkSMSPage() {
 
     return (
         <>
+         <LocalBusinessSchema
+      name = "RAT SMS"
+      description="Reliable bulk SMS gateway aggregator offering seamless messaging solutions for businesses worldwide."
+      url="https://ratsms.com/bulk-sms-gateway-aggregator"
+      city="chennai"
+      address="Flat No – 17, 2nd Floor, Anandha Bhavan, Landmark, Mahatma Gandhi Rd, opp. to Hotel, Adyar, Chennai, Tamil Nadu 600041"
+      latitude="13.003387° N"
+      longitude=" 80.255043° E"
+      pincode="600001"
+      />
               <Head>
         <meta charSet="UTF-8" />
         <meta

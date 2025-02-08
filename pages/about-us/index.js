@@ -7,10 +7,21 @@ import Image from 'next/image'
 import Head from "next/head";
 import WhatsAppIcon from '../../app/components/whatsappIcon';
 import Phone from '../../app/components/phone';
+import LocalBusinessSchema from '../../app/components/localSchema';
 
 const AboutUsPage = () => {
   return (
     <>
+     <LocalBusinessSchema
+      name = "RAT SMS"
+      description="RAT SMS is a trusted bulk SMS service provider, delivering fast, reliable, and secure messaging solutions for businesses."
+      url="https://ratsms.com/about-us"
+      city="chennai"
+      address="Flat No – 17, 2nd Floor, Anandha Bhavan, Landmark, Mahatma Gandhi Rd, opp. to Hotel, Adyar, Chennai, Tamil Nadu 600041"
+      latitude="13.003387° N"
+      longitude=" 80.255043° E"
+      pincode="600001"
+      />
       <Head>
         <meta charSet="UTF-8" />
         {/* Unique meta description for About Us page */}
