@@ -70,17 +70,18 @@ export default function BulkSmsServiceProvider() {
             <Phone/>
 
       {/* Hero Section */}
-      <div
-        style={{
-          backgroundImage: "url('/images/chennai.gif')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          backgroundAttachment: "fixed",
-          width: "100%",
-          height: "100%",
-        }}
-        className="relative z-10 h-screen"
-      >
+      <div className="relative z-10 sm:h-screen h-auto w-full">
+  {/* Background Video */}
+  <video
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="absolute top-0 left-0 w-full h-full object-cover"
+  >
+    <source src="/videos/chennai.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
         <div className="flex flex-col lg:flex-row justify-between items-center min-h-screen px-4 md:px-12 relative z-10 lg:mt-0">
           <div className="w-full lg:w-1/2 text-white text-center lg:text-left mt-32 sm:mt-16 px-4">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-light text-white mb-6">
@@ -93,7 +94,7 @@ export default function BulkSmsServiceProvider() {
           </div>
 
           {/* Support Form Section */}
-          <div className="flex justify-center sm:justify-end items-center min-h-screen relative pr-12 sm:pt-4 px-4">
+          <div className="flex justify-center sm:justify-end items-center min-h-screen pl-5 sm:pr-8">
             <div className="text-white space-x-6 w-full sm:w-auto">
               <SupportForm />
             </div>

@@ -37,7 +37,7 @@ export default function SupportForm() {
   return (
     <div
       className="p-8  sm:mr-14 lg:mt-14 w-[20rem] max-w-[30rem] sm:w-[25rem] md:max-w-xl lg:min-w-2xl sm:h-full
-                 xl:max-w-2xl  mr-5 border-2 border-pink-600 rounded-xl bg-black"
+                 xl:max-w-2xl  mr-5  rounded-xl bg-black "
     >
       <p className="text-2xl sm:text-2xl mb-6 text-center text-white">
         Try Us
@@ -54,7 +54,7 @@ export default function SupportForm() {
             value={formData.name}
             onChange={handleChange}
             className="w-full p-3 bg-white text-gray-700   
-                       focus:ring-2 focus:ring-blue-500 outline-none rounded-2xl border-2 border-pink-600 "
+                       focus:ring-2 focus:ring-blue-500 outline-none rounded-2xl  "
             placeholder="Enter your Name"
           />
           {errors.name && (
@@ -76,7 +76,7 @@ export default function SupportForm() {
             value={formData.whatsappNumber}
             onChange={handleChange}
             className="w-full p-3 bg-white text-gray-700 
-                       focus:ring-2 focus:ring-blue-500 outline-none rounded-2xl border-2 border-pink-600"
+                       focus:ring-2 focus:ring-blue-500 outline-none rounded-2xl "
             placeholder="Enter your WhatsApp Number"
           />
           {errors.whatsappNumber && (
@@ -93,7 +93,7 @@ export default function SupportForm() {
             name="industry"
             value={formData.industry}
             onChange={handleChange}
-            className="w-full p-3 bg-white text-gray-700 border-2 border-pink-600
+            className="w-full p-3 bg-white text-gray-700 
                        focus:ring-2 focus:ring-blue-500 outline-none rounded-2xl"
           >
             <option value="">Select an industry</option>
@@ -178,7 +178,7 @@ export default function SupportForm() {
             name="service"
             value={formData.service}
             onChange={handleChange}
-            className="w-full p-3 bg-white text-gray-700 border-2 border-pink-600
+            className="w-full p-3 bg-white text-gray-700 
                        focus:ring-2 focus:ring-blue-500 outline-none rounded-2xl"
           >
             <option value="">Select a service</option>
