@@ -18,10 +18,10 @@ export default function BulkSmsServiceProvider() {
     <>
     <LocalBusinessSchema
       name = "RAT SMS"
-      description="Reliable bulk SMS service provider in Thrissur offering promotional, transactional, and OTP messaging solutions for businesses."
-      url="https://ratsms.com/bulk-sms-service-provider-in-thrissur"
-      city="Thrissur"
-      address=" Growing IT startups but no significant  hubs"
+      description="Reliable bulk SMS service provider in Trivandrum offering promotional, transactional, and OTP messaging solutions for businesses."
+      url="https://ratsms.com/bulk-sms-service-provider-in-trivandrum"
+      city="Trivandrum"
+      address=" Technopark, Infopark"
       latitude="10.53367962925408"
       longitude="76.22714468253659"
       pincode="680001"

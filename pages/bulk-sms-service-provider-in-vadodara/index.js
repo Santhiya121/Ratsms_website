@@ -18,9 +18,9 @@ export default function BulkSmsServiceProvider() {
     <>
     <LocalBusinessSchema
       name = "RAT SMS"
-      description="Reliable bulk SMS service provider in Vododara offering promotional, transactional, and OTP messaging solutions for businesses."
+      description="Reliable bulk SMS service provider in Vadodara offering promotional, transactional, and OTP messaging solutions for businesses."
       url="https://ratsms.com/bulk-sms-service-provider-in-vadodara"
-      city="Vododara"
+      city="Vadodara"
       address="GIDC, Old Padra Road"
       latitude="22.297283371948904"
       longitude="73.16443665325987"
