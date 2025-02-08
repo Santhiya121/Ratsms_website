@@ -10,7 +10,7 @@ const LocalBusinessSchema = ({ name, description, url, city, address, latitude, 
     "logo": "https://ratsms.com/images/logo.png",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+91-XXXXXXXXXX",
+      "telephone": "+91-75067 12345",
       "contactType": "Customer Service",
       "areaServed": "IN",
       "availableLanguage": "English"
@@ -29,9 +29,10 @@ const LocalBusinessSchema = ({ name, description, url, city, address, latitude, 
       "longitude": longitude
     },
     "sameAs": [
-      "https://www.facebook.com/ratsms",
-      "https://twitter.com/ratsms",
-      "https://www.linkedin.com/company/ratsms"
+      "https://www.youtube.com/@ratsms",
+      "https://www.facebook.com/ratsmschennai",
+      "https://www.instagram.com/ratsms_com/",
+      "https://www.linkedin.com/company/ratsmschennai/"
     ],
     "openingHours": "Mo-Fr 09:00-18:00"
   };
