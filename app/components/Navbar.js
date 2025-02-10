@@ -72,7 +72,7 @@ export default function Navbar() {
         {/* Logo */}
         <div className="text-xl font-roboto hover-effect">
   <Link href="/">
-   <p>RATSMS</p>
+   <p className="text-white">RATSMS</p>
   </Link>
 </div>
 

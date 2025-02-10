@@ -3,12 +3,12 @@ import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function Footer() {
     return (
-        <footer className="bg-black text-white sm:px-32 sm:py-20 pt-10">
+        <footer className="bg-black text-white sm:px-32 sm:py-20 pt-10"> 
             {/* Main Footer Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 sm:px-4 md:px-4 gap-y-8 sm:gap-y-0">
                 {/* Column 1 */}
                 <div>
-                    <ul className="sm:space-y-4 space-y-2 sm:text-center text-left pl-20 lg:text-left sm:pl-12 font-roboto">
+                    <ul className="sm:space-y-4 space-y-2 sm:text-center text-left pl-20 lg:text-left sm:pl-12 font-thin tracking-widest">
                         <li><Link href="/" className="text-lg font-semibold mb-4 text-center lg:text-left">Company</Link></li>
                         <li><Link href="/about-us" className="text-white font-light hover:text-[#003bff] text-base">About</Link></li>
                         <li><Link href="/bulk-sms" className="text-white font-light hover:text-[#003bff] text-base">Bulk SMS</Link></li>
@@ -21,7 +21,7 @@ export default function Footer() {
                 {/* Column 2 */}
                 <div>
                     
-                    <ul className="sm:space-y-4 space-y-2 sm:text-center text-left pl-20 lg:text-left sm:pl-12 font-roboto">
+                    <ul className="sm:space-y-4 space-y-2 sm:text-center text-left pl-20 lg:text-left sm:pl-12 font-thin tracking-widest">
                     <h2 className="text-lg font-roboto font-semibold mb-4 sm:text-center  text-left lg:text-left">Services</h2>
                         <li><Link href="/smartsms-send-bulk-sms-attachments" className="font-light hover:text-[#003bff]">Smart SMS</Link></li>
                         <li><Link href="/bulk-sms-service-implicit" className="font-light hover:text-[#003bff]">Service Implicit</Link></li>
@@ -36,7 +36,7 @@ export default function Footer() {
                 {/* Column 3 */}
                 <div>
                   
-                    <ul className="sm:space-y-4 space-y-2 sm:text-center text-left pl-20 lg:text-left sm:pl-12 font-roboto">
+                    <ul className="sm:space-y-4 space-y-2 sm:text-center text-left pl-20 lg:text-left sm:pl-12 font-thin tracking-widest">
                     <h2 className="text-lg font-roboto font-semibold mb-4 sm:text-center  text-left lg:text-left">Others</h2>
                         <li><Link href="/bulk-sms-pricing-india" className="hover:text-[#003bff] font-light">Pricing</Link></li>
                         <li><Link href="/bulk-sms-gateway-aggregator" className="hover:text-[#003bff] font-light">Bulk SMS Gateway Aggregator</Link></li>
@@ -51,7 +51,7 @@ export default function Footer() {
                 {/* Column 4 */}
                 <div>
                    
-                    <ul className="sm:space-y-4 space-y-2 sm:text-center text-left pl-20 lg:text-left sm:pl-12 font-roboto">
+                    <ul className="sm:space-y-4 space-y-2 sm:text-center text-left pl-20 lg:text-left sm:pl-12 font-thin tracking-widest">
                     <h2 className="text-lg font-roboto font-semibold mb-4 sm:text-center  text-left lg:text-left">Connect</h2>
                         <li>General Enquiry: <span className="font-bold text-white">+ 044 - 472 10 462</span></li>
                         <li>Sales Enquiry: <span className="font-bold text-white">+91 - 75067 12345</span></li>
