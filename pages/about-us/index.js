@@ -164,7 +164,7 @@ const AboutUsPage = () => {
           <div className="">
             <header className="text-center mb-12">
               <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-800 mb-4">
-                Our Partners  hiiiiii
+                Our Partners  
               </h2>
               <p className="text-sm sm:text-base md:text-lg text-black mb-6 text-center px-4 sm:px-16 lg:px-40">
                 RAT SMS partners with leading telecom brands to offer world-class bulk SMS services. We are proud to collaborate with industry leaders to ensure seamless service delivery and customer satisfaction.
