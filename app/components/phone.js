@@ -1,23 +1,24 @@
 import { motion } from "framer-motion";
 import "../globals.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Phone() {
   return (
     <>
       <div className="fixed bottom-0 right-0 mb-6 mr-6 block md:hidden z-50">
-        <a href="tel:+917506712345">
+        <Link href="tel:+917506712345">
           <Image
             srcSet="/images/green.webp 320w, /images/green-large.webp 640w"
-            src="/images/green.webp"
-            alt="Call Icon"
+            src="/images/green_cal.png"
+            alt="Call Icon"       
             width={320}
             height={320}
-            className="w-12 h-12 transform hover:scale-110 transition-all duration-200"
+            className="w-10 h-10 transform hover:scale-110 transition-all duration-200"
             loading="lazy"
           />
 
-        </a>
+        </Link>
       </div>
 
       <motion.div
