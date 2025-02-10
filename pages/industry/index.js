@@ -72,7 +72,7 @@ export default function Indust() {
       </div>
       <WhatsAppIcon />
       <Phone />
-      <div className="w-full min-h-screen bg-white flex flex-col justify-center items-center px-6 md:px-20 lg:px-40 py-10">
+      <div className="w-full min-h-screen bg-white flex flex-col justify-center items-center px-6  md:px-20 lg:px-40 sm:py-10 py-4">
       {/* Main Heading */}
       <div className="text-black sm:text-5xl text-3xl md:text-6xl lg:text-7xl font-extralight tracking-widest sm:text-center text-left  md:text-left max-w-5xl">
         <p>Driving Innovation Across Diverse Sectors</p>
@@ -94,7 +94,7 @@ export default function Indust() {
         </div>
 
         {/* Right Side: Animated "6+" with Gradient Text */}
-        <div className="sm:text-[10rem] text-8xl md:text-[12rem] lg:text-[20rem] font-bold mt-10 md:mt-0">
+        <div className="sm:text-[12rem] text-[10rem] md:text-[12rem] lg:text-[20rem] font-bold mt-10 md:mt-0">
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
             <CountUp start={0} end={6} duration={2} />
           </span>
@@ -104,7 +104,7 @@ export default function Indust() {
         </div>
       </div>
     </div>
-      <div className="bg-white py-16">
+      <div className="bg-white sm:py-16">
         <div className="container mx-auto space-y-20 px-6 sm:px-8 md:px-12 lg:px-16">
 
           {/* Real Estate */}
