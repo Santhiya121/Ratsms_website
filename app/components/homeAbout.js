@@ -44,7 +44,7 @@ export default function HomeAbout() {
         </div> */}
         <div className="w-full sm:w-1/2">
         <Image
-  src="/images/homeAbout2.gif" // Ensure the path is correct
+  src="/videos/homeAbout2.gif" // Ensure the path is correct
   alt="Our Journey"
   unoptimized // Disable optimization for this animated image
   className="rounded-lg shadow-lg"
