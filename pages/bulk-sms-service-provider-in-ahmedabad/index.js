@@ -10,6 +10,7 @@ import "../../app/globals.css";
 import WhatsAppIcon from "../../app/components/whatsappIcon";
 import Phone from "../../app/components/phone";
 import LocalBusinessSchema from "../../app/components/localSchema";
+import Image from "next/image";
 
 export default function BulkSmsServiceProvider() {
   return (
@@ -51,11 +52,16 @@ export default function BulkSmsServiceProvider() {
       <WhatsAppIcon />
       <Phone />
 
-      <div className="relative z-10 sm:h-screen h-auto w-full">
-        <video autoPlay loop muted playsInline className="absolute top-0 left-0 w-full h-full object-cover">
-          <source src="/videos/chennai.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+      <div className="relative z-10 sm:h-screen bg-gradient-to-r from-gray-900 via-black to-gray-900 h-auto w-full">
+         <Image
+           src="/images/homepage.jpeg"
+           alt="Background"
+           layout="fill"
+           objectFit="cover"
+           quality={100}
+           priority
+           className="z-0"
+         />
 
         <div className="relative z-10 flex flex-col lg:flex-row justify-between items-center min-h-screen px-4 md:px-12">
           <div className="w-full lg:w-1/2 text-white text-center lg:text-left mt-20 sm:mt-12 px-4">

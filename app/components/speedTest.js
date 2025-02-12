@@ -14,7 +14,7 @@ const SpeedTest = () => {
 
   return (
     <div className="flex  ">
-      <div className="relative sm:bottom-14 bottom-10 left-1/2 transform -translate-x-1/2 w-full max-w-[90%] sm:max-w-[80%] md:max-w-[35rem] p-3 bg-transparent text-white">
+      <div className="relative sm:bottom-14 lg:bottom-0 bottom-10 left-1/2 transform -translate-x-1/2 w-full max-w-[90%] sm:max-w-[80%] md:max-w-[35rem] p-3 bg-transparent text-white">
       <p className="text-white sm:pl-20 font-light text-sm sm:text-xl">
   Test our server speed &{' '}
   <span className="relative inline-block animate-fadeIn">
