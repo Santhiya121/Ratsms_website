@@ -55,7 +55,8 @@ export default function Footer() {
                     <h2 className="text-lg font-roboto font-semibold mb-4 sm:text-center  text-left lg:text-left">Connect</h2>
                         <li>General Enquiry: <span className="font-bold text-white">044-472 10 462</span></li>
                         <li>Sales Enquiry: <span className="font-bold text-white">75067 12345</span></li>
-                        <li>Email: <span className="font-bold text-white">sales@ratsms.com</span></li>
+                        <li>Sales Email: <span className="font-bold text-white">sales@ratsms.com</span></li>
+                        <li>Support Email: <span className="font-bold text-white">support@ratsms.com</span></li>
                     </ul>
                 </div>
             </div>

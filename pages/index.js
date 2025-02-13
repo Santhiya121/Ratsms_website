@@ -330,7 +330,7 @@ export default function Home() {
           />
 
           {/* Left Section - Bulk SMS Quotes & Products */}
-          <section className="relative w-full h-screen flex flex-col items-center lg:items-start lg:justify-start overflow-hidden p-6 md:p-10 xl:pl-20 xl:pt-40 pt-20">
+          <section className="relative w-full h-screen flex flex-col items-center lg:items-start lg:justify-start overflow-hidden p-6 md:p-10 lg:pl-20 lg:pt-40 2xl:pt-28 pt-20 xl:pt-14">
             {/* Background Video Overlay */}
             <div className="absolute inset-0 bg-black/40 z-10"></div>
             <video
@@ -352,7 +352,7 @@ export default function Home() {
             >
               {/* Floating Headline with Scroll Effect */}
               <motion.h1
-                className="text-3xl sm:text-5xl md:text-5xl xl:text-6xl sm:font-bold font-light tracking-widest leading-tight"
+                className="text-2xl sm:text-3xl md:text-3xl xl:text-3xl lg:text-4xl 2xl:text-5xl sm:font-bold font-light tracking-widest leading-tight"
                 initial={{ opacity: 0, y: -30 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 transition={{ delay: 0.3, duration: 1, ease: "easeOut" }}
@@ -363,7 +363,7 @@ export default function Home() {
 
               {/* Subtitle with Fade-In Effect */}
               <motion.p
-                className="text-lg sm:text-lg md:text-xl lg:text-lg max-w-xl sm:max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto text-gray-200 tracking-widest"
+                className="text-lg xl:text-sm sm:text-lg md:text-xl lg:text-lg xl:max-w-xl sm:max-w-2xl 2xl:text-lg md:max-w-3xl  lg:max-w-4xl 2xl:max-w-3xl text-gray-200 tracking-widest"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ delay: 0.5, duration: 1 }}
@@ -373,7 +373,7 @@ export default function Home() {
 
               {/* Feature Grid with Scroll Animation */}
               <motion.div
-                className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 w-full max-w-xl sm:max-w-2xl md:max-w-4xl mx-auto"
+                className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-2 2xl:grid-cols-3 gap-4 sm:gap-6 w-full max-w-xl sm:max-w-2xl md:max-w-lg 2xl:max-w-3xl "
                 initial="hidden"
                 whileInView="visible"
                 viewport={{ once: true }}
@@ -388,7 +388,7 @@ export default function Home() {
                 {smsFeatures.map((item, index) => (
                   <motion.div
                     key={index}
-                    className="flex items-center border-2 border-white shadow-xl rounded-xl px-2 sm:px-6 py-2 sm:py-5 sm:space-x-4 space-x-2 transform transition-all hover:scale-105 hover:shadow-2xl"
+                    className="flex items-center border-2 border-white shadow-xl rounded-xl  2xl:px-2  2xl:space-x-4 space-x-2 transform transition-all hover:scale-105 hover:shadow-2xl"
                     variants={{
                       hidden: { opacity: 0, y: 30 },
                       visible: { opacity: 1, y: 0 },
@@ -398,7 +398,7 @@ export default function Home() {
                   >
                     {/* Icon */}
                     <div
-                      className={`w-8  sm:w-12 sm:h-12 flex items-center justify-center rounded-full sm:bg-white shadow-lg`}
+                      className={`xl:w-8 xl:h-8  2xl:w-12 2xl:h-12 flex items-center justify-center rounded-full sm:bg-white shadow-lg m-3`}
                     >
                       <FontAwesomeIcon icon={item.icon} className="sm:text-black text-white w-5 h-5 sm:w-6 sm:h-6" />
                     </div>
@@ -421,7 +421,7 @@ export default function Home() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <div className="text-white mt-28 mr-10 xl:mr-40">
+            <div className="text-white 2xl:mt-16 xl:mr-10 2xl:mr-30 absolute top-0 right-0 justify-end items-center pt-10 z-10">
               <SupportForm />
             </div>
           </motion.div>

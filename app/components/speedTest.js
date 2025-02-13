@@ -16,7 +16,7 @@ const SpeedTest = () => {
     <div className="flex">
       <div className="relative sm:bottom-14 lg:bottom-0 bottom-10 left-1/2 transform -translate-x-1/2 w-full max-w-[90%] sm:max-w-[80%] md:max-w-[35rem] p-3 bg-transparent text-white">
         {/* Text Section */}
-        <p className="sm:text-white text-black sm:pl-20 font-light text-2xl sm:text-xl text-center sm:text-left">
+        <p className="sm:text-white text-black sm:pl-12 font-light text-2xl sm:text-xl text-center sm:text-left">
           Test our server speed &{' '}
           <span className="relative inline-block animate-fadeIn">
             {'Unlock 20% OFF!'.split('').map((char, index) => (
