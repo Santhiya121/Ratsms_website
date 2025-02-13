@@ -14,7 +14,7 @@ const WhatsAppIcon = () => {
         className="hover:scale-110 transition-transform duration-300 p-1 sm:p-2 "
         aria-label="Read more about Seminole tax hike"
       >
-        <i className="fab fa-linkedin text-xl sm:text-3xl md:text-3xl text-blue-600 hover:text-blue-800" />
+        <i className="fab fa-linkedin text-xl sm:text-3xl md:text-3xl lg:text-5xl text-blue-600 hover:text-blue-800" />
       </a>
 
       {/* YouTube Icon */}
@@ -25,7 +25,7 @@ const WhatsAppIcon = () => {
         className="hover:scale-110 transition-transform duration-300 p-1 "
         aria-label="Read more about Seminole tax hike"
       >
-        <i className="fab fa-youtube text-xl sm:text-3xl md:text-3xl text-red-600 hover:text-red-800" />
+        <i className="fab fa-youtube text-xl sm:text-3xl md:text-3xl lg:text-5xl text-red-600 hover:text-red-800" />
       </a>
 
       {/* Instagram Icon */}
@@ -36,7 +36,7 @@ const WhatsAppIcon = () => {
         className="hover:scale-110 transition-transform duration-300 p-1 sm:p-2 "
         aria-label="Read more about Seminole tax hike"
       >
-        <i className="fab fa-instagram text-xl sm:text-3xl md:text-3xl text-pink-500 hover:text-pink-700" />
+        <i className="fab fa-instagram text-xl sm:text-3xl md:text-3xl  text-pink-500 hover:text-pink-700" />
       </a>
 
       {/* Facebook Icon */}
@@ -52,15 +52,7 @@ const WhatsAppIcon = () => {
       </a>
 
       {/* WhatsApp Icon */}
-      <a
-        href="https://wa.me/+917506712345?text=Hi%2C%20learn%20more%20about%20your%20services!"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="hover:scale-110 transition-transform duration-300 p-1 sm:p-2"
-        aria-label="Read more about Seminole tax hike"
-      >
-        <i className="fab fa-whatsapp text-xl sm:text-4xl md:text-4xl text-[#25D366]   hover:text-green-700" />
-      </a>
+   
 
     </div>
   );

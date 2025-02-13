@@ -80,7 +80,7 @@
 //         </div>
 
 
-   
+
 //         <div className="block md:hidden bg-white p-6">
 //           <SupportForm />
 //         </div>
@@ -208,17 +208,53 @@ import Head from "next/head";
 import "../app/globals.css";
 import LocalBusinessSchema from "../app/components/localSchema";
 import { motion, useInView } from "framer-motion";
-import { faSms, faGlobe, faKey, faRobot, faMoneyBillWave, faServer, faHandshake } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+import {
+  faBullhorn,
+  faComments,
+  faFingerprint,          // Updated OTP Icon (Key)
+  faImage, // Smart SMS Icon (Mobile with Text)
+  faCommentDots,
+  faCircleInfo,
+} from "@fortawesome/free-solid-svg-icons";
 const smsFeatures = [
-  { text: "Promotional Bulk SMS", icon: faSms, bgColor: "bg-blue-500" },
-  { text: "Transactional Bulk SMS", icon: faGlobe, bgColor: "bg-green-500" },
-  { text: "OTP SMS", icon: faKey, bgColor: "bg-purple-500" },
-  { text: "Smart SMS", icon: faRobot, bgColor: "bg-red-500" },
-  { text: "WhatsApp Business API", icon: faMoneyBillWave, bgColor: "bg-yellow-500" },
-  { text: "Service Implicit", icon: faServer, bgColor: "bg-gray-500" },
-  { text: "Service Explicit", icon: faHandshake, bgColor: "bg-orange-500" },
+  {
+    text: "Promotional Bulk SMS",
+    icon: faBullhorn,
+
+  },
+  {
+    text: "Transactional Bulk SMS",
+    icon: faComments,
+
+  },
+  {
+    text: "OTP SMS",
+    icon: faFingerprint, // 🔑 Secure OTP Key
+
+  },
+  {
+    text: "Smart SMS",
+    icon: faImage, // 📱 Smart SMS Icon
+
+  },
+  {
+    text: "WhatsApp Business API",
+    icon: faWhatsapp,
+
+  },
+  {
+    text: "Service Implicit",
+    icon: faCircleInfo, // 🔔 Same for Implicit
+
+  },
+  {
+    text: "Service Explicit",
+    icon: faCommentDots, // 🔄 Same for Explicit
+
+  },
 ];
 
 export default function Home() {
@@ -284,8 +320,8 @@ export default function Home() {
       </motion.div>
 
       {/* Main Section */}
-      <div className="relative top-0 w-full min-h-screen flex">
-        <div className="relative w-full h-screen flex">
+      <div className="relative top-0 w-full min-h-screen flex flex-col">
+        <div className="relative w-full h-lvh flex flex-col">
           {/* Gradient Overlay */}
           <motion.div
             className="absolute inset-0 bg-blue-950 z-10"
@@ -295,78 +331,105 @@ export default function Home() {
           />
 
           {/* Left Section - Bulk SMS Quotes & Products */}
-          <motion.div
-            className="relative z-20 w-1/2 hidden md:flex flex-col justify-center items-center text-white p-10 space-y-6 ml-32"
-            initial={{ opacity: 0, x: -50 }}
-            animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 1 }}
-          >
-            {/* Bulk SMS Quote (Floating Animation) */}
-            <motion.h2
-              className="text-6xl font-thin text-left tracking-widest"
-              initial={{ opacity: 0, y: -20 }}
-              animate={{ opacity: 1, y: [0, -10, 0] }}
-              transition={{ delay: 0.5, duration: 2, repeat: Infinity, repeatType: "reverse" }}
+          <section className="relative w-full h-screen flex flex-col items-center lg:items-start lg:justify-start overflow-hidden p-6 md:p-10 xl:pl-20 xl:pt-40 pt-20">
+            {/* Background Video Overlay */}
+            <div className="absolute inset-0 bg-black/40 z-10"></div>
+            <video
+              autoPlay
+              loop
+              muted
+              playsInline
+              className="absolute top-0 left-0 w-full h-full object-cover"
             >
-              Engage Your Audience in Just One Click!
-            </motion.h2>
+              <source src="/your-video.mp4" type="video/mp4" />
+            </video>
 
-            {/* Small Content */}
-            <motion.p
-              className="text-base text-left tracking-widest text-gray-100"
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.8, duration: 1 }}
+            {/* Content Section */}
+            <motion.div
+              className="relative z-20 w-full max-w-5xl px-4 sm:px-6 md:px-16 py-6 sm:py-10 space-y-6 sm:space-y-8 sm:text-left text-left lg:text-left text-white"
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, ease: "easeOut" }}
             >
-              Instantly Connect. Engage. Convert. Our Bulk SMS solutions empower businesses to reach their audience with real-time messaging,
-              driving higher engagement and boosting sales effortlessly!
-            </motion.p>
+              {/* Floating Headline with Scroll Effect */}
+              <motion.h1
+                className="text-3xl sm:text-5xl md:text-5xl xl:text-6xl sm:font-bold font-light tracking-widest leading-tight"
+                initial={{ opacity: 0, y: -30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.3, duration: 1, ease: "easeOut" }}
+              >
+                Engage Your Audience <br />
+                <span className="text-blue-400">in Just One Click!</span>
+              </motion.h1>
 
-            {/* SMS Features Animation */}
-            <motion.div ref={ref} className="relative h-40 overflow-hidden w-96">
-      <motion.div
-        className="space-y-4"
-        initial={{ y: 0 }}
-        animate={{ y: ["0%", "-100%"] }} // Scroll up
-        transition={{
-          duration: smsFeatures.length * 4.5, // Control speed
-          ease: "linear",
-          repeat: Infinity, // Repeat infinitely
-        }}
-      >
-        {smsFeatures.concat(smsFeatures).map((item, index) => ( // Duplicate list for smooth looping
+              {/* Subtitle with Fade-In Effect */}
+              <motion.p
+                className="text-lg sm:text-lg md:text-xl lg:text-lg max-w-xl sm:max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto text-gray-200 tracking-widest"
+                initial={{ opacity: 0 }}
+                whileInView={{ opacity: 1 }}
+                transition={{ delay: 0.5, duration: 1 }}
+              >
+                Instantly connect, engage, and convert. Our AI-powered Bulk SMS solutions help businesses reach their audience in real time with maximum impact.
+              </motion.p>
+
+              {/* Feature Grid with Scroll Animation */}
+              <motion.div
+                className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 w-full max-w-xl sm:max-w-2xl md:max-w-4xl mx-auto"
+                initial="hidden"
+                whileInView="visible"
+                viewport={{ once: true }}
+                variants={{
+                  hidden: { opacity: 0 },
+                  visible: {
+                    opacity: 1,
+                    transition: { staggerChildren: 0.3 },
+                  },
+                }}
+              >
+                {smsFeatures.map((item, index) => (
+                  <motion.div
+                    key={index}
+                    className="flex items-center border-2 border-white shadow-xl rounded-xl px-2 sm:px-6 py-2 sm:py-5 sm:space-x-4 space-x-2 transform transition-all hover:scale-105 hover:shadow-2xl"
+                    variants={{
+                      hidden: { opacity: 0, y: 30 },
+                      visible: { opacity: 1, y: 0 },
+                    }}
+                    transition={{ duration: 0.5 }}
+                    whileHover={{ scale: 1.05 }}
+                  >
+                    {/* Icon */}
+                    <div
+                      className={`w-8  sm:w-12 sm:h-12 flex items-center justify-center rounded-full sm:bg-white shadow-lg`}
+                    >
+                      <FontAwesomeIcon icon={item.icon} className="sm:text-black text-white w-5 h-5 sm:w-6 sm:h-6" />
+                    </div>
+
+                    {/* Feature Text */}
+                    <span className="text-[8px] sm:text-sm font-light text-white tracking-wide">
+                      {item.text}
+                    </span>
+                  </motion.div>
+                ))}
+              </motion.div>
+            </motion.div>
+
+          </section>
+
+          {/* Right Section - Support Form (Only visible on md+ screens) */}
           <motion.div
-            key={index}
-            className="flex items-center bg-white shadow-lg px-6 py-3 rounded-lg space-x-6 w-96"
-          >
-            {/* Icon */}
-            <div className={`w-12 h-12 flex items-center justify-center rounded-full ${item.bgColor}`}>
-              <FontAwesomeIcon icon={item.icon} className="text-white w-6 h-6" />
-            </div>
-
-            {/* Text */}
-            <span className="text-xl text-gray-800">{item.text}</span>
-          </motion.div>
-        ))}
-      </motion.div>
-    </motion.div>
-          </motion.div>
-
-          {/* Right Section - Support Form (Slide-In Animation) */}
-          <motion.div
-            className="absolute top-0 right-0 flex justify-end items-center pt-10 z-10 w-1/2"
+            className="hidden md:flex absolute top-0 right-0 justify-end items-center pt-10 z-10 w-1/2 xl:w-1/3"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <div className="hidden md:block text-white mt-28 mr-40">
+            <div className="text-white mt-28 mr-10 xl:mr-40">
               <SupportForm />
             </div>
           </motion.div>
 
-          {/* Bottom Section - Speed Test (Fade-In Effect) */}
+          {/* Bottom Section - Speed Test (Only visible on md+ screens) */}
           <motion.div
-            className="absolute bottom-0 w-full hidden md:block z-20"
+            className="hidden md:block absolute bottom-0 w-full z-20"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5, duration: 1 }}
@@ -375,15 +438,24 @@ export default function Home() {
           </motion.div>
         </div>
 
-        {/* Support Form for Mobile (Fade-In) */}
+        {/* Support Form for Mobile (Always visible and positioned below content) */}
         <motion.div
-          className="block md:hidden bg-white p-6 w-full"
+          className="block md:hidden  p-6 w-full shadow-lg bg-white"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
         >
           <SupportForm />
         </motion.div>
+
+        <motion.div
+            className="block md:hidden  p-6 w-full shadow-lg bg-white"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.5, duration: 1 }}
+          >
+            <SpeedTest />
+          </motion.div>
       </div>
 
       {/* Partner Section Animation */}
@@ -407,9 +479,9 @@ export default function Home() {
       </motion.div>
 
       {/* WhatsAppIcon Animation */}
-  
-        <WhatsAppIcon />
-     
+
+      <WhatsAppIcon />
+
     </div>
   );
 }
