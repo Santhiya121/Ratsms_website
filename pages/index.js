@@ -209,7 +209,7 @@ import LocalBusinessSchema from "../app/components/localSchema";
 import { motion } from "framer-motion";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+
 import {
   faBullhorn,
   faComments,
@@ -217,6 +217,7 @@ import {
   faImage, // Smart SMS Icon (Mobile with Text)
   faCommentDots,
   faCircleInfo,
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 const smsFeatures = [
   {
@@ -241,7 +242,7 @@ const smsFeatures = [
   },
   {
     text: "WhatsApp Business API",
-    icon: faWhatsapp,
+    icon: faPhone,
 
   },
   {
