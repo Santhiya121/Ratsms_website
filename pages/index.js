@@ -196,7 +196,6 @@
 //   );
 // }
 
-import { useRef } from "react";
 import Navbar from "../app/components/Navbar";
 import Partner from "../app/components/partners";
 import Phone from "../app/components/phone";
@@ -207,7 +206,7 @@ import WhatsAppIcon from "../app/components/whatsappIcon";
 import Head from "next/head";
 import "../app/globals.css";
 import LocalBusinessSchema from "../app/components/localSchema";
-import { motion, useInView } from "framer-motion";
+import { motion } from "framer-motion";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
@@ -258,8 +257,7 @@ const smsFeatures = [
 ];
 
 export default function Home() {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: false, amount: 0.2 }); // Triggers when 20% of the div is visible
+
 
   return (
     <div>

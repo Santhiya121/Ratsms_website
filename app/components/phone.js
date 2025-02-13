@@ -2,45 +2,44 @@ import { motion } from "framer-motion";
 import "../globals.css";
 import Image from "next/image";
 import Link from "next/link";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+
 
 export default function Phone() {
   return (
     <>
       <div className="fixed bottom-6 right-6 flex flex-col items-center  z-50 ">
-      {/* WhatsApp Icon as an Image */}
-    
+        {/* WhatsApp Icon as an Image */}
 
-      {/* Call Icon */}
-      <Link href="tel:+917506712345">
-        <Image
-          src="/images/call1.png"
-          alt="Call Icon"
-          width={50}
-          height={50}
-          className="w-10 h-10 rounded-full hover:shadow-xl transition-all block md:hidden"
-          loading="lazy"
-        />
-      </Link>
-      <a
-        href="https://wa.me/+917506712345?text=Hi%2C%20learn%20more%20about%20your%20services!"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="hover:scale-110 transition-transform duration-300"
-        aria-label="Chat on WhatsApp"
-      >
-      <Image
-  src="/images/whats.png"
-  alt="WhatsApp Icon"
-  width={80}
-  height={80}
-  className="w-14 h-14 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 transition-all"
-  loading="lazy"
-/>
 
-      </a>
-    </div>
+        {/* Call Icon */}
+        <Link href="tel:+917506712345">
+          <Image
+            src="/images/call1.png"
+            alt="Call Icon"
+            width={50}
+            height={50}
+            className="w-10 h-10 rounded-full hover:shadow-xl transition-all block md:hidden"
+            loading="lazy"
+          />
+        </Link>
+        <a
+          href="https://wa.me/+917506712345?text=Hi%2C%20learn%20more%20about%20your%20services!"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:scale-110 transition-transform duration-300"
+          aria-label="Chat on WhatsApp"
+        >
+          <Image
+            src="/images/whats.png"
+            alt="WhatsApp Icon"
+            width={90}
+            height={90}
+            className="w-20 h-20 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 transition-all"
+            loading="lazy"
+          />
+
+        </a>
+      </div>
 
       <motion.div
         className="fixed right-0 sm:right-6 top-1/2 transform -translate-y-1/2 text-white p-4 flex  sm:items-center space-x-4 z-20 cursor-pointer "

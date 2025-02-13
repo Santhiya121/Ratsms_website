@@ -31,11 +31,11 @@ export default function CareersHome() {
           <Image
             src="/videos/career.gif"
             alt="Career GIF"
-            width={500}  // Replace with your actual width
-            height={300} // Replace with your actual height
+            width={1000}  // Replace with your actual width
+            height={600} // Replace with your actual height
             className="object-cover"
             unoptimized // Disable optimization for animated images
-            layout="responsive"
+           
           />
         </div>
       </div>

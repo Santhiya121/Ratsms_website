@@ -36,7 +36,7 @@ const WhatsAppIcon = () => {
         className="hover:scale-110 transition-transform duration-300 p-1 sm:p-2 "
         aria-label="Read more about Seminole tax hike"
       >
-        <i className="fab fa-instagram text-xl sm:text-3xl md:text-3xl  text-pink-500 hover:text-pink-700" />
+        <i className="fab fa-instagram text-xl sm:text-3xl md:text-3xl lg:text-5xl  text-pink-500 hover:text-pink-700" />
       </a>
 
       {/* Facebook Icon */}
@@ -48,7 +48,7 @@ const WhatsAppIcon = () => {
         className="hover:scale-110 transition-transform duration-300 p-1 sm:p-2 "
         aria-label="Read more about Seminole tax hike"
       >
-        <i className="fab fa-facebook text-xl sm:text-3xl md:text-3xl text-[#1877F2] hover:text-blue-900" />
+        <i className="fab fa-facebook text-xl sm:text-3xl md:text-3xl lg:text-5xl text-[#1877F2] hover:text-blue-900" />
       </a>
 
       {/* WhatsApp Icon */}

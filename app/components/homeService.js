@@ -23,7 +23,7 @@ export default function HomeService() {
               height={300} // Actual height of the image
               className="object-cover w-full" // Ensure it takes full width of the container
               sizes="(max-width: 768px) 100vw, 50vw" // Adjusts image size based on screen width
-              layout="responsive"
+            
             />
             <div className="pt-4">
               <h3 className="text-lg md:text-lg font-roboto text-gray-800 text-left">
@@ -53,7 +53,7 @@ export default function HomeService() {
               height={300} // Actual height of the image
               className="object-cover w-full" // Ensure it takes full width of the container
               sizes="(max-width: 768px) 100vw, 50vw" // Adjusts image size based on screen width
-              layout="responsive"
+          
             />
             {/* className="w-full h-36 sm:h-48 md:h-56 object-cover " */}
             <div className="pt-4">
@@ -84,7 +84,7 @@ export default function HomeService() {
               height={300} // Actual height of the image
               className="object-cover w-full" // Ensure it takes full width of the container
               sizes="(max-width: 768px) 100vw, 50vw" // Adjusts image size based on screen width
-              layout="responsive"
+   
             />
             <div className="pt-4">
               <h3 className="text-lg md:text-lg font-roboto text-gray-800 text-left">

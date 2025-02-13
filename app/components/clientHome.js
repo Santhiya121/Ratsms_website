@@ -50,15 +50,14 @@ export default function ClientHome() {
                 className="flex-shrink-0 w-32 sm:w-40 lg:w-48 bg-white border rounded-lg shadow-lg text-center p-4 transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
               >
                 <div className="relative w-full h-32 sm:h-40 lg:h-48"> {/* Fixed height for div */}
-                  <Image
-                    src={src}
-                    alt={`Client ${index + 1}`}
-                    layout="fill"  // Makes the image fill the parent div
-                    objectFit="contain"  // Ensure image fits without distortion
-                    className="rounded-lg mb-4"
-                    
-                    
-                  />
+                <Image
+  src={src}
+  alt={`Client ${index + 1}`}
+  fill
+  style={{ objectFit: 'contain' }}  // Ensures the image fits inside the parent
+  className="rounded-lg mb-4"
+/>
+
                 </div>
               </div>
             ))}
