@@ -53,8 +53,8 @@ export default function Footer() {
                    
                     <ul className="sm:space-y-4 space-y-2 sm:text-center text-left pl-20 lg:text-left sm:pl-12 font-thin tracking-widest">
                     <h2 className="text-lg font-roboto font-semibold mb-4 sm:text-center  text-left lg:text-left">Connect</h2>
-                        <li>General Enquiry: <span className="font-bold text-white">+ 044 - 472 10 462</span></li>
-                        <li>Sales Enquiry: <span className="font-bold text-white">+91 - 75067 12345</span></li>
+                        <li>General Enquiry: <span className="font-bold text-white">044-472 10 462</span></li>
+                        <li>Sales Enquiry: <span className="font-bold text-white">75067 12345</span></li>
                         <li>Email: <span className="font-bold text-white">sales@ratsms.com</span></li>
                     </ul>
                 </div>
