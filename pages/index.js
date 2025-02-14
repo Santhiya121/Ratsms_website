@@ -207,7 +207,7 @@ import Head from "next/head";
 import "../app/globals.css";
 import LocalBusinessSchema from "../app/components/localSchema";
 import { motion } from "framer-motion";
-import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+// import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 
@@ -220,6 +220,7 @@ import {
   faCode,
   faCommentDollar,
   faCheckDouble,
+  faPhone,
 } from "@fortawesome/free-solid-svg-icons";
 const smsFeatures = [
   {
@@ -244,7 +245,7 @@ const smsFeatures = [
   },
   {
     text: "WhatsApp Business API",
-    icon: faWhatsapp,
+    icon: faPhone,
 
   },
   {
