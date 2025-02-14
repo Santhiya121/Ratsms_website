@@ -90,7 +90,7 @@ export default function BulkSMSPage() {
 
     {/* Why Choose Us Section */}
     <section className="mb-16 p-4 sm:p-16 bg-white">
-      <h2 className="text-2xl sm:text-4xl font-roboto text-center mb-10">Why Choose Us?</h2>
+      <p className="text-2xl sm:text-4xl font-roboto text-center mb-10">Why Choose Us?</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
         <div className="bg-white text-black p-6 rounded-lg shadow-md hover:shadow-2xl transition-shadow duration-300">
           <div className="items-left">
@@ -121,7 +121,7 @@ export default function BulkSMSPage() {
 
     {/* Our Products Section */}
     <section className="p-4 sm:p-16">
-      <h2 className="text-2xl sm:text-4xl font-roboto text-center mb-8">Our Products</h2>
+      <p className="text-2xl sm:text-4xl font-roboto text-center mb-8">Our Products</p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {products.map((product, index) => (
           <div key={index} className="bg-white text-black rounded-lg shadow-lg p-6 hover:shadow-2xl transition-shadow duration-300">
@@ -154,7 +154,7 @@ export default function BulkSMSPage() {
 
 
   <div class="mt-10 bg-white text-black px-4 py-10">
-  <h2 class="text-2xl sm:text-4xl font-roboto text-center mb-8">Key Features</h2>
+  <p class="text-2xl sm:text-4xl font-roboto text-center mb-8">Key Features</p>
   <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:px-16">
     <div class="flex items-center space-x-4">
     <div className="bg-white rounded-lg shadow-lg p-10">
@@ -210,7 +210,7 @@ export default function BulkSMSPage() {
 
 
   <div class="mt-16">
-    <h2 class="text-2xl sm:text-4xl font-roboto text-center mb-8">Why Use a Bulk SMS Gateway Aggregator?</h2>
+    <p class="text-2xl sm:text-4xl font-roboto text-center mb-8">Why Use a Bulk SMS Gateway Aggregator?</p>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-5 sm:px-16 sm:pt-10">
       <div class="flex items-center space-x-4">
       <div className="bg-white rounded-lg shadow-lg p-10">
@@ -257,7 +257,7 @@ export default function BulkSMSPage() {
 
 
   <div class="mt-16">
-    <h2 class="text-2xl sm:text-4xl font-roboto text-center mb-8">Use Cases for Bulk SMS Gateway Aggregator</h2>
+    <p class="text-2xl sm:text-4xl font-roboto text-center mb-8">Use Cases for Bulk SMS Gateway Aggregator</p>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-5 sm:px-16 sm:p-10">
       <div class="flex items-center space-x-4">
       <div className="bg-white rounded-lg shadow-lg p-10">
@@ -312,7 +312,7 @@ export default function BulkSMSPage() {
 
  
   <div class="mt-10 bg-gradient-to-r from-black to-gray-800 text-white text-center py-16 px-4 rounded-lg shadow-lg sm:mx-16">
-  <h2 class="text-xl sm:text-4xl font-semibold mb-6">Why Choose RAT SMS as Your Bulk SMS Gateway Aggregator?</h2>
+  <p class="text-xl sm:text-4xl font-semibold mb-6">Why Choose RAT SMS as Your Bulk SMS Gateway Aggregator?</p>
   <p class="text-base sm:text-lg mb-6">Get started with RAT SMS to enhance your communication and increase customer engagement with ease.</p>
   <div class="mt-6">
     <button class="bg-white text-black px-8 py-4 rounded-full font-semibold shadow-lg hover:bg-gray-200 transition duration-300">

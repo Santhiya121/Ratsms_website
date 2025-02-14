@@ -111,9 +111,9 @@ const SMPPEngineerForm = () => {
 
   {/* Job Description */}
   <div className="mt-8 p-6 bg-white border border-gray-300 rounded-lg shadow-sm">
-    <h2 className="text-3xl font-serif font-semibold text-gray-800 mb-4">
+    <p className="text-3xl font-serif font-semibold text-gray-800 mb-4">
       <FaBriefcase className="mr-2 inline-block text-gray-600" /> Job Description
-    </h2>
+    </p>
     <p className="text-gray-700 text-lg leading-relaxed">
       As a Telesales Executive, your role will involve generating sales and leads over the phone. You will manage client relationships, meet sales targets, and contribute to business growth. Your responsibilities include providing product information, handling customer inquiries, and closing deals.
     </p>
@@ -121,9 +121,9 @@ const SMPPEngineerForm = () => {
 
   {/* Responsibilities */}
   <div className="mt-8 p-6 bg-white border border-gray-300 rounded-lg shadow-sm">
-    <h3 className="text-2xl font-serif font-semibold text-gray-800 mb-4">
+    <p className="text-2xl font-serif font-semibold text-gray-800 mb-4">
       <FaTasks className="mr-2 inline-block text-gray-600" /> Key Responsibilities
-    </h3>
+    </p>
     <ul className="list-inside text-gray-600 text-lg">
       <li>Generate and qualify sales leads through outbound calls.</li>
       <li>Understand customer needs and provide product solutions.</li>
@@ -137,9 +137,9 @@ const SMPPEngineerForm = () => {
 
   {/* Skills & Requirements */}
   <div className="mt-8 p-6 bg-white border border-gray-300 rounded-lg shadow-sm">
-    <h3 className="text-2xl font-serif font-semibold text-gray-800 mb-4">
+    <p className="text-2xl font-serif font-semibold text-gray-800 mb-4">
       <FaTools className="mr-2 inline-block text-gray-600" /> Skills & Requirements
-    </h3>
+    </p>
     <ul className="list-inside text-gray-600 text-lg">
       <li>Excellent communication and interpersonal skills.</li>
       <li>Proven sales experience in a telesales or similar role.</li>

@@ -21,9 +21,9 @@ export default function Service() {
               className="w-full h-48 md:h-80 mx-auto mb-4 object-cover"
             />
 
-            <h3 className="text-lg sm:text-lg md:text-lg font-roboto text-gray-800 text-left">
+            <p className="text-lg sm:text-lg md:text-lg font-roboto text-gray-800 text-left">
               PREMIUM ROUTE
-            </h3>
+            </p>
             <p className="text-base md:font-light text-black mt-2 text-left">
               Lightning Premium SMS Gateway to deliver SMS instantly across any networks without any delay.
             </p>
@@ -39,9 +39,9 @@ export default function Service() {
               className="w-full h-48 md:h-80 mx-auto mb-4 object-cover"
             />
 
-            <h3 className="text-lg sm:text-lg md:text-lg font-roboto text-gray-800 text-left">
+            <p className="text-lg sm:text-lg md:text-lg font-roboto text-gray-800 text-left">
               SCHEDULE SMS
-            </h3>
+            </p>
             <p className="text-base md:font-light text-black mt-2 text-left">
               Schedule sms feature to make events and festivals memorable. Schedule SMS to be sent at a future date & time.
             </p>
@@ -57,9 +57,9 @@ export default function Service() {
               className="w-full h-48 md:h-80 mx-auto mb-4 object-cover"
             />
 
-            <h3 className="text-lg sm:text-lg md:text-lg font-roboto text-gray-800 text-left">
+            <p className="text-lg sm:text-lg md:text-lg font-roboto text-gray-800 text-left">
               UNICODE SMS
-            </h3>
+            </p>
             <p className="text-base md:font-light text-black mt-2 text-left">
               Unicode SMS allows you to send Bulk SMS in your regional language which helps to target your local audience.
             </p>

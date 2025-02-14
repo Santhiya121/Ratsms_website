@@ -73,7 +73,7 @@ export default function TermsConditions() {
     <div className="bg-white p-8 rounded-lg shadow-lg space-y-6">
       <div className="flex items-center mb-6">
         <i className="fas fa-info-circle text-black text-3xl mr-4"></i>
-        <h2 className="text-2xl sm:text-3xl font-semibold text-black">Our Terms and Conditions</h2>
+        <p className="text-2xl sm:text-3xl font-semibold text-black">Our Terms and Conditions</p>
       </div>
       <p className="text-gray-700 sm:text-lg text-base leading-relaxed">
         These terms and conditions outline the rules and regulations 
@@ -96,7 +96,7 @@ export default function TermsConditions() {
     <div className="bg-gradient-to-r from-gray-200 to-gray-100 p-8 rounded-lg shadow-lg space-y-6">
       <div className="flex items-center mb-6">
         <i className="fas fa-book text-black text-3xl mr-4"></i>
-        <h2 className="text-2xl sm:text-3xl font-semibold text-black">Definitions</h2>
+        <p className="text-2xl sm:text-3xl font-semibold text-black">Definitions</p>
       </div>
       <ul className="  text-gray-700 text-lg">
       
@@ -114,7 +114,7 @@ export default function TermsConditions() {
     <div className="bg-white p-8 rounded-lg shadow-lg space-y-6">
       <div className="flex items-center mb-6">
         <i className="fas fa-database text-black text-3xl mr-4"></i>
-        <h3 className="text-2xl sm:text-3xl font-semibold text-black">Data Collection</h3>
+        <p className="text-2xl sm:text-3xl font-semibold text-black">Data Collection</p>
       </div>
       <p className="text-gray-700 text-lg leading-relaxed">
         We are committed to protecting your privacy. Any personal data collected through the use of this website will be processed in accordance with our Privacy Policy.
@@ -130,9 +130,9 @@ export default function TermsConditions() {
     {/* Call to Action Section */}
     <div className="bg-gray-100 p-8 rounded-lg shadow-lg flex flex-col items-center space-y-6">
   {/* Header */}
-  <h3 className="text-2xl sm:text-3xl font-semibold text-black text-center">
+  <p className="text-2xl sm:text-3xl font-semibold text-black text-center">
     Need More Information?
-  </h3>
+  </p>
 
   {/* Description */}
   <p className="text-gray-700 text-base sm:text-lg text-center max-w-md">

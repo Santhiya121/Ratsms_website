@@ -142,7 +142,7 @@ export default function BulkSMS() {
                     <span className="text-xl">Explore</span>
                   </div>
                 </div>
-                <h2 className="text-sm sm:text-xl font-roboto font-light mb-2 text-black">{city}</h2>
+                <p className="text-sm sm:text-xl font-roboto font-light mb-2 text-black">{city}</p>
               </div>
             </Link>
           ))}
@@ -156,7 +156,7 @@ export default function BulkSMS() {
         <main className="container mx-auto py-16 px-4 lg:px-24">
           {/* What is Bulk SMS? */}
           <section className="text-center">
-            <h2 className="sm:text-4xl text-xl font-light text-black mb-6">What is Bulk SMS?</h2>
+            <p className="sm:text-4xl text-xl font-light text-black mb-6">What is Bulk SMS?</p>
             <p className="mt-6 text-base text-gray-600 tracking-widest ">
               Bulk SMS is the process of sending a large number of SMS messages to a list of recipients simultaneously. This
               service is perfect for businesses looking to reach a large audience quickly and effectively.
@@ -166,11 +166,11 @@ export default function BulkSMS() {
 
           {/* Why Choose RAT SMS? */}
           <section className="mt-16">
-            <h2 className="sm:text-4xl text-xl font-light text-black text-center mb-8">Why Choose RAT SMS?</h2>
+            <p className="sm:text-4xl text-xl font-light text-black text-center mb-8">Why Choose RAT SMS?</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
               <div className="bg-white text-black p-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                 <FaEnvelope className="text-4xl text-black mb-4 mx-auto" />
-                <h3 className="text-xl font-light mb-4">Instant Delivery</h3>
+                <p className="text-xl font-light mb-4">Instant Delivery</p>
                 <p className="text-base text-gray-600 leading-relaxed">
                   Get your message delivered instantly across the globe. Real-time communication at your fingertips.
                 </p>
@@ -178,7 +178,7 @@ export default function BulkSMS() {
 
               <div className="bg-white text-black p-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                 <FaBullhorn className="text-4xl text-black mb-4 mx-auto" />
-                <h3 className="text-xl font-light mb-4">Cost-Effective</h3>
+                <p className="text-xl font-light mb-4">Cost-Effective</p>
                 <p className="text-base text-gray-600 leading-relaxed">
                   Send thousands of messages at a fraction of the cost. Maximize your marketing budget.
                 </p>
@@ -186,7 +186,7 @@ export default function BulkSMS() {
 
               <div className="bg-white text-black p-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                 <FaHandshake className="text-4xl text-black mb-4 mx-auto" />
-                <h3 className="text-xl font-light mb-4">High Open Rate</h3>
+                <p className="text-xl font-light mb-4">High Open Rate</p>
                 <p className="text-base text-gray-600 leading-relaxed">
                   SMS messages boast an incredibly high open rate, ensuring that your message reaches your audience.
                 </p>
@@ -194,7 +194,7 @@ export default function BulkSMS() {
 
               <div className="bg-white text-black p-8 rounded-xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
                 <FaLock className="text-4xl text-black mb-4 mx-auto" />
-                <h3 className="text-xl font-light mb-4">Reliable</h3>
+                <p className="text-xl font-light mb-4">Reliable</p>
                 <p className="text-base text-gray-600 leading-relaxed">
                   Our gateway ensures secure and reliable delivery, protecting your messages and data.
                 </p>
@@ -204,7 +204,7 @@ export default function BulkSMS() {
 
           {/* Types of Bulk SMS Services */}
           <section className="mt-16">
-            <h2 className="sm:text-4xl text-xl font-light text-black text-center mb-8">Types of Bulk SMS Services We Offer</h2>
+            <p className="sm:text-4xl text-xl font-light text-black text-center mb-8">Types of Bulk SMS Services We Offer</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 mt-10">
               {/* Promotional SMS */}
               <div className="bg-white text-black p-10 rounded-3xl shadow-2xl hover:shadow-xl transition-all duration-300 transform hover:scale-105">
@@ -215,7 +215,7 @@ export default function BulkSMS() {
                   width={192} // width of the image in pixels
                   height={192} // height of the image in pixels
                 />
-                <h3 className="text-xl font-light text-black">Promotional SMS</h3>
+                <p className="text-xl font-light text-black">Promotional SMS</p>
                 <p className="mt-4 text-base text-gray-600 leading-relaxed">
                   Reach your audience with time-sensitive offers, discounts, and promotions.
                 </p>
@@ -230,7 +230,7 @@ export default function BulkSMS() {
                   width={192} // width of the image in pixels
                   height={192} // height of the image in pixels
                 />
-                <h3 className="text-xl font-light text-black">Transactional SMS</h3>
+                <p className="text-xl font-light text-black">Transactional SMS</p>
                 <p className="mt-4 text-base text-gray-600 leading-relaxed">
                   Send essential updates like OTPs, order confirmations, and other important transactional messages.
                 </p>
@@ -245,7 +245,7 @@ export default function BulkSMS() {
                   width={192} // width of the image in pixels
                   height={192} // height of the image in pixels
                 />
-                <h3 className="text-xl font-light text-black">OTP SMS</h3>
+                <p className="text-xl font-light text-black">OTP SMS</p>
                 <p className="mt-4 text-base text-gray-600 leading-relaxed">
                   Enhance security with One-Time Password (OTP) SMS, ensuring safe login and transactions.
                 </p>
@@ -255,23 +255,23 @@ export default function BulkSMS() {
 
           {/* Why Choose Us? */}
           <section className="mt-16">
-            <h2 className="sm:text-4xl text-xl font-light text-black text-center mb-8">Why Choose Us?</h2>
+            <p className="sm:text-4xl text-xl font-light text-black text-center mb-8">Why Choose Us?</p>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-16 rounded-lg shadow-md p-8">
               <div className="text-center ">
                 <FaBullhorn className="text-4xl text-black mb-4 mx-auto" />
-                <h3 className="text-xl font-light text-black mb-4">Nationwide Coverage</h3>
+                <p className="text-xl font-light text-black mb-4">Nationwide Coverage</p>
                 <p className="text-base text-gray-600 leading-relaxed">We cover all major cities in India, ensuring wide reach.</p>
               </div>
 
               <div className="text-center">
                 <FaEnvelope className="text-4xl text-black mb-4 mx-auto" />
-                <h3 className="text-xl font-light text-black mb-4">Easy Integration</h3>
+                <p className="text-xl font-light text-black mb-4">Easy Integration</p>
                 <p className="text-base text-gray-600 leading-relaxed">Seamlessly integrate with your existing systems and applications.</p>
               </div>
 
               <div className="text-center">
                 <FaHandshake className="text-4xl text-black mb-4 mx-auto" />
-                <h3 className="text-xl font-light text-black mb-4">Advanced Analytics</h3>
+                <p className="text-xl font-light text-black mb-4">Advanced Analytics</p>
                 <p className="text-base text-gray-600 leading-relaxed">Track your campaigns and gain insights through our analytics dashboard.</p>
               </div>
             </div>
@@ -279,7 +279,7 @@ export default function BulkSMS() {
 
           {/* Get in Touch */}
           <section className="mt-16 text-center">
-            <h2 className="sm:text-4xl text-xl font-light text-black mb-6">Get in Touch</h2>
+            <p className="sm:text-4xl text-xl font-light text-black mb-6">Get in Touch</p>
             <p className="mt-6 text-base text-gray-600 tracking-widest">
               Ready to elevate your communication? Contact us today to get started with Bulk SMS services.
             </p>

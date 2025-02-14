@@ -29,9 +29,9 @@ export default function ServiceHome() {
               style={{ objectFit: 'cover' }} // Ensures the image covers the container
             />
 
-            <h3 className="text-lg sm:text-lg md:text-lg font-roboto text-gray-800 text-left">
+            <p className="text-lg sm:text-lg md:text-lg font-roboto text-gray-800 text-left">
               UNMATCHED BULK SMS DELIVERY
-            </h3>
+            </p>
             <p className="text-base md:font-light text-black mt-2 text-left">
               Our direct partnership with multiple telecom operators and smart
               SMS gateway technology ensures best-in-class delivery rates & speeds.
@@ -49,9 +49,9 @@ export default function ServiceHome() {
               priority // Optional: add if the image is critical for the initial page load
             />
 
-            <h3 className="text-lg sm:text-lg md:text-lg font-roboto text-gray-800 text-left">
+            <p className="text-lg sm:text-lg md:text-lg font-roboto text-gray-800 text-left">
               MULTIPLE OPERATOR
-            </h3>
+            </p>
             <p className="text-base md:font-light text-black mt-2 text-left">
               Multiple operator support ensures that one of our operators will
               automatically start working if the other is inactive.
@@ -69,9 +69,9 @@ export default function ServiceHome() {
               priority // Optional: add if the image is critical for the initial page load
             />
 
-            <h3 className="text-lg sm:text-lg md:text-lg font-roboto text-gray-800 text-left">
+            <p className="text-lg sm:text-lg md:text-lg font-roboto text-gray-800 text-left">
               SMART RETRY MECHANISM
-            </h3>
+            </p>
             <p className="text-base md:font-light text-black mt-2 text-left">
               Our Smart Routing helps transmit your bulk SMS over multiple
               network routes carrying the least traffic.

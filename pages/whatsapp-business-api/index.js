@@ -99,7 +99,7 @@ export default function WhatsappBusinessApi() {
                   height={360} // Replace with the actual height of the image
                   className="w-96 h-90 object-cover rounded-lg shadow-md" />
                 <div className="w-full md:w-1/2 space-y-4">
-                  <h2 className="text-xl font-roboto  text-black">Create marketing campaigns that drive conversions</h2>
+                  <p className="text-xl font-roboto  text-black">Create marketing campaigns that drive conversions</p>
                   <p className="text-gray-600 text-base font-light font-roboto">
                     Share promotions, offers, and back-in-stock alerts while respecting customer permissions. </p>
                   <p className="text-gray-600 text-base font-light font-roboto">
@@ -115,7 +115,7 @@ export default function WhatsappBusinessApi() {
                   height={360} // Replace with the actual height of the image
                   className="w-96 h-90 object-cover rounded-lg shadow-md" />
                 <div className="w-full md:w-1/2 space-y-4">
-                  <h2 className="text-xl font-roboto text-black">Boost your sales with your WhatsApp store</h2>
+                  <p className="text-xl font-roboto text-black">Boost your sales with your WhatsApp store</p>
                   <p className="text-gray-600 text-base font-light font-roboto">
                     Display tailored products from your catalog using WhatsApp product messages via the commerce API.  </p>
                   <p className="text-gray-600 text-base font-light font-roboto">
@@ -131,7 +131,7 @@ export default function WhatsappBusinessApi() {
                   height={360} // Replace with the actual height of the image
                   className="w-96 h-90 object-cover rounded-lg shadow-md" />
                 <div className="w-full md:w-1/2 space-y-4">
-                  <h2 className="text-xl font-roboto text-black">Deliver exceptional customer support tailored to each individuals needs</h2>
+                  <p className="text-xl font-roboto text-black">Deliver exceptional customer support tailored to each individuals needs</p>
                   <p className="text-gray-600 text-base font-light font-roboto">
                     Enhance customer care with intelligent WhatsApp chatbots designed to efficiently handle routine inquiries in bulk.    </p>
                   <p className="text-gray-600 text-base font-light font-roboto">
@@ -149,9 +149,9 @@ export default function WhatsappBusinessApi() {
           </div>
           {/* Features Section */}
           <div className="pl-4 sm:pl-20 pt-10 pb-20">
-            <h3 className="text-xl sm:text-4xl font-roboto  text-black text-left mb-20">
+            <p className="text-xl sm:text-4xl font-roboto  text-black text-left mb-20">
               Unrivaled Scale and Speed in Programmable Two-Way Conversations
-            </h3>
+            </p>
             <div className="grid gap-20 md:grid-cols-2 lg:grid-cols-3">
               {[
                 {
@@ -202,7 +202,7 @@ export default function WhatsappBusinessApi() {
 
           {/* What is Transactional SMS Section */}
           <div className="bg-white p-8 rounded-lg shadow-2xl pl-4 sm:pl-20">
-            <h3 className="text-xl font-roboto text-black mb-6">What is Transactional SMS?</h3>
+            <p className="text-xl font-roboto text-black mb-6">What is Transactional SMS?</p>
             <p className="text-gray-700 mb-4">
               According to TRAI regulations, SMS sent by commercial entities are classified into Promotional Bulk SMS and Transactional Bulk SMS.
             </p>
@@ -227,8 +227,8 @@ export default function WhatsappBusinessApi() {
   {/* Normal Pack */}
   <div className="flex items-center justify-center">
     <div className="bg-white border border-black rounded-2xl shadow-md p-6 hover:scale-105 transition-transform text-center h-[30rem] w-full md:w-96">
-      <h3 className="text-2xl font-bold text-black mb-4">STARTER</h3>
-      <h3 className="text-xl font-bold text-black mb-4">3 Month Rental</h3>
+      <p className="text-2xl font-bold text-black mb-4">STARTER</p>
+      <p className="text-xl font-bold text-black mb-4">3 Month Rental</p>
       <p className="text-4xl font-bold text-black">
         ₹20,500 <span className="line-through text-gray-400 text-xl">₹25,000</span>
       </p>
@@ -257,8 +257,8 @@ export default function WhatsappBusinessApi() {
     <div className="bg-white border-4 border-purple-500 rounded-2xl shadow-md  hover:scale-105 transition-transform text-center h-[30rem] w-full md:w-96">
     <p className="p-3 text-center rounded-t-xl bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-roboto  ">Most Recommended</p>
     <div className="">
-      <h3 className="text-2xl font-bold text-black mb-4">POPULAR</h3>
-      <h2 className="text-2xl font-bold text-black mb-4">1 Year Rental</h2>
+      <p className="text-2xl font-bold text-black mb-4">POPULAR</p>
+      <p className="text-2xl font-bold text-black mb-4">1 Year Rental</p>
       <p className="text-4xl font-bold text-black">
         ₹29,500 <span className="line-through text-gray-400 text-xl">₹45,000</span>
       </p>
@@ -299,21 +299,21 @@ export default function WhatsappBusinessApi() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center items-center pl-4 ">
   {/* Marketing */}
   <div className="text-center">
-    <h2 className="mb-2 text-black">Marketing</h2>
+    <p className="mb-2 text-black">Marketing</p>
     <FontAwesomeIcon icon={faChartLine} size="2x" style={{ color: "black" }} />
     <p className="text-gray-600 pb-10">0.78 Paise</p>
   </div>
 
   {/* Utility */}
   <div className="text-center">
-    <h2 className="mb-2 text-black">Utility</h2>
+    <p className="mb-2 text-black">Utility</p>
     <FontAwesomeIcon icon={faTools} size="2x" style={{ color: "black" }} />
     <p className="text-gray-600 pb-10">0.34 Paise</p>
   </div>
 
   {/* Service */}
   <div className="text-center">
-    <h2 className="mb-2 text-black">Service</h2>
+    <p className="mb-2 text-black">Service</p>
     <FontAwesomeIcon icon={faHandsHelping} size="2x" style={{ color: "black" }} />
     <p className="text-gray-600 pb-10">0.33 Paise</p>
   </div>

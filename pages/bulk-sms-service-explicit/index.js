@@ -87,18 +87,18 @@ export default function ServiceExplicit() {
 
           {/* What is Transactional SMS Section */}
           <div className="bg-white p-6 ml-6 sm:p-8  space-y-6 mt-16 sm:ml-16">
-            <h3 className="text-xl sm:text-2xl  font-roboto text-black mb-4 sm:mb-8">
+            <p className="text-xl sm:text-2xl  font-roboto text-black mb-4 sm:mb-8">
               Service Explicit Message applies to?
-            </h3>
+            </p>
             <p className="text-gray-700 text-base sm:text-lg mb-4 sm:mb-6">
               Messages to the existing customers recommending or promoting their other products or services.
             </p>
             <p className="text-gray-700 text-base sm:text-lg mb-4 sm:mb-6">
               Additionally, the consent template can be linked while creating a service explicit content template.
             </p>
-            <h3 className="text-xl sm:text-2xl  font-roboto text-black mb-4 sm:mb-8">
+            <p className="text-xl sm:text-2xl  font-roboto text-black mb-4 sm:mb-8">
               What is the price for sending Explicit SMS?
-            </h3>
+            </p>
             <p className="text-gray-700 text-base sm:text-lg mb-4 sm:mb-6">
               The price depends on your Volume and you can find more details on our list of bulk sms prices in India, Click to know price details.
             </p>

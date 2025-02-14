@@ -103,14 +103,14 @@
 //           transition={{ duration: 1 }}
 //         >
 //           {/* Bulk SMS Quote (Floating Animation) */}
-//           <motion.h2
+//           <motion.p
 //             className="text-3xl font-bold text-center"
 //             initial={{ opacity: 0, y: -20 }}
 //             animate={{ opacity: 1, y: [0, -10, 0] }}
 //             transition={{ delay: 0.5, duration: 2, repeat: Infinity, repeatType: "reverse" }}
 //           >
 //             "Reach Millions in Seconds – Power Your Business with Bulk SMS!"
-//           </motion.h2>
+//           </motion.p>
 
 //           {/* Small Content */}
 //           <motion.p
@@ -207,17 +207,19 @@ import Head from "next/head";
 import "../app/globals.css";
 import LocalBusinessSchema from "../app/components/localSchema";
 import { motion } from "framer-motion";
-
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
 
 import {
   faBullhorn,
   faComments,
-  faFingerprint,          // Updated OTP Icon (Key)
+  faShieldAlt,          // Updated OTP Icon (Key)
   faImage, // Smart SMS Icon (Mobile with Text)
-  faCommentDots,
-  faCircleInfo,
-  faPhone,
+  faCode,
+  faCommentDollar,
+  faCheckDouble,
 } from "@fortawesome/free-solid-svg-icons";
 const smsFeatures = [
   {
@@ -232,7 +234,7 @@ const smsFeatures = [
   },
   {
     text: "OTP SMS",
-    icon: faFingerprint, // 🔑 Secure OTP Key
+    icon: faShieldAlt, // 🔑 Secure OTP Key
 
   },
   {
@@ -242,17 +244,21 @@ const smsFeatures = [
   },
   {
     text: "WhatsApp Business API",
-    icon: faPhone,
+    icon: faWhatsapp,
 
   },
   {
-    text: "Service Implicit",
-    icon: faCircleInfo, // 🔔 Same for Implicit
+    text: "Service Implicit SMS",
+    icon: faCommentDollar,
+},
+  {
+    text: "Service Explicit SMS",
+    icon: faCheckDouble, // 🔄 Same for Explicit
 
   },
   {
-    text: "Service Explicit",
-    icon: faCommentDots, // 🔄 Same for Explicit
+    text: "SMS Api",
+    icon: faCode, // 🔄 Same for Explicit
 
   },
 ];
@@ -323,16 +329,16 @@ export default function Home() {
         <div className="relative w-full h-lvh flex flex-col">
           {/* Gradient Overlay */}
           <motion.div
-            className="absolute inset-0 bg-blue-950 z-10"
+            className="absolute inset-0 bg-blue-800 z-10"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}
           />
 
           {/* Left Section - Bulk SMS Quotes & Products */}
-          <section className="relative w-full h-screen flex flex-col items-center lg:items-start lg:justify-start overflow-hidden p-6 md:p-10 lg:pl-20 lg:pt-40 2xl:pt-28 pt-20 xl:pt-14">
+          <section className="relative w-full h-screen flex flex-col items-center lg:items-start lg:justify-start overflow-hidden p-6 md:p-10 lg:pl-20 lg:pt-40 2xl:pt-20 pt-20 xl:pt-14">
             {/* Background Video Overlay */}
-            <div className="absolute inset-0 bg-black/40 z-10"></div>
+            <div className="absolute inset-0 bg-black/60 z-10"></div>
             <video
               autoPlay
               loop
@@ -351,7 +357,7 @@ export default function Home() {
               transition={{ duration: 1, ease: "easeOut" }}
             >
               {/* Floating Headline with Scroll Effect */}
-              <motion.h1
+              <motion
                 className="text-2xl sm:text-3xl md:text-3xl xl:text-3xl lg:text-4xl 2xl:text-5xl sm:font-bold font-light tracking-widest leading-tight"
                 initial={{ opacity: 0, y: -30 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -359,7 +365,7 @@ export default function Home() {
               >
                 Engage Your Audience <br />
                 <span className="text-blue-400">in Just One Click!</span>
-              </motion.h1>
+              </motion>
 
               {/* Subtitle with Fade-In Effect */}
               <motion.p
@@ -421,7 +427,7 @@ export default function Home() {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
           >
-            <div className="text-white 2xl:mt-16 xl:mr-10 2xl:mr-30 absolute top-0 right-0 justify-end items-center pt-10 z-10">
+            <div className="text-white 2xl:mt-8 xl:mr-10 2xl:mr-30 absolute top-0 right-0 justify-end items-center pt-8 z-10">
               <SupportForm />
             </div>
           </motion.div>

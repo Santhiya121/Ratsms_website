@@ -77,9 +77,9 @@ export default function Refund() {
     <div className="bg-white p-8 rounded-lg shadow-lg space-y-6">
       <div className="flex items-center mb-4">
         <i className="fas fa-undo-alt text-black text-2xl mr-4"></i>
-        <h2 className="text-2xl sm:text-3xl font-semibold text-black">
+        <p className="text-2xl sm:text-3xl font-semibold text-black">
           Our Return, Cancellation, and Refund Policy
-        </h2>
+        </p>
       </div>
       <p className="text-black text-lg leading-relaxed">
         Refunds are reversal transactions wherein complete or partial money is moved back to the customer’s source account (account from which actual payment was made). A refund can only be created for a successful or settled transaction. The use case for a refund arises in the following scenarios:
@@ -110,9 +110,9 @@ export default function Refund() {
     <div className="bg-gray-200 p-8 rounded-lg shadow-lg space-y-6">
       <div className="flex items-center mb-4">
         <i className="fas fa-clock text-black text-3xl mr-4"></i>
-        <h3 className="text-2xl sm:text-3xl font-semibold text-black">
+        <p className="text-2xl sm:text-3xl font-semibold text-black">
           Refund Timeline
-        </h3>
+        </p>
       </div>
       <p className="text-gray-900 text-xl  leading-relaxed">
         Refund timelines depend on the payment method used:
@@ -131,9 +131,9 @@ export default function Refund() {
     <div className="bg-white p-8 rounded-lg shadow-lg space-y-6">
       <div className="flex items-center mb-4">
         <i className="fas fa-exclamation-circle text-black text-3xl mr-4"></i>
-        <h3 className="text-2xl sm:text-3xl font-semibold text-black">
+        <p className="text-2xl sm:text-3xl font-semibold text-black">
           Important Notes
-        </h3>
+        </p>
       </div>
       <ul className="list-disc pl-6 space-y-4 text-lg  text-gray-900">
         <li>
@@ -150,9 +150,9 @@ export default function Refund() {
 
     {/* Contact Section */}
     <div className="bg-gray-100 p-8 rounded-lg shadow-lg sm:text-center text-left space-y-4">
-      <h3 className="text-xl sm:text-3xl font-semibold text-black">
+      <p className="text-xl sm:text-3xl font-semibold text-black">
         Have Questions About Refunds?
-      </h3>
+      </p>
       <p className="text-gray-700 text-base pb-4">
         If you have any questions about refunds or cancellations, feel free to reach out to our team for assistance.
       </p>

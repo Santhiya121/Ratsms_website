@@ -84,7 +84,7 @@ export default function OtpBulkSMS() {
 
           {/* Features Section */}
           <div className="bg-white p-6 sm:ml-16 sm:p-8  space-y-6 mt-20 ">
-            <h3 className="text-xl sm:text-2xl font-roboto text-gray-800 text-left mb-8">Features of OTP Bulk SMS</h3>
+            <p className="text-xl sm:text-2xl font-roboto text-gray-800 text-left mb-8">Features of OTP Bulk SMS</p>
             <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
               {[
                 {
@@ -131,7 +131,7 @@ export default function OtpBulkSMS() {
 
           {/* What is OTP Bulk SMS Section */}
           <div className="bg-white p-8 rounded-lg shadow-2xl sm:pl-20 pl-4 pt-10">
-            <h3 className="text-lg sm:text-xl font-roboto text-gray-800 mb-6">What is OTP Bulk SMS?</h3>
+            <p className="text-lg sm:text-xl font-roboto text-gray-800 mb-6">What is OTP Bulk SMS?</p>
             <p className="text-gray-700 text-sm sm:text-lg mb-4">
               OTP (One Time Password) SMS is a secure method used for authenticating users, especially during transactions.
             </p>

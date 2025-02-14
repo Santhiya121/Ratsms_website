@@ -100,7 +100,7 @@ export default function PromotionalBulkSMS() {
 
         {/* Features Section */}
         <div className="bg-white ">
-          <h2 className="text-xl sm:text-2xl font-roboto text-left sm:text-left text-gray-800 mb-8">Features of Promotional SMS</h2>
+          <p className="text-xl sm:text-2xl font-roboto text-left sm:text-left text-gray-800 mb-8">Features of Promotional SMS</p>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
             {[
               {
@@ -147,7 +147,7 @@ export default function PromotionalBulkSMS() {
 
         {/* Informational Section */}
         <div className="bg-white rounded-xl shadow-lg p-8 sm:pl-16">
-          <h2 className="sm:text-2xl text-xl  font-roboto text-gray-800 mb-6">What is Promotional SMS?</h2>
+          <p className="sm:text-2xl text-xl  font-roboto text-gray-800 mb-6">What is Promotional SMS?</p>
           <p className="text-gray-700 sm:text-lg text-base ">
             Promotional SMS is a message sent by brands to inform customers about promotions, discounts, offers, or flash sales. These campaigns are used to boost engagement and drive sales.
           </p>
@@ -158,9 +158,9 @@ export default function PromotionalBulkSMS() {
 
         {/* How to Send Section */}
         <div className="bg-gray-100 rounded-xl shadow-lg p-10">
-      <h2 className="text-2xl font-roboto sm:text-center text-black mb-8 text-left ">
+      <p className="text-2xl font-roboto sm:text-center text-black mb-8 text-left ">
         How to Send a Promotional SMS Campaign
-      </h2>
+      </p>
 
       {/* Steps */}
       <div className="space-y-8 ">
@@ -202,7 +202,7 @@ export default function PromotionalBulkSMS() {
 
             {/* Content */}
             <div>
-              <h3 className="sm:text-xl text-base font-semibold text-black">{step.title}</h3>
+              <p className="sm:text-xl text-base font-semibold text-black">{step.title}</p>
               <p className="text-gray-700 sm:text-base text-sm mt-2">{step.description}</p>
             </div>
           </div>
@@ -220,9 +220,9 @@ export default function PromotionalBulkSMS() {
 
         {/* Content */}
         <div className="text-center sm:text-left">
-          <h2 className="sm:text-2xl text-lg  text-gray-800 mb-4">
+          <p className="sm:text-2xl text-lg  text-gray-800 mb-4">
             Pricing for Promotional SMS
-          </h2>
+          </p>
           <p className="text-gray-700 sm:text-lg text-base  mb-6">
             Pricing depends on your volume. For more details, check our pricing
             for promotional SMS services in Chennai.

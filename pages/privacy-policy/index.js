@@ -73,9 +73,9 @@ export default function PrivacyPolicy() {
     <div className="bg-white p-8 rounded-lg shadow-lg space-y-6">
       <div className="flex items-center mb-4">
         <i className="fas fa-user-shield text-black text-2xl mr-4"></i>
-        <h2 className="text-xl sm:text-2xl font-semibold text-black">
+        <p className="text-xl sm:text-2xl font-semibold text-black">
           Welcome to RatSMS Privacy Policy
-        </h2>
+        </p>
       </div>
       <p className="text-gray-700 text-lg leading-relaxed">
         Your privacy is of utmost importance to us. This document explains how we collect, use, and safeguard your information when you use our services. By accessing or using our website, you agree to the practices outlined in this policy.
@@ -86,9 +86,9 @@ export default function PrivacyPolicy() {
     <div className="bg-gradient-to-r from-gray-200 to-gray-100 p-8 rounded-lg shadow-lg space-y-6">
       <div className="flex items-center mb-4">
         <i className="fas fa-book text-black text-3xl mr-4"></i>
-        <h2 className="text-xl sm:text-2xl font-semibold text-black">
+        <p className="text-xl sm:text-2xl font-semibold text-black">
           Definitions
-        </h2>
+        </p>
       </div>
       <ul className=" p-4 text-lg text-gray-700">
         <li>
@@ -107,9 +107,9 @@ export default function PrivacyPolicy() {
     <div className="bg-white p-8 rounded-lg shadow-lg space-y-6">
       <div className="flex items-center mb-4">
         <i className="fas fa-database text-black text-3xl mr-4"></i>
-        <h3 className="text-xl sm:text-2xl font-semibold text-black">
+        <p className="text-xl sm:text-2xl font-semibold text-black">
           How We Collect Data
-        </h3>
+        </p>
       </div>
       <p className="text-gray-700 text-xl">
         We collect data in the following ways:
@@ -128,9 +128,9 @@ export default function PrivacyPolicy() {
     <div className="bg-gray-200 p-8 rounded-lg shadow-lg space-y-6">
       <div className="flex items-center mb-4">
         <i className="fas fa-chart-line text-black text-3xl mr-4"></i>
-        <h3 className="text-xl sm:text-2xl font-semibold text-black">
+        <p className="text-xl sm:text-2xl font-semibold text-black">
           Data Usage
-        </h3>
+        </p>
       </div>
       <p className="text-gray-700">
         We use your data for various purposes, including:
@@ -147,9 +147,9 @@ export default function PrivacyPolicy() {
     <div className="bg-white p-8 rounded-lg shadow-lg space-y-6">
       <div className="flex items-center mb-4">
         <i className="fas fa-lock text-black text-3xl mr-4"></i>
-        <h3 className="text-xl sm:text-2xl font-semibold text-black">
+        <p className="text-xl sm:text-2xl font-semibold text-black">
           Data Security
-        </h3>
+        </p>
       </div>
       <p className="text-gray-700">
         We implement industry-standard measures to protect your data, including:
@@ -165,9 +165,9 @@ export default function PrivacyPolicy() {
     <div className="bg-gray-200 p-8 rounded-lg shadow-lg space-y-6">
       <div className="flex items-center mb-4">
         <i className="fas fa-user-circle text-black text-3xl mr-4"></i>
-        <h3 className="text-xl sm:text-2xl font-semibold text-black">
+        <p className="text-xl sm:text-2xl font-semibold text-black">
           Your Rights
-        </h3>
+        </p>
       </div>
       <p className="text-gray-700">
         You have the following rights regarding your data:
@@ -189,9 +189,9 @@ export default function PrivacyPolicy() {
     <div className="bg-white p-8 rounded-lg shadow-lg space-y-6">
       <div className="flex items-center mb-4">
         <i className="fas fa-envelope text-black text-3xl mr-4"></i>
-        <h3 className="text-2xl sm:text-3xl font-semibold text-gray-800">
+        <p className="text-2xl sm:text-3xl font-semibold text-gray-800">
           Contact Us
-        </h3>
+        </p>
       </div>
       <p className="text-gray-700">
         If you have any questions or concerns about this Privacy Policy, feel free to contact us at:

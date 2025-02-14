@@ -112,9 +112,9 @@ export default function Smpp() {
       <div className="bg-black text-white py-12 min-h-screen">
         <div className="space-y-12 max-w-4xl mx-auto">
           {/* Title */}
-          <h2 className="text-3xl sm:text-4xl font-roboto border-b border-gray-700 pb-4">
+          <p className="text-3xl sm:text-4xl font-roboto border-b border-gray-700 pb-4">
             RAT SMS as an SMPP Service Provider
-          </h2>
+          </p>
 
           {/* Paragraph 1 */}
           <div className="relative bg-gray-900 rounded-lg shadow-lg p-6 border-l-4 border-white">
@@ -174,12 +174,12 @@ export default function Smpp() {
 
           {/* Call-to-Action */}
           <div className="mt-10">
-            <a
+            <Link
               href="#"
               className="inline-block bg-white text-black px-8 py-4 rounded-full font-medium text-lg hover:bg-gray-300 transition-all duration-300"
             >
               Bulk sms gateway
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -192,9 +192,9 @@ export default function Smpp() {
 
       <div className="bg-gradient-to-r from-gray-100 to-gray-200 text-white px-6 py-16">
         {/* Title Section */}
-        <h2 className="text-3xl sm:text-5xl font-light text-center text-black mb-12">
+        <p className="text-3xl sm:text-5xl font-light text-center text-black mb-12">
           Features of SMPP Gateway
-        </h2>
+        </p>
 
         {/* Features Container */}
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-12 max-w-screen-xl mx-auto">

@@ -146,9 +146,9 @@ export default function Careers() {
             />
           </div>
           <div>
-            <h2 className="text-3xl font-bold text-black">
+            <p className="text-3xl font-bold text-black">
               Join Our Community
-            </h2>
+            </p>
             <p className="mt-4 text-black text-lg leading-relaxed">
               Be part of a movement where creative minds and innovative ideas come together.
               At Rat SMS, you’ll find an environment that nurtures your passion and supports
@@ -161,7 +161,7 @@ export default function Careers() {
         {/* Section 2: Our Culture and Values */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1">
-            <h3 className="text-3xl font-bold text-black">Our Culture and Values</h3>
+            <p className="text-3xl font-bold text-black">Our Culture and Values</p>
             <p className="mt-4 text-black text-lg leading-relaxed">
               At Rat SMS, our people are our greatest asset. We foster a culture of respect,
               innovation, and continuous learning. Creativity flows freely here—every voice is
@@ -196,7 +196,7 @@ export default function Careers() {
             />
           </div>
           <div>
-            <h3 className="text-3xl font-bold text-black">Career Opportunities</h3>
+            <p className="text-3xl font-bold text-black">Career Opportunities</p>
             <p className="mt-4 text-black text-lg leading-relaxed">
               Rat SMS is on the constant lookout for talented, creative individuals. Our roles span
               across software development, digital marketing, product design, customer support, and
@@ -251,7 +251,7 @@ export default function Careers() {
         {/* Section 4: Employee Benefits and Perks */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           <div className="order-2 md:order-1">
-            <h3 className="text-3xl font-bold text-black">Employee Benefits and Perks</h3>
+            <p className="text-3xl font-bold text-black">Employee Benefits and Perks</p>
             <p className="mt-4 text-black text-lg leading-relaxed">
               A happy, healthy workforce is the cornerstone of success. Enjoy competitive salaries,
               comprehensive health benefits, generous paid time off, and flexible working hours.
@@ -285,7 +285,7 @@ export default function Careers() {
             />
           </div>
           <div>
-            <h3 className="text-3xl font-bold text-black">Career Growth &amp; Development</h3>
+            <p className="text-3xl font-bold text-black">Career Growth &amp; Development</p>
             <p className="mt-4 text-black text-lg leading-relaxed">
               We believe in continuous learning. Take advantage of in-house training sessions,
               conferences, certification programs, and mentorship opportunities. Our structured
@@ -303,7 +303,7 @@ export default function Careers() {
 
         {/* Section 9: The Application Process */}
         <div className="bg-gray-100 p-8 rounded-lg shadow-2xl ">
-          <h3 className="text-3xl font-bold text-black">The Application Process</h3>
+          <p className="text-3xl font-bold text-black">The Application Process</p>
           <p className="mt-4 text-black text-lg leading-relaxed">
             Our process is simple and transparent. Browse our career openings, select a role that matches your skills,
             and submit your resume along with a cover letter. Our recruitment team carefully reviews each application
@@ -318,7 +318,7 @@ export default function Careers() {
 
         {/* Section 11: Commitment to Innovation */}
         <div className="bg-gray-100 p-8 rounded-lg shadow-2xl ">
-          <h3 className="text-3xl font-bold text-black">Commitment to Innovation</h3>
+          <p className="text-3xl font-bold text-black">Commitment to Innovation</p>
           <p className="mt-4 text-black text-lg leading-relaxed">
             Innovation is at the heart of Rat SMS. We encourage creative thinking and invest in cutting-edge technology
             to stay ahead. Every idea is welcomed, and every challenge is viewed as an opportunity to innovate.
@@ -327,7 +327,7 @@ export default function Careers() {
 
         {/* Section 12: Final Invitation to Join Us */}
         <div className="bg-black p-8 rounded-lg shadow-2xl">
-          <h3 className="text-3xl font-bold text-white">Final Invitation to Join Us</h3>
+          <p className="text-3xl font-bold text-white">Final Invitation to Join Us</p>
           <p className="mt-4 text-white text-lg leading-relaxed">
             We invite you to be part of the Rat SMS family—a community where your creativity, passion, and innovation
             can truly shine. Explore our job openings, learn about our culture, and take the first step toward an inspiring
@@ -344,7 +344,7 @@ export default function Careers() {
 
         {/* Section 13: Additional Resources and FAQs */}
         <div className="bg-white p-8 rounded-lg shadow-2xl ">
-          <h3 className="text-3xl font-bold text-black">Additional Resources and FAQs</h3>
+          <p className="text-3xl font-bold text-black">Additional Resources and FAQs</p>
           <p className="mt-4 text-black text-lg leading-relaxed">
             Have questions about our culture, career paths, or the application process? Here are some FAQs to help you:
           </p>
@@ -367,7 +367,7 @@ export default function Careers() {
 
         {/* Section 14: Final Words and Call to Action */}
         <div className="bg-black p-8 rounded-lg shadow-2xl">
-          <h3 className="text-3xl font-bold text-white">Take the Next Step</h3>
+          <p className="text-3xl font-bold text-white">Take the Next Step</p>
           <p className="mt-4 text-white text-lg leading-relaxed">
             Your future awaits at Rat SMS. If you re ready to elevate your career and be part of a community that thrives on
             innovation, creativity, and collaboration, we encourage you to apply today.

@@ -23,12 +23,12 @@ export default function HomeService() {
               height={300} // Actual height of the image
               className="object-cover w-full" // Ensure it takes full width of the container
               sizes="(max-width: 768px) 100vw, 50vw" // Adjusts image size based on screen width
-            
+
             />
             <div className="pt-4">
-              <h3 className="text-lg md:text-lg font-roboto text-gray-800 text-left">
+              <p className="text-lg md:text-lg font-roboto text-gray-800 text-left">
                 PROMOTIONAL BULK SMS
-              </h3>
+              </p>
               <p className="text-base md:font-light text-black mt-2 text-left">
                 Promotional SMS is a powerful marketing tool, driving effective
                 advertising for services and products through direct text messages. This
@@ -36,9 +36,10 @@ export default function HomeService() {
                 enhancing website rankings.
               </p>
               <div className="pt-6">
-                <Link href="/promotional-bulk-sms-chennai">
-                  <BlackButton />
+                <Link href="/promotional-bulk-sms-chennai" passHref>
+                  <BlackButton aria-label="Learn more about Promotional Bulk SMS Chennai" />
                 </Link>
+
               </div>
             </div>
           </div>
@@ -53,24 +54,25 @@ export default function HomeService() {
               height={300} // Actual height of the image
               className="object-cover w-full" // Ensure it takes full width of the container
               sizes="(max-width: 768px) 100vw, 50vw" // Adjusts image size based on screen width
-          
+
             />
             {/* className="w-full h-36 sm:h-48 md:h-56 object-cover " */}
             <div className="pt-4">
-              <h3 className="text-lg md:text-lg font-roboto text-gray-800 text-left">
+              <p className="text-lg md:text-lg font-roboto text-gray-800 text-left">
                 TRANSACTIONAL BULK SMS
-              </h3>
+              </p>
               <p className="text-base md:font-light text-black mt-2 text-left">
                 Transactional Bulk SMS is an essential part of SMS campaigns,
                 offering features like a six-character sender ID, year-round
                 delivery, and support for both DND and Non-DND numbers. This
                 makes it a valuable tool for effective communication.
-                
+
               </p>
               <div className="pt-6">
-                <Link href="/transactional-bulk-sms-chennai">
-                  <BlackButton />
+                <Link href="/transactional-bulk-sms-chennai" passHref>
+                  <BlackButton aria-label="Learn more about Transactional Bulk SMS Chennai" />
                 </Link>
+
               </div>
             </div>
           </div>
@@ -84,12 +86,12 @@ export default function HomeService() {
               height={300} // Actual height of the image
               className="object-cover w-full" // Ensure it takes full width of the container
               sizes="(max-width: 768px) 100vw, 50vw" // Adjusts image size based on screen width
-   
+
             />
             <div className="pt-4">
-              <h3 className="text-lg md:text-lg font-roboto text-gray-800 text-left">
+              <p className="text-lg md:text-lg font-roboto text-gray-800 text-left">
                 OTP BULK SMS
-              </h3>
+              </p>
               <p className="text-base md:font-light text-black mt-2 text-left">
                 OTP (One Time Password) is crucial for SMS marketing and user
                 authentication. It is sent to the registered mobile number to
@@ -97,9 +99,10 @@ export default function HomeService() {
                 SMS Gateway providers in India.
               </p>
               <div className="pt-6 ">
-                <Link href="/otp-bulk-sms-chennai">
-                  <BlackButton />
+                <Link href="/otp-bulk-sms-chennai" passHref>
+                  <BlackButton aria-label="Learn more about OTP Bulk SMS Chennai" />
                 </Link>
+
               </div>
             </div>
           </div>

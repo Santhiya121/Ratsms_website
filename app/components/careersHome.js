@@ -20,9 +20,12 @@ export default function CareersHome() {
             We empower you to grow both personally and professionally while making an impact.
           </p>
           <div className="pt-6 lg:pt-12">
-            <Link href="/careers">
-              <Button />
+            <Link href="/careers" aria-label="Visit the careers page">
+              <Button>
+                Careers
+              </Button>
             </Link>
+
           </div>
         </div>
 
@@ -35,7 +38,7 @@ export default function CareersHome() {
             height={600} // Replace with your actual height
             className="object-cover"
             unoptimized // Disable optimization for animated images
-           
+
           />
         </div>
       </div>

@@ -111,9 +111,9 @@ const SMPPEngineerForm = () => {
 
   {/* Job Description */}
   <div className="mt-8 p-6 bg-white border border-gray-300 rounded-lg shadow-sm">
-    <h2 className="text-3xl font-serif font-semibold text-gray-800 mb-4">
+    <p className="text-3xl font-serif font-semibold text-gray-800 mb-4">
       <FaBriefcase className="mr-2 inline-block text-gray-600" /> Job Description
-    </h2>
+    </p>
     <p className="text-gray-700 text-lg leading-relaxed">
       As an SEO-SMM Analyst, you will be responsible for optimizing our website’s content and improving its search engine ranking (SEO) while developing and implementing strategies for social media marketing (SMM). You will analyze performance metrics, track social media campaigns, and ensure we stay ahead in the digital landscape.
     </p>
@@ -121,9 +121,9 @@ const SMPPEngineerForm = () => {
 
   {/* Responsibilities */}
   <div className="mt-8 p-6 bg-white border border-gray-300 rounded-lg shadow-sm">
-    <h3 className="text-2xl font-serif font-semibold text-gray-800 mb-4">
+    <p className="text-2xl font-serif font-semibold text-gray-800 mb-4">
       <FaTasks className="mr-2 inline-block text-gray-600" /> Key Responsibilities
-    </h3>
+    </p>
     <ul className="list-inside text-gray-600 text-lg">
       <li>Conduct keyword research and implement on-page SEO strategies.</li>
       <li>Optimize website content, blogs, and social media posts for search engines.</li>
@@ -137,9 +137,9 @@ const SMPPEngineerForm = () => {
 
   {/* Skills & Requirements */}
   <div className="mt-8 p-6 bg-white border border-gray-300 rounded-lg shadow-sm">
-    <h3 className="text-2xl font-serif font-semibold text-gray-800 mb-4">
+    <p className="text-2xl font-serif font-semibold text-gray-800 mb-4">
       <FaTools className="mr-2 inline-block text-gray-600" /> Skills & Requirements
-    </h3>
+    </p>
     <ul className="list-inside text-gray-600 text-lg">
       <li>Proven experience in SEO and SMM strategies.</li>
       <li>Knowledge of Google Analytics, SEO tools (e.g., Ahrefs, SEMrush), and social media platforms.</li>

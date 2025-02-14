@@ -98,9 +98,9 @@ export default function Contact() {
 
       {/* Right Side - Form */}
       <div className="flex-1 bg-white pl-2 sm:pl-2 border-gray-300">
-        <h3 className="text-lg sm:text-2xl font-roboto text-black mb-4">
+        <p className="text-lg sm:text-2xl font-roboto text-black mb-4">
           Get In Touch
-        </h3>
+        </p>
         <form>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-8">
             <div>
@@ -214,29 +214,29 @@ export default function Contact() {
 
       {/* Contact Section */}
       <div className="bg-white p-6 shadow-2xl rounded-lg text-gray-700 hover:shadow-3xl transition-shadow duration-300">
-        <h2 className="text-2xl font-roboto text-gray-800 mb-4 font-semibold">
+        <p className="text-2xl font-roboto text-gray-800 mb-4 font-semibold">
           Contact
-        </h2>
+        </p>
 
         <div className="mb-4">
           <p className="font-semibold text-lg text-gray-800">Booking Via Call</p>
           <p className="mb-2">
             <span className="text-gray-700">For sales: </span>
-            <a
+            <Link
               href="tel:+917506712345"
               className="text-[#003bff] underline hover:text-blue-600 transition duration-300"
             >
               +91 – 75067 12345
-            </a>
+            </Link>
           </p>
           <p className="mb-2">
             <span className="text-gray-700">For support: </span>
-            <a
+            <Link
               href="tel:+91447210462"
               className="text-[#003bff] underline hover:text-blue-600 transition duration-300"
             >
               044 – 472 10 462
-            </a>
+            </Link>
           </p>
         </div>
 
@@ -246,21 +246,21 @@ export default function Contact() {
           </p>
           <p className="mb-2">
             <span className="text-gray-700">For sales: </span>
-            <a
+            <Link
               href="mailto:sales@ratsms.com"
               className="text-[#003bff] underline hover:text-blue-600 transition duration-300"
             >
               sales@ratsms.com
-            </a>
+            </Link>
           </p>
           <p className="mb-2">
             <span className="text-gray-700">For support: </span>
-            <a
+            <Link
               href="mailto:support@ratsms.com"
               className="text-[#003bff] underline hover:text-blue-600 transition duration-300"
             >
               support@ratsms.com
-            </a>
+            </Link>
           </p>
         </div>
 
@@ -270,30 +270,30 @@ export default function Contact() {
             Find us on social media for the latest updates and news.
           </p>
           <div className="mt-4 flex gap-6 justify-start">
-            <a
+            <Link
               href="#"
               className="text-[#003bff] hover:text-blue-600 transition duration-300"
             >
               <i className="fab fa-facebook text-2xl"></i>
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="text-[#003bff] hover:text-blue-600 transition duration-300"
             >
               <i className="fab fa-instagram text-2xl"></i>
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="text-[#003bff] hover:text-blue-600 transition duration-300"
             >
               <i className="fab fa-whatsapp text-2xl"></i>
-            </a>
-            <a
+            </Link>
+            <Link
               href="#"
               className="text-[#003bff] hover:text-blue-600 transition duration-300"
             >
               <i className="fab fa-youtube text-2xl"></i>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
@@ -305,10 +305,10 @@ export default function Contact() {
   <div className="bg-gray-50 p-8 rounded-lg shadow-lg border border-gray-200 relative overflow-hidden">
     {/* Gradient Overlay */}
     <div className="absolute inset-0 bg-gradient-to-r from-purple-300 via-transparent to-purple-300 opacity-20 pointer-events-none"></div>
-    <h2 className="text-3xl font-roboto text-black mb-4 relative z-10 flex items-center">
+    <p className="text-3xl font-roboto text-black mb-4 relative z-10 flex items-center">
       <i className="fas fa-info-circle text-black mr-2"></i>
       About RAT SMS
-    </h2>
+    </p>
     <p className="text-gray-700 text-base leading-relaxed mb-4 relative z-10">
       RAT SMS is a state-of-the-art messaging solution developed by AWF Technologies Private Limited. With a legacy of over a decade in the tech industry, RAT SMS has become synonymous with reliability, efficiency, and innovation in business communication.
     </p>
@@ -321,10 +321,10 @@ export default function Contact() {
   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
     <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-purple-300 via-transparent to-purple-300 opacity-20 pointer-events-none"></div>
-      <h3 className="text-2xl font-roboto text-black mb-4 relative z-10 flex items-center">
+      <p className="text-2xl font-roboto text-black mb-4 relative z-10 flex items-center">
         <i className="fas fa-cogs text-black mr-2"></i>
         Our Solutions
-      </h3>
+      </p>
       <ul className=" text-gray-700 text-base space-y-2 relative z-10">
         <li>
           <i className="fas fa-check-circle text-black mr-2"></i>
@@ -348,10 +348,10 @@ export default function Contact() {
     {/* Why Choose RAT SMS */}
     <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-purple-300 via-transparent to-purple-300 opacity-20 pointer-events-none"></div>
-      <h3 className="text-2xl font-roboto text-black mb-4 relative z-10 flex items-center">
+      <p className="text-2xl font-roboto text-black mb-4 relative z-10 flex items-center">
         <i className="fas fa-thumbs-up text-black mr-2"></i>
         Why Choose RAT SMS
-      </h3>
+      </p>
       <ul className=" text-gray-700 text-base space-y-2 relative z-10">
         <li>
           <i className="fas fa-star text-black mr-2"></i>
@@ -376,10 +376,10 @@ export default function Contact() {
   {/* Innovative Technology */}
   <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200 relative overflow-hidden">
     <div className="absolute inset-0 bg-gradient-to-r from-purple-300 via-transparent to-purple-300 opacity-20 pointer-events-none"></div>
-    <h3 className="text-2xl font-roboto text-black mb-4 relative z-10 flex items-center">
+    <p className="text-2xl font-roboto text-black mb-4 relative z-10 flex items-center">
       <i className="fas fa-lightbulb text-black mr-2"></i>
       Innovative Technology
-    </h3>
+    </p>
     <p className="text-gray-700 text-base leading-relaxed mb-4 relative z-10">
       At RAT SMS, we invest heavily in research and development to stay ahead of industry trends. Our platform harnesses the latest communication technologies to ensure that every SMS is delivered in real time—even during peak traffic.
     </p>
@@ -391,10 +391,10 @@ export default function Contact() {
   {/* Our Vision for the Future */}
   <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200 relative overflow-hidden">
     <div className="absolute inset-0 bg-gradient-to-r from-purple-300 via-transparent to-purple-300 opacity-20 pointer-events-none"></div>
-    <h3 className="text-2xl font-roboto text-black mb-4 relative z-10 flex items-center">
+    <p className="text-2xl font-roboto text-black mb-4 relative z-10 flex items-center">
       <i className="fas fa-eye text-black mr-2"></i>
       Our Vision for the Future
-    </h3>
+    </p>
     <p className="text-gray-700 text-base leading-relaxed mb-4 relative z-10">
       Looking ahead, RAT SMS is dedicated to revolutionizing the way businesses communicate. Our vision is to build a more connected world where seamless communication drives growth and enhances customer experiences.
     </p>
@@ -406,10 +406,10 @@ export default function Contact() {
   {/* Join the Revolution */}
   <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200 relative overflow-hidden">
     <div className="absolute inset-0 bg-gradient-to-r from-purple-300 via-transparent to-purple-300 opacity-20 pointer-events-none"></div>
-    <h3 className="text-2xl font-roboto text-black mb-4 relative z-10 flex items-center">
+    <p className="text-2xl font-roboto text-black mb-4 relative z-10 flex items-center">
       <i className="fas fa-rocket text-black mr-2"></i>
       Join the RAT SMS Revolution
-    </h3>
+    </p>
     <p className="text-gray-700 text-base leading-relaxed mb-4 relative z-10">
       When you choose RAT SMS, you’re not just opting for an SMS service—you’re partnering with a team committed to your success. Our scalable, secure, and innovative messaging solutions empower your business to reach new heights.
     </p>

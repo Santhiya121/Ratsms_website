@@ -110,7 +110,7 @@ const SMPPEngineerForm = () => {
 
   {/* Job Description */}
   <div className="mt-8 p-6 bg-white border border-gray-300 rounded-lg shadow-sm">
-    <h2 className="text-3xl font-serif font-semibold text-gray-800 mb-4"><FaBriefcase className="mr-2 inline-block text-gray-600" /> Job Description</h2>
+    <p className="text-3xl font-serif font-semibold text-gray-800 mb-4"><FaBriefcase className="mr-2 inline-block text-gray-600" /> Job Description</p>
     <p className="text-gray-700 text-lg leading-relaxed">
       As an SMPP Engineer, you will manage and optimize SMS messaging protocols using SMPP. Your key responsibilities include designing, developing, and troubleshooting SMPP-based communication systems. You will ensure high availability and performance of messaging services and integrate SMPP with backend services.
     </p>
@@ -118,7 +118,7 @@ const SMPPEngineerForm = () => {
 
   {/* Responsibilities */}
   <div className="mt-8 p-6 bg-white border border-gray-300 rounded-lg shadow-sm">
-    <h3 className="text-2xl font-serif font-semibold text-gray-800 mb-4"><FaTasks className="mr-2 inline-block text-gray-600" /> Key Responsibilities</h3>
+    <p className="text-2xl font-serif font-semibold text-gray-800 mb-4"><FaTasks className="mr-2 inline-block text-gray-600" /> Key Responsibilities</p>
     <ul className="list-inside text-gray-600 text-lg">
       <li>Develop and maintain SMPP connections for high-volume messaging platforms.</li>
       <li>Ensure secure and efficient delivery of messages using optimized routing strategies.</li>
@@ -132,7 +132,7 @@ const SMPPEngineerForm = () => {
 
   {/* Skills & Requirements */}
   <div className="mt-8 p-6 bg-white border border-gray-300 rounded-lg shadow-sm">
-    <h3 className="text-2xl font-serif font-semibold text-gray-800 mb-4"><FaTools className="mr-2 inline-block text-gray-600" /> Skills & Requirements</h3>
+    <p className="text-2xl font-serif font-semibold text-gray-800 mb-4"><FaTools className="mr-2 inline-block text-gray-600" /> Skills & Requirements</p>
     <ul className="list-inside text-gray-600 text-lg">
       <li>Experience with SMPP protocols and SMS gateways.</li>
       <li>Strong understanding of TCP/IP networking.</li>

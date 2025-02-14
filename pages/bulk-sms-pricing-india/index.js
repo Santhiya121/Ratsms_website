@@ -94,13 +94,13 @@ n"
         <div className=" text-white min-h-screen w-full">
           {/* Header Section */}
           <header className="text-center py-10 bg-gradient-to-r bg-white to-black">
-            <h2 className="text-2xl font-roboto text-center  text-black mb-3 ">Our Plans</h2>
+            <p className="text-2xl font-roboto text-center  text-black mb-3 ">Our Plans</p>
             <p className="text-base text-gray-700 font-light mb-3">
               Choose the best plan for your business needs.
             </p>
             <h1 className="text-lg sm:text-xl font-semibold font-roboto mb-4 text-black">
   Promotional SMS Pricing
-  <div className=" flex justify-self-center items-center mt-2 pl-32 bottom-0 left-0 w-40 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
+  <div className="flex justify-center items-center mt-2 mx-auto bottom-0 left-0 w-40 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
 
 </h1>
 
@@ -117,9 +117,9 @@ n"
                text-black  p-8 hover:scale-105 transition-all duration-300 w-80 mb-10
                 border-gray-300">
                 {/* Title Section */}
-                <h3 className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
+                <p className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
                   Normal Pack
-                </h3>
+                </p>
 
                 {/* Price Section */}
                 <p className="text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
@@ -170,9 +170,9 @@ n"
                 {/* Title Section */}
                 <p className="p-3 text-center rounded-t-xl bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-roboto  ">Most Recommended</p>
                 <div className="p-8">
-                <h3 className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
+                <p className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
                   Saver Pack
-                </h3>
+                </p>
 
                 {/* Price Section */}
                 <p className="text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
@@ -221,9 +221,9 @@ n"
                text-black  p-8 hover:scale-105 transition-all duration-300 w-80 mb-10
                 border-gray-300">
                 {/* Title Section */}
-                <h3 className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
+                <p className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
                   Super Saver Pack
-                </h3>
+                </p>
 
                 {/* Price Section */}
                 <p className="text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
@@ -270,7 +270,7 @@ n"
 
           <header className="text-center py-10 bg-gradient-to-r bg-white to-black">
             <h1 className="text-lg sm:text-xl font-semibold font-roboto mb-4 text-black">Transactional SMS & Service Explicit SMS</h1>
-            <div className=" flex justify-self-center items-center mt-2 pl-32 bottom-0 left-0 w-40 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
+            <div className="flex justify-center items-center mt-2 mx-auto bottom-0 left-0 w-40 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
           </header>
           <div className="  bg-white">
 
@@ -280,9 +280,9 @@ n"
    text-black  p-8 hover:scale-105 transition-all duration-300 w-80 mb-10
     border-gray-300">
                 {/* Title Section */}
-                <h3 className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
+                <p className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
                   Normal Pack
-                </h3>
+                </p>
 
                 {/* Price Section */}
                 <p className="text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
@@ -331,9 +331,9 @@ n"
                 {/* Title Section */}
                 <p className="p-3 text-center rounded-t-xl bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-roboto  ">Most Recommended</p>
                 <div className="p-8">
-                <h3 className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
+                <p className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
                   Saver Pack
-                </h3>
+                </p>
 
                 {/* Price Section */}
                 <p className="text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
@@ -382,9 +382,9 @@ n"
    text-black  p-8 hover:scale-105 transition-all duration-300 w-80 mb-10
     border-gray-300">
                 {/* Title Section */}
-                <h3 className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
+                <p className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
                   Super Saver Pack
-                </h3>
+                </p>
 
                 {/* Price Section */}
                 <p className="text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
@@ -432,7 +432,7 @@ n"
 
           <header className="text-center py-10 bg-gradient-to-r bg-white to-black">
             <h1 className="text-lg sm:text-xl font-semibold font-roboto mb-4 text-black">OTP SMS & Service Implicit SMS</h1>
-            <div className=" flex justify-self-center items-center mt-2 pl-32 bottom-0 left-0 w-40 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
+            <div className="flex justify-center items-center mt-2 mx-auto bottom-0 left-0 w-40 h-1 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500"></div>
           </header>
           <div className="  bg-white">
 
@@ -442,9 +442,9 @@ n"
                text-black  p-8 hover:scale-105 transition-all duration-300 w-80 mb-10
                 border-gray-300">
                 {/* Title Section */}
-                <h3 className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
+                <p className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
                   Normal Pack
-                </h3>
+                </p>
 
                 {/* Price Section */}
                 <p className="text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
@@ -493,9 +493,9 @@ n"
                 {/* Title Section */}
                 <p className="p-3 text-center rounded-t-xl bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-roboto  ">Most Recommended</p>
                 <div className="p-8">
-                <h3 className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
+                <p className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
                   Saver Pack
-                </h3>
+                </p>
 
                 {/* Price Section */}
                 <p className="text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
@@ -544,9 +544,9 @@ n"
                text-black  p-8 hover:scale-105 transition-all duration-300 w-80 mb-10
                 border-gray-300">
                 {/* Title Section */}
-                <h3 className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
+                <p className="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
                   Super Saver Pack
-                </h3>
+                </p>
 
                 {/* Price Section */}
                 <p className="text-3xl font-bold text-center text-gray-800 mb-4 transition-all duration-300">
@@ -601,15 +601,15 @@ n"
 
         {/* Payment Section */}
         <div className="bg-white py-16">
-          <h2 className="text-2xl sm:text-4xl font-roboto text-center mb-12 text-gray-900">Payment Options</h2>
+          <p className="text-2xl sm:text-4xl font-roboto text-center mb-12 text-gray-900">Payment Options</p>
           <div className=" px-8 lg:px-20">
             <p className="text-gray-600 text-center mb-8">
               Rat SMS provides you with an array of secure payment options, both online and offline.
             </p>
             <div className="bg-white  p-8 text-black border border-gray-300 max-w-4xl mx-auto">
-              <h3 className="text-xl sm:text-2xl font-semibold text-black mb-6 border-b border-gray-400 pb-2 text-center">
+              <p className="text-xl sm:text-2xl font-semibold text-black mb-6 border-b border-gray-400 pb-2 text-center">
                 Bank Details
-              </h3>
+              </p>
               <ul className="space-y-4">
                 <li className="flex justify-between">
                   <span className="font-semibold text-black">Account Name:</span>

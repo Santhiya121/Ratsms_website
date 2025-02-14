@@ -4,9 +4,9 @@ import CountUp from "react-countup";
 export default function Partner() {
   return (
     <section className=" text-center bg-white py-6 w-full sm:h-96 h-full pt-20">
-      <h2 className="text-xl sm:text-3xl md:text-4xl font-roboto text-black mb-8">
+      <p className="text-xl sm:text-3xl md:text-4xl font-roboto text-black mb-8">
         Our Global Reach
-      </h2>
+      </p>
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 px-4 sm:px-20 ">
         {[
           { icon: 'fas fa-users', label: 'Global Clients', value: 37350 },

@@ -2,9 +2,13 @@ import { motion } from "framer-motion";
 import "../globals.css";
 import Image from "next/image";
 import Link from "next/link";
-
+import { useState, useEffect } from "react";
 
 export default function Phone() {
+  const [showImage, setShowImage] = useState(false);
+  useEffect(() => {
+    setTimeout(() => setShowImage(true), 500); // Load after 500ms
+  }, []);
   return (
     <>
       <div className="fixed bottom-6 right-6 flex flex-col items-center  z-50 ">
@@ -12,33 +16,35 @@ export default function Phone() {
 
 
         {/* Call Icon */}
-        <Link href="tel:+917506712345">
+        <a href="tel:+917506712345" aria-label="Call customer service at +917506712345">
           <Image
             src="/images/call1.png"
             alt="Call Icon"
             width={50}
             height={50}
-            className="w-10 h-10 rounded-full hover:shadow-xl transition-all block md:hidden"
+            className="w-8 h-8 rounded-full hover:shadow-xl transition-all block md:hidden"
+            aria-label="contact via call"
             loading="lazy"
           />
-        </Link>
-        <a
+        </a>
+
+
+        <Link
           href="https://wa.me/+917506712345?text=Hi%2C%20learn%20more%20about%20your%20services!"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:scale-110 transition-transform duration-300"
           aria-label="Chat on WhatsApp"
+          title="Click to chat with us on WhatsApp"
         >
-          <Image
-            src="/images/whats.png"
-            alt="WhatsApp Icon"
-            width={90}
-            height={90}
-            className="w-20 h-20 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 transition-all"
-            loading="lazy"
-          />
+          {showImage ? (
+            <i className="fab fa-whatsapp pt-4 text-4xl sm:text-3xl md:text-4xl lg:text-4xl text-green-700" />
+          ) : (
+            // Fallback text when the image is not shown
+            <span>Chat on WhatsApp</span>
+          )}
+        </Link>
 
-        </a>
       </div>
 
       <motion.div

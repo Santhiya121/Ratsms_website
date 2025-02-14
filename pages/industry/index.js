@@ -283,9 +283,9 @@ export default function Indust() {
         </div>
       </div>
       <div className="p-16 bg-white text-back min-h-screen">
-      <h2 className="text-4xl font-roboto text-center mb-6 uppercase tracking-wide text-black">
+      <p className="text-4xl font-roboto text-center mb-6 uppercase tracking-wide text-black">
         Bulk SMS Solutions for Industries
-      </h2>
+      </p>
 
       <p className="text-lg  text-center max-w-6xl mx-auto text-gray-700">
         Transform the way businesses communicate with our powerful, reliable, and 
@@ -298,7 +298,7 @@ export default function Indust() {
       <div className="mt-10 grid md:grid-cols-2 gap-6">
         {/* Industry 1 */}
         <div className="bg-gray-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all">
-          <h3 className="text-xl font-bold text-black">E-Commerce & Retail</h3>
+          <p className="text-xl font-bold text-black">E-Commerce & Retail</p>
           <p className="text-gray-900 mt-2">
             Send order confirmations, delivery updates, and promotional offers 
             directly to customers’ mobile phones, ensuring **higher engagement and sales**.
@@ -307,7 +307,7 @@ export default function Indust() {
 
         {/* Industry 2 */}
         <div className="bg-gray-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all">
-          <h3 className="text-xl font-bold text-black">Healthcare & Hospitals</h3>
+          <p className="text-xl font-bold text-black">Healthcare & Hospitals</p>
           <p className="text-gray-900 mt-2">
             Automate appointment reminders, health tips, and emergency alerts** 
             to improve patient care and reduce no-show rates.
@@ -316,7 +316,7 @@ export default function Indust() {
 
         {/* Industry 3 */}
         <div className="bg-gray-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all">
-          <h3 className="text-xl font-bold text-black">Finance & Banking</h3>
+          <p className="text-xl font-bold text-black">Finance & Banking</p>
           <p className="text-gray-900 mt-2">
             Deliver instant transaction alerts, OTPs, and fraud notifications** 
             to enhance security and customer experience.
@@ -325,7 +325,7 @@ export default function Indust() {
 
         {/* Industry 4 */}
         <div className="bg-gray-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all">
-          <h3 className="text-xl font-bold text-black">Education & Coaching Centers</h3>
+          <p className="text-xl font-bold text-black">Education & Coaching Centers</p>
           <p className="text-gray-900 mt-2">
             Keep students and parents informed with **exam schedules, fee reminders, 
             and attendance notifications** via SMS.
@@ -334,7 +334,7 @@ export default function Indust() {
 
         {/* Industry 5 */}
         <div className="bg-gray-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all">
-          <h3 className="text-xl font-bold text-black">Logistics & Transportation</h3>
+          <p className="text-xl font-bold text-black">Logistics & Transportation</p>
           <p className="text-gray-900 mt-2">
             Provide real-time tracking updates, driver notifications, and shipment alerts** 
             to streamline operations and enhance efficiency.
@@ -343,7 +343,7 @@ export default function Indust() {
 
         {/* Industry 6 */}
         <div className="bg-gray-50 p-6 rounded-lg shadow-lg hover:shadow-xl transition-all">
-          <h3 className="text-xl font-bold text-black">Government & Public Services</h3>
+          <p className="text-xl font-bold text-black">Government & Public Services</p>
           <p className="text-gray-900 mt-2">
             Broadcast emergency alerts, policy updates, and awareness messages** 
             to citizens instantly.

@@ -15,7 +15,7 @@ export default function PlaceContent({ city }) {
   
         {/* Benefits of Bulk SMS Section */}
         <div className="bg-white p-8  max-w-5xl w-full mb-10 mx-auto">
-          <h2 className="text-2xl font-roboto text-black mb-6 text-center">Why Bulk SMS?</h2>
+          <p className="text-2xl font-roboto text-black mb-6 text-center">Why Bulk SMS?</p>
           <ul className="list-disc pl-8 text-base text-gray-700 space-y-4">
             <li className="flex items-center justify-start space-x-2">📲 <span>Instant reach to your target audience.</span></li>
             <li className="flex items-center justify-start space-x-2">💡 <span>High open rates and engagement.</span></li>
@@ -25,7 +25,7 @@ export default function PlaceContent({ city }) {
   
         {/* Best Practices Section */}
         <div className="bg-white p-8  max-w-5xl w-full mb-10 mx-auto">
-          <h2 className="text-2xl font-roboto text-black mb-6 text-center">Bulk SMS Best Practices</h2>
+          <p className="text-2xl font-roboto text-black mb-6 text-center">Bulk SMS Best Practices</p>
           <ul className="list-disc pl-8 text-base text-gray-700 space-y-4">
             <li className="flex items-center justify-start space-x-2">📜 <span>Personalize your messages for better engagement.</span></li>
             <li className="flex items-center justify-start space-x-2">🎯 <span>Segment your audience for more targeted campaigns.</span></li>
@@ -35,7 +35,7 @@ export default function PlaceContent({ city }) {
   
         {/* Why Choose Us Section */}
         <div className="bg-white p-8  max-w-5xl w-full mb-10 mx-auto">
-          <h2 className="text-2xl font-roboto text-black mb-6 text-center">Why Choose Us?</h2>
+          <p className="text-2xl font-roboto text-black mb-6 text-center">Why Choose Us?</p>
           <p className="text-base text-gray-700 text-center">
             With fast delivery, real-time tracking, and secure services, we offer the best Bulk SMS solutions across {city || "Your City"}.
           </p>

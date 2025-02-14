@@ -112,9 +112,9 @@ export default function BulkSmsServiceProvider() {
     
     {/* Heading Section */}
     <div className="w-full">
-      <h2 className="text-xl sm:text-3xl font-bold text-gray-800 mb-8 transform transition duration-500 hover:scale-110">
+      <p className="text-xl sm:text-3xl font-bold text-gray-800 mb-8 transform transition duration-500 hover:scale-110">
       Discover More About Bulk SMS in Bangalore
-      </h2>
+      </p>
     </div>
 
     {/* Content Section */}

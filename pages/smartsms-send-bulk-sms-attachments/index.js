@@ -84,9 +84,9 @@ export default function SmartSmsBulkSMS() {
   
  
   <div className="text-center sm:text-left bg-white p-6 rounded-lg shadow-md mb-8">
-    <h3 className="text-xl sm:text-2xl font-roboto text-gray-800 mb-4 border-b-2 border-blue-300 pb-2 flex items-center justify-center sm:justify-start">
+    <p className="text-xl sm:text-2xl font-roboto text-gray-800 mb-4 border-b-2 border-blue-300 pb-2 flex items-center justify-center sm:justify-start">
       <i class="fas fa-paperclip text-blue-600 mr-3"></i>File Attachments via Smart SMS
-    </h3>
+    </p>
     <p className="text-lg text-gray-700 leading-relaxed text-justify">
       Rat SMS introduces <strong className="text-blue-600">Smart SMS</strong>, a powerful feature that combines faster announcements with advanced control over SMS campaigns, including targeting specific area codes. This service allows businesses to upload a contacts database, organize contacts into groups, manage blacklists, and create segmented lists for precision targeting.
     </p>
@@ -194,9 +194,9 @@ export default function SmartSmsBulkSMS() {
 
           {/* Features Section */}
           <div className="pl-5 pt-10 pb-20 sm:pl-20">
-            <h3 className="text-2xl font-roboto text-gray-800 text-left mt-20 mb-10">
+            <p className="text-2xl font-roboto text-gray-800 text-left mt-20 mb-10">
               Features of Transactional SMS
-            </h3>
+            </p>
             <div className="grid gap-20 md:grid-cols-2 lg:grid-cols-3">
               {[
                 {

@@ -117,9 +117,9 @@ const AboutUsPage = () => {
 
             {/* CTA Section */}
             <div className="mt-20 text-center">
-              <h2 className="text-2xl font-bold text-gray-800 mb-4">
+              <p className="text-2xl font-bold text-gray-800 mb-4">
                 Why Choose RAT SMS?
-              </h2>
+              </p>
               <p className="text-lg text-gray-700 mb-8 max-w-3xl mx-auto">
                 Choose RAT SMS for superior bulk SMS services. Reliable, cost-effective, and built for business growth.
               </p>
@@ -131,9 +131,9 @@ const AboutUsPage = () => {
 
           {/* Global Statistics */}
           <section className="mb-16 text-center bg-white py-6 w-full">
-            <h2 className="text-xl sm:text-3xl md:text-4xl font-semibold text-black mb-8">
+            <p className="text-xl sm:text-3xl md:text-4xl font-semibold text-black mb-8">
               Our Global Reach
-            </h2>
+            </p>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 px-4 sm:px-8">
               {[
                 { icon: 'fas fa-users', label: 'Global Clients', value: '37,350' },
@@ -149,9 +149,9 @@ const AboutUsPage = () => {
                   <div className="text-black text-2xl sm:text-3xl mb-3">
                     <i className={stat.icon}></i>
                   </div>
-                  <h3 className="text-sm sm:text-base font-medium text-black mb-1">
+                  <p className="text-sm sm:text-base font-medium text-black mb-1">
                     {stat.label}
-                  </h3>
+                  </p>
                   <p className="text-base sm:text-lg font-semibold text-black">
                     {stat.value}
                   </p>
@@ -163,9 +163,9 @@ const AboutUsPage = () => {
           {/* Partners Section */}
           <div className="">
             <header className="text-center mb-12">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-800 mb-4">
+              <p className="text-2xl sm:text-3xl md:text-4xl font-semibold text-gray-800 mb-4">
                 Our Partners  
-              </h2>
+              </p>
               <p className="text-sm sm:text-base md:text-lg text-black mb-6 text-center px-4 sm:px-16 lg:px-40">
                 RAT SMS partners with leading telecom brands to offer world-class bulk SMS services. We are proud to collaborate with industry leaders to ensure seamless service delivery and customer satisfaction.
               </p>

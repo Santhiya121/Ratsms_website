@@ -10,6 +10,7 @@ import Head from 'next/head';
 import WhatsAppIcon from '../../app/components/whatsappIcon';
 import Phone from '../../app/components/phone';
 import LocalBusinessSchema from '../../app/components/localSchema';
+import Link from 'next/link';
 const BlogPage = () => {
   return (
     <>
@@ -88,17 +89,17 @@ const BlogPage = () => {
       </div>
     </div>
 
-    <h2 className="text-xl sm:text-2xl font-semibold text-gray-800 mb-4 pl-4 sm:pl-8 md:pl-16">
+    <p className="text-xl sm:text-2xl font-semibold text-gray-800 mb-4 pl-4 sm:pl-8 md:pl-16">
       What is Bulk SMS?
-    </h2>
+    </p>
     <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-4 pl-4 sm:pl-8 md:pl-16">
       Spreading a message/SMS to a large volume (bulk) of mobile phones through a normal messaging system is said to be  
-      <a
+      <Link
         href="#"
         className="font-light text-base text-[#003bff] underline pl-3"
       >
         Bulk SMS
-      </a>. These types of SMS are mainly used for reminders, promotions, alerts, preventing fraudulent activities, etc. It is also known as SMS marketing and nowadays it commonly comes under mobile marketing.
+      </Link>. These types of SMS are mainly used for reminders, promotions, alerts, preventing fraudulent activities, etc. It is also known as SMS marketing and nowadays it commonly comes under mobile marketing.
     </p>
     <p className="text-base sm:text-lg text-gray-700 leading-relaxed pl-4 sm:pl-8 md:pl-16">
       Simply, bulk SMS is a messaging service that is used to send SMS to a wide range of customers/audiences at the same time or scheduled time.
@@ -110,7 +111,7 @@ const BlogPage = () => {
     <div className="absolute top-2 left-2 text-2xl text-[#003bff]">
       <i className="fa fa-paper-plane"></i>
     </div>
-    <h2 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">Uses of Bulk SMS</h2>
+    <p className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">Uses of Bulk SMS</p>
     <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-4">
       Bulk SMS is mainly used for promoting/advertising any type of product and service to a mass number of people. For sending notifications about something which you have already shown interest in. For transaction information that you asked for or promoting information about a new product.
     </p>
@@ -128,15 +129,15 @@ const BlogPage = () => {
     <div className="absolute top-2 left-2 text-2xl text-[#003bff]">
       <i className="fa fa-bullhorn"></i>
     </div>
-    <h2 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">Promotional Bulk SMS</h2>
+    <p className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">Promotional Bulk SMS</p>
     <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-4">
       Promotional SMS is mainly used to promote one’s product or business to new customers or existing customers to reach their sales goals and can also be used for high sale conversion. In this competitive world,  
-      <a
+      <Link
         href="#"
         className="font-light text-base  text-[#003bff] underline p-3"
       >
         Promotional SMS
-      </a>
+      </Link>
       helps to promote businesses to the next level.
     </p>
   </section>
@@ -146,14 +147,14 @@ const BlogPage = () => {
     <div className="absolute top-2 left-2 text-2xl text-[#003bff]">
       <i className="fa fa-credit-card"></i>
     </div>
-    <h2 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">Transactional Bulk SMS</h2>
+    <p className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">Transactional Bulk SMS</p>
     <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-4">
-      <a
+      <Link
         href="#"
         className="font-light text-base pr-2 text-[#003bff] underline"
       >
         Transactional Bulk SMS
-      </a>
+      </Link>
       is mainly used for transaction purposes such as SMS sent by the banking sectors, order confirmation messages from other e-commerce sites, shipping-related SMS, live tracking links, payment, and other transactional details & instructions. These are automated SMS that can be sent to the already registered customers or the buyers of the product or the service which the merchant is selling. While compared to promotional SMS, transactional SMS is 100% deliverable.
     </p>
   </section>
@@ -163,7 +164,7 @@ const BlogPage = () => {
     <div className="absolute top-2 left-2 text-2xl text-[#003bff]">
       <i className="fa fa-lock"></i>
     </div>
-    <h2 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">OTP SMS</h2>
+    <p className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">OTP SMS</p>
     <p className="text-base sm:text-lg text-gray-700 leading-relaxed mb-4">
       A one-time password is an auto-generated unique shortcode that can be received by the user to their mobile numbers. Specifically used for preventing malicious attacks, banking-related entries, password verifications, primary identifications, strong authentications, and for other security purposes. It has no time management it will be sent while the user requests it. It will be sent within one minute and last till the session time. You can get a live real-time delivery report.
     </p>
@@ -174,14 +175,14 @@ const BlogPage = () => {
     <div className="absolute top-2 left-2 text-2xl text-[#003bff]">
       <i className="fa fa-cogs"></i>
     </div>
-    <h2 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">Smart SMS</h2>
+    <p className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">Smart SMS</p>
     <p className="text-base sm:text-lg text-gray-700  leading-relaxed mb-4">
-      <a
+      <Link
         href="#"
         className="font-light text-xl text-[#003bff] underline"
       >
         Smart SMS
-      </a>
+      </Link>
       
       is a premium service that helps to send images, videos, audios, pdfs, and other attachments as a link in normal text messages. You can track the geo-location, can able to identify who opened the link and who doesn’t, and also the count of the members who clicked the link. Instead of using bulk Whatsapp, you can use smart SMS as it is the smartest one for sending all these in a single link in the text message format.
     </p>
@@ -189,7 +190,7 @@ const BlogPage = () => {
 
   {/* Specialization of Rat SMS */}
   <section className="bg-white p-8 rounded-lg shadow-lg mb-12">
-    <h2 className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">Specialization of Rat SMS</h2>
+    <p className="text-lg sm:text-xl font-semibold text-gray-800 mb-4">Specialization of Rat SMS</p>
     <ul className=" pl-6 sm:pl-8 mt-4 text-base sm:text-lg text-gray-700 space-y-2">
       <li><i className="fa fa-check-circle text-[#003bff]"></i> Can be personalized & targeted with high conversion rates.</li>
       <li><i className="fa fa-check-circle text-[#003bff]"></i> Personalized SMS and messages to relevant clients.</li>

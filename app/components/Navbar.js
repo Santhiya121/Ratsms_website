@@ -71,21 +71,20 @@ export default function Navbar() {
       <div className="flex items-center justify-between bg-transparent pl-5 ">
         {/* Logo */}
         <div className="text-xl font-roboto hover-effect">
-  <Link href="/">
-   <p className="text-white">RATSMS</p>
-  </Link>
-</div>
+        <Link href="/" aria-label="Go to homepage">
+  <p className="text-white">RATSMS</p>
+</Link>
+
+        </div>
 
 
 
         {/* Navbar Links */}
-        <nav className="hidden md:flex  space-x-4 sm:space-x-20 tracking-widest
-  ">
-          <Link href="/" legacyBehavior>
-            <a className="text-base font-light  text-white hover:text-[#003bff] ">
-              Home
-            </a>
+        <nav className="hidden md:flex  space-x-4 sm:space-x-20 tracking-widest ">
+          <Link href="/" aria-label="Go to homepage" className="text-base font-light text-white hover:text-[#003bff]">
+            Home
           </Link>
+
 
 
 
@@ -175,19 +174,19 @@ export default function Navbar() {
             )}
           </div>
 
-          <Link href="/smpp-gateway-provider" className="text-base font-light text-white hover:text-[#003bff] ">
+          <Link href="/smpp-gateway-provider" aria-label="Go to Bulk SMS Pricing India page" className="text-base font-light text-white hover:text-[#003bff] ">
             Smpp
           </Link>
-          <Link href="/bulk-sms-pricing-india" className="text-base font-light text-white hover:text-[#003bff] ">
+          <Link href="/bulk-sms-pricing-india" aria-label="Go to Bulk SMS Pricing India page" className="text-base font-light text-white hover:text-[#003bff] ">
             Pricing
           </Link>
-          <Link href="/industry" className="text-base font-light text-white hover:text-[#003bff] ">
+          <Link href="/industry" aria-label="Go to Bulk SMS Pricing India page" className="text-base font-light text-white hover:text-[#003bff] ">
             Industry
           </Link>
-          <Link href="/blog" className="text-base font-light text-white hover:text-[#003bff] ">
+          <Link href="/blog" aria-label="Go to Bulk SMS Pricing India page" className="text-base font-light text-white hover:text-[#003bff] ">
             Blogs
           </Link>
-          <Link href="/contact" className="text-base font-light text-white hover:text-[#003bff] ">
+          <Link href="/contact" aria-label="Go to Bulk SMS Pricing India page" className="text-base font-light text-white hover:text-[#003bff] ">
             Contact
           </Link>
         </nav>
@@ -394,11 +393,10 @@ export default function Navbar() {
       {toggleMenu && <nav className="block md:hidden bg-[rgba(0,0,0,1)] pt-4 pb-6 ">
         <div className="flex flex-col gap-5 text-left mt-4 h-screen pl-20">
           {/* Home Link */}
-          <Link href="/" legacyBehavior>
-            <a className="text-base font-roboto text-white hover:text-[#003bff] transition-all duration-300">
-              Home
-            </a>
+          <Link href="/" className="text-base font-roboto text-white hover:text-[#003bff] transition-all duration-300">
+            Home
           </Link>
+
 
           {/* Products Dropdown */}
           <div className=" dropdown-container">

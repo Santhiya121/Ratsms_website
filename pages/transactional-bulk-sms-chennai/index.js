@@ -85,7 +85,7 @@ export default function TransactionalBulkSMS() {
 
           {/* Features Section */}
           <div className="bg-white p-6 ml-6 sm:p-8  space-y-6 mt-16  sm:ml-16">
-            <h3 className="sm:text-2xl text:xl font-roboto text-gray-800 text-left mb-8">Features of Transactional SMS</h3>
+            <p className="sm:text-2xl text:xl font-roboto text-gray-800 text-left mb-8">Features of Transactional SMS</p>
             <div className="grid gap-10 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
               {[
                 {
@@ -130,7 +130,7 @@ export default function TransactionalBulkSMS() {
 
           {/* What is Transactional SMS Section */}
           <div className="bg-white p-8 rounded-lg shadow-2xl sm:pl-20 mt-10">
-            <h3 className="sm:text-xl text-lg font-roboto text-gray-800 mb-6">What is Transactional SMS?</h3>
+            <p className="sm:text-xl text-lg font-roboto text-gray-800 mb-6">What is Transactional SMS?</p>
             <p className="text-gray-700 mb-4 sm:text-base text-sm ">
               According to TRAI regulations, SMS sent by commercial entities are classified into Promotional Bulk SMS and Transactional Bulk SMS.
             </p>

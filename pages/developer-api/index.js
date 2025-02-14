@@ -72,9 +72,9 @@ export default function DeveloperApi() {
         <h1 className="text-3xl md:text-5xl font-roboto text-black leading-tight flex items-center">
            Developer API
         </h1>
-        <h2 className="text-gray-800 text-base sm:text-xl">
+        <p className="text-gray-800 text-base sm:text-xl">
           <i className="fas fa-bolt text-yellow-500 mr-2 "></i> High-Delivery Rate Transactional Messaging
-        </h2>
+        </p>
         <p className="text-gray-700 text-base sm:text-xl leading-relaxed">
           Reliable, secure, and scalable SMS APIs trusted by over 7,000 developers. Integrate any application in minutes with our feature-rich SMS APIs. Enjoy 24/7 integration and support from our in-house team of experts. Access APIs for free forever, and only pay for SMS credits. We support 10+ programming languages with sample code!
         </p>
@@ -91,14 +91,14 @@ export default function DeveloperApi() {
 
     {/* Feature Section */}
     <div className=" p-4 sm:p-16 ">
-      <h2 className="text-lg sm:text-3xl font-bold text-gray-800 mb-8 flex items-center">
+      <p className="text-lg sm:text-3xl font-bold text-gray-800 mb-8 flex items-center">
         Why Choose Our SMS APIs?
-      </h2>
+      </p>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex items-start">
           <i className="fas fa-exchange-alt text-black text-2xl mr-4"></i>
           <div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">Flexible SMS Gateways</h3>
+            <p className="text-lg font-semibold text-gray-800 mb-2">Flexible SMS Gateways</p>
             <p className="text-gray-700">
               Start sending SMS from your applications in minutes with our adaptable SMS gateways.
             </p>
@@ -107,7 +107,7 @@ export default function DeveloperApi() {
         <div className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex items-start">
           <i className="fas fa-rocket text-black text-2xl mr-4"></i>
           <div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">Fast Integration</h3>
+            <p className="text-lg font-semibold text-gray-800 mb-2">Fast Integration</p>
             <p className="text-gray-700">
               Integrate any application with secure, reliable, and robust SMS APIs in no time.
             </p>
@@ -116,7 +116,7 @@ export default function DeveloperApi() {
         <div className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex items-start">
           <i className="fas fa-cloud text-black text-2xl mr-4"></i>
           <div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">Cloud-Based Infrastructure</h3>
+            <p className="text-lg font-semibold text-gray-800 mb-2">Cloud-Based Infrastructure</p>
             <p className="text-gray-700">
               Enjoy robust, scalable, and cloud-based infrastructure with near-zero downtime.
             </p>
@@ -125,7 +125,7 @@ export default function DeveloperApi() {
         <div className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex items-start">
           <i className="fas fa-lock text-black text-2xl mr-4"></i>
           <div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">Free API Access</h3>
+            <p className="text-lg font-semibold text-gray-800 mb-2">Free API Access</p>
             <p className="text-gray-700">
               Get free API access forever and pay only for the SMS credits you use.
             </p>
@@ -134,7 +134,7 @@ export default function DeveloperApi() {
         <div className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex items-start">
           <i className="fas fa-cogs text-black text-2xl mr-4"></i>
           <div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">Automated SMS Services</h3>
+            <p className="text-lg font-semibold text-gray-800 mb-2">Automated SMS Services</p>
             <p className="text-gray-700">
               Automate SMS services for your applications, website, or CRM using our APIs.
             </p>
@@ -143,7 +143,7 @@ export default function DeveloperApi() {
         <div className="bg-gray-50 p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 flex items-start">
           <i className="fas fa-headset text-black text-2xl mr-4"></i>
           <div>
-            <h3 className="text-lg font-semibold text-gray-800 mb-2">24/7 Support</h3>
+            <p className="text-lg font-semibold text-gray-800 mb-2">24/7 Support</p>
             <p className="text-gray-700">
               Access our dedicated technical support team anytime to meet your integration needs.
             </p>

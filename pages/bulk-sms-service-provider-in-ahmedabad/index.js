@@ -79,7 +79,7 @@ export default function BulkSmsServiceProvider() {
 
       <div className="bg-white py-12 px-4 sm:px-6 md:px-12">
         <div className="mx-auto text-center bg-white p-6 rounded-lg shadow-lg">
-          <h2 className="text-lg sm:text-2xl font-bold text-gray-800 mb-6">Discover More About Bulk SMS in Ahmedabad</h2>
+          <p className="text-lg sm:text-2xl font-bold text-gray-800 mb-6">Discover More About Bulk SMS in Ahmedabad</p>
           <div className="text-gray-700 leading-relaxed space-y-4">
             <div className="p-4 bg-gray-50 rounded-md shadow">
               <p>     Ahmedabad is one of the most populated cities in the Indian 

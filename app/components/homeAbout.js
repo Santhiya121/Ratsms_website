@@ -17,7 +17,7 @@ export default function HomeAbout() {
             What began as a simple idea has grown into a trusted company, driven by passion and dedication. We’re committed to excellence, constantly evolving to meet our customer needs with top-notch service. Our story is one of hard work, innovation, and making a lasting impact.
           </p>
           <div className="pt-6 pl-12">
-            <Link href="/about-us">
+            <Link href="/about-us" aria-label="Explore more about us">
             <button
               className="relative w-48  sm:w-40 lg:w-64 h-16 p-4 border border-white text-white bg-black flex items-center justify-between group transition-all duration-300 ease-in-out hover:bg-white hover:text-black"
             >
