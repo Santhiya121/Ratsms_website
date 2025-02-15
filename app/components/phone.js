@@ -33,12 +33,12 @@ export default function Phone() {
   href="https://wa.me/+917506712345?text=Hi%2C%20learn%20more%20about%20your%20services!"
   target="_blank"
   rel="noopener noreferrer"
-  className="hover:scale-110 transition-transform duration-300 pt-3 sm:p-3 sm:shadow-inner sm:shadow-black sm:bg-white sm:rounded-full sm:w-12 sm:h-12 flex justify-center items-center"
+  className="hover:scale-110 transition-transform duration-300 pt-3 sm:p-4  sm:shadow-black sm:bg-green-600 sm:rounded-full sm:w-16 sm:h-16 flex justify-center items-center"
   aria-label="Chat on WhatsApp"
   title="Click to chat with us on WhatsApp"
 >
   {showImage ? (
-    <i className="fab fa-whatsapp text-4xl sm:text-3xl md:text-4xl lg:text-4xl text-green-700" />
+    <i className="fab fa-whatsapp text-4xl sm:text-3xl md:text-4xl lg:text-5xl text-white" />
   ) : (
     // Fallback text when the image is not shown
     <span>Chat on WhatsApp</span>
