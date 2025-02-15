@@ -15,24 +15,19 @@ const SpeedTest = () => {
   return (
     <div className="flex">
       <div className="relative sm:bottom-14 lg:bottom-0 bottom-10 left-1/2 transform -translate-x-1/2 w-full max-w-[90%] sm:max-w-[80%] md:max-w-[35rem] p-3 bg-transparent text-white">
-        {/* Text Section */}
-        <p className="sm:text-white text-black sm:pl-12 font-light text-xl sm:text-xl 2xl:text-lg text-center sm:text-left">
-          Test our server speed &{' '}
-          <span className="relative inline-block animate-fadeIn">
-            {'Unlock 20% OFF!'.split('').map((char, index) => (
-              <span
-                key={index}
-                className="inline-block text-transparent 2xl:text-lg bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 text-xl md:text-xl font-extrabold animate-bounce"
-                style={{
-                  animationDelay: `${index * 0.1}s`, // Stagger animation for each letter
-                }}
-              >
-                {char}
-              </span>
-            ))}
-          </span>
-          <span className="text-yellow-400 text-3xl animate-pulse">*</span>
-        </p>
+  {/* Text Section */}
+  <p 
+  suppressHydrationWarning 
+  className="sm:text-white text-black sm:pl-12 font-light text-xl text-center sm:text-left"
+>
+  Test our server speed &  
+  <span className="font-extrabold text-xl md:text-xl bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 text-transparent bg-clip-text">
+    Unlock 20% OFF!
+  </span>  
+  <span className="text-yellow-400 text-3xl">*</span>
+</p>
+
+
 
         {/* Input and Button Section */}
         <div className="flex flex-col sm:flex-row gap-3 sm:gap-1 items-center justify-center mt-4">

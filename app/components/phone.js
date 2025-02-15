@@ -82,22 +82,23 @@ export default function Phone() {
         >
           {/* Image Instead of Video for Larger Screens */}
           <motion.div
-            className="text-black flex justify-center items-center"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 1 }}
-          >
-            <Image
-              src="/images/callus.webp"
-              alt="Your Image"
-              layout="fill" // Fills container without distortion
-              objectFit="contain" // Keeps aspect ratio
-              priority
-              loading="eager"
-            />
+  className="text-black flex justify-center items-center  md:flex"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 1 }}
+>
+<Image
+  src="/images/callus.webp"
+  alt="Call Us"
+  width={300}
+  height={128}
+  priority
+  sizes="(max-width: 768px) 100vw, 300px"
+  className="w-[300px] h-[128px] object-contain"
+/>
 
+</motion.div>
 
-          </motion.div>
         </motion.div>
       </motion.div>
     </>

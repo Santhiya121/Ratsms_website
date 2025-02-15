@@ -39,25 +39,61 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/* ✅ Preconnect to Google Fonts and FontAwesome */}
+        {/* ✅ Preconnect to Google Fonts & FontAwesome */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossOrigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+    as="style"
+    onLoad="this.onload=null;this.rel='stylesheet';"
+  />
+  <style>{`* { font-display: swap; }`}</style>
+        {/* ✅ Preload LCP Image */}
+        <link rel="preload" as="image" href="/images/callus.webp" />
 
-        {/* ✅ Correct Google Fonts Import */}
+        {/* ✅ Optimize Google Fonts Lazy Loading */}
         <link
+          rel="preload"
+          as="style"
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
-          rel="stylesheet"
         />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+          media="print"
+          onLoad="this.onload=null;this.removeAttribute('media');"
+        />
+        <noscript>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+          />
+        </noscript>
 
-        {/* ✅ Preload FontAwesome CSS Correctly */}
+        {/* ✅ Optimize FontAwesome Lazy Loading */}
+        <link
+          rel="preload"
+          as="style"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        />
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-          crossOrigin="anonymous"
+          media="print"
+          onLoad="this.onload=null;this.removeAttribute('media');"
         />
+        <noscript>
+          <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+          />
+        </noscript>
 
-        {/* ✅ Font-Display Swap for Better Performance */}
+        {/* ✅ Ensure Faster Font Rendering */}
         <style>{`* { font-display: swap; }`}</style>
       </Head>
       <body>
