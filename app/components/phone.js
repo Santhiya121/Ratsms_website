@@ -30,20 +30,21 @@ export default function Phone() {
 
 
         <Link
-          href="https://wa.me/+917506712345?text=Hi%2C%20learn%20more%20about%20your%20services!"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:scale-110 transition-transform duration-300"
-          aria-label="Chat on WhatsApp"
-          title="Click to chat with us on WhatsApp"
-        >
-          {showImage ? (
-            <i className="fab fa-whatsapp pt-4 text-4xl sm:text-3xl md:text-4xl lg:text-4xl text-green-700" />
-          ) : (
-            // Fallback text when the image is not shown
-            <span>Chat on WhatsApp</span>
-          )}
-        </Link>
+  href="https://wa.me/+917506712345?text=Hi%2C%20learn%20more%20about%20your%20services!"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="hover:scale-110 transition-transform duration-300 pt-3 sm:p-3 sm:shadow-inner sm:shadow-black sm:bg-white sm:rounded-full sm:w-12 sm:h-12 flex justify-center items-center"
+  aria-label="Chat on WhatsApp"
+  title="Click to chat with us on WhatsApp"
+>
+  {showImage ? (
+    <i className="fab fa-whatsapp text-4xl sm:text-3xl md:text-4xl lg:text-4xl text-green-700" />
+  ) : (
+    // Fallback text when the image is not shown
+    <span>Chat on WhatsApp</span>
+  )}
+</Link>
+
 
       </div>
 

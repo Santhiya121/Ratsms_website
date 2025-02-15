@@ -99,11 +99,11 @@ export default function Home() {
             >
               {/* Floating Headline with Scroll Effect */}
               <div className="relative flex flex-col items-left text-left">
-                <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-5xl font-bold tracking-wide">
+                <h1 className="text-2xl sm:text-5xl md:text-5xl lg:text-5xl font-light tracking-wide">
                   Engage Your Audience <br />
                   <span className="text-blue-400">in Just One Click!</span>
                 </h1>
-                <p className="mt-4 text-lg sm:text-xl text-gray-200 max-w-2xl">
+                <p className="mt-4 text-base sm:text-xl text-gray-200 max-w-2xl">
                   Instantly connect, engage, and convert. Our AI-powered Bulk SMS solutions help businesses reach their audience in real-time with maximum impact.
                 </p>
               </div>
