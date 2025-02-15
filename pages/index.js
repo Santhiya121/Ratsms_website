@@ -358,7 +358,7 @@ export default function Home() {
               transition={{ duration: 1, ease: "easeOut" }}
             >
               {/* Floating Headline with Scroll Effect */}
-              <motion
+              <motion.div
                 className="text-2xl sm:text-3xl md:text-3xl xl:text-3xl lg:text-4xl 2xl:text-5xl sm:font-bold font-light tracking-widest leading-tight"
                 initial={{ opacity: 0, y: -30 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -366,17 +366,17 @@ export default function Home() {
               >
                 Engage Your Audience <br />
                 <span className="text-blue-400">in Just One Click!</span>
-              </motion>
+              </motion.div>
 
               {/* Subtitle with Fade-In Effect */}
-              <motion.p
+              <motion.div
                 className="text-lg xl:text-sm sm:text-lg md:text-xl lg:text-lg xl:max-w-xl sm:max-w-2xl 2xl:text-lg md:max-w-3xl  lg:max-w-4xl 2xl:max-w-3xl text-gray-200 tracking-widest"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ delay: 0.5, duration: 1 }}
               >
                 Instantly connect, engage, and convert. Our AI-powered Bulk SMS solutions help businesses reach their audience in real time with maximum impact.
-              </motion.p>
+              </motion.div>
 
               {/* Feature Grid with Scroll Animation */}
               <motion.div

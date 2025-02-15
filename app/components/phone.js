@@ -90,12 +90,12 @@ export default function Phone() {
             <Image
               src="/images/callus.webp"
               alt="Your Image"
-              width={320}
-              height={320}
-              className="md:w-72"
-              priority // Ensures image loads ASAP
-              loading="eager" // Forces image to load immediately
+              layout="fill" // Fills container without distortion
+              objectFit="contain" // Keeps aspect ratio
+              priority
+              loading="eager"
             />
+
 
           </motion.div>
         </motion.div>
